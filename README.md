@@ -30,4 +30,7 @@ Version 1.14
 15/07/2021 :  Rajout  de la partie Troubleshooting + Nouvelles variables.
 
 Version 1.15
-21/07/2021 : A jout d'une section lexique.
+21/07/2021 : Ajout d'une section lexique.
+
+Version 1.16
+27/07/2021 : Mise à jour des variables.
