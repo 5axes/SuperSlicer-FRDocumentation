@@ -14,6 +14,7 @@
 
 
 ## Paramètres par modèle
+
 Avec SuperSlicer, vous pouvez imprimer plusieurs modèles à la fois, chacun avec des paramètres légèrement différents. Par exemple, avec un remplissage ou une hauteur de couche différents.
 
 Faites un **clic-droit** (mode **Avancée**) sur un modèle et choisissez soit :
@@ -66,11 +67,13 @@ Lorsque vous ajoutez un ou plusieurs changements de couleur, le panneau d'inform
 Si le temps estimé de changement de couleur se produit pendant la nuit ou à un autre moment gênant, vous pouvez basculer le bip de votre imprimante en mode *[Silencieux]*, *[Muet]* ou *[Une fois]*. Cela se trouve dans les *Réglages*, dans le menu LCD.
 
 ## Modificateurs
+
 Dans certains cas, vous voudrez peut-être **modifier certains paramètres uniquement pour une section spécifique de votre modèle**. Par exemple, vous pouvez souhaiter qu'une partie de votre modèle ait un remplissage plus dense ou plusieurs périmètres pour une rigidité accrue. Mais vous ne voulez pas ajuster ces paramètres globalement, car cela gaspillerait beaucoup de matériau et augmenterait le temps d'impression.
 
 Il existe plusieurs façons de spécifier quelle section du modèle doit être affectée par les paramètres personnalisés. Vous pouvez utiliser un modificateur de plage de hauteur, une primitive de maillage de modification simple (par exemple, un cube) ou un maillage de modification de modèle personnalisé.
 
 ### Modificateurs de plage de hauteur
+
 Faites un **clic-droit** sur un modèle et choisissez **Modificateur de plage de hauteur** dans le menu contextuel.
 
 ![Image : Modificateurs de plage de hauteur](./images/004.png)  
@@ -157,6 +160,7 @@ La position de la jointure spécifiée par la sphère prendra la priorité sur l
 
 
 ## Recharger depuis le Disque
+
 Cette fonctionnalité est idéale pour les cas où vous avez créé **une version plus récente de votre modèle** et que vous souhaitez remplacer l'ancienne version dans SuperSlicer sans avoir à configurer des choses comme à nouveau les supports personnalisés ou les maillages de modification.
 
 **Faites un clic-droit** sur un modèle dans la vue 3D et choisissez **Recharger depuis le Disque** dans le menu contextuel.
@@ -170,6 +174,7 @@ Le rechargement depuis le disque fonctionne même sur les **maillages de modific
 *Deux façons d'accéder à la fonction Recharger depuis le Disque*
 
 ### Recharger depuis le disque pour les fichiers 3MF
+
 Lorsque vous rouvrez un fichier de projet 3MF, vous pouvez aussi choisir de recharger l'un des modèles.
 
 Par défaut, les fichiers de projet 3MF sont configurés pour ne pas enregistrer le chemin d'accès complet aux modèles source, car cela peut poser un risque pour la sécurité lors du partage d'un tel fichier. Si le chemin d'accès complet n'est pas enregistré et si **Recharger depuis le Disque** est demandé, SuperSlicer demandera l'emplacement du fichier source.
@@ -179,8 +184,10 @@ Par défaut, les fichiers de projet 3MF sont configurés pour ne pas enregistrer
 Le format 3MF est essentiellement une archive zip, qui contient des fichiers XML lisibles par l'homme, une image miniature et certains fichiers divers. Le fait que les fichiers XML soient lisibles par l'homme est l'un des avantages du format de fichier 3MF. Cependant, dans certains cas, vous ne souhaiterez peut-être pas révéler l'emplacement de vos fichiers de modèle, par exemple : *C:\Masociété\MonProjetSecret\MonAmis_son_cadeau.stl*
 
 
-## Insérer une pause/un G-code personnalisé à une couche
+## Insérer une pause ou un G-Code personnalisé à une couche
+
 ### Insérer une pause à une couche
+
 L'insertion d'une pause à une certaine hauteur peut être utilisée pour insérer des aimants, des poids ou des écrous dans vos impressions. Lorsque vous reprenez l'impression, ces objets insérés seront couverts par les couches suivantes.
 
 1. Une pause peut être insérée à partir de la fenêtre d'[**Aperçu**](../user_interface/user_interface.md#aperçu-des-découpes)
@@ -208,6 +215,7 @@ Lors de l'insertion d'**aimants**, ils doivent être fermement insérés dans le
 
 
 ### Insérer un G-code personnalisé à une couche
+
 L'insertion d'un G-code personnalisé peut être utile pour des **utilisateurs avancés** lors de la création de G-code de calibration **comme une tour de température**. 
 
 "Un grand pouvoir implique de grandes responsabilités" : Vérifiez deux fois que vous avez inséré les bons G-codes et que vous comprenez ce qu'ils font. Par exemple, avec certains G-codes, vous pouvez accidentellement remplacer les valeurs en EEPROM ou déplacer la buse dans le plateau d'impression.
@@ -231,6 +239,7 @@ Vous pouvez **Editer** le G-code personnalisé en faisant un clic droit sur ***l
 
 
 ## Exporter les parcours d'outils au format OBJ
+
 L'exportation du modèle découpé en tant que OBJ peut être utile si vous êtes familiarisé avec un programme de modélisation et de rendu 3D. Lorsque vous découpez un modèle, vous pouvez choisir **Fichier - Exporter - Exporter les parcours en tant que OBJ**. Vous pouvez ensuite importer ce fichier dans un logiciel 3D que vous aimez, tel que Blender, et rendre des aperçus photoréalistes ou même des animations de l'impression.
 
 L'exportation comprend tout ce que vous voyez actuellement dans l'Aperçu. Cela signifie que si vous utilisez le curseur de couche pour prévisualiser une coupe transversale du modèle, le fichier exporté inclura uniquement les couches visibles dans l'aperçu.
