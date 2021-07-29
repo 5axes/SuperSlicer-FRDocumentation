@@ -197,10 +197,13 @@ L'insertion d'une pause à une certaine hauteur peut être utilisée pour insér
 1. Faites glisser le **curseur de visualisation des couches** à droite pour sélectionner la couche cible
 1. **Faites un clic-droit** sur l'icône plus bleue
 1. Sélectionnez **Insérer une pause d'impression (M601)** 
-   1. La pause sera insérée **avant** que la couche sélectionnée soit en cours d'impression
+   1. La pause sera insérée **avant** que la couche sélectionnée ne soit en cours d'impression
 1. Insérez un court message à afficher sur l'écran LCD de l'imprimante lorsque l'impression est en pause 
-   1. Par exemple :  "*Placer les inserts dans les emplacements et reprendre l'impression*"
+   1. Par exemple :  "*Placer les roulements dans les logements et reprendre l'impression*"
 1. Confirmez la pause en appuyant sur **OK**
+
+![Image : Message à afficher sur l'écran LCD](./images/018.png)
+
 
 Vous pouvez **supprimer** la pause en déplaçant le curseur sur la couche de pause et en faisant un clic gauche sur l'icône croix grise.
 
@@ -210,9 +213,8 @@ Vous pouvez **Modifier** le message de pause en faisant un clic droit sur l'icô
 
 Vous avez besoin de SuperSlicer 2.2 ou plus récent pour accéder aux fonctions Insérer une pause et Insérer un G-code personnalisée.
 
-Lorsque vous découpez à nouveau l'impression avec des pauses d'impression insérées, vous obtenez des **estimations du temps jusqu'à chaque pause**. L'imprimante signalera également la pause par un bip.
+Lorsque vous stoppez  à nouveau l'impression avec l'insertion de pauses d'impression, vous obtenez des **estimations du temps jusqu'à chaque pause**. L'imprimante signalera également la pause par un bip.
 
-Lors de l'insertion d'**aimants**, ils doivent être fermement insérés dans leurs emplacements. Sinon, ils resteront collés à la tête d'impression lorsqu'elle passera sur eux. Soit concevez les fentes avec une tolérance serrée ou utilisez une petite **goutte de super glue** pour les maintenir en place.
 
 ![Image : Insérer une pause à une couche](./images/014.png)
 
