@@ -39,8 +39,8 @@ SuperSlicer vous permet de planifier un changement de filament à une certaine c
 1. Un changement de couleur peut être inséré à partir de la fenêtre d'[**Aperçu**](../user_interface/user_interface.md#aperçu-des-découpes)
 1. Faites glisser le **curseur de couche** à droite pour sélectionner la couche cible
 1. Vous pouvez soit 
-   1. Faire un **clic gauche** sur l'icône plus orange pour ajouter un changement de couleur (couleur d'aperçu aléatoire)
-   1. Faire un **clic droit** sur l'icône plus orange et sélectionnez **Ajouter un changement de couleur**. Une fenêtre de sélection de couleur apparaîtra vous permettant de choisir la couleur désirée afin d'obtenir un aperçu plus fidèle
+   1. Faire un **clic gauche** sur l'icône plus bleue pour ajouter un changement de couleur (couleur d'aperçu aléatoire)
+   1. Faire un **clic droit** sur l'icône plus bleue et sélectionnez **Ajouter un changement de couleur**. Une fenêtre de sélection de couleur apparaîtra vous permettant de choisir la couleur désirée afin d'obtenir un aperçu plus fidèle
 1. Si vous réitérez, vous ajoutez autant de changements de couleur que vous le souhaitez
 
 Vous pouvez **retirer** un changement de couleur en déplaçant le curseur sur la couche cible et en faisant un clic gauche sur l'icône croix grise.
@@ -54,7 +54,6 @@ N'oubliez pas que vous devez utiliser des **filaments du même type**, mélangez
 ![Image : Changement de filament à une certaine couche](./images/002.png) 
 
 
-
 **Estimations du temps des changements de couleur**
 
 Lorsque vous ajoutez un ou plusieurs changements de couleur, le panneau d'informations de découpage inclura des estimations de temps d'impression jusqu'à chaque changement de couleur. Cela vous permet de planifier le moment où vérifier l'imprimante pour procéder au changement de couleur.
@@ -62,17 +61,14 @@ Lorsque vous ajoutez un ou plusieurs changements de couleur, le panneau d'inform
 ![Image : Estimations du temps des changements de couleur](./images/003.png) 
 
 
-**Couper le signal sonore invitant à changer de couleur**
-
-Si le temps estimé de changement de couleur se produit pendant la nuit ou à un autre moment gênant, vous pouvez basculer le bip de votre imprimante en mode *[Silencieux]*, *[Muet]* ou *[Une fois]*. Cela se trouve dans les *Réglages*, dans le menu LCD.
 
 ## Modificateurs
 
-Dans certains cas, vous voudrez peut-être **modifier certains paramètres uniquement pour une section spécifique de votre modèle**. Par exemple, vous pouvez souhaiter qu'une partie de votre modèle ait un remplissage plus dense ou plusieurs périmètres pour une rigidité accrue. Mais vous ne voulez pas ajuster ces paramètres globalement, car cela gaspillerait beaucoup de matériau et augmenterait le temps d'impression.
+Dans certains cas, vous voudrez peut-être **modifier certains paramètres uniquement pour une section spécifique de votre modèle**. Par exemple, vous pouvez souhaiter qu'une partie de votre modèle ait un remplissage plus dense ou plusieurs périmètres pour une rigidité accrue. Mais vous ne voulez pas ajuster ces paramètres globalement, car cela gaspillerait beaucoup de matière et augmenterait le temps d'impression.
 
-Il existe plusieurs façons de spécifier quelle section du modèle doit être affectée par les paramètres personnalisés. Vous pouvez utiliser un modificateur de plage de hauteur, une primitive de maillage de modification simple (par exemple, un cube) ou un maillage de modification de modèle personnalisé.
+Il existe plusieurs façons de spécifier quelle section du modèle doit être affectée par les paramètres personnalisés. Vous pouvez utiliser un **modificateur de plage de hauteur**, un modèle de modification avec une géométrie simple (par exemple, un cube) ou un maillage de modification de modèle personnalisé.
 
-### Modificateurs de plage de hauteur
+### Modificateur de plage de hauteur
 
 Faites un **clic-droit** sur un modèle et choisissez **Modificateur de plage de hauteur** dans le menu contextuel.
 
@@ -81,7 +77,7 @@ Faites un **clic-droit** sur un modèle et choisissez **Modificateur de plage de
 
 Une nouvelle fenêtre apparaîtra dans le panneau de droite appelée **Plages de hauteur**. Ici, vous définissez des intervalles entre lesquels vous pouvez appliquer différents paramètres. Lorsque vous définissez un intervalle, il apparaîtra dans la liste des objets dans le panneau de droite.
 
-Vous pouvez ajouter ou supprimer des intervalles avec les icônes **plus** et **moins** oranges.
+Vous pouvez ajouter ou supprimer des intervalles avec les icônes **plus** et **moins** bleus.
 
 Lorsque vous cliquez sur l'icône engrenage à côté de l'intervalle, vous pouvez choisir de configurer :
 
@@ -227,7 +223,7 @@ L'insertion d'un G-code personnalisé peut être utile pour des **utilisateurs a
 
 1. Un G-code personnalisé peut être inséré à partir de la fenêtre d'[**Aperçu**](../user_interface/user_interface.md#aperçu-des-découpes)
 1. Faites glisser le **curseur de couche** à droite pour sélectionner la couche cible
-1. **Faites un clic-droit** sur l'icône plus orange
+1. **Faites un clic-droit** sur l'icône plus bleue
 1. Sélectionnez **Ajouter un G-code personnalisé** 
    1. Le G-code personnalisé sera inséré **avant** que la couche sélectionnée soit en cours d'impression
 1. Insérez le G-code personnalisé dans la nouvelle fenêtre ouverte
@@ -253,9 +249,10 @@ Si vous prévoyez de rendre uniquement l'extérieur du modèle découpé, nous v
 
 ![Image : Rendu du parcours d'outil exporté créé dans Blender 2.8](./images/017.jpeg)
 
-*Rendu du G-Code exporté créé dans Blender 2.8*
+*Rendu du G-Code exporté créé dans Blender 2.8 (Image Prusa)*
 
 
 Page suivante  [Découpage multi-matériaux](../multimaterial/multimaterial.md)
+
 
 [Retour Page principale](../superslicer.md)

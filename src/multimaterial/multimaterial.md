@@ -95,7 +95,7 @@ Un tel changement de couleur/extrudeuse sera **ignoré** lors de l'exportation d
 #### *Changement de couleur automatique basé sur les couches (ColorPrint - scénario 2)*
 Imaginez cela comme un changement de couleur normal avec l'imprimante à une seule extrudeuse. Chaque couche ne peut avoir qu'une seule couleur à la fois. Mais plutôt que de changer la couleur manuellement, vous pouvez choisir quelle extrudeuse utiliser ensuite. 
 
-Déplacez le curseur d'aperçu à la hauteur de changement de couleur souhaitée, cliquez sur l'icône plus orange et sélectionnez **Changer l'extrudeur**.
+Déplacez le curseur d'aperçu à la hauteur de changement de couleur souhaitée, cliquez sur l'icône plus bleue et sélectionnez **Changer l'extrudeur**.
 
 ![Image : Changer d'extrudeuse](./images/007.png) 
 
@@ -108,7 +108,7 @@ Si vous activez **Réglages d'impression - Extrudeurs multiples - Sans couches d
 #### *Impression avec plus de 5 couleurs à la fois avec le MMU2S (scénario 3)*
 Disons que vous avez une impression multi-matériaux avec les 5 filaments déjà utilisés. Cependant, vous souhaitez utiliser une couleur de plus en changeant manuellement le filament dans l'un des emplacements mmu.
 
-Déplacez simplement le curseur d'aperçu de couche à la hauteur de changement de couleur souhaitée, cliquez sur l'icône plus orange et sélectionnez pour quelle extrudeuse vous souhaitez ajouter le changement de couleur. Toutes les extrudeuses utilisées dans la couche actuelle seront marqués.
+Déplacez simplement le curseur d'aperçu de couche à la hauteur de changement de couleur souhaitée, cliquez sur l'icône plus bleue et sélectionnez pour quelle extrudeuse vous souhaitez ajouter le changement de couleur. Toutes les extrudeuses utilisées dans la couche actuelle seront marqués.
 
 ![Image : Ajout d’un changement de couleur](./images/009.png)  
 
