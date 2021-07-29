@@ -5,7 +5,7 @@
 * Sous groupe : Couche
 * Mode : Expert
 
-## Disocier les objets Multi-Pièce
+## Dissocier les objets Multi-Pièce
 
 ### Description
 
