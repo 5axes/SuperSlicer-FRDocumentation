@@ -151,6 +151,9 @@ le modèle 3D est le «dessin» en trois dimensions de votre objet à imprimer. 
 ## Motif  (Pattern) 
 Répétition de géométrie format un dessin répétitif de trajectoire. SuperSlicer permet de choisir entre plusieurs motifs tels que lignes, grille, concentrique, gyroïde, etc.
 
+## MVS
+Le réglage de la **vitesse volumétrique maximale (MVS)** est l'une des **fonctionnalités les plus puissantes de SuperSlicer**. Le paramètre MVS crée essentiellement un gestionnaire pour la quantité maximale de filament que SuperSlicer tentera de faire passer à travers la hotend de votre imprimante 3D.
+
 ## Offset 
 décalage forcé volontaire d'une mesure. Si l'on applique un offset à l'axe Z de 1mm par exemple à travers le logiciel d'impression, cela signifie qu'au démarrage de l'impression, le plateau sera décalé de la buse de 1mm tout au long de l'impression.
 

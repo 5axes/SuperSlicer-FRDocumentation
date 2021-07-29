@@ -14,7 +14,7 @@
 	* [Extrudeurs multiples](#extrudeurs-multiples)
 	* [Options de sortie](#options-de-sortie)
 	* [Remarques](#remarques)
-	* Dépendances
+	* [Dépendances](#dépendances)
 
 * [Retour Page principale](../superslicer.md)
 
@@ -1188,27 +1188,49 @@ Section de réglage des vitesses dans le logiciel.
 
 ### Vitesse pour les déplacements d’impression
 
-**Périmètres** : Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
+#### *Périmètres*
 
-**Périmètres courts** : Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
+Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
 
-**Périmètres externes** : Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
+#### *Périmètres courts*
 
-**Remplissage** : Vitesse pour imprimer le remplissage interne. Réglez sur zéro pour un ajustement automatique.
+Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-**Remplissage couche pleine** : Vitesse pour imprimer des zones pleines (supérieures/inférieures/parois horizontales internes). Peut être exprimée en pourcentage (par exemple: 80%) de la vitesse de remplissage par défaut susmentionnée. Réglez sur zéro pour un ajustement automatique.
+#### *Périmètres externes*
 
-**Remplissage supérieur** : Vitesse pour imprimer les couches pleines supérieures (ne s'applique qu'aux couches externes les plus hautes et pas aux couches internes pleines). Vous voudrez peut-être abaisser cette vitesse afin d'avoir une finition de surface plus nette. Peut être exprimé en pourcentage (par exemple: 80%) de la vitesse de remplissage plein susmentionnée. Réglez sur zéro pour un ajustement automatique.
+Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-**Supports** : Vitesse d'impression du support.
+#### *Remplissage*
 
-**Interface de supports** : Vitesse d'impression des couches d'interface des supports. Si exprimée en pourcentage (par exemple 50%), elle sera calculée à partir de la vitesse d'impression des supports.
+Vitesse pour imprimer le remplissage interne. Réglez sur zéro pour un ajustement automatique.
 
-**Ponts** : Vitesse d'impression des ponts.
+#### *Remplissage couche pleine*
 
-**Remplissage des trous :** Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
+Vitesse pour imprimer des zones pleines (supérieures/inférieures/parois horizontales internes). Peut être exprimée en pourcentage (par exemple: 80%) de la vitesse de remplissage par défaut susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-**Lissage** : Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
+#### *Remplissage supérieur*
+
+Vitesse pour imprimer les couches pleines supérieures (ne s'applique qu'aux couches externes les plus hautes et pas aux couches internes pleines). Vous voudrez peut-être abaisser cette vitesse afin d'avoir une finition de surface plus nette. Peut être exprimé en pourcentage (par exemple: 80%) de la vitesse de remplissage plein susmentionnée. Réglez sur zéro pour un ajustement automatique.
+
+#### *Supports*
+
+Vitesse d'impression du support.
+
+#### *Interface de supports*
+
+Vitesse d'impression des couches d'interface des supports. Si exprimée en pourcentage (par exemple 50%), elle sera calculée à partir de la vitesse d'impression des supports.
+
+#### *Ponts*
+
+Vitesse d'impression des ponts.
+
+#### *Remplissage des trous*
+
+Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
+
+#### *Lissage*
+
+Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
 
 ![Image : Vitesse pour les déplacements d’impression](./images/110.png) 
 
@@ -1230,18 +1252,24 @@ Possibilité de définir la vitesse pour les axes **X/Y** et **Z** différencié
 
 ### Modificateurs
 
-**Vitesse de la première couche :** Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à tous les déplacements d'impression de la première couche, quel que soit leur type. Si exprimée comme un pourcentage (par exemple 40%), cela modulera la vitesse par défaut.
+##### *Vitesse de la première couche*
 
-**Remplissage :** Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
+Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à tous les déplacements d'impression de la première couche, quel que soit leur type. Si exprimée comme un pourcentage (par exemple 40%), cela modulera la vitesse par défaut.
 
-**Petite vitesse périphérique :**
+##### *Remplissage* 
+Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
+
+##### *Petite vitesse périphérique *
 Ces paramètres permettent de définir la notion de petit périmètre.
 
 ##### *Longueur minimale*
+
 Cela fixe le seuil de la petite longueur périmétrique. Chaque boucle dont la longueur inférieure à cela sera imprimée à une vitesse de petit périmètre.
 
 Peut être exprimé mm ou un % du diamètre de la buse.
+
 ##### *Longueur maximale*
+
 Cela fixe la fin du seuil de la petite longueur périmétrique. Chaque boucle de périmètre inférieure à cela verra sa vitesse réduite un peu, de leur vitesse normale à cette longueur jusqu'à la vitesse du petit périmètre.
 
 Peut être exprimé en mm ou un % du diamètre de la buse.
@@ -1255,25 +1283,37 @@ Réglez sur zéro pour un ajustement automatique.
 
 ### Contrôle de l’accélération (avancé)
 
-**Périmètres** : L'accélération qui sera utilisée par votre imprimante pour les périmètres. Régler sur zéro pour désactiver l'accélération pour les périmètres.
+##### *Périmètres*
 
-**Remplissage** : Il s'agit de l'accélération que votre imprimante utilisera pour le remplissage. Régler sur zéro afin de désactiver le contrôle de l'accélération pour le remplissage.
+Permet de définir l'accélération qui sera utilisée par votre imprimante pour les périmètres. Régler sur zéro pour désactiver l'accélération pour les périmètres.
 
-**Ponts** : L'accélération qui sera utilisée par votre imprimante pour les ponts. Régler sur zéro pour désactiver l'accélération pour les ponts.
+##### *Remplissage*
 
-**Première couche** : L'accélération que l'imprimante utilisera pour la première couche. Régler sur zéro afin de désactiver le contrôle de l'accélération pour la première couche.
+Il s'agit de l'accélération que votre imprimante utilisera pour le remplissage. Régler sur zéro afin de désactiver le contrôle de l'accélération pour le remplissage.
 
-**Défaut** : Accélération à laquelle votre imprimante sera réinitialisée suite à une modification de l'accélération des fonctions spécifiques (périmètre/remplissage). Régler sur zéro pour ne pas réinitialiser l'accélération.
+##### *Ponts*
+
+L'accélération qui sera utilisée par votre imprimante pour les ponts. Régler sur zéro pour désactiver l'accélération pour les ponts.
+
+##### *Première couche*
+
+L'accélération que l'imprimante utilisera pour la première couche. Régler sur zéro afin de désactiver le contrôle de l'accélération pour la première couche.
+
+##### *Défaut*
+
+Accélération à laquelle votre imprimante sera réinitialisée suite à une modification de l'accélération des fonctions spécifiques (périmètre/remplissage). Régler sur zéro pour ne pas réinitialiser l'accélération.
 
 ![Contrôle de l’accélération](./images/114.png) 
 
 ### Vitesse automatique (avancé)
 
 #### *Vitesse d’impression maximale*
+
 Lorsque vous réglez les autres vitesses à 0, SuperSlicer calculera automatiquement la vitesse optimale de façon à garder une pression constante dans l'extrudeur. Cette fonction expérimentale est utilisée pour régler la plus haute vitesse que vous souhaitez autoriser.
 
-### *Vitesse volumétrique maximale*
-Le **réglage de la vitesse volumétrique maximale (MVS)** est l'une des **fonctionnalités les plus puissantes de SuperSlicer**. Le paramètre MVS crée essentiellement un gestionnaire pour la quantité maximale de filament que le slicer tentera de faire passer à travers la hotend de votre imprimante 3D.
+#### *Vitesse volumétrique maximale*
+
+Le **réglage de la vitesse volumétrique maximale (MVS)** est l'une des **fonctionnalités les plus puissantes de SuperSlicer**. Le paramètre MVS crée essentiellement un gestionnaire pour la quantité maximale de filament que SuperSlicer tentera de faire passer à travers la hotend de votre imprimante 3D.
 
 Cela donne aux utilisateurs de SuperSlicer un **énorme avantage**. Plutôt que d'essayer de calculer une plage de vitesses pour des combinaisons de différentes tailles de buses, hauteurs de couche ou largeurs d'extrusion, vous pouvez simplement spécifier les vitesses et les paramètres souhaités, puis laisser le MVS réguler les vitesses au moment du découpage et seulement si nécessaire.
 
@@ -1286,6 +1326,7 @@ Réglez le MVS sur **zéro** (0) pour **n'avoir aucune limite**.
 Le MVS est parfois appelé vitesse automatique.
 
 #### *Le MVS dans les Réglages d'impression*
+
 **Réglages d'impression - Vitesse - Vitesse volumétrique maximale** (Mode expert)
 
 Cette valeur définit la vitesse volumétrique maximale globale. Même si vous réglez le MVS à une valeur supérieure dans les paramètres de filament, il ne dépassera jamais cette valeur.
@@ -1304,6 +1345,7 @@ La plupart du temps, ni les vitesses linéaires ni la vitesse volumétrique maxi
 #### *Choix du MVS*
 
 ##### *Filaments*
+
 Différents matériaux de filament ont des caractéristiques différentes. La viscosité, la rigidité et d'autres facteurs peuvent réduire considérablement le débit effectif.
 
 Exemples :
@@ -1317,11 +1359,13 @@ Exemples :
 |**FLEX (TPU/TPE)**|1-2.5|
 
 ##### *Hotends*
+
 La vitesse volumétrique maximale globale que vous devez utiliser dépend de votre hotend. La hotend E3D V6 livrée avec l'Original Prusa i3 MK3/S est annoncée avec un taux de 15 mm3/s. Une valeur sécuritaire qui laisse un peu de place pour une configuration imparfaite (tension de la roue libre, buse légèrement bouchée) de 11,5 mm3/ s est réaliste.
 
 Si vous devez pousser plus de filament, une hotend plus puissante sera nécessaire. La hotend Volcano d'E3D augmente ce paramètre à environ 25 mm3/s mais nécessite la modification de l'imprimante et du firmware. D'autres types de hotend permettent des débits encore plus élevés.
 
 ##### *Diamètre de la buse*
+
 Intuitivement, il peut sembler que le diamètre de la buse ne devrait pas affecter la quantité maximale de plastique que la hotend peut chauffer dans un laps de temps donné. Cependant, **avec des buses plus larges, vous pouvez augmenter légèrement le MVS** en raison d'une résistance mécanique plus faible - en gros, il est un peu plus facile pour le filament de passer à travers la buse.
 
 Et vice-versa, avec des buses plus fines, vous devrez diminuer un peu le MVS. 
@@ -1333,6 +1377,7 @@ Avec des buses plus larges, envisagez d'augmenter la température de la buse pou
 C'est une conséquence souvent négligée du MVS. Lorsque vous utilisez une buse de grand diamètre et une hauteur de couche très élevée, par exemple une buse de 0,8 mm et une hauteur de couche de 0,5 mm, **votre vitesse d'impression va en effet être plafonnée par le MVS**. Cela est inutile à moins que vous n'installiez une hotend plus puissante sur votre imprimante. Si vous remarquez dans l'aperçu que votre vitesse est limitée par le MVS, vous pouvez essayer d'augmenter la température de la buse et d'augmenter légèrement le MVS. Cependant, il peut être temps de simplement abaisser la hauteur de la couche, vous obtiendrez plus de détails sans augmenter le temps d'impression car l'imprimante pourra imprimer plus rapidement.
 
 #### *Aperçu du MVS*
+
 Une fois que vous avez découpé votre modèle, vous pouvez basculer le mode d'aperçu sur *Débit volumétrique* en utilisant la case de sélection dans le coin inférieur gauche.
 
 Sur les modèles plus petits, vous remarquerez que vous n'êtes pas du tout limité par le MVS. De même, si vous imprimez avec une faible hauteur de couche, vous ne serez probablement pas limité par le MVS. 
@@ -1344,15 +1389,16 @@ En revanche, lors de l'impression de modèles plus grands avec des hauteurs de c
 ## Largeur et Débit
 
 ### Largeur d’extrusion
+
 Ce paramètre permet de régler une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse. Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
 ### Espacement
+
 L’espacement est une solution alternative de définition de la largeur de ligne. Vous pouvez spécifier soit l’un ou l’autre des paramètres. En modifiant dans une case l’autre valeur sera calculée automatiquement et vice et versa.
 
 ![Image : Basculement des définitions.](./images/119.png)
 
 ![Image : Basculement des définitions.](./images/120.png)
-
 
 
 Le paramètre Espacement permet de régler une valeur non-nulle pour définir manuellement l’espacement entre les cordons. Si la valeur est exprimée en pourcentage, elle sera calculée par rapport à la hauteur de couche. Le Schéma suivant permet d’illustrer la différence entre Largeur et Espacement. Si le recouvrement du périmètre est fixé à 100%, les zones jaunes doivent être remplies par le chevauchement. Si le chevauchement est à 0% Largeur = espacement.
@@ -1372,6 +1418,7 @@ Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage 
 ### Largeur d’extrusion
 
 #### *Largeur d’extrusion par défaut*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Première couche*
@@ -1381,42 +1428,53 @@ Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la lar
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement une largeur d’extrusion pour les périmètres. Vous voudrez peut-être utiliser des extrudats plus fin pour obtenir des surfaces plus nettes. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 200%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Périmètre extérieure*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour les périmètres extérieurs. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 200%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Remplissage*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Vous voudrez peut-être utiliser des extrudats plus épais pour accélérer le remplissage et rendre vos pièces plus solides. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Remplissage plein*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage ou les surfaces pleines. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Remplissage supérieur*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage ou les surfaces supérieures. Vous voudrez peut-être utiliser des extrudats plus fins pour remplir les zones les plus étroites et obtenir des finitions plus lisses. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon le diamètre de la buse sera utilisé. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Supports*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour les supports. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon le diamètre de la buse sera utilisé. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
 Pour limiter la résistance des supports et faciliter leurs enlèvement il est possible de paramétrer une largeur d’extrusion plus faible pour les supports afin de les rendre plus fragile.
 
 #### *Jupe*
+
 Largeur horizontale de la jupe qui sera imprimée autour de chaque objet. Si la valeur est laissée à zéro les paramètres de la première couche seront utilisés pour définir les largeurs d’extrusion sur la jupe.
 
 ![Image : Réglage des largeurs d'extrusion](./images/124.png)
 
 
 ### Chevauchement
+
 ![Image : Options Chevauchement](./images/125.png)
 
 
 #### *Chevauchement du périmètre*
+
 Ce paramètre par **Défaut** vous permet de réduire le chevauchement entre les périmètres, pour réduire l'impact des artefacts des périmètres. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que les périmètres ne se touchent plus.
 
 ##### *Externe*
+
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le contour externe, afin de réduire l'impact des artefacts des périmètres. 100% signifie qu'aucun vide n'est laissé, et 0% signifie que le périmètre externe ne contribue pas au chevauchement avec le périmètre interne.
 
 ##### *Remplir les trous entre les parois*
+
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le remplissage de l'espace. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que le remplissage des espaces ne touchera pas les périmètres.
 
 #### *Chevauchement remplissage/périmètres*
+
 Cette option applique un chevauchement supplémentaire entre les périmètres et le remplissage pour une meilleur fusion. En théorie, cela ne devrait pas être nécessaire, mais le jeu mécanique peut générer des espacements. Si exprimé en pourcentage (par exemple 15%), la valeur sera calculée en fonction de la largeur d'extrusion du périmètre.
 
 ![Image : Chevauchement remplissage périmètre](./images/126.png)
@@ -1440,12 +1498,15 @@ Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouv
 ![Image : Options de Débit](./images/131.png)
 
 #### *Ratio de débit Au-dessus des ponts*
+
 Ratio de débit permettant de compenser les lacunes d'une surface supérieure pontée. Utilisé pour l'étirage du motif de remplissage pour éviter les régions où la passe à faible débit ne permet pas fournir une surface lisse en raison d'un manque de plastique. Vous pouvez l'augmenter légèrement pour tirer la couche supérieure à la bonne hauteur. Maximum recommandé : 120%.
 
 #### *Ratio de débit Remplissage du dessus*
+
 Vous pouvez augmenter cela pour sur-extruder sur la couche supérieure s'il n'y a pas assez de plastique pour faire un bon remplissage.
 
 #### *Ratio de débit Première couche*
+
 Vous pouvez augmenter ce paramètre pour sur-extruder sur la première couche s'il n'y a pas assez de plastique parce que votre plateau n'est pas nivelé.
 
 Note : N'UTILISEZ PAS CECI si votre seul problème est le nivellement du plateau, NIVELEZ VOTRE PLATEAU ! N'utilisez ce paramètre qu'en dernier recours, après l'échec de tous les calibrages.
@@ -1481,9 +1542,11 @@ L'extrudeur à utiliser pour imprimer les intercalaires du support (1+,0 pour ut
 ### Prévention des coulures
 
 #### *Activer*
+
 Cette option abaissera la température des extrudeurs inutilisés pour prévenir le oozing (suintement). Cela active automatiquement la génération d'une grande jupe et le déplacement des extrudeurs hors de cette jupe lors des changements de température.
 
 #### *Variation de température*
+
 Différence de température devant être appliquée quand un extrudeur n'est pas actif. Permet la génération d'un contour complet "sacrificiel" sur lequel les buses sont nettoyées régulièrement.
 
 ![Image : Prévention des coulures](./images/133.png)
@@ -1491,6 +1554,7 @@ Différence de température devant être appliquée quand un extrudeur n'est pas
 ### Tour de purge
 
 #### *Activer*
+
 Les imprimantes multi-matériaux peuvent avoir besoin de préparer ou de purger leurs extrudeurs lors d'un changement d'outil. Extruder le matériau en excès dans la tour de purge.
 
 Attention l’activation de la tour de purge n’est pas possible en mode ***Compléter les objets individuels*** dans ma section : ***Option de sortie*** :
@@ -1498,25 +1562,31 @@ Attention l’activation de la tour de purge n’est pas possible en mode ***Com
 ![Image : Décocher pour activer la tour de purge](./images/134.png)
 
 #### *Position de la tour de purge X & Y*
+
 Coordonnées X et Y du coin avant gauche d'une tour de purge
 
 #### *Largeur du bord de la tour de purge*
+
 Peut être exprimée en mm ou en % du (supposée) diamètre de buse.
 
 #### *Largeur*
+
 Largeur d'une tour de purge. La longueur sera elle fonction du volume de purge à utiliser.
 
 #### *Angle de rotation de la tour de purge*
+
 Angle de rotation de la tour de purge par rapport à l'axe X.
 
 Il est à noter qu’il est aussi très facile de repositionner et orienter la tour de purge depuis l’interface graphique. 
 
 #### *Distance maximale de pont*
+
 Distance maximale entre les supports sur les sections de remplissage épars.
 
 Dans le cas où les couches de la tour de purge ne sont là que pour maintenir le niveau d’impression, les couches de la tour ne sont pas pleines et un cadrillage permet simplement de garantir une stabilité et un support pour les futurs couches pleines. Dans ce cas le distance entre le quadrillage et piloté par ce paramètre appelé ***Distance maximale de pont.***
 
 #### *Sans couches dispersées (EXPERIMENTAL)*
+
 Si elle est activée, la tour de purge ne sera pas imprimée sur des couches sans changement de filament. Sur les couches avec un changement de filament, l'extrudeur se déplacera vers le bas pour imprimer la tour de purge. C'est à l'utilisateur de s'assurer qu'il n'y a pas de collision avec l'impression.
 
 #### *Préparer toutes les extrudeuses d’impression*
@@ -1528,9 +1598,11 @@ Si l'option est activé, tous les extrudeurs qui impriment seront amorcés sur l
 ![Image : Options Tour de purge](./images/137.png)
 
 ### Avancé
+
 ![Image : Option Avancé](./images/138.png)
 
 #### *Création d’interface entre coques*
+
 Force la génération de coques pleines entre des volumes/matériaux adjacents. Utile pour des impressions multi-extrudeurs avec des matériaux translucides ou avec un support manuel soluble.
 
 ![Image : l’option n’est pas activée](./images/139.jpeg) ![Image :  option coque d’interface activée](./images/140.jpeg)
@@ -1542,9 +1614,11 @@ A gauche l’option n’est pas activée / A droite option coque d’interface a
 ### Plateau
 
 #### *Distance entre les objets*
+
 Distance utilisée par la fonction d'agencement automatique du plateau. Pour définir la distance à respecter entre les objets placés sur le plateau d’impression.
 
 ### Impression séquentielle
+
 Lorsque vous imprimez plusieurs objets à la fois, vous pouvez choisir de les réaliser séquentiellement, un par un. Cela peut minimiser les coulures et la création de fils se créant entre les impressions. Cela peut également éviter de perdre plusieurs impressions semi-achevées si l'un des objets se détache du plateau d'impression.
 
 Vous pouvez activer cette fonction en activant **Réglages d'impression - Options de sortie - Compléter les objets individuels**.
@@ -1562,6 +1636,7 @@ Avec l'impression séquentielle, il existe un **risque de collisions** entre la 
 SuperSlicer essaiera de vous avertir de tels cas, mais même si vous ne recevez aucun avertissement, vous devriez essayer d'éviter autant que possible les collisions éventuelles.
 
 #### *Tri des objets*
+
 Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela vous aidera à choisir l'ordre dans lequel ils seront imprimés.
 
 - **Panneau de droite** les triera selon l'ordre des objets indiqué dans le panneau à droite de l'écran.
@@ -1569,14 +1644,17 @@ Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela
 - **Le plus bas Z** les triera par leur hauteur, utile pour les imprimantes delta.
 - 
 #### *N’autoriser qu’une seule boucle de jupe*
+
 Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la jupe autour de chaque objet. Si vous préférez n'avoir qu'une seule jupe pour l’impression entière, utilisez cette option.
 
 Pour aider SuperSlicer à détecter les collisions, spécifiez les paramètres **Dégagement de l'extrudeuse :**
 
 #### *Rayon*
+
 Le rayon de dégagement cylindrique autour de l'extrudeuse.
 
 #### *Hauteur*
+
 La distance verticale entre la pointe de la buse et les tiges de l'axe X (ou la pièce la plus basse qui peut interférer avec une impression finie).
 
 SuperSlicer veut **que tous les objets doivent être inférieurs à la hauteur de dégagement de l'extrudeur, sauf le dernier objet**, qui peut être aussi grand que le Z max de l'imprimante.
@@ -1585,34 +1663,42 @@ SuperSlicer veut **que tous les objets doivent être inférieurs à la hauteur d
 ![Image : Options fichier de sortie](./images/142.png)
 
 #### *G-code commenté*
+
 Activez ceci pour obtenir un fichier G-code commenté, avec chaque ligne expliquée par un texte descriptif. Si vous imprimez depuis une carte SD, le poids supplémentaire du fichier pourrait ralentir le firmware de votre imprimante.
 
 #### *Marquer les objets*
+
 Activez cette option pour ajouter des commentaires dans le G-code afin d'identifier les mouvements d'impression avec l'objet concerné. Cela est utile pour le plugin Octoprint CancelObject. Ce paramètre n'est **PAS** compatible avec la configuration mono-extrudeur multi-matériaux ni avec la configuration ***Purger dans l'objet*** ou ***Purger dans le remplissage***.
 
 #### *Format du nom de fichier de sortie*
+
 Vous pouvez utiliser toutes les options de configuration comme variables dans ce modèle. Par exemple : [layer_height], [fill_density] etc. Vous pouvez aussi utiliser [timestamp], [year], [month], [day], [hour], [minute], [second], [version], [input_filename], [input_filename_base].
 
 ### Fraisage de post-traitement
+
 ![Image : Options de fraisage de post-traitement](./images/143.png)
 
 #### *Post_traitement par fraisage*
+
 Si cette option est activée, à la fin de chaque couche, l'imprimante utilisera une tête de fraisage pour fraiser les périmètres externes.
 
 Vous devez définir la ***Taille XY supplémentaire de fraisage*** sur une valeur suffisamment élevée pour avoir suffisamment de plastique à fraiser. Assurez-vous également que votre pièce est fermement collée sur le plateau.
 
 #### *Taille XY supplémentaire de fraisage*
+
 Cela augmente la taille de l'objet d'une certaine quantité pour avoir assez de plastique à fraiser. Vous pouvez définir un nombre de mm ou un pourcentage de la largeur supplémentaire optimale calculée (à partir du calcul du flux).
 
 #### *Fraisage seulement après*
+
 Ce paramètre limite le fraisage post-processus à une certaine hauteur, pour éviter de fraiser le plateau. 
 Cela peut être exprimé en mm ou un % de la hauteur de la première couche (cela peut donc dépendre de l'objet).
 
 #### *Vitesse de fraisage*
+
 Vitesse de l’outil de fraisage.
 
 
-### Script de post-traitement
+### *[Scripts de post-traitement](post_process.md)*
 
 Si vous voulez traiter le G-code de sortie à l'aide de scripts personnalisés, listez simplement leurs chemins absolus ici. Séparez les divers scripts avec un point-virgule. Les scripts vont recevoir en premier argument le chemin absolu du fichier G-code, et ils peuvent accéder aux réglages de configuration de SuperSlicer en lisant des variables d'environnement.
 
@@ -1665,8 +1751,7 @@ Il est à noter que ces scripts doivent traiter la récupération du nom du fich
 	32	f.close()
 
 
-
-Précisez le chemin d'accès au script dans la partie **Scripts de post-traitement**
+Précisez le chemin d'accès au script dans la partie **[Scripts de post-traitement](post_process.md)**
 
 ![Image : Préciser le chemin du script de post-traitement](./images/145.png)
 
@@ -1677,6 +1762,9 @@ Pour les scripts Python, l’interpréteur Python peut être téléchargé à l�
 ## Remarques
 
 Vous pouvez inscrire ici vos commentaires personnels. Ce texte sera ajouté aux commentaires en entête du G-Code.
+
+
+## Dépendances
 
 Page suivante [Réglages du filament](../filament_settings/filament_settings.md)
 
