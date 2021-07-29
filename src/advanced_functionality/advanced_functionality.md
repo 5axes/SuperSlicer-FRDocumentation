@@ -4,11 +4,12 @@
 
 * Fonctionnalités avancées
 	* [Paramètres par modèle](#paramètres-par-modèle)
-	* [Changement de couleur](advanced_functionality/advanced_functionality.md#changement-de-couleur)
+	* [Changement de couleur](#changement-de-couleur)
 	* [Modificateurs](#modificateurs)
 	* [Recharger depuis le Disque](#recharger-depuis-le-disque)
 	* [Insérer une pause ou un G-code personnalisé à une couche](#insérer-une-pause-ou-un-gcode-personnalisé-à-une-couche)
 	* [Exporter les parcours d'outils au format OBJ](#exporter-les-parcours-doutils-au-format-obj)
+
 * [Retour Page principale](../superslicer.md)
 
 
