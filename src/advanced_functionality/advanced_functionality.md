@@ -7,7 +7,7 @@
 	* [Changement de couleur](#changement-de-couleur)
 	* [Modificateurs](#modificateurs)
 	* [Recharger depuis le Disque](#recharger-depuis-le-disque)
-	* [Insérer une pause ou un G-code personnalisé à une couche](#insérer-une-pause-ou-un-g-code-personnalisé-à-une-couche)
+	* [Insérer une pause ou un G-Code personnalisé à une couche](#insérer-une-pause-ou-un-g-code-personnalisé-à-une-couche)
 	* [Exporter les parcours d'outils au format OBJ](#exporter-les-parcours-doutils-au-format-obj)
 
 * [Retour Page principale](../superslicer.md)
@@ -186,13 +186,16 @@ Le format 3MF est essentiellement une archive zip, qui contient des fichiers XML
 
 ## Insérer une pause ou un G-Code personnalisé à une couche
 
+![Image : Insérer une pause](./images/017.png)
+
+
 ### Insérer une pause à une couche
 
 L'insertion d'une pause à une certaine hauteur peut être utilisée pour insérer des aimants, des poids ou des écrous dans vos impressions. Lorsque vous reprenez l'impression, ces objets insérés seront couverts par les couches suivantes.
 
 1. Une pause peut être insérée à partir de la fenêtre d'[**Aperçu**](../user_interface/user_interface.md#aperçu-des-découpes)
-1. Faites glisser le **curseur de couche** à droite pour sélectionner la couche cible
-1. **Faites un clic-droit** sur l'icône plus orange
+1. Faites glisser le **curseur de visualisation des couches** à droite pour sélectionner la couche cible
+1. **Faites un clic-droit** sur l'icône plus bleue
 1. Sélectionnez **Insérer une pause d'impression (M601)** 
    1. La pause sera insérée **avant** que la couche sélectionnée soit en cours d'impression
 1. Insérez un court message à afficher sur l'écran LCD de l'imprimante lorsque l'impression est en pause 

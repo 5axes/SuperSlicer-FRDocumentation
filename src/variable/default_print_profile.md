@@ -3,7 +3,7 @@
 * Technologie : FDM & SLA
 * Groupe : variable générique
 * Sous groupe : -
-* Mode :-
+* Mode : -
 
 ## Profil d'imprimante par défaut
 
