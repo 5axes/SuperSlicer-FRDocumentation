@@ -7,7 +7,7 @@
 	* [Changement de couleur](#changement-de-couleur)
 	* [Modificateurs](#modificateurs)
 	* [Recharger depuis le Disque](#recharger-depuis-le-disque)
-	* [Insérer une pause ou un G-code personnalisé à une couche](#insérer-une-pause-ou-un-gcode-personnalisé-à-une-couche)
+	* [Insérer une pause ou un G-code personnalisé à une couche](#insérer-une-pause-ou-un-g-code-personnalisé-à-une-couche)
 	* [Exporter les parcours d'outils au format OBJ](#exporter-les-parcours-doutils-au-format-obj)
 
 * [Retour Page principale](../superslicer.md)
