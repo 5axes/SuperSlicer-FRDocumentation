@@ -124,7 +124,7 @@ La taille d'un cordon ou d'une ligne déposée dans le sens horizontal (X/Y). Co
 ## Ligne (Line)
 Un cordon de matériau après avoir été déposé par l'extrudeuse. Dans SuperSlicer, les lignes sont modélisées comme des cordons de forme oblong ayant une certaine largeur, épaisseur (hauteur de la couche), semblable à un "bourelet".
 
-## Lisssage (Ironing) 
+## Lissage (Ironing) 
 Une technique qui consiste à repasser sur la surface supérieure  pour la rendre encore plus lisse.
 
 ## Maillage (Mesh) 
