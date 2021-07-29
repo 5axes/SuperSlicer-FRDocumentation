@@ -71,7 +71,7 @@ Un terme propre à l'impression 3D de type FDM (dépôt de fil fondu). Il s’ag
 L'action de pousser le filament à travers la ligne d'extrusion de telle sorte que la matière sorte de la buse, qui, théoriquement, est déposée au bon endroit pour former l'impression.
 
 ## Épaisseur (Thickness) 
-La taille d'une couche dans la direction verticale (Z). A différencier de "[largeur](largeur-width)".
+La taille d'une couche dans la direction verticale (Z). A différencier de "[largeur](#largeur-width)".
 
 ## Epaisseur de couche / Hauteur de couche (layer height)
 Certainement l’un des critères les plus regardé par les makers. Il s’agit de la finesse d’impression de votre imprimante 3D. L’impression 3D se faisant par dépôt successif de couches de matière superposées, l’épaisseur de couche (ou Hauteur de couche) désigne donc la finesse de chaque couche de matière déposée. Une succession de couches très fines (0.08mm, ou 80 microns par exemple) apporte un meilleur rendu à votre pièce finale. En revanche votre impression durera plus longtemps que si vous imprimez avec des couches de 200 ou 250 microns, au résultat final plus 'grossier'.
