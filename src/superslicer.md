@@ -124,7 +124,7 @@ Version 1.17 du 28/07/2021
 	* [Changement de couleur](advanced_functionality/advanced_functionality.md#changement-de-couleur)
 	* [Modificateurs](advanced_functionality/advanced_functionality.md#modificateurs)
 	* [Recharger depuis le Disque](advanced_functionality/advanced_functionality.md#recharger-depuis-le-disque)
-	* [Insérer une pause ou un G-code personnalisé à une couche](advanced_functionality/advanced_functionality.md#insérer-une-pause-ou-un-gcode-personnalisé-à-une-couche)
+	* [Insérer une pause ou un G-code personnalisé à une couche](advanced_functionality/advanced_functionality.md#insérer-une-pause-ou-un-g-code-personnalisé-à-une-couche)
 	* [Exporter les parcours d'outils au format OBJ](advanced_functionality/advanced_functionality.md#exporter-les-parcours-doutils-au-format-obj)
 
 * [Découpage multi-matériaux](multimaterial/multimaterial.md)
