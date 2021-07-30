@@ -1,24 +1,16 @@
 
-| Type de remplissage                                                                                                                                                                                                                        |         Image              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|
-| A. **Grille:** fort remplissage 2D                                                                                                                                                                                                         | ![](./images/040.png) |
-| B. **Rectiligne :** remplissage 2D rapide                                                                                                                                                                                                  | ![](./images/041.png) |
-| C. **Monotone :** *(Mode ligne)* remplissage 2D                                                                                                                                                                                   | ![](./images/040.png) |
-| D. **Triangles :** fort remplissage 2D                                                                                                                                                                                                     | ![](./images/042.png) |
-| E. **Etoiles :** fort remplissage 2D                                                                                                                                                                                                       | ![](./images/043.png) |
-| F. **Tri-Cubique :** fort remplissage 3D                                                                                                                                                                                                       | ![](./images/044.png) |
-| G. **Cubique adaptatif :** fort remplissage 3D (cela permet d'économiser de la matière par rapport à Cubique)                                                                                                                              | ![](./images/045.png) |
-| H. **Support Cubique :** fort remplissage 3D                                                                                                                                                                                               | ![](./images/046.png) |
-| I.  **Ligne :** remplissage 2D rapide un remplissage en forme de grille continue non orthogonale, imprimant en continu dans une direction diagonale Nécessite forcément la définition d’une longueur maximum de l’ancre de remplissage     | ![](./images/047.png) |
-| J. **Concentrique :** remplissage 3D flexible                                                                                                                                                                                              | ![](./images/048.png) |
-| K. **Nid d’abeille :** fort remplissage 2D                                                                                                                                                                                                 | ![](./images/049.png) |
-| L. **Hexagonal 3D :** remplissage 3D flexible                                                                                                                                                                                          | ![](./images/042.png) |
-| M. **Giroïde** : Remplissage avec une résistance accrue pour un poids le plus faible.                                                                                                                                                      | ![](./images/050.png) |
-| N.  **Courbe de Hilbert :** fort remplissage 2D.Théoriquement ces parcours doivent permettre de remplir tout l’espace en une fois sans rétracter la buse. Ici ce n’est pas le las c’est une mauvaise implémentation des courbes de Hilbert | ![](./images/040.png) |
-| O. **Spirale d’Archimède** : remplissage 2D flexible                                                                                                                                                                | ![](./images/042.png) |
-| P. **Spirale Octagramme** (Etoile) :** remplissage flexible 2D                                                                                                                                                                             | ![](./images/051.png) |
-| P. **Rectiligne aléatoire :** remplissage 2D                                                                                                                                                                             | ![](./images/052.png) |
-| P. **Cubique adapatatif :** fort remplissage 3D                                                                                                                                                                             | ![](./images/052.png) |
-| P. **Support Cubique :** fort remplissage 3D                                                                                                                                                                             | ![](./images/052.png) |
+# Monote remplit
+
+Le remplissage Monotone génère une grille rectiligne en imprimant une couche dans une direction, puis la couche d’après selon un angle de 90°, et ainsi de suite. par rapport à un profil purement [rectiligne](pattern_rectilinear.md) l'ordre d'enchainement des remplissage va être différent de manière à garder un remplissage continue dans une direction.
+
+![Monotone](images/064.svg) ![Rectiligne](images/065.svg)
+
+Dans le cas du motif **Monotone remplit** le logiciel va chercher à **remplir** les interstices laissés par les cordons de remplissage. pour boucher les trous dans la couche.
+
+
+![Monotone](images/069.png) ![Monotone (Remplit)](images/068.png)
+
+
+A droite un remplissage avec motif **Monotone Remplit** par rapport au même remplissage seulement **[Monotone](pattern_monotonic.md)** à gauche.
 
 [Retour à la page des Motifs](pattern.md)

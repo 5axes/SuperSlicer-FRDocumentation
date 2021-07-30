@@ -15,13 +15,15 @@ Dans la plupart des cas, il est très peu intéressant de régler une densité d
 Avant d’aborder les réglages avancés, passons rapidement en revue tous les types de remplissage existants ainsi que leurs propriétés, un par un.
 
 #### *Les types de remplissage et leurs propriétés*
-La liste des remplissages s’est bien allongée et il peut être difficile de choisir le bon type. Même si vous pouvez avoir l’impression que c’est surtout l’apparence qui les distingue, c’est l’inverse qui est vrai. Par exemple, certains remplissages nous permettent d’économiser beaucoup de matériau et de temps, certains peuvent être remplis par des liquides, etc…# Motifs SuperSlicer
+
+La liste des remplissages s’est bien allongée et il peut être difficile de choisir le bon type. Même si vous pouvez avoir l’impression que c’est surtout l’apparence qui les distingue, c’est l’inverse qui est vrai. Par exemple, certains remplissages nous permettent d’économiser beaucoup de matériau et de temps, certains peuvent être remplis par des liquides, etc…
+
+## Motifs SuperSlicer
 
 - [3dhoneycomb](pattern_3dhoneycomb.md)
 - [adaptivecubic](pattern_adaptivecubic.md)
 - [archimedeanchords](pattern_archimedeanchords.md)
 - [concentric](pattern_concentric.md)
-- [concentricgapfill](pattern_concentricgapfill.md)
 - [cubic](pattern_cubic.md)
 - [grid](pattern_grid.md)
 - [gyroid](pattern_gyroid.md)
@@ -32,13 +34,16 @@ La liste des remplissages s’est bien allongée et il peut être difficile de c
 - [monotonicgapfill](pattern_monotonicgapfill.md)
 - [octagramspiral](pattern_octagramspiral.md)
 - [rectilinear](pattern_rectilinear.md)
-- [rectilineargapfill](pattern_rectilineargapfill.md)
 - [rectilinear-grid](pattern_rectilinear-grid.md)
-- [sawtooth](pattern_sawtooth.md)
 - [scatteredrectilinear](pattern_scatteredrectilinear.md)
-- [smooth](pattern_smooth.md)
-- [smoothhilbert](pattern_smoothhilbert.md)
-- [smoothtriple](pattern_smoothtriple.md)
 - [stars](pattern_stars.md)
 - [supportcubic](pattern_supportcubic.md)
 - [triangles](pattern_triangles.md)
+
+### Motifs réservés aux couches
+
+- [concentricgapfill](pattern_concentricgapfill.md)
+- [rectilineargapfill](pattern_rectilineargapfill.md)
+- [monotonicgapfill](pattern_monotonicgapfill.md)
+- [sawtooth](pattern_sawtooth.md)
+- [smooth](pattern_smooth.md)

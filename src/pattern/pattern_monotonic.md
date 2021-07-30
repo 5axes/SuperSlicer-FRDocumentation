@@ -1,6 +1,6 @@
 # Monotone
 
-Le remplissage Monotone **est l’un des motifs de remplissage de base.** Il génère une grille rectiligne en imprimant une couche dans une direction, puis la couche d’après selon un angle de 90°, et ainsi de suite. De cette manière, cela consomme **moins de filament** et **le matériau ne s’accumule pas aux intersections** (contrairement à la grille). 
+Le remplissage Monotone génère une grille rectiligne en imprimant une couche dans une direction, puis la couche d’après selon un angle de 90°, et ainsi de suite. par rapport à un profil purement [rectiligne](pattern_rectilinear.md) l'ordre d'enchainement des remplissage va être différent de manière à garder un remplissage continue dans une direction.
 
 ![Image : Remplissage rectiligne aligné (image gif animée)](images/monotone.gif)
 
