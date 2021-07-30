@@ -96,7 +96,7 @@ note : cela ne fonctionne que dans le G-Code de changement d'outil
 ![Image : Format du nom de fichier de sortie](./images/002.png)
 
 
-### Variables moins utiles
+### Variables impression
 
 * [printer_technology](printer_technology.md)
 * [bed_shape](bed_shape.md)
@@ -336,7 +336,6 @@ Il s'agit de la valeur réelle (0-100) qui a été saisie, et non de 0-255 .
 * [layer_gcode](layer_gcode.md)
 * [feature_gcode](feature_gcode.md)
 * [exact_last_layer_height](exact_last_layer_height.md)
-
 
 * [remaining_times](layerremaining_times_height.md)
 
