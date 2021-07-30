@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Options de sortie
+* Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie)
 * Mode : Expert
 
 ## Format du nom de fichier de sortie

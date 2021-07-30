@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Options de sortie - Fichier de sortie
+* Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie) - Fichier de sortie
 * Mode : Expert
 
 ## G-Code commenté

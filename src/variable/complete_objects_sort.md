@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'impression
-* Sous groupe : Options de sortie
+* Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie)
 * Mode : Avancé
 
 ## Tri des objets
