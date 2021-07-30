@@ -4,5 +4,6 @@ Le remplissage en lignes est l’un de ceux qui **ne présentent pas d’interse
 
 ![Image : Remplissage lignes (image gif animée)](images/lignes.gif)
 
+Ce type de remplissage offre un très bon support des surfaces supérieures.
 
 [Retour à la page des Motifs](pattern.md)

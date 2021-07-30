@@ -1,6 +1,6 @@
 # Grille
 
-Le remplissage  **Grille:**  est un remplissage de type fort  2D. Les trajets du remplissage créés une grille de déplacement rectiligne qui se croisent à 90°.
+Le remplissage  **Grille:**  est un remplissage de type remplissage fort  2D. Les trajets du remplissage créés une grille de déplacement rectiligne qui se croisent à 90°.
  
  
  ![Grille](./images/071.png) 
