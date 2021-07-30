@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Filament - Contournement de la vitesse d'impression
+* Sous groupe : [Filament](../filament_settings/filament_settings.md#filament) - Contournement de la vitesse d'impression
 * Mode : Avancé
 
 ## Vitesse maximale

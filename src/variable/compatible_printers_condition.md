@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Dépendances - Dépendances du profil
+* Sous groupe : [Dépendances](../print_settings/print_settings.md#dépendances) - Dépendances du profil
 * Mode : Expert
 
 ## Conditions de compatibilité des imprimantes

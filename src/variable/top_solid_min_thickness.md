@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'Impression
-* Sous groupe : Périmètres et enveloppe - Coques horizontales
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètres-et-enveloppe) - Coques horizontales
 * Mode : Simple
 
 ## *Epaisseur de coque minimale* du dessus

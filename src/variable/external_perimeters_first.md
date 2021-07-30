@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Périmètres et enveloppe - Périmètre extérieur en premier
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètres-et-enveloppe) - Périmètre extérieur en premier
 * Mode : Expert
 
 ## Périmètre extérieur en premier Activer

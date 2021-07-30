@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage du filament
-* Sous groupe : Filament - propriété du filament
+* Sous groupe : [Filament](../filament_settings/filament_settings.md#filament) - propriété du filament
 * Mode : Avancé
 
 ## Matériau soluble

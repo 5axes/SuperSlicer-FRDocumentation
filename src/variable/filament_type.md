@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Propriétés du filament
+* Sous groupe : [Filament](../filament_settings/filament_settings.md#filament) - Propriétés du filament
 * Mode : Avancé
 
 ## Type de filament

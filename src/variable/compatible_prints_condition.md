@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Dépendances - Dépendances du profil
+* Sous groupe : [Dépendances](../print_settings/print_settings.md#dépendances) - Dépendances du profil
 * Mode : Expert
 
 ## Condition des profils d'impression compatibles

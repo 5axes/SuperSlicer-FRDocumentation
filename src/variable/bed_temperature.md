@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Température
+* Sous groupe : [Température](../filament_settings/filament_settings.md#température)
 * Mode : Simple
 
 ## Température Plateau (Autres couches)

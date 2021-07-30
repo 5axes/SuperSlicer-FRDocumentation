@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Remarques 
+* Sous groupe : [Remarques](../printer_settings/printer_settings.md#remarques)
 * Mode : Avancé
 
 ## Remarques imprimantes

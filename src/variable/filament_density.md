@@ -3,7 +3,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Filament
+* Sous groupe : [Filament](../filament_settings/filament_settings.md#filament)
 * Mode : Simple
 
 ## Densité du filament

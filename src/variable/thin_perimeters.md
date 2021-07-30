@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Périmètres et enveloppe - Qualité
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètres-et-enveloppe) - Qualité
 * Mode : Expert
 
 ## Chevauchement du périmètre extérieur

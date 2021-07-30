@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Filament - Température °C
+* Sous groupe : [Filament](../filament_settings/filament_settings.md#filament) - Température °C
 * Mode : Expert
 
 ##  Chambre

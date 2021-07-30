@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Milling - Taille
+* Sous groupe : [Milling](../printer_settings/printer_settings.md#milling) - Taille
 * Mode : Avancé
 
 ## Diamètre de fraisage

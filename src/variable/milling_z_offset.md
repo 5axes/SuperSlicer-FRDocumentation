@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Extrudeuse
-* Sous groupe : Milling - Comportement
+* Sous groupe : [Milling](../printer_settings/printer_settings.md#milling) - Comportement
 * Mode : Avancé
 
 ## Tool z offset

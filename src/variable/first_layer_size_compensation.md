@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Modifications des couches
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - Modifications des couches
 * Mode : Avancé
 
 ## *Compensation en XY* Première couche
