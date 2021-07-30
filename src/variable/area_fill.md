@@ -1,7 +1,7 @@
 # area_fill
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Général - Incliner
 * Mode : Expert
 

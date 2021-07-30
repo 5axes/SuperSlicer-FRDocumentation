@@ -1,7 +1,7 @@
 # output_filename_format
 
 * Technologie : FDM & SLA
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Options de sortie
 * Mode : Expert
 

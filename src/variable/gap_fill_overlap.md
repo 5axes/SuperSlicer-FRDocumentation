@@ -1,8 +1,8 @@
 # gap_fill_overlap
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
-* Sous groupe : Largeur & Débit - Chevauchement
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
+* Sous groupe : Largeur et Débit - Chevauchement
 * Mode : Expert
 
 ## *Chevauchement du périmètre*  Remplir les trous entre les parois

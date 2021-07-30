@@ -1,7 +1,7 @@
 # filament_minimal_purge_on_wipe_tower
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Paramètres de la tour de purge
 * Mode : Expert
 

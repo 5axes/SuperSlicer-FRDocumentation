@@ -1,7 +1,7 @@
 # filament_melt_zone_pause
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Réduction de chaîne de changement de filaments multimatériaux
 * Mode : Expert
 

@@ -1,7 +1,7 @@
 # end_filament_gcode
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : G-Code personnalisé
 * Mode : Expert
 

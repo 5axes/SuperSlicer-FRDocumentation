@@ -1,7 +1,7 @@
 # fan_speedup_overhangs
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Général - Ventilateur de refroidissement
 * Mode : Avancé
 

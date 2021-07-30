@@ -1,8 +1,8 @@
 # perimeter_extrusion_spacing
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
-* Sous groupe : Largeur & Débit - Largeur d'extrusion
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
+* Sous groupe : Largeur et Débit - Largeur d'extrusion
 * Mode : Avancé
 
 ## *Périmètre* Espacement

@@ -1,7 +1,7 @@
 # milling_cutter
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Milling - Comportement
 * Mode : Expert
 

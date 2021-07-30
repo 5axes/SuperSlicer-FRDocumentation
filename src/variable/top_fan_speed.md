@@ -1,7 +1,7 @@
 # top_fan_speed
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Refroidissement - Vitesses du ventilateur par défaut
 * Mode : Avancé
 

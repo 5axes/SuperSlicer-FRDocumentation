@@ -1,7 +1,7 @@
 # filament_cost
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Filament
 * Mode : Simple
 

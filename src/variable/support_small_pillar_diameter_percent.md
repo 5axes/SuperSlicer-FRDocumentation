@@ -1,7 +1,7 @@
 # support_small_pillar_diameter_percent
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Supports - Pilier de support
 * Mode : Expert
 

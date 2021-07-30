@@ -1,7 +1,7 @@
 # support_pillar_widening_factor
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Supports - Pilier de support
 * Mode : Expert
 

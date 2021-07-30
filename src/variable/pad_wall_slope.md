@@ -1,7 +1,7 @@
 # pad_wall_slope
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Socle
 * Mode : Avancé
 

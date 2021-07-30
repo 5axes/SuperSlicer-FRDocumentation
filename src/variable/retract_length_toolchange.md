@@ -1,7 +1,7 @@
 # retract_length_toolchange
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Extrudeuse - Rétraction lorsque le filament est désactivé ( réglages avancés pour les configurations multi-extrudeuses)
 * Mode : Expert
 

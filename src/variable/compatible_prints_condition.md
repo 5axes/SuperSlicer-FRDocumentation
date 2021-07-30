@@ -1,7 +1,7 @@
 # compatible_prints_condition
 
 * Technologie : FDM & SLA
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Dépendances - Dépendances du profil
 * Mode : Expert
 

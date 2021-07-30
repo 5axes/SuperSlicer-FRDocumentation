@@ -1,8 +1,8 @@
 # bridge_flow_ratio
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
-* Sous groupe : Largeur & Débit - Débit
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
+* Sous groupe : Largeur et Débit - Débit
 * Mode : 
 
 ## *Ratio de débit* Ponts

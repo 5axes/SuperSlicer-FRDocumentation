@@ -1,7 +1,7 @@
 # support_material_interface_spacing
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Support - Option pour l'interface des supports
 * Mode : Avancé
 

@@ -1,7 +1,7 @@
 # filament_retract_layer_change
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Rétraction de Filament
 * Mode : Avancé
 

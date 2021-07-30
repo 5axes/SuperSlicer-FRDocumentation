@@ -1,7 +1,7 @@
 # support_material_synchronize_layers
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Support - Option pour le réglage des supports
 * Mode : Expert
 

@@ -1,7 +1,7 @@
 # min_print_speed
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Refroidissement - Temps de couche très court - Commence  à diminuer le taux d'extrusion
 * Mode : Expert
 

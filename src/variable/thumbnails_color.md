@@ -1,7 +1,7 @@
 # thumbnails_color
 
 * Technologie : FDM &SLA
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Général - Vignettes 
 * Mode : Expert
 

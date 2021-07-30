@@ -1,7 +1,7 @@
 # material_notes
 
 * Technologie : SLA
-* Groupe : Réglages Matériau
+* Groupe : [Réglages Matériau](../sla_printer/sla_parameters.md)
 * Sous groupe : Remarques
 * Mode : Avancé
 

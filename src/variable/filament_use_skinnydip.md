@@ -1,7 +1,7 @@
 # filament_use_skinnydip
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Réduction de chaîne de changement de filament multi-matériaux
 * Mode : Avancé
 

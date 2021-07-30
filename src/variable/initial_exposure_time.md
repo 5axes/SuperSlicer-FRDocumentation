@@ -1,7 +1,7 @@
 # initial_exposure_time
 
 * Technologie : SLA
-* Groupe :  Réglages Matériau
+* Groupe : [Réglages Matériau](../sla_printer/sla_parameters.md)
 * Sous groupe : Matériau - Exposition
 * Mode : Expert
 

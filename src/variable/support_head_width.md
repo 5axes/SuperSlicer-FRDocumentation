@@ -1,7 +1,7 @@
 # support_head_width
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Supports - Tête de support
 * Mode : Avancé
 

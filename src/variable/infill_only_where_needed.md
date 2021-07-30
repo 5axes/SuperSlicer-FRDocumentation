@@ -1,7 +1,7 @@
 # infill_only_where_needed
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Remplissage - Réduction du temps d'impression
 * Mode : Avancé
 

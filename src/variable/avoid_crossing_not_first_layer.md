@@ -1,7 +1,7 @@
 # avoid_crossing_not_first_layer
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Périmètre et enveloppe - Qualité
 * Mode : Expert
 

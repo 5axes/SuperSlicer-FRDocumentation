@@ -1,7 +1,7 @@
 # milling_count
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Général - Fonctionnalités
 * Mode : Avancé
 

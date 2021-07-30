@@ -1,7 +1,7 @@
 # support_max_pillar_link_distance
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Supports - Connexion des tiges de support et jonctions
 * Mode : Avancé
 

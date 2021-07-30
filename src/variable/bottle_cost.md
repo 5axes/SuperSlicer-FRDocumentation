@@ -1,7 +1,7 @@
 # bottle_cost
 
 * Technologie : SLA
-* Groupe : Réglages Matériau
+* Groupe : [Réglages Matériau](../sla_printer/sla_parameters.md)
 * Sous groupe : Matériau
 * Mode : Simple
 

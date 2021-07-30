@@ -1,7 +1,7 @@
 # max_print_speed
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Vitesse - Vitesses automatique (avancé)
 * Mode : Expert
 

@@ -1,7 +1,7 @@
 # retract_length
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Extrudeuse - Rétraction
 * Mode : Simple
 

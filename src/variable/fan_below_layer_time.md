@@ -1,7 +1,7 @@
 # fan_below_layer_time
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Refroidissement - Temps de couche court 
 * Mode : Expert
 

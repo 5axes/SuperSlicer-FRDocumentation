@@ -1,7 +1,7 @@
 # standby_temperature_delta
 
 * Technologie : FDM 
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Extrudeuses multiples - Prévention des coulures
 * Mode : Expert
 

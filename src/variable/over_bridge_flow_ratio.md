@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'Impression
-* Sous groupe : Largeur & Débit - Débit
+* Sous groupe : Largeur et Débit - Débit
 * Mode : Avancé
 
 ## *Ratio de débit* Au dessus des ponts

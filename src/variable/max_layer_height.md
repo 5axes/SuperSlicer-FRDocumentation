@@ -1,7 +1,7 @@
 # max_layer_height
 
 * Technologie : FDM
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
 * Sous groupe : Extrudeuse - Limites de hauteur de couche
 * Mode : Simple
 

@@ -1,7 +1,7 @@
 # pad_object_connector_width
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Socle
 * Mode : Expert
 

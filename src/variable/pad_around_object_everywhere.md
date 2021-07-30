@@ -1,7 +1,7 @@
 # pad_around_object_everywhere
 
 * Technologie : SLA
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
 * Sous groupe : Socle
 * Mode : Simple
 

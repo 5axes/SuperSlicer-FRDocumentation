@@ -1,7 +1,7 @@
 # perimeter_acceleration
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Vitesse - Contrôle de l'accélération (avancé)
 * Mode : Expert
 

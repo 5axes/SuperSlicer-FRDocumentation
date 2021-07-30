@@ -1,7 +1,7 @@
 # small_perimeter_max_length
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Vitesse - Vitesses pour les déplacements d'impression
 * Mode : Avancé
 

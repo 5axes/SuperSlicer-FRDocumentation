@@ -1,7 +1,7 @@
 # display_orientation
 
 * Technologie : SLA
-* Groupe : Réglages de l'Imprimante
+* Groupe : [Réglages de l'Imprimante](../sla_printer/sla_parameters.md)
 * Sous groupe : Général - Afficher
 * Mode : Expert
 

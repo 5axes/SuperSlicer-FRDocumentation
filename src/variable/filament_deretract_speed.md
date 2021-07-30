@@ -1,7 +1,7 @@
 # filament_deretract_speed
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Rétraction
 * Mode : Avancé
 

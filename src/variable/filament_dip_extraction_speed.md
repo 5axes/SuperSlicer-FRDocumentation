@@ -1,7 +1,7 @@
 # filament_dip_extraction_speed
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Réduction de chaîne de changement filaments multi-matériaux
 * Mode : Expert
 

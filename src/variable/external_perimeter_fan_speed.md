@@ -1,7 +1,7 @@
 # external_perimeter_fan_speed
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Refroidissement - Vitesse du ventilateur 
 * Mode : Avancé
 

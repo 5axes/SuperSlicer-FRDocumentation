@@ -31,14 +31,17 @@
 ### Socle
 
 ### Evidement
-**Activer l'évidement**
+
+##### *Activer l'évidement*
 
 ### Avancé
 #### Couche
 
 ### Options de sortie
 
-**Fichier de sortie** Format du nom de fichier de sortie.
+##### *Fichier de sortie*
+
+Format du nom de fichier de sortie.
 
 ### Dépendances
 
@@ -74,8 +77,11 @@
 **Correction matière**
 
 ### Remarques
+
 Remarques
+
 ### Dépendances
+
 Dépendances du profil
 
 

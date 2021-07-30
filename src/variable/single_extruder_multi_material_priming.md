@@ -1,7 +1,7 @@
 # single_extruder_multi_material_priming
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Extrudeuses Multiples - Tour de purge
 * Mode : Avancé
 

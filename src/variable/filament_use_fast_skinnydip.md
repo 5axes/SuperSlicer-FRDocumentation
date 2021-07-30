@@ -1,7 +1,7 @@
 # filament_use_fast_skinnydip
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Température de changement de filaments multi-matériaux
 * Mode : Expert
 

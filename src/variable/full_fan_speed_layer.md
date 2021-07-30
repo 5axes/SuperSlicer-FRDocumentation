@@ -1,7 +1,7 @@
 # full_fan_speed_layer
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Refroidissement - Réglages du ventilateur par défaut
 * Mode : Expert
 

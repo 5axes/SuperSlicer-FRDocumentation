@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'Impression
-* Sous groupe : Largeur & Débit - Débit
+* Sous groupe : Largeur et Débit - Débit
 * Mode : Expert
 
 ## *Ratio de débit* Remplissage du dessus

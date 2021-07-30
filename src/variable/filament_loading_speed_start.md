@@ -1,7 +1,7 @@
 # filament_loading_speed_start
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Multimatériaux - Paramètres de changement de filament pour les imprimantes multi-matériaux mono-extrudeuse
 * Mode : Expert
 

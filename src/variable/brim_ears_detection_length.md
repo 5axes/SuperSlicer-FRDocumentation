@@ -1,7 +1,7 @@
 # brim_ears_detection_length
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Jupe & Bordure - Bordure sur les coins
 * Mode : Avancé
 

@@ -1,7 +1,7 @@
 # fill_smooth_distribution
 
 * Technologie : FDM
-* Groupe : Réglages de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Remplissage - Options avancés de remplissage
 * Mode : Expert
 

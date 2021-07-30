@@ -1,7 +1,7 @@
 # filament_notes
 
 * Technologie : FDM
-* Groupe : Réglages du Filament
+* Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : Remarques
 * Mode : Avancé
 
