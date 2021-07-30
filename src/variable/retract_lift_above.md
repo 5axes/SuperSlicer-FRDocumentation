@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Extrudeuse
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)
 * Mode : Avancé
 
 ## *Décaler Z seulement* Au delà de Z

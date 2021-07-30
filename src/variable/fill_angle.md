@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Remplissage - Avancé
+* Sous groupe : [Remplissage](../print_settings/print_settings.md#remplissage) - Avancé
 * Mode : Avancé
 
 ## *Angle* Remplissage

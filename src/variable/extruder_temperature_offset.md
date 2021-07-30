@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Extrudeuse - Décalages (pour les imprimantes multi-extrudeuse)
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - Décalages (pour les imprimantes multi-extrudeuse)
 * Mode : Expert
 
 ## Décalage de la température de l'extrudeuse

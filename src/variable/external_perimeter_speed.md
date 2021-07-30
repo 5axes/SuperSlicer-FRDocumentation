@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Vitesse - Vitesse pour les déplacements d'impression
+* Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Vitesse pour les déplacements d'impression
 * Mode : Avancé
 
 ## *Vitesse pour les parois* Externe

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Remplissage - Lissage en post-traitement
+* Sous groupe : [Remplissage](../print_settings/print_settings.md#remplissage) - Lissage en post-traitement
 * Mode : Avancé
 
 ## Activer le lissage

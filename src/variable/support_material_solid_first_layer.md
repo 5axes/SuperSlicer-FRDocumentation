@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Support - Radeau
+* Sous groupe : [Support](../print_settings/print_settings.md#support) - Radeau
 * Mode : Avancé
 
 ## Première couche pleine

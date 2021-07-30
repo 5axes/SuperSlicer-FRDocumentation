@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Refroidissement - Réglages du ventilateur par défaut
+* Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Réglages du ventilateur par défaut
 * Mode : Expert
 
 ## Ventilateur à pleine vitesse pour la couche

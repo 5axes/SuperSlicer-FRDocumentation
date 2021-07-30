@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'Impression
-* Sous groupe : Couche - Hauteur de couche
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - Hauteur de couche
 * Mode : Avancé
 
 ## Hauteur de la première couche

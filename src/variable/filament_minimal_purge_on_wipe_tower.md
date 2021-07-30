@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Multimatériaux - Paramètres de la tour de purge
+* Sous groupe : [Multimatériaux](../filament_settings/filament_settings.md#multimatériaux) - Paramètres de la tour de purge
 * Mode : Expert
 
 ## Purge minimal de la tour de purge

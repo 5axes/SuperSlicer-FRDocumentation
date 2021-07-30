@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Jupe & Bordure - Jupe
+* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Jupe
 * Mode : Simple
 
 ## Boucles de la jupe

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Largeur et Débit - Largeur d'extrusion
+* Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Largeur d'extrusion
 * Mode : Avancé
 
 ## *Remplissage du dessus* Largeur

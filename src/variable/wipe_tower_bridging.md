@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Extrudeuses multiples - Tour de purge
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)s multiples - Tour de purge
 * Mode : Avancé
 
 ## Distance maximale de pont

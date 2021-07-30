@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglages de l’Imprimante
-* Sous groupe : Limites de la machine - Limites de mouvements brusques
+* Sous groupe : [Limites de la machine](../printer_settings/printer_settings.md#limites-de-la-machine) - Limites de mouvements brusques
 * Mode : Avancé
 
 ## Mouvement brusque maximum Z

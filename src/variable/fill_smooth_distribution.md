@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Remplissage - Options avancés de remplissage
+* Sous groupe : [Remplissage](../print_settings/print_settings.md#remplissage) - Options avancés de remplissage
 * Mode : Expert
 
 ##  Réglage de remplissage pour le lissage : Distribution

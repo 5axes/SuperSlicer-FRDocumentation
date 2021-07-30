@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Jupe & Bordure 
+* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) 
 * Mode : Avancé 
 
 ## Bouclier contre les flux d'air

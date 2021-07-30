@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Couche - Modification des couches
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - Modification des couches
 * Mode : Avancé
 
 ## Marge de circularité

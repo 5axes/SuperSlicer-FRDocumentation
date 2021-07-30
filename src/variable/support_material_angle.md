@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Supports - Option pour le réglage des supports
+* Sous groupe : [Support](../print_settings/print_settings.md#support)s - Option pour le réglage des supports
 * Mode : Expert
 
 ## Angle des motifs pour supports

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Refroidissement - Vitesse du ventilateur par défaut
+* Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Vitesse du ventilateur par défaut
 * Mode : Expert
 
 ## Désactiver le ventilateur pour les premières couches

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Vitesse - Temps de couche court
+* Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Temps de couche court
 * Mode : Avancé
 
 ## Vitesse maximale du ventilateur

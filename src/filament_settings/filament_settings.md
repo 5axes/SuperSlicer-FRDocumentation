@@ -5,9 +5,9 @@
 * Réglages du filament
 	* [Filament](#filament) 
 	* [Refroidissement](#refroidissement)
-	* [Multi-matériaux](#multi-matériaux)
+	* [Multimatériaux](#multimatériaux)
 	* [Rétractions de Filament](#rétractions-de-filament)
-	* [G-code personnalisé](#g-code-personnalisé)
+	* [G-Code personnalisé](#g-code-personnalisé)
 	* [Remarques](#remarques)
 	* [Dépendances](#dépendances)
 
@@ -236,7 +236,7 @@ Gardez à l'esprit qu'en augmentant cette valeur trop haute, vous pouvez invalid
 
 ![Image : Temps de couche très court](./images/009.png) 
 
-## Multi-matériaux
+## Multimatériaux
 
 ![Image : Propriété Multimatériaux du filament](./images/010.png)
 
@@ -294,11 +294,11 @@ Peut être utile pour éviter que les engrenages de l’extrudeur Bondtech ne d�
 
 ##### *Vitesse pour entrer dans la zone de fusion*
 
-Ce n’est généralement pas nécessaire de changer cette valeur
+Ce n’est généralement pas nécessaire de changer cette valeur.
 
 ##### *Vitesse pour sortir de la zone de fusion*
 
-Ce n’est généralement pas nécessaire de changer cette valeur
+Ce n’est généralement pas nécessaire de changer cette valeur.
 
 #### *Paramètres de la tour de purge*
 

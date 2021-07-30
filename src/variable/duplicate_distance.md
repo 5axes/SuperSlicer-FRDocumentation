@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Option de sortie - Plateau
+* Sous groupe : Options de sortie - Plateau
 * Mode : Simple
 
 ## Distance entre les objets

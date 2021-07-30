@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Refroidissement - Vitesse du ventilateur 
+* Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Vitesse du ventilateur 
 * Mode : Avancé
 
 ## Vitesse du ventilateur du périmètre externe

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Multimatériaux - Réduction de chaîne de changement de filaments multimatériaux
+* Sous groupe : [Multimatériaux](../filament_settings/filament_settings.md#multimatériaux) - Réduction de chaîne de changement de filaments multimatériaux
 * Mode : Expert
 
 ## Pause en zone de fusion

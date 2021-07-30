@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Rétractions de Filament
+* Sous groupe : [Rétraction](../filament_settings/filament_settings.md#rétraction)s de Filament
 * Mode : Avancé
 
 ## Essuyer lors des rétractions

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglages pour l'Impression
-* Sous groupe : Périmètre et enveloppe - Avancé
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Avancé
 * Mode : Avancé
 
 ## Périmètres à une boucle Jointures

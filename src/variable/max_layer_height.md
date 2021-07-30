@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Extrudeuse - Limites de hauteur de couche
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - Limites de hauteur de couche
 * Mode : Simple
 
 ## Limites de hauteur de couche Maximum

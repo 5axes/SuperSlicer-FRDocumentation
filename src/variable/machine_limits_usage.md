@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Limites de la machine
+* Sous groupe : [Limites de la machine](../printer_settings/printer_settings.md#limites-de-la-machine)
 * Mode : Avancé
 
 ## Comment appliquer les limites

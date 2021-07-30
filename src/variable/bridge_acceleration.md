@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Vitesse - Contrôle de l'accélération (avancé)
+* Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Contrôle de l'accélération (avancé)
 * Mode : Expert
 
 ## Accélération pour les Ponts

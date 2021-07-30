@@ -2,7 +2,7 @@
 
 * Technologie : SLA
 * Groupe : Réglage de l'Imprimante
-* Sous groupe : Général -  Incliner
+* Sous groupe : Général - Incliner
 * Mode : Expert
 
 ## *Durée de l'inclinaison* Rapide

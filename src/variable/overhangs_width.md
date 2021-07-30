@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'impression
-* Sous groupe : Périmètre et enveloppe - Surplombs
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Surplombs
 * Mode : Expert
 
 ## *Seuil pour* Débit du pont

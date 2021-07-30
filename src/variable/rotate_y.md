@@ -2,7 +2,7 @@
 
 * Technologie : Générique
 * Groupe :  -
-* Sous groupe :  -
+* Sous groupe : -
 * Mode : -
 
 ## Pivoter autour de Y

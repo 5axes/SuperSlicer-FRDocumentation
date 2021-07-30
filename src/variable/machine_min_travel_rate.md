@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglages de l’Imprimante
-* Sous groupe : Limites de la machine - Vitesses minimums
+* Sous groupe : [Limites de la machine](../printer_settings/printer_settings.md#limites-de-la-machine) - Vitesses minimums
 * Mode : Avancé
 
 ## Vitesse minimum en déplacement

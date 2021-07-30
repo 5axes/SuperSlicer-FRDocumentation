@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Refroidissement - Vitesses du ventilateur par défaut
+* Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Vitesses du ventilateur par défaut
 * Mode : Avancé
 
 ## *Vitesse du ventilateur* pour le dessus

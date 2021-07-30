@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Couche
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche)
 * Mode : Expert
 
 ## Dissocier les objets Multi-Pièce

@@ -2,7 +2,7 @@
 
 * Technologie : SLA
 * Groupe : Réglage de l'Impression
-* Sous groupe : Couches et périmètres 
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche)s et périmètres 
 * Mode : Expert
 
 ## Couches estompées

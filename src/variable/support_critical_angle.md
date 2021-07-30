@@ -2,7 +2,7 @@
 
 * Technologie : SLA
 * Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
-* Sous groupe : Supports - Connexion des tiges de support et jonctions
+* Sous groupe : [Support](../print_settings/print_settings.md#support)s - Connexion des tiges de support et jonctions
 * Mode : Expert
 
 ## Angle critique

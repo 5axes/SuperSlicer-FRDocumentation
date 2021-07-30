@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Largeur et Débit - Chevauchement
+* Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Chevauchement
 * Mode : Expert
 
 ## *Chevauchement du périmètre*  Remplir les trous entre les parois

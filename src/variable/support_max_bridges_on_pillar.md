@@ -2,7 +2,7 @@
 
 * Technologie : SLA
 * Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
-* Sous groupe : Supports - Pilier de support
+* Sous groupe : [Support](../print_settings/print_settings.md#support)s - Pilier de support
 * Mode : Expert
 
 ## Nombre de ponts maximum par pilier

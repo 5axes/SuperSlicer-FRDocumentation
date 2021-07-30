@@ -2,7 +2,7 @@
 
 * Technologie : FDM / SLA
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : G-Code personnalisé
+* Sous groupe : [G-Code personnalisé](../printer_settings/printer_settings.md#g-code-personnalisé)
 * Mode : Expert
 
 ## G-Code avant changement de couche

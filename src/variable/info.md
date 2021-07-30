@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : Variable générique
-* Sous groupe :  -
+* Sous groupe : -
 * Mode : -
 
 ## Information du Modèle de Sortie

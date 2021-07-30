@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Multimatériaux - Température de changement de filaments multi-matériaux
+* Sous groupe : [Multimatériaux](../filament_settings/filament_settings.md#multimatériaux) - Température de changement de filaments multi-matériaux
 * Mode : Avancé
 
 ## Température de changement de filament activé

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Support - Options pour le réglage des supports
+* Sous groupe : [Support](../print_settings/print_settings.md#support) - Options pour le réglage des supports
 * Mode : Avancé
 
 ## Ne pas supporter les ponts

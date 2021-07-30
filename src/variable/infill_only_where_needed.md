@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Remplissage - Réduction du temps d'impression
+* Sous groupe : [Remplissage](../print_settings/print_settings.md#remplissage) - Réduction du temps d'impression
 * Mode : Avancé
 
 ## Remplissage seulement où cela est nécessaire

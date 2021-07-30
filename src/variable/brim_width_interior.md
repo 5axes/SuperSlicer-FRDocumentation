@@ -3,7 +3,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Jupe & Bordure - Bordure
+* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Bordure
 * Mode : Avancé
 
 ## Largeur de la bordure intérieure

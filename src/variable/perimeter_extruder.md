@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Extrudeuses Multiples - Extrudeuses
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)s multiples - Extrudeuses
 * Mode : Avancé
 
 ## Extrudeuse pour les périmètres

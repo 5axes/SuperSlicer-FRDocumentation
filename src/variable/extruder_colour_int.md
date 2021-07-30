@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Extrudeuse
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)
 * Mode : -
 
 ## extruder_colour_int

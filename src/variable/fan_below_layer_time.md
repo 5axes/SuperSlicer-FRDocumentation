@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : Refroidissement - Temps de couche court 
+* Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Temps de couche court 
 * Mode : Expert
 
 ## Activer le ventilateur si le temps d'impression de la couche inférieur à

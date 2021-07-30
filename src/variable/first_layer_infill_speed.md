@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : Réglage de l'impression
-* Sous groupe : Vitesse - Modificateurs
+* Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Modificateurs
 * Mode : Expert
 
 ## Vitesse pour la première couche de remplissage
