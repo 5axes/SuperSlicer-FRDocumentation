@@ -1,7 +1,7 @@
 # seam_position
 
 * Technologie : FDM
-* Groupe : Réglage de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Avancé
 * Mode : Simple
 

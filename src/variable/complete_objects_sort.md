@@ -1,7 +1,7 @@
 # complete_objects_sort
 
 * Technologie : FDM
-* Groupe : Réglage de l'impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie)
 * Mode : Avancé
 

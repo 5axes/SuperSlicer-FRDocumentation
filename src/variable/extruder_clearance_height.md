@@ -1,7 +1,7 @@
 # extruder_clearance_height
 
 * Technologie : FDM
-* Groupe : Réglage de l'Impression 
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md) 
 * Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie) - Impression séquentielle
 * Mode : Expert
 

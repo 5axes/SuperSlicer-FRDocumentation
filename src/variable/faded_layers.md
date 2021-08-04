@@ -1,7 +1,7 @@
 # faded_layers
 
 * Technologie : SLA
-* Groupe : Réglage de l'Impression
+* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : [Couche](../print_settings/print_settings.md#couche)s et périmètres 
 * Mode : Expert
 
