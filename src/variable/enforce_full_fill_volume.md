@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètres-et-enveloppe) - Coques Horizontales
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Coques Horizontales
 * Mode : Expert
 
 ## S'assurer que le remplissage sont à 100% du volume

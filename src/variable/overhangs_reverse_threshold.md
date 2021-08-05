@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètres-et-enveloppe) - Surplombs
+* Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Surplombs
 * Mode : Avancé
 
 ## Seuil d'inversion du surplomb

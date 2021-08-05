@@ -5,7 +5,7 @@
 * Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Contrôle de l'accélération (avancé)
 * Mode : Expert
 
-## Périmètres
+## *Contrôle de l'accélération pour les* Périmètres
 
 ### Description
 
