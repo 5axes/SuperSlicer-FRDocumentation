@@ -9,6 +9,6 @@
 
 ### Description
 
-Ceci est uniquement utilisé dans l'interface de SuperSlicer comme indication visuelle.
+La définition de la couleur du filament qui n'est utilisé dans l'interface de SuperSlicer uniquement comme indication visuelle.
 
 [Retour Liste variables](variable_list.md)
