@@ -1501,7 +1501,7 @@ Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouv
 
 Ratio de débit permettant de compenser les lacunes des couches au dessus des ponts. Utilisé pour l'étirage du motif de remplissage pour éviter les régions où la passe à faible débit ne permet pas fournir une surface lisse en raison d'un manque de plastique. Vous pouvez l'augmenter légèrement pour obtenir la couche supérieure à la bonne hauteur. 
 
-Maximum recommandé : 120%.
+> Maximum recommandé : 120%.
 
 #### *Ratio de débit Remplissage du dessus*
 
