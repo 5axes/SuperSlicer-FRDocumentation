@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - [Ventilateur de refroidissement](../printer_settings/printer_settings.md#ventilateur-de-refroidissementl)
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - [Ventilateur de refroidissement](../printer_settings/printer_settings.md#ventilateur-de-refroidissement)
 * Mode : Avancé
 
 ## *Accélération* Temps d'accélération
