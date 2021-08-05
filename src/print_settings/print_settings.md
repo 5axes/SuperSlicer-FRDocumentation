@@ -1172,25 +1172,28 @@ Les supports seront imprimés à des hauteurs de couche égales au modèle lui-m
 ### Options pour l’interface des supports
 
 #### *Motif*
-- ***[Rectiligne](../pattern/rectilinear.md)*** : par défaut, généralement le plus facile à supprimer
-- ***Monotone***  : Comme rectiligne mais en remplissage continue
-- ***Concentrique*** : Concentrique
-- ***Concentrique Remplit*** : Concentrique avec remplissage des espaces
-- ***Courbe de Hilbert*** : Courbe de Hilbert
-- ***Dent de scie*** : Motif en dent de scie
-- ***Lissage*** : Permet de réaliser un lissage de la dernière couche.
+- ***[Rectiligne](../pattern/pattern_rectilinear.md)*** : par défaut, généralement le plus facile à supprimer
+- ***[Monotone](../pattern/pattern_monotonic.md)***  : Comme rectiligne mais en remplissage continue
+- ***[Concentrique](../pattern/pattern_concentric.md)*** : Concentrique
+- ***[Concentrique Remplit](../pattern/pattern_concentricgapfill.md)*** : Concentrique avec remplissage des espaces
+- ***[Courbe de Hilbert](../pattern/pattern_hilbertcurve.md)*** : Courbe de Hilbert
+- ***[Dent de scie](../pattern/pattern_sawtooth.md)*** : Motif en dent de scie
+- ***[Lissage](../pattern/pattern_smooth.md)*** : Permet de réaliser un lissage de la dernière couche.
 
 #### *Couches d'interface*
+
 Les couches d'interface forment une surface plus uniforme entre l'objet et les supports. Celles-ci sont de préférence définies sur un motif beaucoup plus dense que les couches normales de support afin que vous puissiez à la fois maximiser la surface du support en contact avec le modèle pour éviter l'affaissement tout en minimisant le temps d'impression et le matériau utilisé avec un espacement de motif de support plus grand.
 
 Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports.
 
 #### *Espacement du motif d’interface*
+
 Espacement entre les lignes des motifs d’interface.
 
 Mettre à zéro pour obtenir des motifs d’interface pleins.
 
 #### *Boucles d’interface*
+
 Recouvrir la couche de contact supérieure des supports avec des boucles.  Va créer des boucles autour du modèle.
 
 ![Image : Boucles d’interface](./images/107.png)
@@ -1200,6 +1203,7 @@ Désactivé par défaut.
 ![Image : Options pour l’interface des supports](./images/108.png)
 
 ## Vitesse
+
 Section de réglage des vitesses dans le logiciel.
 
 ![Image : Panneau de réglage des vitesses](./images/109.png) 
@@ -1276,9 +1280,11 @@ Possibilité de définir la vitesse pour les axes **X/Y** et **Z** différencié
 Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à tous les déplacements d'impression de la première couche, quel que soit leur type. Si exprimée comme un pourcentage (par exemple 40%), cela modulera la vitesse par défaut.
 
 ##### *Remplissage* 
+
 Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
 
 ##### *Petite vitesse périphérique *
+
 Ces paramètres permettent de définir la notion de petit périmètre.
 
 ##### *Longueur minimale*
@@ -1296,6 +1302,7 @@ Peut être exprimé en mm ou un % du diamètre de la buse.
 ##### *Vitesse*
 
 **Ce réglage distinct affectera la vitesse des périmètre ayant un rayon <= 6.5mm (les trous habituellement). Si cette valeur est exprimée en pourcentage (par exemple: 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée.**
+
 Réglez sur zéro pour un ajustement automatique.
 
 ![Image : Modificateurs](./images/113.png)
@@ -1379,7 +1386,7 @@ Exemples :
 
 ##### *Hotends*
 
-La vitesse volumétrique maximale globale que vous devez utiliser dépend de votre hotend. La hotend E3D V6 livrée avec l'Original Prusa i3 MK3/S est annoncée avec un taux de 15 mm3/s. Une valeur sécuritaire qui laisse un peu de place pour une configuration imparfaite (tension de la roue libre, buse légèrement bouchée) de 11,5 mm3/ s est réaliste.
+La vitesse volumétrique maximale globale que vous devez utiliser dépend de votre hotend. Par exemple, la hotend E3D V6 livrée avec l'Original Prusa i3 MK3/S est annoncée avec un taux de 15 mm3/s. Une valeur sécuritaire qui laisse un peu de place pour une configuration imparfaite (tension de la roue libre, buse légèrement bouchée) de 11,5 mm3/s est réaliste.
 
 Si vous devez pousser plus de filament, une hotend plus puissante sera nécessaire. La hotend Volcano d'E3D augmente ce paramètre à environ 25 mm3/s mais nécessite la modification de l'imprimante et du firmware. D'autres types de hotend permettent des débits encore plus élevés.
 
@@ -1441,9 +1448,11 @@ Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Première couche*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour la première couche. Vous pouvez procéder ainsi pour obtenir des extrudats plus épais afin d’avoir une meilleure adhérence. Si la valeur est exprimée en pourcentage (par exemple : 120%), elle sera calculée par rapport à la hauteur de la première couche. Si elle est réglée sur zéro, elle utilisera la largeur d’extrusion par défaut.
 
 #### *Périmètre*
+
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement une largeur d’extrusion pour les périmètres. Vous voudrez peut-être utiliser des extrudats plus fin pour obtenir des surfaces plus nettes. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 200%), elle sera calculée par rapport à la hauteur de couche.
 
 #### *Périmètre extérieure*
@@ -1504,11 +1513,13 @@ Cette option applique un chevauchement supplémentaire entre les périmètres et
 Chevauchement à 25% à gauche, 50% à droite.
 
 #### *Recouvrement des ponts*
+
 Quantité de chevauchement entre les lignes du pont. Si vous voulez plus d'espace entre les lignes (ou moins), vous pouvez le modifier. La valeur par défaut est de 100%. Une valeur de 50% créer deux fois moins de lignes.
 
 ### Débit
 
 #### *Ratio de débit pour les ponts*
+
 Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouvez le diminuer légèrement pour éviter l'affaissement. La valeur par défaut est généralement suffisante et vous devriez expérimenter le refroidissement (utiliser un ventilateur) avant de modifier ceci.
 
  ![Image : Variation du débit pour les parties en surplomb](./images/130.png)
@@ -1541,21 +1552,27 @@ Note : A 100%, cela change le débit de ~5% sur une très petite distance (~diam
 ## Extrudeurs multiples
 
 ### Extrudeuses
+
 Définition des extrudeuses à utiliser pour la création des différentes parties de l’impression.
 
 #### *Extrudeur pour les périmètres*
+
 L'extrudeuse à utiliser pour imprimer les périmètres et la bordure. La première extrudeuse a le numéro 1.
 
 #### *Extrudeur pour le remplissage*
+
 L'extrudeuse à utiliser pour imprimer le remplissage.
 
 #### *Extrudeur pour le remplissage plein*
+
 L'extrudeuse à utiliser pour imprimer les remplissages pleins.
 
 #### *Extrudeur pour support/radeau/bordure*
+
 L'extrudeuse à utiliser pour imprimer des supports, du radeau ou des contours (1+,0 pour utiliser l'extrudeur actuel et limiter les changements de filament).
 
 #### *Extrudeur pour l’interface des supports/du radeau*
+
 L'extrudeur à utiliser pour imprimer les intercalaires du support (1+,0 pour utiliser l'extrudeur actuel et limiter les changements d'outil). Cela affecte également le raft.
 
 ![Image : Extrudeurs](./images/132.png)
@@ -1724,6 +1741,7 @@ Vitesse de l’outil de fraisage.
 Si vous voulez traiter le G-code de sortie à l'aide de scripts personnalisés, listez simplement leurs chemins absolus ici. Séparez les divers scripts avec un point-virgule. Les scripts vont recevoir en premier argument le chemin absolu du fichier G-code, et ils peuvent accéder aux réglages de configuration de SuperSlicer en lisant des variables d'environnement.
 
 ### Exemple de Post-traitement SuperSlicer G-Code
+
 Ces notes sont basées sur mes expériences avec les imprimantes Ender 3 de Creality. Si vous utilisez une autre imprimante, veuillez vérifier que les détails du fonctionnement sont similaires.
 
 Il y a certaines choses que SuperSlicer ne fait tout simplement pas. La possibilité de modifier automatiquement le G-code est fournie par des scripts de post-traitement. Les scripts peuvent être écrits dans différents langages, mais vous êtes responsable de l'installation et de la configuration du langage de programmation et des fichiers de support sur votre système.
@@ -1786,6 +1804,8 @@ Vous pouvez inscrire ici vos commentaires personnels. Ce texte sera ajouté aux 
 
 
 ## Dépendances
+
+Section à compléter.
 
 Page suivante [Réglages du filament](../filament_settings/filament_settings.md)
 
