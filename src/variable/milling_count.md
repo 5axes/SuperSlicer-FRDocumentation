@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Fonctionnalités
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - [Fonctionnalités](../printer_settings/printer_settings.md#fonctionnalités)
 * Mode : Avancé
 
 ## Fraises
