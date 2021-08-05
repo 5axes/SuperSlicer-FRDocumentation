@@ -2,7 +2,7 @@
 
 * Technologie : FDM / SLA
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Général - Taille et coordonnées
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Taille et coordonnées
 * Mode : Avancé
 
 ## Forme du plateau

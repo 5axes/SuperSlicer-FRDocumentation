@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Général - Ventilateur de refroidissement
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Ventilateur de refroidissement
 * Mode : Avancé
 
 ## *Accélération* Uniquement pour les surplombs

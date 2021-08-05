@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Général - Firmware 
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Firmware 
 * Mode : Avancé
 
 ## Supporte le mode silencieux

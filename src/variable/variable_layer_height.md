@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Général - Avancé
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Avancé
 * Mode : Expert
 
 ## Activer la fonction de hauteur de couche variable

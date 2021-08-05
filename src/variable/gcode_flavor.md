@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Générale - Firmware
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) - Firmware
 * Mode : Avancé
 
 ## Version du G-Code
