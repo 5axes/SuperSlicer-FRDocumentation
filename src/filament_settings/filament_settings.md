@@ -73,10 +73,10 @@ Température du plateau pour les couches après la première. Mettez ceci à zé
 
 Paramètre permettant de définir la température dans l’enceinte de la machine pour les imprimantes fermées.
 
-### Propriété du filament
+### Propriétés du filament
 ![Image : Propriété du filament](./images/004.png)
 
-#### *Type de filament*
+#### *[Type de filament](../variable/filament_type.md)*
 
 Le type de matériau de filament à utiliser dans les G-codes personnalisés.
 
