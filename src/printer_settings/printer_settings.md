@@ -115,18 +115,22 @@ Permet de définir le nombre de chiffres après le point pour les coordonnées *
 ![Image : Options Ventilateur de refroidissement](./images/008.png) 
 
 #### *Accélération*
-Temps d’accélération : Permet de déplacez le démarrage du ventilateur dans le passé d'au moins ce délai (en secondes, vous pouvez utiliser des décimales). Il suppose une accélération infinie pour cette estimation de temps et ne prendra en compte que les déplacements G1 et G0. 
+
+Temps d’accélération : Permet d'anticiper le démarrage du ventilateur d'au moins ce délai (en secondes, vous pouvez utiliser des décimales).
+Il suppose une accélération infinie pour cette estimation de temps et ne prendra en compte que les déplacements G1 et G0. 
 
 > Utilisez 0 pour désactiver.
 
 L’option ***Uniquement pour les surplombs***, ne tiendra compte que du délai pour le refroidissement des surplombs.
 
 #### *Durée de la phase de démarrage*
+
 Ajoutez un M106 S255 (vitesse maximale du ventilateur) pendant ce nombre de secondes avant de passer à la vitesse désirée pour démarrer le ventilateur de refroidissement.
 
 > Réglez à 0 pour désactiver.
 
 #### *Réglage ventilateur de 0-100*
+
 Définissez cette option si votre imprimante utilise des valeurs de contrôle de 0 à 100 au lieu de 0 à 255.
 
 ### Vignettes
