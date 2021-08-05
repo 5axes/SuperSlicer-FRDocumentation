@@ -964,7 +964,7 @@ Distance entre la bordure et la pièce. Doit être maintenue à 0, sauf si vous 
 ![Image : Options Bordure](./images/093.png)
 
 ## Support
-Les imprimantes 3D fonctionnent en posant une couche sur une couche de plastique pour créer un objet 3D. Chaque nouvelle couche doit être supportée par celle qui se trouve en dessous. Si une partie de votre modèle commence dans les airs et n'est supportée par aucun élément en dessous, vous devez ajouter une structure de support supplémentaire pour garantir une impression réussie.
+Les imprimantes 3D fonctionnent en posant une couche sur une couche de plastique pour créer un objet 3D. Chaque nouvelle couche doit être supportée par celle qui se trouve en dessous. Si une partie de votre modèle commence dans le vide et n'est supportée par aucun élément en dessous, vous devez ajouter une structure de support supplémentaire pour garantir une impression réussie.
 
 Cela vaut la peine d'envisager de modifier l'orientation du modèle ou de diviser le modèle en plusieurs parties afin de réduire éventuellement les surplombs et par conséquent la quantité de supports générés.
 

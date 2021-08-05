@@ -101,7 +101,7 @@ Vous avez peut-être remarqué que les impressions **SLA** sont souvent placées
 
 Laisser les objets croître progressivement sous un angle est généralement le moyen le plus sûr d'obtenir de belles impressions. Cela dit, **certains objets peuvent être placés directement sur la plateforme d'impression** pour obtenir de meilleurs résultats.
 
-Dans la majorité des cas, l'objet aura plus d'une seule bonne orientation. Cela se produit généralement avec les bijoux ou diverses statues. La règle générale ici est d'essayer de faire pivoter l'objet d'une manière qui minimisera le nombre de points où l'objet commencerait dans les airs. Nous appelons ces points des îles. Ces zones ne peuvent pas être imprimées sans supports - et comme il est généralement préférable d'éviter d'utiliser des supports, vous devriez toujours essayer de trouver une meilleure orientation.
+Dans la majorité des cas, l'objet aura plus d'une seule bonne orientation. Cela se produit généralement avec les bijoux ou diverses statues. La règle générale ici est d'essayer de faire pivoter l'objet d'une manière qui minimisera le nombre de points où l'objet commencerait dans le vide. Nous appelons ces points des îles. Ces zones ne peuvent pas être imprimées sans supports - et comme il est généralement préférable d'éviter d'utiliser des supports, vous devriez toujours essayer de trouver une meilleure orientation.
 
 Vous disposez de 3 outils pour modifier l'orientation des objets :
 

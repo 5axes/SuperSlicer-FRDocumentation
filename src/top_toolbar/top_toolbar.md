@@ -99,7 +99,7 @@ Parfois, cela est fait exprès, par exemple, lorsque vous exportez l'intégralit
 ### Scinder en pièces
 
 - Conserve une seule instance du modèle dans la scène, mais crée plusieurs pièces.
-- Les pièces restent à leur emplacement d'origine, même si elles flottent dans les airs au-dessus du plateau d'impression
+- Les pièces restent à leur emplacement d'origine, même si elles flottent dans le vide au-dessus du plateau d'impression
 - Habituellement utilisé pour diviser les modèles MMU sans désaligner les pièces individuelles.
 
 ![Image : Diviser en objets (à gauche) et Scinder en pièce (à droite) (Image Prusa)](./images/017.jpeg)

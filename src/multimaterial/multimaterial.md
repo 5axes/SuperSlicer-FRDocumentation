@@ -150,7 +150,7 @@ La tour de Purge est rarement pleine. Au lieu de cela, le rapport de remplissage
 
 **Line d'expulsion de la tour de Purge**
 
-Si vous voyez une ligne en l'air au-dessus de la tour de Purge, c'est **normal**. C'est la visualisation de l'expulsion finale de l'extrudeur avant qu'il ne décharge le dernier filament utilisé (afin de créer une pointe acérée).
+Si vous voyez une ligne dans le vide au-dessus de la tour de Purge, c'est **normal**. C'est la visualisation de l'expulsion finale de l'extrudeur avant qu'il ne décharge le dernier filament utilisé (afin de créer une pointe acérée).
 
 ![Image : Line d'expulsion de la tour de Purge](./images/012.png)
 

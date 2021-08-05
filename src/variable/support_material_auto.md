@@ -19,7 +19,7 @@ Ce réglage permet de créer des structures de support pour soutenir l'objet pen
 
 L'impression d'un support prend beaucoup de temps et de matière. Lorsque le support touche le modèle, il doit être enlevé plus tard, une fois l'impression terminée. Cela a tendance à laisser une cicatrice sur la surface.
 
-Cependant, le support est parfois complètement nécessaire. Par exemple, si le modèle comporte un morceau qui pointe vers le bas en direction de la plaque de construction, ce morceau serait sinon simplement suspendu en l'air.
+Cependant, le support est parfois complètement nécessaire. Par exemple, si le modèle comporte un morceau qui pointe vers le bas en direction de la plaque de construction, ce morceau serait sinon simplement suspendu dans le vide.
 
 #### Conception pour empêcher le support
 
