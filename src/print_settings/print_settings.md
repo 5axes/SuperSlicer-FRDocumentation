@@ -984,7 +984,7 @@ Les morceaux de supports peuvent être étonnamment tranchants et sont parfois v
 ### Supports partout
 Les supports peuvent se développer à la fois à partir du plateau d'impression et de toute surface de modèle si nécessaire. 
 
-Cela garantit que chaque surplomb et toutes les parties commençant en l'air seront supportées. Cependant, de petites imperfections peuvent apparaître sur la surface où les supports ont commencé à se développer.
+Cela garantit que chaque surplomb et toutes les parties commençant dans le vide seront supportées. Cependant, de petites imperfections peuvent apparaître sur la surface où les supports ont commencé à se développer.
 
 ![Image :* Gestion du mode de supports depuis le ***panneau de droite**](./images/094.png)
 
@@ -1499,7 +1499,9 @@ Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouv
 
 #### *Ratio de débit Au-dessus des ponts*
 
-Ratio de débit permettant de compenser les lacunes d'une surface supérieure pontée. Utilisé pour l'étirage du motif de remplissage pour éviter les régions où la passe à faible débit ne permet pas fournir une surface lisse en raison d'un manque de plastique. Vous pouvez l'augmenter légèrement pour tirer la couche supérieure à la bonne hauteur. Maximum recommandé : 120%.
+Ratio de débit permettant de compenser les lacunes des couches au dessus des ponts. Utilisé pour l'étirage du motif de remplissage pour éviter les régions où la passe à faible débit ne permet pas fournir une surface lisse en raison d'un manque de plastique. Vous pouvez l'augmenter légèrement pour obtenir la couche supérieure à la bonne hauteur. 
+
+Maximum recommandé : 120%.
 
 #### *Ratio de débit Remplissage du dessus*
 
