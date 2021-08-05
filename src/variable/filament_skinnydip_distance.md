@@ -7,7 +7,7 @@
 
 ## Distance d'insertion
 
-### Description
+### Description	
 
 Pour les extrudeuses standard, généralement de 40 à 42 mm. Pour une imprimante avec une extrudeuse de type [Bondtech](https://www.bondtech.se/), généralement de 30 à 32 mm.
 
