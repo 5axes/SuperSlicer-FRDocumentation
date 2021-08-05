@@ -2,7 +2,7 @@
 
 * Technologie : SLA
 * Groupe : [Réglages de l'Impression](../sla_printer/sla_parameters.md)
-* Sous groupe : [Support](../print_settings/print_settings.md#support)s - Génération automatique
+* Sous groupe : [Support](../print_settings/print_settings.md#support) - Génération automatique
 * Mode : Simple
 
 ## Densité des points de supports
