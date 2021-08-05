@@ -21,7 +21,7 @@
 
 ![Image : Réglage du filament](./images/002.png)
 
-#### *Couleur*
+#### *[Couleur](../variable/filament_colour.md)*
 
 Ceci est utilisé dans l'interface de SuperSlicer uniquement en tant qu’indication visuelle.
 
