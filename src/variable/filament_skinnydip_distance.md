@@ -9,7 +9,7 @@
 
 ### Description
 
-Pour les extrudeuses standard, généralement de 40 à 42 mm. Pour la mise à niveau par l'extrudeuse bondtech, généralement de 30 à 32 mm.
+Pour les extrudeuses standard, généralement de 40 à 42 mm. Pour une imprimante avec une extrudeuse de type [Bondtech](https://www.bondtech.se/), généralement de 30 à 32 mm.
 
 Commencez avec une valeur faible et augmentez-la progressivement jusqu'à ce que les fils disparaissent.
 
