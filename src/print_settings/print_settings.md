@@ -959,11 +959,12 @@ Motif pour le coin. Le concentrique est celui par défaut. Le rectiligne a un p�
 
 
 #### *Décalage de la bordure*
-Distance entre la bordure et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à brim_width et brim_width_interior, elle doit donc être inférieure à celles-ci.
+Distance entre la bordure et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à [brim_width](../variable/brim_width.md) et [brim_width_interior](../variable/brim_width_interior.md), elle doit donc être inférieure à celles-ci.
 
 ![Image : Options Bordure](./images/093.png)
 
 ## Support
+
 Les imprimantes 3D fonctionnent en posant une couche sur une couche de plastique pour créer un objet 3D. Chaque nouvelle couche doit être supportée par celle qui se trouve en dessous. Si une partie de votre modèle commence dans le vide et n'est supportée par aucun élément en dessous, vous devez ajouter une structure de support supplémentaire pour garantir une impression réussie.
 
 Cela vaut la peine d'envisager de modifier l'orientation du modèle ou de diviser le modèle en plusieurs parties afin de réduire éventuellement les surplombs et par conséquent la quantité de supports générés.
@@ -982,6 +983,7 @@ Lorsque l'impression se termine, selon la géométrie du modèle et le matériau
 Les morceaux de supports peuvent être étonnamment tranchants et sont parfois violemment éjectés dans une direction aléatoire après leur retrait. Lorsque vous rencontrez des supports difficiles à retirer, pensez à porter des lunettes de protection (cela semble stupide jusqu'à ce que vous soyez touché à l'œil pour la première fois).
 
 ### Supports partout
+
 Les supports peuvent se développer à la fois à partir du plateau d'impression et de toute surface de modèle si nécessaire. 
 
 Cela garantit que chaque surplomb et toutes les parties commençant dans le vide seront supportées. Cependant, de petites imperfections peuvent apparaître sur la surface où les supports ont commencé à se développer.
@@ -1034,9 +1036,11 @@ Une autre utilisation intéressante des générateurs de supports est de diviser
 Les supports sont désactivés sauf si un modèle a un écrasement pour ce paramètre.
 
 #### *Supports générés automatiquement*
+
 Lorsque cette option est désactivée, la détection de surplomb est désactivée. Seuls les générateurs de supports génèrent des supports.
 
 #### *Seuil de surplomb*
+
 La valeur de seuil de surplomb représente la pente la plus horizontale (mesurée à partir du plan horizontal) que vous pouvez imprimer sans support (90 = vertical).
 
 La modification de cette valeur est un moyen rapide d'ajuster la quantité de supports générés.
@@ -1061,6 +1065,7 @@ L’option **Générer des supports** doit être activé à minima pour obtenir 
 ### Radeau
 
 #### *Première couche pleine*
+
 Dépose une couche pleine sur le plateau à la place d'un radeau.
 
 ![Image : Première Couche pleine à droite / Radeau classique à gauche](./images/099.png) ![](./images/100.png)
@@ -1068,17 +1073,20 @@ Dépose une couche pleine sur le plateau à la place d'un radeau.
 Première Couche pleine à droite / Radeau classique à gauche.
 
 #### *Couches du radeau*
+
 L'objet sera surélevé de ce nombre de couches et des supports seront générés en-dessous. Une fois l'impression terminée, vous pouvez saisir le radeau et le décoller de la pièce.
 
 ![Image : Option pour les radeaux](./images/101.png)* 
 
 ### Options pour le matériau de support et le radeau
+
 ![Image : Options pour le matériau de support et le radeau](./images/102.png)
 
 Options pour le matériau de support et le radeau.
 
 
 #### *Distance de contact Z*
+
 La distance verticale entre l'objet et l'interface du support.
 
 La définition de cette valeur à 0 empêchera SuperSlicer d'utiliser le débit et la vitesse des ponts pour la première couche de l'objet.
@@ -1089,6 +1097,7 @@ Des valeurs comprises entre 50 et 75% de la hauteur de la couche semblent bien f
 
 
 ##### *Type*
+
 Comment calculer la distance de contact verticale Z.
 
 - ***Depuis le filament*** : il utilise le morceau le plus proche du filament. Lorsqu'un pont est extrudé, il passe en dessous du plan actuel.
@@ -1098,12 +1107,15 @@ Comment calculer la distance de contact verticale Z.
 - ***Aucune (soluble)*** : pas de distance de contact verticale Z. Utile pour les supports solubles. 
 
 ##### *Dessus*
+
 Distance verticale entre l’interface du support et l’objet (lorsque l’objet est imprimé sur le support).
 
 Définir ce paramètre à 0 empêchera également SuperSlicer d’utiliser le flux et la vitesse de pont pour le premier calque d’objet.
 
 Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couches d'interface.
+
 ##### *Dessous*
+
 La distance verticale entre l’objet et l’interface du support (lorsque le support est imprimé sur l’objet).
 
 Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couches d'interface.
@@ -1114,9 +1126,11 @@ Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couc
 - ***Nid d'abeille*** - robuste, un peu difficile à enlever
 
 #### *Avec une enveloppe autour du support*
+
 Crée un périmètre unique autour des supports, ce qui les rend plus robustes, mais plus difficiles à retirer.
 
 #### *Espacement du motif*
+
 Espacement entre les lignes des supports. Augmentez-le pour faciliter le retrait des supports. Les couches d'interface du support pontent sur les lignes des supports, si vous augmentez trop cette valeur, ces ponts commenceront à s'affaisser et auront une connexion imparfaite avec le modèle.
 
 Mettre à zéro pour obtenir des supports pleins.
@@ -1127,9 +1141,11 @@ Attention non seulement ce paramètre va jouer sur la distance entre les lignes 
 
 
 #### *Angle du motif*
-Angle des lignes d'interface.
+
+Angle des lignes du motif d'interface.
 
 #### *Supports sur le plateau uniquement*
+
 Les supports ne peuvent démarrer que sur le plateau d'impression. L'activation de cette option est un moyen très rapide de se débarrasser des supports excédentaires, principalement sur les formes organiques. Assurez-vous de vérifier l'aperçu et de vérifier que toutes les parties sont supportées ou à un angle de surplomb gérable par l'imprimante.
 
 ![Image : Supports partout (à gauche) vs Support sur le plateau uniquement (à droite)](./images/105.png)
@@ -1137,6 +1153,7 @@ Les supports ne peuvent démarrer que sur le plateau d'impression. L'activation 
 Supports partout (à gauche) vs Support sur le plateau uniquement (à droite).
 
 #### *Séparation XY entre un objet et ses supports*
+
 Définit la largeur de l'espace entre le modèle et les supports. Une plus grande séparation XY diminue le contact des supports mais les rend plus faciles à retirer et moins sujets à la fusion avec le modèle.
 
 Si exprimée en pourcentage (par exemple 150%), elle sera calculée à partir de la largeur du périmètre externe.
@@ -1145,21 +1162,23 @@ Si exprimée en pourcentage (par exemple 150%), elle sera calculée à partir de
 
 
 #### *Ne pas supporter les ponts*
-Empêche la génération de supports sous les ponts.
+
+Cette option, empêche la génération de supports sous les ponts.
 
 #### *Synchroniser avec les couches de l'objet*
+
 Les supports seront imprimés à des hauteurs de couche égales au modèle lui-même. Ceci est utile avec les imprimantes multi-matériaux, où le changement d'extrudeur est coûteux.
 
 ### Options pour l’interface des supports
 
 #### *Motif*
-- ***Rectiligne***- par défaut, généralement le plus facile à supprimer
-- ***Monotone –*** Comme rectilinéaire mais en remplissage continue
-- ***Concentrique :*** Concentrique***.***
-- ***Concentrique Remplit :*** Concentrique avec remplissage des espaces
-- ***Courbe de Hilbert :*** Courbe de Hilbert
-- ***Dent de scie :*** Motif en dent de scie
-- ***Lissage	:*** Permet de réaliser un lissage de la dernière couche.
+- ***[Rectiligne](../pattern/rectilinear.md)*** : par défaut, généralement le plus facile à supprimer
+- ***Monotone***  : Comme rectiligne mais en remplissage continue
+- ***Concentrique*** : Concentrique
+- ***Concentrique Remplit*** : Concentrique avec remplissage des espaces
+- ***Courbe de Hilbert*** : Courbe de Hilbert
+- ***Dent de scie*** : Motif en dent de scie
+- ***Lissage*** : Permet de réaliser un lissage de la dernière couche.
 
 #### *Couches d'interface*
 Les couches d'interface forment une surface plus uniforme entre l'objet et les supports. Celles-ci sont de préférence définies sur un motif beaucoup plus dense que les couches normales de support afin que vous puissiez à la fois maximiser la surface du support en contact avec le modèle pour éviter l'affaissement tout en minimisant le temps d'impression et le matériau utilisé avec un espacement de motif de support plus grand.
