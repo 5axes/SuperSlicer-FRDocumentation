@@ -9,9 +9,10 @@
 
 ### Description
 
-Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela vous aidera à choisir l'ordre dans lequel ils seront imprimés :
-- **Panneau de droite** les objets seront imprimés selon l'ordre des objets indiqué dans le panneau à droite de l'écran.
-- **Le plus bas Y** les objets seront imprimés en fonction de leur point Y le plus bas. Utile pour les imprimantes avec une barre X.
-- **Le plus bas Z** les objets seront imprimés par leur hauteur, utile pour les imprimantes delta.
+Lorsque vous imprimez plusieurs objets ou copies, ce réglage permet de terminer un objet avant de passer au suivant  (en repartant de sa première couche). Cette fonction est utile pour éviter les risques d'impressions gâchées.
+Normalement SuperSlicer doit vous avertir et éviter les collisions entre les objets et l'extrudeuse, mais soyez vigilant.
+
+L'option [Tri des objets](complete_objects_sort.md) vous permet de choisir si vous choisissez ce mode d'impression l'ordre dans lequel ils seront imprimés.
+
 
 [Retour Liste variables](variable_list.md)
