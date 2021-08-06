@@ -18,7 +18,9 @@
 ![Barre d'outils de gauche](./images/008.png)
 
 ## Outils Déplacer, Pivoter et Redimensionner
+
 ### Déplacer
+
 Les objets peuvent être déplacés par un glisser avec le clic gauche de la souris même lorsque l'outil de déplacement est inactif. L'activation de l'outil Déplacer **M** affiche un manipulateur 3D, qui permet à l'utilisateur d'ajuster la position de l'objet sur l'axe X, Y ou Z.
 
 - Déplacement par incréments de 1 mm appuyer sur **Majuscule**
@@ -31,6 +33,7 @@ Les objets peuvent être déplacés par un glisser avec le clic gauche de la sou
 Si besoin vous pouvez toujours utiliser la fonction découper pour enlever les parties que vous ne voudriez pas imprimer.
 
 ### Pivoter
+
 L'outil Rotation (**R**) affiche un manipulateur 3D, qui permet à l'utilisateur de faire pivoter l'objet autour de l'axe X, Y ou Z. Dès que l'utilisateur saisit l'une des poignées des axes, deux ensembles de guides circulaires blancs apparaissent. Si vous passez la souris sur ces guides, la rotation passera de continue à des rotations pas à pas.
 
 - Positionnement souris sur _**Cercle extérieur / marques courtes incréments de 5 degrés**_
@@ -40,6 +43,7 @@ L'outil Rotation (**R**) affiche un manipulateur 3D, qui permet à l'utilisateur
 
 
 ### Redimensionner
+
 L'outil Redimensionner (**S**) affiche un manipulateur 3D, qui permet à l'utilisateur de redimensionner l'objet soit uniformément, en saisissant l'une des cubes d'angle, soit de manière non uniforme, en saisissant la poignée de l'axe X, Y ou Z.
 
 Par défaut, le redimensionnement est symétrique, les deux côtés du modèle s'étendent uniformément et le centre reste en place. En maintenant la touche **Ctrl** enfoncée avant de saisir l'une des poignées **X**, **Y** ou **Z** bascule le mode sur non symétrique.
@@ -51,6 +55,7 @@ Par défaut, le redimensionnement est symétrique, les deux côtés du modèle s
 
 
 ## Outil d’orientation selon une face
+
 Il est possible qu'un modèle soit mal orienté après l'importation. Cela se produit en particulier lorsque le modèle a été exporté à partir d'un logiciel de modélisation 3D qui utilise une orientation d'axe différente. La façon **la plus rapide** de faire pivoter le modèle dans les bonnes orientations est d'utiliser l'outil ***Placer sur une face***  (**F**).
 
 ***Sélectionnez d'abord un modèle*** que vous souhaitez réorienter. Appuyez ensuite sur la touche **F** ou choisissez l'**Outil positionner sur la surface** dans la barre d'outils de gauche. Plusieurs plans blancs apparaîtront sur le modèle. Un clic sur l'un des plans blancs alignera ce plan sur le plateau d'impression.
@@ -78,6 +83,7 @@ Vous pouvez choisir de supprimer la partie supérieure ou inférieure en décoch
 Pour couper le modèle le long de différents axes, faites d'abord pivoter le modèle, puis effectuez la coupe.
 
 ## Peinture des supports
+
 Cet outil est disponible à partir de la **Version 2.3 de SuperSlicer** 
 
 SuperSlicer est un outil qui vous permet de peindre directement sur l'objet et de sélectionner les zones où les supports doivent être **renforcés** ou **bloqués**.
@@ -102,11 +108,13 @@ L'outil est disponible dans la barre d'outils de gauche et **n'est affiché qu'e
 **N'oubliez pas d'activer les supports** si vous voulez les générer réellement. Par défaut, la génération de support est définie sur **Aucun** dans le panneau de droite.
 
 #### *Renforcer les supports*
+
 Si vous définissez manuellement des zones de support, il est plus logique de changer les supports pour **les renforts de support uniquement.** 
 
 Bien entendu, vous pouvez également définir les supports sur **Partout** ou **depuis la plaque de construction uniquement** et utiliser les renforts de support pour marquer les zones supplémentaires qui doivent être soutenues. Ce deuxième cas d'utilisation est utile si vous fixez le seuil de porte-à-faux très bas, de sorte que seuls les porte-à-faux très raides obtiennent des appuis générés automatiquement.
 
 #### *Bloquer les supports*
+
 Si vous utilisez des bloqueurs de support, vous devez changer les supports à **Partout**   ou **depuis la plaque de construction uniquement**. Ces modes activent également les **supports générés automatiquement** dans Paramètres d'impression - Support. Les supports seront désormais générés en fonction du S*euil de surplomb défini*, sauf pour la zone bloquée par les bloqueurs de support peints.
 
 #### *Renfoncer et bloquer les supports en même temps*
@@ -115,13 +123,17 @@ Avec des modèles très complexes, il est possible que vous souhaitiez utiliser 
 **NOTE IMPORTANTE :** Votre sélection ne sera pas complètement respectée lorsque la région peinte est très petite. Le générateur de support lui-même fonctionne sur un réseau interne, de sorte que les zones supportées/non supportées ne sont pas détaillées à l'infini.
 
 ### Forme du pinceau
+
 #### *Sphérique (par défaut)*
+
 Peint tout ce qui se trouve à l'intérieur de la sphère, qu'il soit visible ou non de la vue courante. C'est la méthode préférée dans la plupart des cas.
 
 #### *Circulaire*
+
 Peint tous les endroits visibles à l'intérieur du cercle à partir de la vue actuelle, en laissant éventuellement des zones non peintes, mais en ne peignant jamais derrière les coins.
 
 ### Plan de découpage
+
 Vous pouvez utiliser l'outil plan de découpage pour cacher une partie de l'objet, de sorte que les zones difficiles d'accès puissent être facilement peintes. Déplacez le curseur de gauche à droite pour déplacer le plan de découpe.
 
 ![](./images/016.png)
@@ -129,21 +141,25 @@ Vous pouvez utiliser l'outil plan de découpage pour cacher une partie de l'obje
 Le bouton **Réinitialiser la direction** permet d'aligner l'outil de plan de découpe parallèlement à la vue actuelle de la caméra. Par exemple, si vous voulez que le plan de découpe se déplace de haut en bas, regardez le modèle du haut (**Vue de dessus 1**) et appuyez sur le bouton ***Réinitialiser la direction***. Le bouton apparaît lorsque vous déplacez le curseur vers une valeur non nulle.
 
 ### Réglage automatique par angle
+
 Le bouton ***Automatique par angle*** permet de sélectionner tous les triangles qui sont "plus horizontaux" qu'un seuil. Il peut être utilisé par défaut pour une édition manuelle ultérieure afin de s'assurer qu'aucun débord n'est laissé sans support. Une autre utilisation est de simplement prévisualiser les surplombs et de décider où vous voulez peindre les renforts. Les triangles de surplomb sont visualisés en **temps réel** pendant que le seuil est ajusté.
 
 ![Image : Réglage selon l’angle](./images/autoset.gif)
 
 ### Défaire et refaire
+
 Pendant que l'outil de support de la peinture est ouvert, un nouvel historique d'annulation et de rétablissement est créé. Vous pouvez annuler chaque trait de peinture que vous avez effectué (application de peinture, blocage, effacement).
 
 Une fois que vous quittez l'outil ***Supports de peinture***, tous les traits de la dernière session de peinture sont fusionnés en une seule étape dans l'historique global d'annulation et de rétablissement.
 
 ### Sauver les supports Peint au format 3MF
+
 Lorsque vous utilisez le projet **Fichier – Sauvegarder le Projet**, le fichier 3MF généré comprendra toutes les informations relatives aux supports Peint. Cela signifie que vous pouvez personnaliser les supports peints à l'avenir, une fois que vous aurez réouvert le fichier dans SuperSlicer.
 
 C'est très utile si vous voulez **partager votre modèle**. D'autres personnes pourront utiliser vos supports peints et les modifier librement.
 
 ## Peinture des coutures 
+
 Cet outil est disponible à partir de la **version 2.3 de SuperSlicer.**
 
 A moins que vous n'imprimiez en mode "vase en spirale", chaque boucle du périmètre doit commencer et se terminer quelque part. De plus, l'imprimante doit s'arrêter d'extruder pendant un bref instant lorsque la tête d'impression passe à la couche suivante. Ce point de départ/fin crée une **couture verticale** potentiellement visible sur le côté de l'objet. C'est ce que l'on appelle communément des boutons, des coutures de couche ou des cicatrices.
@@ -166,6 +182,7 @@ L'outil de peinture des joints permet un contrôle plus détaillé de l'emplacem
 
 
 ### Logique de placement des coutures
+
 S'il y a une zone de couture, SuperSlicer place toujours des coutures dans la zone définie.
 
 S'il y a un bloqueur, sa zone est exclue des éventuels zones candidates au positionnement de la couture.
@@ -173,6 +190,7 @@ S'il y a un bloqueur, sa zone est exclue des éventuels zones candidates au posi
 Les options de position de la couture basées sur les coûts, de la couture arrière et de la couture aléatoire sont toujours respectées. Lorsque l'option Aligné est active et que des renforts sont utilisés, la couture est placée au **milieu de la zone imposée**. Cela permet de dessiner des coutures propres sur le modèle.
 
 #### Alignement de la couture
+
 La couture va se positionner sur la zone peinte, mais si vous désirez que la couture soit toujours du même côté. Pensez à sélectionner l’option : **Positionnement des jointures : Aligné**
 
 ![Image : Position de la jointure Aligné](./images/021.png)
@@ -181,18 +199,23 @@ La couture va se positionner sur la zone peinte, mais si vous désirez que la co
 Définition de la zone de couture avec un positionnement aléatoire puis aligné.
 
 ### Type de pinceau
+
 #### *Pinceau sphérique (par défaut)*
+
 Peint tout ce qui se trouve à l'intérieur de la sphère, qu'il soit visible ou non de la vue courante. C'est la méthode préférée dans la plupart des cas.
 
 #### *Pinceau circulaire*
+
 Peint tous les endroits visibles à l'intérieur du cercle à partir de la vue actuelle, en laissant éventuellement des zones non peintes, mais en ne peignant jamais derrière les coins.
 
 ### Plan de découpage
+
 Vous pouvez utiliser l'outil plan de découpage pour cacher une partie de l'objet, de sorte que les zones difficiles d'accès puissent être facilement peintes. Déplacez le curseur de gauche à droite pour déplacer le plan de découpe.
 
 ![](./images/019.png) ![](./images/020.png)
 
 Le bouton **Réinitialiser la direction** permet d'aligner l'outil de plan de découpe parallèlement à la vue actuelle de la caméra. Par exemple, si vous voulez que le plan de découpe se déplace de haut en bas, regardez le modèle du haut (**Vue de dessus 1** ) et appuyez sur le bouton Réinitialiser la direction. Le bouton apparaît lorsque vous déplacez le curseur vers une valeur non nulle.
+
 
 Page suivante :  [Barre d’outils du haut](../top_toolbar/top_toolbar.md)
 
