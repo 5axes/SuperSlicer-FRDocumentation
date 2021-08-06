@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie) - Impression séquentielle
+* Sous groupe : [Options de sortie](../print_settings/print_settings.md#options-de-sortie) - [Impression séquentielle](../print_settings/print_settings.md#impression-séquentielle)
 * Mode : Avancé
 
 ## Compléter les objets individuels
