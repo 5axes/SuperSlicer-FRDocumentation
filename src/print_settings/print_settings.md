@@ -1661,7 +1661,7 @@ Distance utilisée par la fonction d'agencement automatique du plateau. Pour dé
 
 Lorsque vous imprimez plusieurs objets à la fois, vous pouvez choisir de les réaliser séquentiellement, un par un. Cela peut minimiser les coulures et la création de fils se créant entre les impressions. Cela peut également éviter de perdre plusieurs impressions semi-achevées si l'un des objets se détache du plateau d'impression.
 
-Vous pouvez activer cette fonction en activant **Réglages d'impression - Options de sortie - Compléter les objets individuels**.
+Vous pouvez activer cette fonction en activant **Réglages d'impression - Options de sortie - [Compléter les objets individuels](../variable/complete_objects.md)**.
 
 ![Image : Impression séquentielle](./images/141.png)
 
@@ -1675,7 +1675,7 @@ Avec l'impression séquentielle, il existe un **risque de collisions** entre la 
 
 SuperSlicer essaiera de vous avertir de tels cas, mais même si vous ne recevez aucun avertissement, vous devriez essayer d'éviter autant que possible les collisions éventuelles.
 
-#### *Tri des objets*
+#### *[Tri des objets](../variable/complete_objects_sort.md)*
 
 Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela vous aidera à choisir l'ordre dans lequel ils seront imprimés.
 
@@ -1683,17 +1683,17 @@ Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela
 - **Le plus bas Y** les triera en fonction de leur point Y le plus bas. Utile pour les imprimantes avec une barre X.
 - **Le plus bas Z** les triera par leur hauteur, utile pour les imprimantes delta.
 - 
-#### *N’autoriser qu’une seule boucle de jupe*
+#### *[N’autoriser qu’une seule boucle de jupe](../variable/complete_objects_one_skirt.md)*
 
 Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la jupe autour de chaque objet. Si vous préférez n'avoir qu'une seule jupe pour l’impression entière, utilisez cette option.
 
 Pour aider SuperSlicer à détecter les collisions, spécifiez les paramètres **Dégagement de l'extrudeuse :**
 
-#### *Rayon*
+#### *[Rayon](../variable/extruder_clearance_radius.md)*
 
 Le rayon de dégagement cylindrique autour de l'extrudeuse.
 
-#### *Hauteur*
+#### *[Hauteur](../variable/extruder_clearance_height.md)*
 
 La distance verticale entre la pointe de la buse et les tiges de l'axe X (ou la pièce la plus basse qui peut interférer avec une impression finie).
 
