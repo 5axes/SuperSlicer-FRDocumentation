@@ -170,6 +170,7 @@ Si le temps d'impression de la couche se situe entre ces deux valeurs, la vitess
 Cela peut sembler un peu déroutant, mais vous pouvez utiliser la description textuelle mise à jour en direct sous les Réglages du ventilateur, qui, nous l'espérons, clarifiera tout. Essayez de modifier les valeurs et voyez comment la description change.
 
 #### *Vitesse du ventilateur pour les ponts*
+
 Augmente la vitesse du ventilateur avec la valeur définie lors de l'impression de **ponts et surplombs**. En règle générale, vous définissez cette valeur sur une valeur supérieure à celle de l'impression normale.
 
 L’option ne ralentira pas le ventilateur s'il fonctionne déjà à une vitesse plus élevée.
@@ -243,6 +244,7 @@ Gardez à l'esprit qu'en augmentant cette valeur trop haute, vous pouvez invalid
 Propriété Multimatériaux du filament
 
 #### *Température de changement de filament multi-matériaux*
+
 ![Image : Température de changement de filament multi-matériaux](./images/011.png)
 Température de changement de filament multi-matériaux 
 

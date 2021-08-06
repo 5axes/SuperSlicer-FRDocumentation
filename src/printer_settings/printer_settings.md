@@ -60,12 +60,15 @@ En plus de cela, après le démarrage de l'application, une texture de plateau d
 ### Taille et coordonnées
 
 #### *Hauteur maximale d’impression*
+
 Réglez cette valeur sur la hauteur maximum que peut atteindre votre extrudeur au cours de l'impression.
 
 #### *Décalage en Z*
+
 Cette valeur sera ajoutée (ou soustraite) de toutes les coordonnées Z dans le G-Code de sortie. Elle est utilisée pour compenser une mauvaise position de fin de course Z: par exemple si votre fin de course place votre buse à 0.3mm au-dessus du plateau, réglez cette valeur sur -0.3 (ou corrigez votre fin de course).
 
 #### *Pas entier sur Z*
+
 Réglez cette valeur sur la hauteur déplacée lorsque votre moteur Z (ou équivalent) tourne d'un pas. Si votre moteur a besoin de 200 pas pour déplacer votre tête/platine de 1mm, ce champ doit être de 1/200 = 0.005.
 
 Notez que le G-Code écrira les valeurs z avec 6 chiffres après le point si z\_step est activé (c'est 3 chiffres s'il est désactivé).
@@ -77,14 +80,17 @@ Notez que le G-Code écrira les valeurs z avec 6 chiffres après le point si z\_
 ### Fonctionnalités
 
 #### *Extrudeuses*
+
 Nombre d'extrudeuses de l'imprimante.
 
 #### *Multi matériel à extrudeur unique*
+
 L'imprimante multiplexe les filaments vers une seule tête d'extrusion.
 
 L’activation de cette option permet de déverrouiller l’accès aux paramètres de réglage de l’imprimante : ***[Réglage MM pour extrudeur unique](../variable/single_extruder_multi_material.md)***.
 
 #### *Fraises*
+
 Nombre de tête de fraisage disponible sur la machine. L'activation de ce paramètre va rajouter les paramètres [Milling](#milling) à la liste des options configurable sur la machine.
 
 ![Image : Fonctionnalités](./images/005.png)
@@ -92,6 +98,7 @@ Nombre de tête de fraisage disponible sur la machine. L'activation de ce param�
 ### Firmware
 
 #### *Version du G-code*
+
 Certaines commandes G/M-code, y compris le contrôle de la température ainsi que d'autres, ne sont pas universelles. Paramétrez cette option dans le firmware de votre imprimante pour obtenir une sortie compatible. L'option "***Aucune d'extrusion***" empêche complètement SuperSlicer d'exporter toute valeur d'extrusion.
 
 ![Image : Version du G-Code](./images/006.png)
@@ -104,9 +111,11 @@ Indique que le firmware est compatible avec le mode silencieux. Ce mode permet n
 Si vous voulez qu'il soit plus silencieux pendant la nuit, en plus de passer en mode furtif, vous pouvez également réduire la vitesse en utilisant la commande de l'imprimante. Cela peut être fait dans n'importe quel mode et fait partie de son fonctionnement normal.  Il suffit de la ramener à un niveau suffisamment bas pour vous et, le matin, si l'impression se poursuit, de la ramener à 100 %.
 
 #### *Temps d’impression restant*
+
 Émet M73 P[pourcentage imprimé] R[temps restant en minutes] à 1 minute d'intervalle dans le G-code afin que le firmware puisse indiquer précisément le temps restant. Jusqu'à présent seul le firmware Prusa i3 MK3 reconnait M73. Par ailleurs le firmware i3 MK3 supporte M73 Qxx Sxx pour le mode silencieux.
 
 #### *Précision du G-Code*
+
 Permet de définir le nombre de chiffres après le point pour les coordonnées **XYZ** et pour les valeurs de pilotage de l’extrudeur **E**.
 
 ![Image : Options Firmware](./images/007.png)
@@ -137,32 +146,41 @@ Définissez cette option si votre imprimante utilise des valeurs de contrôle de
 ![Image : Options Vignettes](./images/009.png)
 
 #### *Taille pour le G-Code*
+
 Tailles de photo à stocker dans un fichier .gcode et .sl1, au format suivant : "XxY, XxY, ..."
 
 #### *Annulation de la couleur*
+
 Appliquer une couleur spécifique aux vignettes. Si ce n'est pas le cas, leur couleur sera celle définie par le filament.
 
 #### *Plateau sur la vignette*
+
 Montrez la texture du plateau sur la vignette.
 
 ### Avancé
+
 #### *Utiliser les valeurs de E relatives*
+
 Si votre firmware requiert des valeurs relatives pour E, cochez cette case, sinon laissez-la décochée. La plupart des firmwares utilisent des valeurs absolues.
 
 Valider dans le G-code de départ l’option M83 pour activer le mode d’extrusion relatif.
 
 #### *Utiliser la rétraction du firmware*
+
 Ce réglage expérimental utilise les commandes G10 et G11 pour laisser le firmware gérer la rétraction. Utilisable seulement par les versions récentes de Marlin.
 
 #### *E volumétrique*
+
 Cette fonction expérimentale génère des valeurs de E en millimètres cubiques au lieu de millimètres linéaires. Si votre firmware ne connait pas déjà le diamètre du filament, vous pouvez saisir une commande comme ***'M200 D[filament\_diameter\_0] T0'*** dans votre G-Code de début pour activer le mode volumétrique, et utiliser le diamètre de filament associé au filament choisi dans SuperSlicer. Cette fonction n'est utilisable que dans les versions récentes de Marlin.
 
 #### *Longueur minimale de l’extrusion*
+
 Trop de commandes de déplacement trop petites peuvent surcharger le firmware / la connexion. Mettez une valeur plus élevée ici si vous constatez un ralentissement étrange au niveau de votre imprimante.
 
 > Mettez à 0 pour désactive complètement la gestion de la longueur minimale d’extrusion.
 
 #### *Activer la fonction de hauteur de couche variable*
+
 Certaines imprimantes ou certains réglages d'imprimante peuvent rencontrer des difficultés pour imprimer avec une hauteur de couche variable. Activé par défaut.
 
 ![Image : Options avancées](./images/010.png)
@@ -173,6 +191,7 @@ Certaines imprimantes ou certains réglages d'imprimante peuvent rencontrer des 
 ![Image : Option Uniquement sur G-Code de démarrage personnalisé](./images/011.png)
 
 ### Uniquement sur G-Code de démarrage personnalisé
+
 Option pour n’utiliser que le G-Code de démarrage personnalisé.
 
 Assurez-vous que le slicer n'ajoutera pas de commandes de chauffage, de ventilateur, d'extrudeuse... avant ou juste après votre G-Code de début. Si vous mettez à Vraie, vous devrez écrire un G-Code de début complet et correct, car aucune vérification ne sera faite.
@@ -180,6 +199,7 @@ Assurez-vous que le slicer n'ajoutera pas de commandes de chauffage, de ventilat
 Il est possible de définir un G-Code personnalisé pour les sections :
 
 #### *G-Code de début*
+
 Cette procédure de démarrage est insérée au début, après un G-Code de démarrage de l'imprimante (et après tout changement de filaments vers ce filament, si vous utilisez l'option multi-matériaux).
 
 Elle est utilisée pour remplacer les réglages pour un filament spécifique.
@@ -191,21 +211,25 @@ Notez que vous pouvez utiliser des variables génériques pour tous les réglage
 Si vous avez plusieurs extrudeuses, le G-Code sera exécuté dans l'ordre des extrudeuses.
 
 #### *G-Code de fin*
+
 Cette procédure de fin est insérée à la fin du fichier de sortie, juste avant le G-Code de fin (et avant tout changement d’extrudeuse de ce filament dans le cas d’imprimantes multimatériaux).
 
 Notez que vous pouvez utiliser des variables de substitution pour tous les paramètres SuperSlicer. Si vous avez plusieurs extrudeuses, le G-Code est ajouté dans leur ordre.
 
 #### *G-Code avant changement de couche*
+
 Ce code personnalisé est inséré à chaque changement de couche, juste avant le mouvement en Z.
 
 Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer de même que [layer_num] et [layer_z].
 
 #### *G-Code après changement de couche*
+
 Ce code personnalisé est inséré à chaque changement de couche, juste après le mouvement Z et avant le déplacement de l'extrudeuse au point de départ de la couche suivante.
 
 Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer de même que [layer_num] et [layer_z].
 
 #### *G-Code de changement d’extrudeuse*
+
 Ce code personnalisé est inséré à chaque changement d'extrudeuse. Si vous ne laissez pas ce champ vide, vous devrez vous occuper du code de changement de l’extrudeuse vous-même.
 
 SuperSlicer ne fournira aucun autre code G pour changer le filament.
@@ -217,9 +241,11 @@ La commande standard toolchange peut être écrite sous la forme *T [next_extrud
 **!! Attention !!** Si un quelconque caractère est écrit ici, SuperSlicer n'écrira aucun G-code de changement de buse par lui-même.
 
 #### *Entre le G-Code des objets (Pour une impression séquentielle)*
+
 Ce code est inséré entre des objets lorsque vous utilisez l'impression séquentielle. Par défaut la température de l'extrudeuse et du plateau est réinitialisée et utilise la commande sans attente ; toutefois si des commandes M104, M109, M140 ou M190 sont détectées dans ce code personnalisé, SuperSlicer n'ajoutera pas de commandes de température. Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer, donc vous pouvez entrer une commande ***M109S[first_layer_temperature]*** où vous le souhaitez."
 
 #### *Entre changement G-Code de type d’extrusion* 
+
 Ce code personnalisé est inséré à chaque changement de type d'extrusion.
 
 Notez que vous pouvez utiliser des variables de substitution pour tous les paramètres SuperSlicer, ainsi que pour [layer_num], [layer_z] et [extrusion_role] pouvant prendre ces valeurs de chaîne : {Perimeter, ExternalPerimeter, OverhangPerimeter, InternalInfill, SolidInfill, TopSolidInfill, BridgeInfill, GapFill, Skirt, SupportMaterial, SupportMaterialInterface, WipeTower, Mixed}.
@@ -232,6 +258,7 @@ Mixed n'est utilisé que lorsque le type de l'extrusion n'est pas unique, pas un
 
 
 ### Limites de la machine
+
 Option pour définir comment seront appliquer les limites qui sont définie dans cette section du logiciel. Dans tous les cas, elles seront sauvegardé dans le fichier G-Code.
 
 Attention même si vous utilisez un profil d'impression qui définit une accélération de 5000, si pour votre machine la limite d'accélération est de 4000, le G-Code sorti utilisera la limite de 4000.
@@ -239,7 +266,7 @@ Attention même si vous utilisez un profil d'impression qui définit une accél�
 * Vous pouvez également l'utiliser comme sauvegarde et pour avoir une meilleure estimation du temps d'impression, option ‘Utiliser pour l'estimation du temps’.
 * Option ‘Émettre également les limites dans le G-Code’. Les valeurs seront sauvegardées dans le G-Code, elles permettront une meilleure estimation du temps d'impression et seront écrites en début de fichier G-Code, avec M201, M202 M203, M204 et M205.
 * Si vous voulez seulement sauvegarder les valeurs, choisissez l'option ‘Utiliser aussi pour l'estimation du temps’ et écrivez vous-même les limites dans la section G-Code personnalisé.
-* L’option ‘Utiliser uniquement pour sauvegarde’ ne fera d’écrire les données dans les paramètres sauvegardés du G-Code.
+* L’option ***Utiliser uniquement pour sauvegarde** ne fera qu’écrire les données dans les paramètres sauvegardés du G-Code.
 * Émettre également les limites dans le G-Code = emit_to_gcode
 * Utiliser pour l'estimation du temps = time_estimate_only
 * Utiliser uniquement pour sauvegarde = limits
@@ -258,9 +285,11 @@ M205 X8.00 Y8.00 Z0.40 E5.00 ; sets the jerk limits, mm/sec
 M205 S0 T0 ; sets the minimum extruding and travel feed rate, mm/sec
 
 #### *Vitesses maximums*
+
 Définition des vitesses maximum pour les axes XYZ et E exprimé en mm/s
 
 #### *Accélérations maximums*
+
 Définition des accélérations maximum pour les axes XYZ et E exprimé en mm/s²
 
 Pour l’axe E (L’extrudeuse) il est aussi possible d’affiner la valeur de l’extrusion maximum en décomposant selon :
@@ -272,26 +301,31 @@ Accélération maximum lors de la rétraction (M204R)
 Accélération maximum lors du déplacement (M204T)
 
 #### *Limites de mouvements brusques*
+
 Définition des mouvements brusques (secousses) maximum pour les axes XYZ et E exprimé en mm/s.
 
 Le terme secousse ou ‘jerk’ a été introduit par Marlin. Il y a été conçu comme une solution de contournement du problème inhérent à la tentative de suivre parfaitement un parcours. Comme la buse ne peut pas s'écarter de la trajectoire (en théorie), il faudrait qu'elle décélère à 0 mm/s dans chaque coin. Cela ruinerait votre impression, car la décélération à 0 mm/s provoquerait une sur-extrusion dans chaque coin. Au lieu de cela, Marlin permet un changement instantané du vecteur vitesse dans chaque coin. L'ampleur de ce changement du vecteur vitesse est appelée "saccade".
 
 #### *Vitesses minimums*
+
 Définition des vitesses minimum pour l’extrudeuse E exprimé en mm/s
 
 Il est possible de différencier la ***valeur minimale lors de l’extrusion*** : M205S, de la ***valeur minimale lors en déplacement*** : M205T.
 
 
 ## Extrudeur
+
 Réglages liés à un extrudeur. Ces réglages peuvent être multiplié selon le nombre d'extrudeur définie pour une machine. Le nombre d'extrudeuse par le paramètre [Extrudeuses](../macros/extruders_count.md) dans la section [Fonctionnalités](#fonctionnalités).
 
 
 ### Nom et taille
 
 #### *Nom extrudeuse*
+
 Utilisé uniquement pour klipper, où vous pouvez nommer l'extrudeuse. S'il n'est pas défini, ce sera '**extruderX**' avec 'X' remplacé par le numéro de l'extrudeuse.
 
 #### *Diamètre de la buse*
+
 Il s'agit du diamètre de la buse de votre extrudeur (par exemple: 0.5, 0.35, etc.)
 
 ![Image : Options Nom et taille](./images/013.png)
@@ -300,9 +334,11 @@ Il s'agit du diamètre de la buse de votre extrudeur (par exemple: 0.5, 0.35, et
 ### Limites de hauteur de couche
 
 #### *Minimum*
+
 Cette valeur est la hauteur de couche imprimable minimum pour cet extrudeur et elle limite la résolution pour la hauteur de couche variable. Les valeurs type se situent entre 0.05 mm et 0.1 mm.
 
 #### *Maximum*
+
 Ceci est la hauteur de couche imprimable maximum pour cet extrudeur, utilisée pour plafonner la hauteur de couche variable et la hauteur de couche des supports. La hauteur de couche maximum recommandée est 75% de la largeur d'extrusion afin d'obtenir une adhésion inter-couches correcte. 
 
 Si réglée sur 0, la hauteur de couche est limitée à 75% du diamètre de la buse.
@@ -318,31 +354,39 @@ Les hauteurs de couche sur les supports sont automatiquement gérées par le Sli
 ### Décalages (pour les imprimantes multi-extrudeur)
 
 #### *Décalage de l’extrudeur*
+
 Si le firmware de votre imprimante ne gère pas le décalage de l'extrudeur, c'est au G-code d'en tenir compte. Cette option vous permet de spécifier le décalage de chaque extrudeur par rapport au premier. Des valeurs positives sont attendues (elles seront soustraites des coordonnées XY).
 
 ![Image : Décalage X et Y de l'extrudeur](./images/015.png)
 
 ### Rétraction
+
 ![Image : Options liées à la Rétraction](./images/016.png) 
 
 #### *Longueur*
+
 Lorsque la rétractation est déclenchée avant un déplacement, le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
 
 #### *Décalage de l’axe Z*
+
 Si vous indiquez une valeur positive, l'axe Z est rapidement élevé à chaque rétraction. Lorsque vous utilisez plusieurs extrudeurs, seul le réglage du premier extrudeur sera pris en compte.
 
 #### *Décaler Z seulement au-delà de Z*
+
 Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché qu'à partir de la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***éviter*** le levage de l'axe Z ***sur les premières couches***.
 
 #### *Décaler Z seulement en-deçà de Z*
+
 Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché que jusqu'à la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***limiter*** le levage de l'axe Z ***aux premières couches***.
 
 #### *Exécution de l’élévation de Z*
+
 Ces options permettent de spécifier quand sera appliqué le décalage en Z :
 ##### *Appliquer sur la première couche*
 Sélectionner cette option pour appliquer le décalage en Z sur la première couche.
 
 ##### *Sur surfaces*
+
 Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur une surface supérieure. Les possibilités de réglages sont :
 
 - ***Toutes surfaces*** : sur toutes les surfaces
@@ -350,45 +394,56 @@ Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur 
 - ***Seulement sur le dessus*** : appliquer seulement sur les surfaces supérieures
 
 #### *Vitesse de Rétractation*
+
 La vitesse des rétractations (ne s'applique qu'au moteur de l'extrudeur).
 
 #### *Vitesse de Dé rétractation*
+
 La vitesse de chargement d'un filament dans l'extrudeur après une rétractation (ne s'applique qu'au moteur de l'extrudeur). Si cette valeur reste sur zéro, la vitesse de rétraction est utilisée.
 
 #### *Longueur supplémentaire à la reprise*
+
 Lorsque la rétractation est compensée après un déplacement, l'extruder exprimera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
 
 #### *Trajet minimal après une rétraction*
+
 La rétraction n'est pas déclenchée lorsque les déplacements sont plus courts que cette distance.
 
 #### *Rétracter lors des changements de couche*
+
 Cette option active la rétractation lors d'un déplacement sur l'axe Z.
 
 #### *Nettoyer lors des rétractions*
+
 Cette option déplace la buse lors des rétractions, limitant ainsi l'apparition d'amas sur les extrudeurs ayant tendance à couler.
 
 Après le point de rétraction une partie de la rétraction va se faire avec la buse qui suit le cordon déjà déposé.
 
-Zone d’essuyage
+Zone d’essuyage :
 
 ![Image : Nettoyer lors des rétractions](./images/017.png)
 
 
 #### *Quantité de rétractation avant essuyage*
+
 Avec les extrudeurs bowden, il est conseillé d'effectuer une rétractation rapide avant de réaliser le mouvement d’essuyage.
 
 #### *Essuyage extra pour les périmètres extérieurs*
+
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long de la boucle avant l'essuyage final.
 
 ### Rétraction lorsque le filament est désactivé
+
 Réglages avancés pour les configurations multi-extrudeurs
 
 Options spécifiques au changement de fil.
 
 #### *Longueur*
+
 Lorsque la rétractation est déclenchée avant un changement de fil le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
 
 #### *Longueur supplémentaire à la reprise*
+
 Lorsque la rétractation est compensée après un changement de fil, l'extruder exprimera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
 
 ![Image : Rétraction lorsque le filament est désactivé](./images/018.png)
@@ -396,18 +451,22 @@ Lorsque la rétractation est compensée après un changement de fil, l'extruder 
 ### Aperçu
 
 #### *Couleur de l’extrudeur*
+
 Ceci est uniquement utilisé dans l'interface de SuperSlicer comme indication visuelle plutôt que d’utiliser la couleur du filament.
 
 ![Image : Option d’aperçu](./images/019.png)
 
 ### G-Code
+
 ![Image : Option G-Code](./images/020.png)
 
 ##### *Décimales E :*
-Permet de définir combien de chiffres après le point utiliser pour les déplacements de l'extrudeuse.
+
+Permet de définir combien de chiffres après le point utiliser pour les définir le pilotage de l'extrudeuse.
 
 
 ## Milling
+
 Paramètre pour le réglage des opérations de fraisage. Pour être visible il faut avoir au préalable défini un nombre de fraise disponible dans la section Générale.
 
 ![Image : Réglage du nombre de fraises](./images/021.png)
@@ -416,19 +475,23 @@ Paramètre pour le réglage des opérations de fraisage. Pour être visible il f
 ### Taille
 
 #### *Diamètre de fraisage*
+
 Diamètre de l’outil de coupe utilisé
 
 #### *Décalage en Z de l’extrudeuse*
+
 Valeur des décalages en Z lors des déplacements de fraisage.
 
 ### G-Code
 
 #### *G-Code pour passer à cette tête de fraisage*
+
 Mettez ici le G-Code pour changer la tête d'outil (appelé après le G-Code T [next_extruder]). Vous avez accès à [next_extruder] et [previous_extruder].  Next_extruder est le 'numéro d'extrudeuse' du nouveau outil de fraisage, il est égal à l'index (commençant à 0) de l'outil de fraisage plus le nombre d'extrudeuses. 
 
 previous\_extruder est le 'numéro d'extrudeuse' de l'outil précédent, il peut s'agir d'une extrudeuse normale, s'il est inférieur au nombre d'extrudeuses. Le numéro d'extrudeuse est disponible à [extruder] et le numéro de la fraise est disponible à [milling_cutter].
 
 #### *G-Code pour arrêter cette tête de fraisage*
+
 Mettez ici le G-Code pour terminer l'action de la tête d'outil, comme l'arrêt de la broche.
 
 Vous avez accès à [next_extruder] et [previous_extruder]. previous\_extruder est le 'numéro d'extrudeuse' de l'outil de fraisage actuel, est égal à l'index (commençant à 0) de l'outil de fraisage plus le nombre d'extrudeuses. next\_extruder est le 'numéro d'extrudeuse' de l'outil suivant, il peut être un extrudeuse normal, s'il est inférieur au nombre d'extrudeuses.
@@ -450,15 +513,19 @@ Ce groupe d’options est disponible si vous avez activé une machine multi-extr
 ![Image : Option pour activer les réglages MM pour extrudeuse unique](./images/024.png)
 
 ### Paramètres multi matériaux pour extrudeuse unique
+
 Dans le cas d'une machine équipé d'un système d'extrusion utilisant une seule buse par plusieurs système d’entraînement, SuperSlicer propose différents paramètres permettant de gérer  l'extrusion et la bonne gestion du changement de filament.
 
 #### *Position du tube de refroidissement*
+
 Distance entre le point central du tube de refroidissement et la pointe de l'extrudeur.
 
 #### *Longueur du tube de refroidissement*
+
 Longueur du tube de refroidissement pour limiter l'espace pour les déplacements de refroidissement à l'intérieur de celui-ci.
 
 #### *Position d’attente du filament*
+
 Distance entre la pointe de l'extrudeur et la position où le filament est positionné en attente lorsqu'il est déchargé. Cela doit correspondre à la valeur dans le firmware de l'imprimante.
 
 #### *Distance de chargement supplémentaire*
@@ -475,12 +542,15 @@ Il peut être intéressant d'augmenter le courant du moteur de l'extrudeur penda
 
 
 #### *Activer le volume de purge avancé*
+
 Permettre à SuperSlicer de calculer le volume de purge via des calculs intelligents. Utilisez le pigment % de chaque filament et les paramètres suivants.
 
 #### *Volume de la buse*
+
 Le volume de plastique fondu à l’intérieur de votre buse. Utilisé par la ***'purge avancée'***.
 
 #### *Multiplicateur*
+
 Le multiplicateur de volume utilisé pour calculer le volume final à extruder par l'algorithme.
 
 #### *Algorithme*
@@ -543,6 +613,7 @@ En règle générale, vous voulez que votre largeur d'extrusion soit d'environ *
 Vous pouvez augmenter la largeur d'extrusion de la première couche pour qu'elle adhère mieux au plateau d'impression (par exemple 120-140% du diamètre de la buse) au prix d'une résolution plus faible dans le plan XY.
 
 En définissant la largeur d'extrusion **à une valeur inférieure au diamètre de la buse** vous pouvez affaiblir les supports et les retirer plus facilement.
+
 
 
 Page suivante  [Fonctionnalités avancées](../advanced_functionality/advanced_functionality.md)
