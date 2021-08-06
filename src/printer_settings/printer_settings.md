@@ -194,7 +194,7 @@ Certaines imprimantes ou certains réglages d'imprimante peuvent rencontrer des 
 
 Option pour n’utiliser que le G-Code de démarrage personnalisé.
 
-Assurez-vous que le slicer n'ajoutera pas de commandes de chauffage, de ventilateur, d'extrudeuse... avant ou juste après votre G-Code de début. Si vous mettez à Vraie, vous devrez écrire un G-Code de début complet et correct, car aucune vérification ne sera faite.
+Permet de s'assurer que le slicer n'ajoutera pas de commandes de chauffage, de ventilateur, d'extrudeuse... avant ou juste après votre G-Code de début. Si vous activez cette option, vous devrez écrire un G-Code de début complet et correct, car aucune vérification ne sera faite.
 
 Il est possible de définir un G-Code personnalisé pour les sections :
 
