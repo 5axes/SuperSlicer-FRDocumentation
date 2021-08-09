@@ -1805,9 +1805,13 @@ Pour les scripts Python, l’interpréteur Python peut être téléchargé à l�
 Vous pouvez inscrire ici vos commentaires personnels. Ce texte sera ajouté aux commentaires en entête du G-Code.
 
 
+
 ## Dépendances
 
-Section à compléter.
+
+**Section à compléter.**
+
+
 
 Page suivante [Réglages du filament](../filament_settings/filament_settings.md)
 
