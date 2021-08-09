@@ -1811,6 +1811,8 @@ Vous pouvez inscrire ici vos commentaires personnels. Ce texte sera ajouté aux 
 
 **Section à compléter.**
 
+![Image : Dépendances du profil](./images/146.png)
+
 
 
 Page suivante [Réglages du filament](../filament_settings/filament_settings.md)
