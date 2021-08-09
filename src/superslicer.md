@@ -114,7 +114,7 @@ Version 1.18 du 05/08/2021
 	* [Général](printer_settings/printer_settings.md#Général)
 	* [G-Code personnalisé](printer_settings/printer_settings.md#g-code-personnalisé)
 	* [Limites de la machine](printer_settings/printer_settings.md#Limites-de-la-machine)
-	* [Extrudeur](printer_settings/printer_settings.md#extrudeur)
+	* [Extrudeuse](printer_settings/printer_settings.md#extrudeuse)
 	* [Milling](printer_settings/printer_settings.md#milling)
 	* [Réglage MM pour extrudeuse unique](printer_settings/printer_settings.md#réglage-MM-pour-extrudeuse-unique)
 	* [Création de profils pour différentes buses](printer_settings/printer_settings.md#création-de-profils-pour-différentes-buses)
