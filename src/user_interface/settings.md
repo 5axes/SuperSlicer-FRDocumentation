@@ -170,6 +170,6 @@ Celle que je trouve finalement la plus pratique
 ![Image : Réglages dans une fenêtre non moda](./images/027.png)
 
 
-Page suivante : [Entrée/sortie](../input_output/input_output.md)
+Page suivante : [Importer/Exporter](../input_output/input_output.md)
 
 [Retour Page principale](../superslicer.md)
