@@ -205,7 +205,7 @@ Le refroidissement de la toute première couche n'est généralement **pas néce
 
 #### *Ventilateur à pleine vitesse pour la X couche*
 
-La vitesse du ventilateur va augmenter de façon linéaire en partant de zéro pour la couche "disable_fan_first_layers" jusqu'au maximum pour la couche "full_fan_speed_layer". "full_fan_speed_layer" sera ignorée si inférieure à "disable_fan_first_layers", auquel cas le ventilateur fonctionnera à la vitesse maximum autorisée pour la couche "disable_fan_first_layers" +1.
+La vitesse du ventilateur va augmenter de façon linéaire en partant de zéro pour la couche [disable_fan_first_layers](../variable/disable_fan_first_layers.md) jusqu'au maximum pour la couche [full_fan_speed_layer](../variable/full_fan_speed_layer.md). [full_fan_speed_layer](../variable/full_fan_speed_layer.md) sera ignorée si inférieure à [disable_fan_first_layers](../variable/disable_fan_first_layers.md), auquel cas le ventilateur fonctionnera à la vitesse maximum autorisée pour la couche [disable_fan_first_layers](../variable/disable_fan_first_layers.md) +1.
 
 ### Temps de couche court
 
