@@ -5,7 +5,7 @@
 * Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)s multiples - Tour de purge
 * Mode : Avancé
 
-## Largeur de la bordure de la tour de purge  
+## Largeur de la jupe de la tour de purge  
 
 ### Description
 

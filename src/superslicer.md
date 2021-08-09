@@ -32,7 +32,7 @@ Version 1.18 du 05/08/2021
 	* [Sélection d'un profil d'impression/d'une hauteur de couche](first_print/first_print.md#sélection-dun-profil-dimpressiondune-hauteur-de-couche)
 	* [Supports](first_print/first_print.md#supports)
 	* [Remplissage](first_print/first_print.md#remplissage)
-	* [Bordure](first_print/first_print.md#bordure)
+	* [Jupe](first_print/first_print.md#jupe)
 	* [Prévisualisation du G-code avant l'impression](first_print/first_print.md#Prévisualisation-du-gcode-avant-limpression)
 
 * [Configuration](configuration/configuration.md)
@@ -92,7 +92,7 @@ Version 1.18 du 05/08/2021
 	* [Périmètre et enveloppe](print_settings/print_settings.md#périmètre-et-enveloppe)
 	* [Couche](print_settings/print_settings.md#couche)
 	* [Remplissage](print_settings/print_settings.md#remplissage)
-	* [Jupe et bordure](print_settings/print_settings.md#jupe-et-bordure)
+	* [Bordure et jupe](print_settings/print_settings.md#bordure-et-jupe)
 	* [Support](print_settings/print_settings.md#support)
 	* [Vitesse](print_settings/print_settings.md#vitesse)
 	* [Largeur et Débit](print_settings/print_settings.md#largeur-et-débit)

@@ -5,11 +5,11 @@
 * Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Largeur d'extrusion
 * Mode : Avancé
 
-## *Largeur d'extrusion pour la* Jupe
+## *Largeur d'extrusion pour la* Bordure
 
 ### Description
 
-Largeur du cordon de la jupe qui sera imprimée autour de chaque objet.
+Largeur du cordon de la bordure qui sera imprimée autour de chaque objet.
 
 Si laissé à zéro et d'une hauteur d'une couche, la [largeur de la première couche](first_layer_extrusion_width.md) sera utilisé, ou sinon la [largeur des périmètres](perimeter_extrusion_width.md).
 

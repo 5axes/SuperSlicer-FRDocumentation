@@ -16,7 +16,7 @@ Terme parfois employé pour désigner une goutte de matière fondue créant un d
 ## Bloc de chauffe (Heater) 
 Un élément chauffant qui amène le filament à la température requise pour l'impression 3D.
 
-## Bordure (Brim)
+## Jupe (Brim)
 désigne une succession de couches jointe/concentriques toutes en contact avec le plateau et votre pièce afin d'optimiser l'adhérence de votre pièce au plateau. Particulièrement utile pour les pièces comportant des "îlots" (des points de contact fin avec le plateau, par exemple si vous imprimez un modèle de chaise sur votre imprimante).
 
 ## Bouclier (Draft shield)
@@ -110,7 +110,7 @@ Désigne une pièce dont le taux de remplissage (Infill) est de 0%. La pièce im
 La pièce en métal chaud ou en céramique regroupant la buse, l'élément chauffant et le capteur de température.
 
 ## Îlots / islands
-petits points de contact d'une pièce avec le plateau. Par exemple si vous imprimez une chaise debout sur votre plateau, les pieds de la chaise sont des îlots. Ces îlots sont susceptibles de se décoller plus facilement du plateau. Vous pouvez contrecarrer cet effet en imprimante une [Bordure](#bordure-brim).
+petits points de contact d'une pièce avec le plateau. Par exemple si vous imprimez une chaise debout sur votre plateau, les pieds de la chaise sont des îlots. Ces îlots sont susceptibles de se décoller plus facilement du plateau. Vous pouvez contrecarrer cet effet en imprimante une [Jupe](#jupe-brim).
 
 ## Imprimante 3D
 L’imprimante 3D est la machine destinée à la fabrication de pièces en 3 dimensions par dépôt de couches successives de matière fondue (plastique, métal, nourriture, etc.). L’imprimante 3D (ou ‘tri-dimensionnelle’) permet donc de produire des objets réels.
@@ -211,8 +211,8 @@ Défaut d'impression où les couches ne collent pas assez bien ensemble et se d�
 ## Scanner 3D 
 Un [scanner 3D](https://www.makershop.fr/7-scanners-3d) permet de modéliser un objet en le scannant avec des lasers ; c’est-à-dire d’enregistrer toutes ses caractéristiques, et d’en faire un dessin/modèle en 3D. Ceci afin de transmettre les données scannées (le modèle 3D) à une imprimante 3D, et reproduire cet objet à volonté.
 
-## Skirt ou Jupe 
-Dépot initial de matière autour de votre pièce à imprimer. La jupe est déposée avant l'impression de votre pièce afin de s'assurer d'un débit régulier et propre au démarrage de votre impression 3D.
+## Skirt ou Bordure 
+Dépot initial de matière autour de votre pièce à imprimer. La bordure est déposée avant l'impression de votre pièce afin de s'assurer d'un débit régulier et propre au démarrage de votre impression 3D.
 
 ## SLA
 fait référence à Stéréolithographie, une technologie d'impression 3D fonctionnant sur le principe de la photopolymérisation de résines liquides. Portée par le Fabricant Formlabs, c'est la seconde technologie à s'être démocratisée après le FDM. Cette technologie permet des impressions 3D d'une très grande précision avec un niveau de détail exceptionnel car elle élimine quasiment l'effet de strie propre au FDM, du fait de la solidification par un laser ultra précis.

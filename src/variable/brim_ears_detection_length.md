@@ -2,10 +2,10 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Bordure sur les coins
+* Sous groupe : [Bordure et Jupe](../print_settings/print_settings.md#bordure-et-jupe) - Jupe sur les coins
 * Mode : Avancé
 
-## Bordure sur les coins longueur de détection
+## Jupe sur les coins longueur de détection
 
 ### Description
 

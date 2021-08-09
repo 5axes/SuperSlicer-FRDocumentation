@@ -2,14 +2,14 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Bordure sur les coins
+* Sous groupe : [Bordure et Jupe](../print_settings/print_settings.md#bordure-et-jupe) - Jupe sur les coins
 * Mode : Expert
 
-## *Bordure sur les coins* Motif
+## *Jupe sur les coins* Motif
 
 ### Description
 
-Motif pour ls bordures sur les coins. Le concentrique est celui par défaut.  2 modes sont disponible :
+Motif pour ls jupes sur les coins. Le concentrique est celui par défaut.  2 modes sont disponible :
 - Rectiligne
 - Concentrique
 

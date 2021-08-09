@@ -2,16 +2,16 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Bordure
+* Sous groupe : [Bordure et Jupe](../print_settings/print_settings.md#bordure-et-jupe) - Jupe
 * Mode : Avancé
 
-## Bordure à l’intérieur des trous
+## Jupe à l’intérieur des trous
 
 ### Description
 
-Permet de créer une bordure sur un îlot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
+Permet de créer une jupe sur un îlot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
 
-Exemple de pièce pouvant avoir une bordure à l'intérieur d'un trou
+Exemple de pièce pouvant avoir une jupe à l'intérieur d'un trou
 
 ![brim_inside_holes off](./images/brim_inside_holes/001.png)
 

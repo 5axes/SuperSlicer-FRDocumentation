@@ -44,7 +44,7 @@ Les fichiers 3MF supportent nativement plusieurs objets dans un seul fichier, le
 
 ## Prévention des coulures
 ### Activer
-Cette option abaissera la température des extrudeurs inutilisés pour prévenir le suintement (oozing). Cela active automatiquement la génération d'une grande jupe et le déplacement des extrudeurs hors de cette jupe lors des changements de température.
+Cette option abaissera la température des extrudeurs inutilisés pour prévenir le suintement (oozing). Cela active automatiquement la génération d'une grande bordure et le déplacement des extrudeurs hors de cette bordure lors des changements de température.
 
 ![Image : Options pour la prévention des coulures](./images/004.png)
 
