@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : [Rétraction](../filament_settings/filament_settings.md#rétraction)s de Filament
+* Sous groupe : [Rétractions de Filament](../filament_settings/filament_settings.md#rétractions-de-filament)
 * Mode : Avancé
 
 ## Longueur supplémentaire à la reprise

@@ -413,7 +413,7 @@ La rétraction n'est pas déclenchée lorsque les déplacements sont plus courts
 
 Cette option active la rétractation lors d'un déplacement sur l'axe Z.
 
-#### *Nettoyer lors des rétractions*
+#### *[Essuyer lors des rétractions](../variable/wipe.md)*
 
 Cette option déplace la buse lors des rétractions, limitant ainsi l'apparition d'amas sur les extrudeurs ayant tendance à couler.
 
