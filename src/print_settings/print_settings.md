@@ -1431,7 +1431,7 @@ L’espacement est une solution alternative de définition de la largeur de lign
 
 Le paramètre Espacement permet de régler une valeur non-nulle pour définir manuellement l’espacement entre les cordons. Si la valeur est exprimée en pourcentage, elle sera calculée par rapport à la hauteur de couche. Le Schéma suivant permet d’illustrer la différence entre Largeur et Espacement. Si le recouvrement du périmètre est fixé à 100%, les zones jaunes doivent être remplies par le chevauchement. Si le chevauchement est à 0% Largeur = espacement.
 
-![Image : Largeur ou Espacement](./images/121.png)
+![Image : Largeur ou Espacement](./images/006.svg)
 
 Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage sera utilisé dans les 2 types de spécifications.
 
