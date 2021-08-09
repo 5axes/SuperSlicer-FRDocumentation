@@ -62,7 +62,7 @@ Les principales caractéristiques communes à ces 3 solutions sont les suivantes
 - Mode vase en spirale pour les modèles avec peu de  relief.
 - Réglage fin de la vitesse, de l'accélération et de la largeur d'extrusion.
 - Plusieurs motifs de remplissage, dont les nids d'abeille, les spirales, les courbes de Hilbert et les gyroïdes.
-- Création de géométrie de support, radeau, bord, bordure.
+- Création de géométrie de support, radeau, jupe, bordure.
 - ***Température de veille*** et essuyage automatique pour l'impression multi-extrudeurs
 - ***Macros G-code personnalisables*** et nom de fichier de sortie avec des caractères de remplacement variables.
 - Support pour les ***scripts de post-traitement.***
