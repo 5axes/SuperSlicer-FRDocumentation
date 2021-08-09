@@ -1597,7 +1597,7 @@ Différence de température devant être appliquée quand un extrudeur n'est pas
 
 Les imprimantes multi-matériaux peuvent avoir besoin de préparer ou de purger leurs extrudeurs lors d'un changement d'outil. Extruder le matériau en excès dans la tour de purge.
 
-Attention l’activation de la tour de purge n’est pas possible en mode ***Compléter les objets individuels*** dans ma section : ***Option de sortie*** :
+Attention l’activation de la tour de purge n’est pas possible en mode ***Compléter les objets individuels*** dans la section : ***Option de sortie*** :
 
 ![Image : Décocher pour activer la tour de purge](./images/134.png)
 
