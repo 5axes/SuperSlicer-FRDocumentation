@@ -7,7 +7,7 @@
 	* [Général](#Général)
 	* [G-Code personnalisé](#g-code-personnalisé)
 	* [Limites de la machine](#Limites-de-la-machine)
-	* [Extrudeur](#extrudeur)
+	* [Extrudeuse](#extrudeuse)
 	* [Milling](#milling)
 	* [Réglage multi-matériaux pour extrudeuse unique](#réglage-multi-matériaux-pour-extrudeuse-unique)
 	* [Création de profils pour différentes buses](#création-de-profils-pour-différentes-buses)
@@ -313,9 +313,9 @@ Définition des vitesses minimum pour l’extrudeuse E exprimé en mm/s
 Il est possible de différencier la ***valeur minimale lors de l’extrusion*** : M205S, de la ***valeur minimale lors en déplacement*** : M205T.
 
 
-## Extrudeur
+## Extrudeuse
 
-Réglages liés à un extrudeur. Ces réglages peuvent être multiplié selon le nombre d'extrudeur définie pour une machine. Le nombre d'extrudeuse par le paramètre [Extrudeuses](../macros/extruders_count.md) dans la section [Fonctionnalités](#fonctionnalités).
+Réglages liés à une extrudeuse. Ces réglages peuvent être multiplié selon le nombre d'extrudeuses définies pour une machine. Le nombre d'extrudeuse par le paramètre [Extrudeuses](../macros/extruders_count.md) dans la section [Fonctionnalités](#fonctionnalités).
 
 
 ### Nom et taille
