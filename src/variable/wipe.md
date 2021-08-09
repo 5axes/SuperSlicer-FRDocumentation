@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - Rétraction
+* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - [Rétraction](../printer_settings/printer_settings.md#rétraction)
 * Mode : Avancé
 
 ## Essuyer lors des rétractions

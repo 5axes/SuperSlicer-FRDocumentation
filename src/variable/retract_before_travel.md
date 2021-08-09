@@ -2,7 +2,7 @@
 
 - Technologie : FDM
 - Groupe : Réglage de l'imprimante
-- Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - Rétraction
+- Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse) - [Rétraction](../printer_settings/printer_settings.md#rétraction)
 - Mode : Avancé
 
 ##  Trajet minimal après une rétraction
