@@ -10,7 +10,7 @@
 
 ### Description
 
-Le nombre de couches sur lesquelles la compensation des premières couches sera active. 
+Le nombre de couches sur lesquelles la [compensation des premières couches](first_layer_size_compensation.md) sera active. 
 La première couche sera réduite de la valeur de la compensation de la première couche, puis les couches suivantes seront progressivement réduites, jusqu'à la couche indiquée par cette valeur.
 
 
