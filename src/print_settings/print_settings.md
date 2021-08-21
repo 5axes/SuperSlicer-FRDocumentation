@@ -27,6 +27,7 @@
 ### Parois verticales
 
 #### *Périmètres*
+
 Définit le nombre minimal de contours qui forment la paroi d'un modèle. Les profils  utilisent pratiquement toujours un minimum de deux périmètres. 
 
 **Augmenter la résistance du modèle**
@@ -37,6 +38,7 @@ La résistance d'un modèle est principalement définie par le nombre de périm�
 
 
 #### *Vase spirale*
+
 Crée un conteneur avec un contour unique continu, augmentant progressivement la hauteur en Z.
 
 Lorsque vous imprimez quelque chose avec une paroi à périmètre unique, il y a toujours un petit défaut où l'imprimante passe à la couche suivante. Cet endroit, où l'imprimante s'arrête et termine le périmètre et prend la valeur de son incrément en Z pour commencer un nouveau périmètre, crée une 'cicatrice' disgracieuse sur le côté du modèle. Cette cicatrice appelée aussi 'couture' est également un point faible de l'impression.
@@ -60,7 +62,9 @@ Le modèle doit être défini comme un solide plein, sinon, SuperSlicer essaiera
 **Un seul objet à la fois peut être imprimé en mode vase**. Si vous aviez plusieurs objets sur le plateau d'impression, il serait impossible de les imprimer en continu. Vous pouvez contourner cette limitation en activant l'impression séquentielle.
 
 ### Coques horizontales
+
 #### *Épaisseur de coque minimale*
+
 Pour un nombre sélectionné de périmètres et une hauteur de couche, SuperSlicer calcule l'**épaisseur des parois fines optimale**. Si vous revenez à votre dessin CAO et modifiez l'épaisseur de la paroi à cette valeur exacte, vous éliminerez les chevauchements inutiles du périmètre et votre impression aura une finition parfaite de la surface des parois.
 
 Normalement, vous obtenez des recommandations pour un nombre pair de périmètres (2,4,6…). Si vous activez Détecter les parois fines, vous obtiendrez également une recommandation pour un nombre impair de périmètres (1,3…).
@@ -415,16 +419,20 @@ Vous pouvez l'exprimer en valeur absolue (par exemple 0,20 mm) ou en pourcentage
 Changer la hauteur de la première couche nécessitera très probablement une **calibration de la première couche** sur votre imprimante.
 
 ### Filtration
+
 #### *Résolution*
+
 Résolution minimale pour les détails, utilisée pour simplifier le fichier d'entrée afin d'accélérer le découpage et de réduire l'utilisation de la mémoire. Les modèles haute-résolution possèdent souvent plus de détails que ce que les imprimantes peuvent produire. 
 
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
+
 #### *Précision de la lecture du modèle*
 
 C'est la précision du fichier de l'objet en entrée. Il est utilisé pour aligner des points qui devraient être sur la même ligne.
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
 
 #### *Découper le rayon de fermeture de l’espacement*
+
 Les fentes d'une taille inférieure à 2x le rayon de l'espacement sont remplies au cours du tranchage par maillage triangulaire. L'opération de fermeture de l'espacement peut réduire la résolution de l'impression finale, aussi est-il conseillé de conserver une valeur relativement basse.
 
 ![Image : Options de Filtration](./images/033.png)
@@ -433,6 +441,7 @@ Les fentes d'une taille inférieure à 2x le rayon de l'espacement sont remplies
 ### Modification des couches
 
 #### *Lissage des courbes*
+
 Ces paramètres permettent au logiciel de lisser les angles de chaque couche. La nouvelle précision sera celle de ce paramètre. 
 
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
@@ -447,14 +456,17 @@ L’algorithme de lissage des courbes peut être modifié en jouant sur 3 param�
 - **Angle convexe minimum**
 - **La Distance Maxi**
 
-#### *Compensation de Taille XY*
+#### *Compensation en XY*
+
 L'objet sera agrandi/réduit sur les plans XY selon la valeur indiquée (négatif = réduit, positif = agrandi). Ce réglage peut être utile pour un réglage fin des tailles de trous.
 
 Il est possible de définir une valeur
 
 Pour les contour **Extérieurs** ou **Intérieurs** et sur la **Première couche**.
 
-Lors de l'impression, **la Première couche** est écrasée sur le plateau d'impression chauffé et, par conséquent, elle est généralement **un peu plus large qu'elle ne devrait l'être.**
+#### *XY Compensation de la première couche*
+
+Lors de l'impression, **la Première couche** est écrasée sur le plateau d'impression chauffé et, par conséquent, elle est généralement **un peu plus large qu'elle ne devrait l'être.** Ce problème est également appelé effet [pied d'éléphant](../glossary/glossary.md#pied_déléphant).
 
 Pour de nombreuses applications, ce n'est peut-être pas un problème. Mais si vous avez quelque chose qui a vraiment besoin d'avoir des dimensions précises ou de s'adapter avec des tolérances très serrées, cela peut être un problème. 
 
@@ -462,7 +474,12 @@ Pour de nombreuses applications, ce n'est peut-être pas un problème. Mais si v
 
 Pour accéder à ces paramètres, SuperSlicer doit être en mode avancé ou expert.
 
+Vous pouvez régler la valeur de compensation pour la ***[Première couche](../variable/first_layer_size_compensation.md)*** . Avec ce paramètre , la première couche sera agrandie / réduite dans le plan XY par la valeur configurée pour compenser l'augmentation de la largeur par écrasement  (la valeur devrait être négative = vers l'intérieur).
+
+la variable ***[hauteur de couche](../variable/first_layer_size_compensation_layer.md)*** indique le nombre de couches sur lesquelles la compensation des premières couches sera active.  La première couche sera réduite de la valeur de la compensation de la première couche, puis  les couches suivantes seront progressivement réduites, jusqu'à la couche indiquée par  cette valeur.
+
 #### *Compensation du rétrécissement des trous verticaux*
+
 Les trous convexes seront agrandis/rétrécis dans le plan XY par la valeur configurée (négatif = vers l'intérieur, positif = vers l'extérieur, devrait être négatif car les trous sont toujours un peu plus petits à l'intérieur). Cela peut être utile pour affiner la taille des trous.
 
 Ce paramètre se comporte de la même manière que la compensation de la taille XY interne, mais uniquement pour les formes convexes. Il s'ajoute à **Compensation XY intérieure**, il ne le remplace pas.
@@ -472,6 +489,7 @@ Ce paramètre se comporte de la même manière que la compensation de la taille 
 Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer entièrement à tous les trous détectés.
 
 #### *Convertir les trous verticaux rond en Polygone*
+
 ![Image : Polygones](./images/035.jpeg)
 
 
@@ -485,12 +503,15 @@ Idée et mathématiques de ***polygones*** [http://hydraraptor.blogspot.com/2011
 
 
 ### Autre
+
 ![Image : Autre](./images/037.png)
 
 #### *Dissocier les objets multi-pièces*
+
 Lorsque vous imprimez des objets multi-matériaux, ce réglage fera en sorte que SuperSlicer rattache ensemble les parties de l'objet qui se superposent (la 2e partie sera rattachée à la 1ere, la 3e partie sera rattachée à la 1ere et la 2e, etc...).
 
 #### *Autoriser les couches vides*
+
 Evite que le moteur de découpe d’afficher un message d’erreur si une couche pleine est vide et donc l'impression devra repartir dans le vide par la suite.
 
 ![](./images/038.png)

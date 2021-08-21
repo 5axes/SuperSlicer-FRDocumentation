@@ -169,7 +169,7 @@ La paroi la plus extérieur. Il n'y a qu'une seule paroi extérieure par pièce 
 ## Parois intérieurs (Inner walls) 
 Toutes les parois sauf la paroi extérieur. Si une partie d'une couche n'a qu'une seule paroi extérieure, elle peut avoir un nombre quelconque de parois intérieures.
 
-## Patte d’éléphant 
+## Pied d’éléphant 
 Défaut sur l’impression par fil sur les premières couches. L’écrasement de la première couche conduit à un élargissement de cette dernière créant un élargissement qui ressemble à un pied d’un éléphant.
 
 ## PLA (Polylactic Acid)
