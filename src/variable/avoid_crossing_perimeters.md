@@ -9,8 +9,8 @@
 
 ### Description
 
-Optimiser les déplacements afin de minimiser le franchissement de périmètres.
-Ceci est surtout utile avec les extruder Bowden qui sont sujets aux coulures.
-Cette fonctionnalité ralentit l'impression et la génération du G-Code.
+L'option permet d'optimiser les déplacements afin de minimiser le franchissement de périmètres. Ceci est surtout utile avec les extrudeuses de type Bowden qui sont sujettes aux coulures.
+
+**Attention** l'utilisation de cette fonctionnalité ralentit l'impression et la génération du G-Code.
 
 [Retour Liste variables](variable_list.md)

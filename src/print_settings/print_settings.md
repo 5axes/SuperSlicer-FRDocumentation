@@ -1667,7 +1667,7 @@ Si l'option est activé, tous les extrudeurs qui impriment seront amorcés sur l
 
 ![Image : Option Avancé](./images/138.png)
 
-#### *Création d’interface entre coques*
+#### *[Création d’interface entre coques](../variable/interface_shells.md)*
 
 Force la génération de coques pleines entre des volumes/matériaux adjacents. Utile pour des impressions multi-extrudeurs avec des matériaux translucides ou avec un support manuel soluble.
 
