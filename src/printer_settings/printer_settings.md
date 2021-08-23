@@ -118,7 +118,7 @@ Si vous voulez qu'il soit plus silencieux pendant la nuit, en plus de passer en 
 
 #### *Précision du G-Code*
 
-Permet de définir le nombre de chiffres après le point pour les coordonnées **[XYZ](../variable/gcode_precision_xyz)** et pour les valeurs de pilotage de l’extrudeur **[E](../variable/gcode_precision_e)**.
+Permet de définir le nombre de chiffres après le point pour les coordonnées **[XYZ](../variable/gcode_precision_xyz.md)** et pour les valeurs de pilotage de l’extrudeur **[E](../variable/gcode_precision_e.md)**.
 
 ![Image : Options Firmware](./images/007.png)[gcode_precision_e.md](..\variable\gcode_precision_e.md)
 
