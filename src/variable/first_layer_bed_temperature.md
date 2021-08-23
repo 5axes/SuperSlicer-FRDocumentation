@@ -9,7 +9,7 @@
 
 ### Description
 
-Ce réglage fait que plateau de la machine est chauffé à une température différente pendant l'impression de la première couche.
+Ce réglage permet de spécifier la température de chauffage du plateau pendant l'impression de la première couche.
 
 Le fait de chauffer un peu plus le  plateau de la machine pendant l'impression de la première couche permet d'avoir une meilleur adhésion du plastique fondue au plateau et évite ainsi les décollement et gauchissement de la pièce par la suite.
 

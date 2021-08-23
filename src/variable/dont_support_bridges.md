@@ -11,6 +11,6 @@
 
 Option expérimentale pour empêcher la génération de support sous les ponts.
 
-Active si l'option de génération des supports est actives  : [support_material](support_material.md) .
+Active si l'option de génération des supports est active  : [support_material](support_material.md) .
 
 [Retour Liste variables](variable_list.md)

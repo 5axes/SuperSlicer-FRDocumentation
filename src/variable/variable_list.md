@@ -6,6 +6,7 @@
     * [SuperSlicer liste des variables](#superslicer-liste-des-variables) 
     * [Variables les plus utiles](#variables-les-plus-utiles)
     * [Variables supplémentaires dans le Format du nom de fichier de sortie](#variables-supplémentaires-dans-le-format-du-nom-de-fichier-de-sortie) 
+    * [Variables macro spéciales](#variables-macro-spéciales)
     * [Variables impression](#variables-impression)  
 
 * [Retour Page principale](../superslicer.md)
@@ -95,6 +96,39 @@ note : cela ne fonctionne que dans le G-Code de changement d'outil
 
 ![Image : Format du nom de fichier de sortie](./images/002.png)
 
+## Variables macro spéciales
+
+    bounding_box (tableau de 3 valeurs)
+    current_extruder
+    current_object_idx
+    year
+    month
+    day
+    hour
+    minute
+    second
+    timestamp
+    filament_preset
+    first_layer_print_convex_hull
+    first_layer_print_max
+    first_layer_print_min
+    first_layer_print_size
+    has_single_extruder_multi_material_priming
+    has_wipe_tower
+    initial_extruder
+    initial_tool
+    input_filename
+    input_filename_base
+    physical_printer_preset
+    print_bed_max
+    print_bed_min
+    print_bed_size
+    print_preset
+    printer_preset
+    scale
+    total_layer_count
+    total_toolchanges
+    version
 
 ### Variables impression
 

@@ -61,15 +61,15 @@ Température de la buse pour les couches après la première. Réglez ceci sur z
 
 #### *Plateau*
 
-##### *Première couche*
+##### *[Première couche](../variable/first_layer_bed_temperature.md)*
 
 Température du plateau chauffant pour la première couche. Mettez ceci à zéro pour désactiver les commandes de contrôle de température du plateau dans la sortie.
 
-##### *Autres couches*
+##### *[Autres couches](../variable/bed_temperature.md)*
 
 Température du plateau pour les couches après la première. Mettez ceci à zéro pour désactiver les commandes de contrôle de température du plateau dans la sortie.
 
-#### *Chambre*
+#### *[Chambre](../variable/chamber_temperature.md)*
 
 Paramètre permettant de définir la température dans l’enceinte de la machine pour les imprimantes fermées.
 
@@ -84,7 +84,7 @@ Le type de matériau de filament à utiliser dans les G-codes personnalisés.
 
 Définition de la propriété soluble du matériau. Il est probable qu'un matériau soluble soit utilisé pour un support soluble.
 
-#### *Retrait*
+#### *[Retrait](../variable/filament_shrink.md)*
 
 Entrez le pourcentage de retrait que le filament aura après refroidissement (94% si vous mesurez 94mm au lieu de 100mm). La pièce sera mise à l'échelle en XY pour compenser. Seul le filament utilisé pour le périmètre est pris en compte.
 
