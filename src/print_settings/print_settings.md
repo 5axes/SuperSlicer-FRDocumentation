@@ -1726,6 +1726,7 @@ La distance verticale entre la pointe de la buse et les tiges de l'axe X (ou la 
 SuperSlicer veut **que tous les objets doivent être inférieurs à la hauteur de dégagement de l'extrudeur, sauf le dernier objet**, qui peut être aussi grand que le Z max de l'imprimante.
 
 ### Fichier de sortie
+
 ![Image : Options fichier de sortie](./images/142.png)
 
 #### *[G-code commenté](../variable/gcode_comments.md)*
@@ -1754,12 +1755,12 @@ Vous devez définir la ***Taille XY supplémentaire de fraisage*** sur une valeu
 
 Cela augmente la taille de l'objet d'une certaine quantité pour avoir assez de plastique à fraiser. Vous pouvez définir un nombre de mm ou un pourcentage de la largeur supplémentaire optimale calculée (à partir du calcul du flux).
 
-#### *Fraisage seulement après*
+#### *[Fraisage seulement après](../variable/milling_after_z.md)*
 
 Ce paramètre limite le fraisage post-processus à une certaine hauteur, pour éviter de fraiser le plateau. 
 Cela peut être exprimé en mm ou un % de la hauteur de la première couche (cela peut donc dépendre de l'objet).
 
-#### *Vitesse de fraisage*
+#### *[Vitesse de fraisage](../variable/milling_speed.md)*
 
 Vitesse de l’outil de fraisage.
 
