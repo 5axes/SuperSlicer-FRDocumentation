@@ -56,6 +56,7 @@ Les principales caractéristiques communes à ces 3 solutions sont les suivantes
 
 
 ## Les autres caractéristiques principales
+
 - Combinaison de couches de remplissage tous les "n" périmètres et densité variable pour accélérer l'impression.
 - ***Prévisualisation 3D*** (y compris les fichiers multi-matériaux).
 - ***Hauteurs de couches multiples*** en une seule impression.
@@ -70,11 +71,12 @@ Les principales caractéristiques communes à ces 3 solutions sont les suivantes
 
 
 ## Développement
+
 ### Dans quelle langage est-il écrit ?
 
 Presque tout est écrit en C++.
 
-Le cœur du moteur de découpage en tranches est la bibliothèque libslic3r, qui peut être développée et utilisée de manière autonome. L'interface en ligne de commande est une enveloppe d’encapsulage de libslic3r. Vous pouvez télécharger un paquet précompilé depuis la page de publication - il fonctionnera sans aucune dépendance.
+Le cœur du moteur de découpage en tranches est la bibliothèque [libslic3r](https://manual.slic3r.org/libslic3r-doc/index.html) qui peut être développée et utilisée de manière autonome. L'interface en ligne de commande est une enveloppe d’encapsulage de libslic3r. Vous pouvez télécharger un paquet précompilé depuis la page de publication - il fonctionnera sans aucune dépendance.
 
 ### Je peux vous aider ?
 
@@ -82,7 +84,7 @@ Bien sûr ! Vous pouvez faire ce qui suit pour trouver des choses pour lesquelle
 
 - Ajoutez un problème au [tracker GitHub](https://github.com/supermerill/SuperSlicer/issues) **s'il n'est pas déjà présent**. 
 
-Avant d'envoyer des correctifs et des demandes d'extraction, contactez-moi (de préférence en ouvrant un problème sur GitHub ou en commentant un problème existant et connexe) pour discuter des changements que vous proposez. De cette façon, nous pouvons nous assurer que personne ne perd son temps et qu'aucun conflit ne survient dans le développement.
+Avant d'envoyer des correctifs et des demandes de mise à jour, contactez-moi (de préférence en ouvrant un problème sur GitHub ou en commentant un problème existant et connexe) pour discuter des changements que vous proposez. De cette façon, nous pouvons nous assurer que personne ne perd son temps et qu'aucun conflit ne survient dans le développement.
 
 
 ## Licence et attribution
@@ -91,7 +93,7 @@ SuperSlicer est sous licence GNU Affero General Public License, version 3. Super
 
 PrusaSlicer est sous licence GNU Affero General Public License, version 3. PrusaSlicer est la propriété de Prusa Research. PrusaSlicer est initialement basé sur Slic3r d'Alessandro Ranellucci.
 
-Slic3r est sous licence GNU Affero General Public License, version 3. Slic3r a été créé par Alessandro Ranellucci avec l'aide de nombreux autres contributeurs.
+Slic3r est sous licence GNU Affero General Public License, version 3. Slic3r a été créé par [Alessandro Ranellucci](https://www.linkedin.com/in/alessandro-ranellucci) avec l'aide de nombreux autres contributeurs.
 
 La licence GNU Affero General Public License, version 3 garantit que si vous utilisez une partie de ce logiciel de quelque manière que ce soit (même derrière un serveur web), votre logiciel doit être publié sous la même licence.
 
