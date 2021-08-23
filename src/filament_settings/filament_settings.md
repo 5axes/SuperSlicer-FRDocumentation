@@ -80,7 +80,7 @@ Paramètre permettant de définir la température dans l’enceinte de la machin
 
 Le type de matériau de filament à utiliser dans les G-codes personnalisés.
 
-#### *Matériau soluble*
+#### *[Matériau soluble](../variable/filament_soluble.md)*
 
 Définition de la propriété soluble du matériau. Il est probable qu'un matériau soluble soit utilisé pour un support soluble.
 
