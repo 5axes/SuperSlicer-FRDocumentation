@@ -11,4 +11,6 @@
 
 Distance utilisé pour régler la distance entre les objets lors de l'utilisation de la fonction d’arrangement automatique.
 
+Valeur par défaut : 6 mm
+
 [Retour Liste variables](variable_list.md)

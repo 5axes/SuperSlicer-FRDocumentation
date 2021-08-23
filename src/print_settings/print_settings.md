@@ -1679,7 +1679,7 @@ A gauche l’option n’est pas activée / A droite option coque d’interface a
 
 ### Plateau
 
-#### *Distance entre les objets*
+#### *[Distance entre les objets](../variable/duplicate_distance.md)*
 
 Distance utilisée par la fonction d'agencement automatique du plateau. Pour définir la distance à respecter entre les objets placés sur le plateau d’impression.
 
