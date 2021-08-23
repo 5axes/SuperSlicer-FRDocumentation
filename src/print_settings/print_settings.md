@@ -1736,7 +1736,7 @@ Activez ceci pour obtenir un fichier G-code commenté, avec chaque ligne expliqu
 
 Activez cette option pour ajouter des commentaires dans le G-code afin d'identifier les mouvements d'impression avec l'objet concerné. Cela est utile pour le plugin Octoprint CancelObject. Ce paramètre n'est **PAS** compatible avec la configuration mono-extrudeur multi-matériaux ni avec la configuration ***Purger dans l'objet*** ou ***Purger dans le remplissage***.
 
-#### *[Format du nom de fichier de sortie](../variable/output_filemane_format.md)*
+#### *[Format du nom de fichier de sortie](../variable/output_filename_format.md)*
 
 Vous pouvez utiliser toutes les options de configuration comme variables dans ce modèle. Par exemple : [layer_height], [fill_density] etc. Vous pouvez aussi utiliser [timestamp], [year], [month], [day], [hour], [minute], [second], [version], [input_filename], [input_filename_base].
 
