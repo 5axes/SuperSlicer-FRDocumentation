@@ -1,4 +1,4 @@
-# gcode_precision_xyz
+# gcode_precision_e
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
