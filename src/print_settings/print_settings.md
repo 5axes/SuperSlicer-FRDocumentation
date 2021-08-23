@@ -1728,15 +1728,15 @@ SuperSlicer veut **que tous les objets doivent être inférieurs à la hauteur d
 ### Fichier de sortie
 ![Image : Options fichier de sortie](./images/142.png)
 
-#### *G-code commenté*
+#### *[G-code commenté](../variable/gcode_comments.md)*
 
 Activez ceci pour obtenir un fichier G-code commenté, avec chaque ligne expliquée par un texte descriptif. Si vous imprimez depuis une carte SD, le poids supplémentaire du fichier pourrait ralentir le firmware de votre imprimante.
 
-#### *Marquer les objets*
+#### *[Marquer les objets](../variable/gcode_label_objects.md)*
 
 Activez cette option pour ajouter des commentaires dans le G-code afin d'identifier les mouvements d'impression avec l'objet concerné. Cela est utile pour le plugin Octoprint CancelObject. Ce paramètre n'est **PAS** compatible avec la configuration mono-extrudeur multi-matériaux ni avec la configuration ***Purger dans l'objet*** ou ***Purger dans le remplissage***.
 
-#### *Format du nom de fichier de sortie*
+#### *[Format du nom de fichier de sortie](../variable/output_filemane_format.md)*
 
 Vous pouvez utiliser toutes les options de configuration comme variables dans ce modèle. Par exemple : [layer_height], [fill_density] etc. Vous pouvez aussi utiliser [timestamp], [year], [month], [day], [hour], [minute], [second], [version], [input_filename], [input_filename_base].
 
