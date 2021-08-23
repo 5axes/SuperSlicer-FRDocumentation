@@ -9,7 +9,7 @@
 
 ### Description
 
-Nombre de tête de fraisage présente sur la machine. 
+Nombre de têtes de fraisage présentent sur la machine. 
 
 * Valeur par défaut : 0
 

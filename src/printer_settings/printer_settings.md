@@ -79,17 +79,17 @@ Notez que le G-Code écrira les valeurs z avec 6 chiffres après le point si z\_
 
 ### Fonctionnalités
 
-#### *Extrudeuses*
+#### *[Extrudeuses](../variable/extruders_count.md)*
 
 Nombre d'extrudeuses de l'imprimante.
 
-#### *Multi matériel à extrudeur unique*
+#### *[Extrudeuse unique Multi-matériaux](../variable/single_extruder_multi_material.md)*
 
 L'imprimante multiplexe les filaments vers une seule tête d'extrusion.
 
 L’activation de cette option permet de déverrouiller l’accès aux paramètres de réglage de l’imprimante : ***[Réglage MM pour extrudeur unique](../variable/single_extruder_multi_material.md)***.
 
-#### *Fraises*
+#### *[Fraises](../variable/milling_count.md)*
 
 Nombre de tête de fraisage disponible sur la machine. L'activation de ce paramètre va rajouter les paramètres [Milling](#milling) à la liste des options configurable sur la machine.
 
