@@ -484,7 +484,7 @@ Les trous convexes seront agrandis/rétrécis dans le plan XY par la valeur conf
 
 Ce paramètre se comporte de la même manière que la compensation de la taille XY interne, mais uniquement pour les formes convexes. Il s'ajoute à **Compensation XY intérieure**, il ne le remplace pas.
 
-**Le Seuil** (en mm²) représente la zone maximale pour le trou où la compensation de la taille du trou s'appliquera pleinement. Après cela, elle se réduira à 0 pour quatre fois cette surface.
+**[Le seuil](../variable/hole_size_threshold.md)** (en mm²) représente la zone maximale pour le trou où la compensation de la taille du trou s'appliquera pleinement. Après cela, elle se réduira à 0 pour quatre fois cette surface.
 
 Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer entièrement à tous les trous détectés.
 
@@ -496,6 +496,11 @@ Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer enti�
 Lors de l'impression 3D avec les technologies fil fondu, la rétraction et la façon dont le matériau est extrudé font que les trous sont plus petits que prévu. Une façon d'y remédier est de créer des trous plus grands, mais ce n'est pas la seule façon : vous pouvez jouer avec la géométrie. Les bords sont imprimés avec précision et donc en réduisant le nombre de "côtés" des cercles ET en les plaçant à l'"extérieur" (ne pas couper les coins) du trou, vous pouvez avoir des trous fonctionnels.
 
 Dans l'image ci-dessus, les forets entrent parfaitement dans le polygone mais ils ne peuvent pas entrer dans leur trou rond, il est trop étroit comme prévu.
+
+**[La marge de circularité](../variable/hole_to_polyhole_threshold.md)** (en mm²) représente la défection maximale d'un point par rapport au rayon estimé du cercle.
+Comme les cylindres sont souvent exportés sous forme de triangles de taille variable, le point peut ne pas être sur la circonférence du cercle. Ce paramètre vous laisse une certaine marge de manœuvre pour élargir  la détection.
+
+Exprimable en mm ou en % du rayon.
 
 Idée et mathématiques de ***polygones*** [http://hydraraptor.blogspot.com/2011/02/polyholes.html](http://hydraraptor.blogspot.com/2011/02/polyholes.html).
 

@@ -1,9 +1,9 @@
 # z_offset
 
-- Technologie : FDM
-- Groupe :   Réglages de l'Imprimante
-- Sous groupe : Taille et coordonnées
-- Mode : Expert
+* Technologie : FDM
+* Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) -  [Taille et coordonnées](../printer_settings/printer_settings.md#taille_et_coordonnées)
+* Mode : Expert
 
 ## Décalage Z
 

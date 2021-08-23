@@ -59,15 +59,15 @@ En plus de cela, après le démarrage de l'application, une texture de plateau d
 
 ### Taille et coordonnées
 
-#### *Hauteur maximale d’impression*
+#### *[Hauteur maximale d’impression](../variable/max_print_height.md)*
 
 Réglez cette valeur sur la hauteur maximum que peut atteindre votre extrudeur au cours de l'impression.
 
-#### *Décalage en Z*
+#### *[Décalage en Z](../variable/z_offset.md)*
 
 Cette valeur sera ajoutée (ou soustraite) de toutes les coordonnées Z dans le G-Code de sortie. Elle est utilisée pour compenser une mauvaise position de fin de course Z: par exemple si votre fin de course place votre buse à 0.3mm au-dessus du plateau, réglez cette valeur sur -0.3 (ou corrigez votre fin de course).
 
-#### *Pas entier sur Z*
+#### *[Pas entier sur Z](../variable/z_step.md)*
 
 Réglez cette valeur sur la hauteur déplacée lorsque votre moteur Z (ou équivalent) tourne d'un pas. Si votre moteur a besoin de 200 pas pour déplacer votre tête/platine de 1mm, ce champ doit être de 1/200 = 0.005.
 

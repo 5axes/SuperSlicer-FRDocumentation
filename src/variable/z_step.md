@@ -2,14 +2,14 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : Taille et coordonnées
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) -  [Taille et coordonnées](../printer_settings/printer_settings.md#taille_et_coordonnées)
 * Mode : Expert
 
 ## Pas entier sur Z
 
 ### Description
 
-Réglez cette valeur sur la hauteur déplacée lorsque votre moteur Z (ou équivalent) tourne d'un pas. 
+Réglez cette valeur sur la hauteur de déplacement lorsque votre moteur Z (ou équivalent) tourne d'un pas. 
 Si votre moteur a besoin de 200 pas pour déplacer votre tête/plateau de 1mm, ce champ doit être de 1/200 = 0.005.
 
 Notez que le G-Code écrira les valeurs z avec 6 chiffres après le point si z_step est activé (c'est 3 chiffres s'il est désactivé).
