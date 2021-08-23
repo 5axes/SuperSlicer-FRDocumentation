@@ -182,9 +182,11 @@ Trop de commandes de déplacement trop petites peuvent surcharger le firmware / 
 
 > Mettez à 0 pour désactive complètement la gestion de la longueur minimale d’extrusion.
 
-#### *Activer la fonction de hauteur de couche variable*
+#### *[Activer la fonction de hauteur de couche variable](../variable/variable_layer_height.md)*
 
-Certaines imprimantes ou certains réglages d'imprimante peuvent rencontrer des difficultés pour imprimer avec une hauteur de couche variable. Activé par défaut.
+Certaines imprimantes ou certains réglages d'imprimante peuvent rencontrer des difficultés pour imprimer avec une hauteur de couche variable. 
+
+Activé par défaut.
 
 ![Image : Options avancées](./images/010.png)
 
@@ -215,7 +217,7 @@ Si vous avez plusieurs extrudeuses, le G-Code sera exécuté dans l'ordre des ex
 
 #### *G-Code de fin*
 
-Cette procédure de fin est insérée à la fin du fichier de sortie, juste avant le G-Code de fin (et avant tout changement d’extrudeuse de ce filament dans le cas d’imprimantes multimatériaux).
+Cette procédure de fin est insérée à la fin du fichier de sortie, juste avant le G-Code de fin (et avant tout changement d’extrudeuse de ce filament dans le cas d’imprimantes multi-matériaux).
 
 Notez que vous pouvez utiliser des variables de substitution pour tous les paramètres SuperSlicer. Si vous avez plusieurs extrudeuses, le G-Code est ajouté dans leur ordre.
 
@@ -257,6 +259,7 @@ Mixed n'est utilisé que lorsque le type de l'extrusion n'est pas unique, pas un
 
 
 ## Limites de la machine
+
 ![Image : Options Limites de la machine](./images/012.png)
 
 
@@ -470,7 +473,7 @@ Permet de définir combien de chiffres après le point utiliser pour les défini
 
 ## Milling
 
-Paramètre pour le réglage des opérations de fraisage. Pour être visible il faut avoir au préalable défini un nombre de fraise disponible dans la section Générale.
+Paramètres pour le réglage des opérations de fraisage. Pour être visible il faut avoir au préalable défini un [nombre de fraise](../variable/milling_count.md) disponible dans la section [Générale](#général).
 
 ![Image : Réglage du nombre de fraises](./images/021.png)
 
