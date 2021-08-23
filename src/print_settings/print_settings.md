@@ -1744,13 +1744,13 @@ Vous pouvez utiliser toutes les options de configuration comme variables dans ce
 
 ![Image : Options de fraisage de post-traitement](./images/143.png)
 
-#### *Post_traitement par fraisage*
+#### *[Post_traitement par fraisage](../variable/milling_post_process.md)*
 
 Si cette option est activée, à la fin de chaque couche, l'imprimante utilisera une tête de fraisage pour fraiser les périmètres externes.
 
 Vous devez définir la ***Taille XY supplémentaire de fraisage*** sur une valeur suffisamment élevée pour avoir suffisamment de plastique à fraiser. Assurez-vous également que votre pièce est fermement collée sur le plateau.
 
-#### *Taille XY supplémentaire de fraisage*
+#### *[Taille XY supplémentaire de fraisage](../variable/milling_extra_size.md)*
 
 Cela augmente la taille de l'objet d'une certaine quantité pour avoir assez de plastique à fraiser. Vous pouvez définir un nombre de mm ou un pourcentage de la largeur supplémentaire optimale calculée (à partir du calcul du flux).
 
