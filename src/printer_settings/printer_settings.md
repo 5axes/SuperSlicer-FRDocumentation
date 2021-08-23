@@ -112,27 +112,28 @@ Indique que le firmware est compatible avec le mode silencieux. Ce mode permet n
 
 Si vous voulez qu'il soit plus silencieux pendant la nuit, en plus de passer en mode furtif, vous pouvez également réduire la vitesse en utilisant la commande de l'imprimante. Cela peut être fait dans n'importe quel mode et fait partie de son fonctionnement normal.  Il suffit de la ramener à un niveau suffisamment bas pour vous et, le matin, si l'impression se poursuit, de la ramener à 100 %.
 
-#### *Temps d’impression restant*
+#### *[Temps d’impression restant](../variable/remaining_times.md)*
 
 Émet M73 P[pourcentage imprimé] R[temps restant en minutes] à 1 minute d'intervalle dans le G-code afin que le firmware puisse indiquer précisément le temps restant. Jusqu'à présent seul le firmware Prusa i3 MK3 reconnait M73. Par ailleurs le firmware i3 MK3 supporte M73 Qxx Sxx pour le mode silencieux.
 
 #### *Précision du G-Code*
 
-Permet de définir le nombre de chiffres après le point pour les coordonnées **XYZ** et pour les valeurs de pilotage de l’extrudeur **E**.
+Permet de définir le nombre de chiffres après le point pour les coordonnées **[XYZ](../variable/gcode_precision_xyz)** et pour les valeurs de pilotage de l’extrudeur **[E](../variable/gcode_precision_e)**.
 
-![Image : Options Firmware](./images/007.png)
+![Image : Options Firmware](./images/007.png)[gcode_precision_e.md](..\variable\gcode_precision_e.md)
 
 ### Ventilateur de refroidissement
+
 ![Image : Options Ventilateur de refroidissement](./images/008.png) 
 
 #### *Accélération*
 
-Temps d’accélération : Permet d'anticiper le démarrage du ventilateur d'au moins ce délai (en secondes, vous pouvez utiliser des décimales).
+***[Temps d’accélération](../variable/fan_speedup_time.md)*** : Permet d'anticiper le démarrage du ventilateur d'au moins ce délai (en secondes, vous pouvez utiliser des décimales).
 Il suppose une accélération infinie pour cette estimation de temps et ne prendra en compte que les déplacements G1 et G0. 
 
 > Utilisez 0 pour désactiver.
 
-L’option ***Uniquement pour les surplombs***, ne tiendra compte que du délai pour le refroidissement des surplombs.
+L’option ***[Uniquement pour les surplombs](../variable/fan_speedup_overhangs.md)***, ne tiendra compte que du délai pour le refroidissement des surplombs.
 
 #### *Durée de la phase de démarrage*
 
