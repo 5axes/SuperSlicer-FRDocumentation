@@ -97,14 +97,16 @@ Nombre de tête de fraisage disponible sur la machine. L'activation de ce param�
 
 ### Firmware
 
-#### *Version du G-code*
+#### *[Version du G-code](../variable/gcode_flavor.md)*
 
-Certaines commandes G/M-code, y compris le contrôle de la température ainsi que d'autres, ne sont pas universelles. Paramétrez cette option dans le firmware de votre imprimante pour obtenir une sortie compatible. L'option "***Aucune d'extrusion***" empêche complètement SuperSlicer d'exporter toute valeur d'extrusion.
+Certaines commandes G/M-code, y compris le contrôle de la température ainsi que d'autres, ne sont pas universelles. Paramétrez cette option selon le firmware de votre imprimante pour obtenir une sortie compatible. 
+
+L'option "***Aucune d'extrusion***" empêche complètement SuperSlicer d'exporter toute valeur d'extrusion.
 
 ![Image : Version du G-Code](./images/006.png)
 
 
-#### *Supporte le mode silencieux*
+#### *[Supporte le mode silencieux](../variable/silent_mode.md)*
 
 Indique que le firmware est compatible avec le mode silencieux. Ce mode permet normalement aux imprimantes d'être un peu plus silencieuses en fonctionnement. Le mode silencieux ne se déplace pas directement plus lentement.  Lorsque l'imprimante est mise en mode silencieux, elle utilise les paramètres d'accélération et de vitesse de la section silencieux du microprogramme (qui correspondent à ceux de la section ***Mode silencieux*** de la configuration de l'imprimante). Ainsi, elle n'atteindra pas les mêmes vitesses puisque l'accélération est plus faible et que le microprogramme limite les vitesses de pointe.  Le mode silencieux fait aussi des choses avec les courants d'entraînement ce qui, je pense, explique pourquoi la détection de collision ne fonctionne pas dans ce mode sur les imprimantes Prusa.
 
