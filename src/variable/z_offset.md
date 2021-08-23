@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
-* Sous groupe : [Général](../printer_settings/printer_settings.md#général) -  [Taille et coordonnées](../printer_settings/printer_settings.md#taille_et_coordonnées)
+* Sous groupe : [Général](../printer_settings/printer_settings.md#général) -  [Taille et coordonnées](../printer_settings/printer_settings.md#taille-et-coordonnées)
 * Mode : Expert
 
 ## Décalage Z
