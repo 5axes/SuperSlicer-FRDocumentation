@@ -7,7 +7,7 @@
 	* [Annuler / Rétablir](#annuler--rétablir)
 	* [Copier / Coller](#copier--coller)
 	* [Instances](#instances)
-	* [Diviser en objets/pièces](#diviser-en-objetspièce)
+	* [Diviser en objets/pièces](#diviser-en-objetspièces)
 	* [Fonction de hauteur de couche variable](#fonction-de-hauteur-de-couche-variable)
 	* [Recherche](#recherche)
 
@@ -23,6 +23,7 @@ Lorsque vous importez plusieurs modèles ou créez de nombreuses instances du m�
 ![Exemple agencement](images/arange.gif)
 
 ### Agencement partiel
+
 L'outil d'agencement automatique peut être utilisé pour organiser uniquement un sous-ensemble des objets sur le plateau tout en conservant inchangée la position des objets non sélectionnés. Pour ce faire, sélectionnez les objets à agencer et appuyez sur le bouton **Agencer** tout en maintenant la touche Shift ou en appuyant sur le raccourci clavier **Shift** + **A**.
 
 ![Exemple agencement partiel](images/shift-arange.gif)
@@ -35,6 +36,7 @@ Toutes les actions accessibles à partir de la vue de l'éditeur 3D sont annulab
 |:-----------------------------------------------------:|:------------:|
 | **Ctrl** + **Z**                                      | **Annuler**  |
 | **Ctrl** + **Y** (ou **Ctrl** + **Majuscule**+ **Z**) | **Rétablir** |
+
 Vous pouvez annuler ou rétablir plusieurs étapes à la fois en cliquant ***avec le bouton droit de la souris*** sur le bouton Annuler ou Rétablir et en sélectionnant un point dans l'historique. Comme chaque action a un nom expressif attribué, il est facile de s'orienter même dans une longue liste d'actions.
 
 ![Image : Fonction Annuler bouton de droite de la souris](./images/016.png)
@@ -53,6 +55,7 @@ Vous pouvez sélectionner un ou plusieurs modèles et les copier/coller à l'aid
 |:-----------------:|:----------:|
 | **Ctrl** + **C**  | **Copier** |
 | **Ctrl** + **V**  | **Coller** |
+
 Les copies d'objets incluent tout, des modificateurs aux instances d'objet ou les bloqueurs et générateurs de supports.
 
 ## Instances
@@ -91,16 +94,16 @@ Les fichiers 3MF prennent en charge plusieurs objets de façon native, chaque ob
 
 Parfois, cela est fait exprès, par exemple, lorsque vous exportez l'intégralité du plateau en un unique STL ou lorsque vous exportez un modèle multi-matériaux. Vous souhaiterez peut-être séparer les enveloppes afin de transformer des objets individuels indépendamment les uns des autres ou définir des paramètres d'impression différents pour différents modèles. SuperSlicer peut identifier automatiquement plusieurs enveloppes dans un seul fichier et les diviser en modèles distincts. Cependant, il existe deux façons différentes de procéder.
 
-### Diviser en objets
+### Scinder Vers les objets
 
-- Crée un objet individuel pour chaque enveloppe
-- Place chaque modèle nouvellement créé sur le plateau d'impression
+- Crée un objet individuel pour chaque enveloppe du modèle STL
+- Place chaque modèle nouvellement créé sur le plateau d'impression 
 
-### Scinder en pièces
+### Scinder Vers les pièces
 
 - Conserve une seule instance du modèle dans la scène, mais crée plusieurs pièces.
 - Les pièces restent à leur emplacement d'origine, même si elles flottent dans le vide au-dessus du plateau d'impression
-- Habituellement utilisé pour diviser les modèles MMU sans désaligner les pièces individuelles.
+- Habituellement utilisé pour diviser les modèles MMU sans désaligner les pièces les unes par rapport au autres.
 
 ![Image : Diviser en objets (à gauche) et Scinder en pièce (à droite) (Image Prusa)](./images/017.jpeg)
 

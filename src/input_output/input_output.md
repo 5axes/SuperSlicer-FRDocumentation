@@ -89,6 +89,7 @@ Une fois qu'un G-Code est exporté vers un support amovible, un bouton **Éjecte
 
 
 ### Importer la Configuration
+
 Permet d’importer un fichier INI qui intègre les réglages exportés pour une configuration. 
 
 Cette fonction permet aussi de récupérer les réglages sauvegardés dans chaque fichier G-Code que génère SuperSlicer.
@@ -97,9 +98,11 @@ Cette fonction permet aussi de récupérer les réglages sauvegardés dans chaqu
 
 
 ### Importer la Configuration depuis le projet
+
 Permet d’importer les réglages de la configuration stocker dans un projet SuperSlicer. Ce projet est un fichier au format 3MF voir :  [Format de fichier 3MF](../input_output/input_output.md#format-de-fichier-3mf). 
 
 ### Importer le Lot de configuration
+
 Permet d’importer au format INI ***l’ensemble des configurations*** d’impression, de filament et d’imprimantes ***personnalisées*** définies dans un fichier d’export
 
 ### Exporter
@@ -107,12 +110,15 @@ Permet d’importer au format INI ***l’ensemble des configurations*** d’impr
 
 
 #### *Exporter la Configuration* 
+
 Permet d’exporter au format INI la configuration actuelle.
 
 #### *Exporter le lot de Configuration* 
+
 Permet d’exporter au format INI ***l’ensemble des configurations*** d’impression, de filament et d’imprimantes ***personnalisées***.
 
 #### *Exporter le lot de Configuration Avec les imprimantes Physiques*
+
 Identique à la fonction précédente, mais rajoute les informations sur la connexion des imprimantes (paramètres réseau).
 
 ![Image : Paramètres imprimante physique](./images/008.png) 
