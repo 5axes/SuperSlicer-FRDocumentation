@@ -97,7 +97,7 @@ Après avoir modifiés les paramètres de vos profils. Si vous ne sauvegardez pa
 ![Image : Modifications non enregistrées](./images/013.jpeg)
 
 
-Page suivante [Première impression avec SuperSlicer](first_print/first_print.md)
+Page suivante [Première impression avec SuperSlicer](../first_print/first_print.md)
 
 
 [Retour Page principale](../superslicer.md)
