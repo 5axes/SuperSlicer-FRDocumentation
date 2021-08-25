@@ -275,7 +275,7 @@ Afin de masquer le plus possible la couture, plusieurs options de placement de l
 
 À partir de SuperSlicer 2.3, vous pouvez utiliser **l'outil de peinture des coutures** pour avoir un contrôle détaillé sur le placement des coutures.
 
-***Basé sur les coûts*** 
+##### *Basé sur les coûts*
 
 Tentative de placer la couture dans le bord le plus proche de la couche actuelle. Si votre modèle a des angles vifs, cela rendra la couture effectivement **invisible**.
 
@@ -318,7 +318,9 @@ Exemple de position de la couture en fonction des réglages
 | :-: | :-: | :-: | :-: |
 |<p>**Aléatoire**</p>|<p>**Basé sur les coûts**</p>|<p>**Aligné**</p>|<p>**Arrière**</p>|
 
+
 ### Périmètre à une boucle
+
 Cette option permet d’enchaîner les périmètres pour créer une seule extrusion continue sans interruption. Les longs déplacements intérieurs (de l'extérieur aux trous) ne sont pas extrudés pour laisser un peu d'espace au remplissage.
 
 ![Image : Exemple périmètre à une boucle](./images/028.png)
@@ -338,19 +340,24 @@ Avec cette option, les périmètres internes contourneront les angles aigus en c
  Exemple de périmètres à droite obtenus avec l’option **Coins arrondis**
 
 ### Périmètres externes en premier
+
 Les périmètres seront imprimés de l'extérieur vers l'intérieur au lieu de l'ordre inverse.
 
 Ce paramètre peut aider à la **précision dimensionnelle** car le périmètre extérieur est posé en premier et tout filament supplémentaire extrudé lors de l'impression des périmètres suivants est repoussé à l'écart de la paroi extérieure. En revanche, la surface peut être légèrement moins lisse.
 
-**Appliquer sur**
+#### *Appliquer sur*
 
 L’option permet de régler le mode d’application de cette option sur les périmètres de l’impression.
-##### ***Seulement le coté extérieure***
+
+##### *Seulement le coté extérieure*
+
 Ne faites le périmètre extérieur que sur les côtés extérieurs. Utile quand l’épaisseur est trop faible.
-##### ***Seulement pour le coté intérieur***
+
+##### *Seulement pour le coté intérieur*
+
 Ne faites le périmètre extérieur que sur les côtés intérieurs Utile quand vous voulez seulement retirer la couture des trous de vis.
 
-**En mode vase (sans couture)**
+#### *En mode vase (sans couture)*
 
 Imprimez les périmètres de contour en deux cercles de manière continue, un peu comme pour le mode vase. 
 
@@ -364,7 +371,7 @@ Si sa hauteur n'est pas inférieure à deux fois la hauteur actuelle de la couch
 
 Par exemple, pour que cet algorithme ai un vrai impact, il faut que la hauteur minimale soit au moins à 0.05 pour une hauteur de couche de 0.2.
 
-**Une meilleur liaison**
+#### *Une meilleur liaison*
 
 Ce réglage peut dégrader un peu la qualité de votre périmètre externe, en échange d'une meilleure liaison entre les périmètres.
 
@@ -484,7 +491,9 @@ Les trous convexes seront agrandis/rétrécis dans le plan XY par la valeur conf
 
 Ce paramètre se comporte de la même manière que la compensation de la taille XY interne, mais uniquement pour les formes convexes. Il s'ajoute à **Compensation XY intérieure**, il ne le remplace pas.
 
-**[Le seuil](../variable/hole_size_threshold.md)** (en mm²) représente la zone maximale pour le trou où la compensation de la taille du trou s'appliquera pleinement. Après cela, elle se réduira à 0 pour quatre fois cette surface.
+##### *[Le seuil](../variable/hole_size_threshold.md)*
+
+Ce paramètre exprimé (en mm²) représente la zone maximale pour le trou où la compensation de la taille du trou s'appliquera pleinement. Après cela, elle se réduira à 0 pour quatre fois cette surface.
 
 Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer entièrement à tous les trous détectés.
 
@@ -497,10 +506,11 @@ Lors de l'impression 3D avec les technologies fil fondu, la rétraction et la fa
 
 Dans l'image ci-dessus, les forets entrent parfaitement dans le polygone mais ils ne peuvent pas entrer dans leur trou rond, il est trop étroit comme prévu.
 
-**[La marge de circularité](../variable/hole_to_polyhole_threshold.md)** (en mm²) représente la défection maximale d'un point par rapport au rayon estimé du cercle.
+##### *[La marge de circularité](../variable/hole_to_polyhole_threshold.md)*
+
+Exprimable en mm ou en % du rayon, elle représente la défection maximale d'un point par rapport au rayon estimé du cercle.
 Comme les cylindres sont souvent exportés sous forme de triangles de taille variable, le point peut ne pas être sur la circonférence du cercle. Ce paramètre vous laisse une certaine marge de manœuvre pour élargir  la détection.
 
-Exprimable en mm ou en % du rayon.
 
 Idée et mathématiques de ***polygones*** [http://hydraraptor.blogspot.com/2011/02/polyholes.html](http://hydraraptor.blogspot.com/2011/02/polyholes.html).
 
@@ -1303,7 +1313,7 @@ Possibilité de définir la vitesse pour les axes **X/Y** et **Z** différencié
 
 ### Modificateurs
 
-##### *Vitesse de la première couche*
+#### *Vitesse de la première couche*
 
 Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à tous les déplacements d'impression de la première couche, quel que soit leur type. Si exprimée comme un pourcentage (par exemple 40%), cela modulera la vitesse par défaut.
 
@@ -1311,7 +1321,7 @@ Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à t
 
 Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
 
-##### *Petite vitesse périphérique *
+#### *Petite vitesse périphérique*
 
 Ces paramètres permettent de définir la notion de petit périmètre.
 
@@ -1337,23 +1347,23 @@ Réglez sur zéro pour un ajustement automatique.
 
 ### Contrôle de l’accélération (avancé)
 
-##### *Périmètres*
+#### *Périmètres*
 
 Permet de définir l'accélération qui sera utilisée par votre imprimante pour les périmètres. Régler sur zéro pour désactiver l'accélération pour les périmètres.
 
-##### *Remplissage*
+#### *Remplissage*
 
 Il s'agit de l'accélération que votre imprimante utilisera pour le remplissage. Régler sur zéro afin de désactiver le contrôle de l'accélération pour le remplissage.
 
-##### *Ponts*
+#### *Ponts*
 
 L'accélération qui sera utilisée par votre imprimante pour les ponts. Régler sur zéro pour désactiver l'accélération pour les ponts.
 
-##### *Première couche*
+#### *Première couche*
 
 L'accélération que l'imprimante utilisera pour la première couche. Régler sur zéro afin de désactiver le contrôle de l'accélération pour la première couche.
 
-##### *Défaut*
+#### *Défaut*
 
 Accélération à laquelle votre imprimante sera réinitialisée suite à une modification de l'accélération des fonctions spécifiques (périmètre/remplissage). Régler sur zéro pour ne pas réinitialiser l'accélération.
 
