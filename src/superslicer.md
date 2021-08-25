@@ -24,6 +24,11 @@ Version 1.19 du 21/08/2021
 
 * [Avoir du Support](getting-support.md)
 
+* [Configuration](configuration/configuration.md)
+	* [Assistant de Configuration](configuration/configuration.md#assistant-de-configuration)
+	* [Instantanés de Configuration](configuration/configuration.md#instantanés-de-configuration)
+
+
 * [Première impression avec SuperSlicer](first_print/first_print.md)
 	* [Importation du modèle](first_print/first_print.md#importation-du-modèle)
 	* [Orientation du modèle](first_print/first_print.md#orientation-du-modèle)
@@ -35,9 +40,6 @@ Version 1.19 du 21/08/2021
 	* [Jupe](first_print/first_print.md#jupe)
 	* [Prévisualisation du G-code avant l'impression](first_print/first_print.md#Prévisualisation-du-gcode-avant-limpression)
 
-* [Configuration](configuration/configuration.md)
-	* [Assistant de Configuration](configuration/configuration.md#assistant-de-configuration)
-	* [Instantanés de Configuration](configuration/configuration.md#instantanés-de-configuration)
 
 * [Interface utilisateur](user_interface/user_interface.md)
 	* [Présentation de l'interface utilisateur](user_interface/user_interface.md#présentation-de-linterface-utilisateur)

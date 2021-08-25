@@ -7,7 +7,7 @@
 	* [Discord](#discord)
 	* [Issue Tracker](#issue-tracker)
 	* [Directives pour signaler un problème](#directives-pour-signaler-un-problème)
-	* [Directives pour la demande de fonctionnalités](#directives-pour-la-demande-de-fonctionnalités)
+	* [Directives pour la demande de nouvelles fonctionnalités](#directives-pour-la-demande-de_nouvelles-fonctionnalités)
 
 * [Retour Page principale](superslicer.md)
 
@@ -42,14 +42,15 @@ Gardez à l'esprit que les développeurs travaillent bénévolement, et que le v
 * N'incluez qu'un seul problème par rapport. Si vous rencontrez plusieurs problèmes sans lien entre eux,  veuillez les signaler comme tels.
   
 
-## Directives pour la demande de fonctionnalités
+## Directives pour la demande de nouvelles fonctionnalités
 
 SuperSlicer est un projet communautaire, et des fonctionnalités sont généralement ajoutées lorsqu'il y a consensus général à leur sujet. Veuillez commencer par décrire votre *objectif* en montrant un cas concret. Montrez le code G d'un cas réel produit avec la version SuperSlicer actuelle
 et décrivez ce que vous aimeriez améliorer et pourquoi. Faites un effort pour documenter avec des images, des captures d'écran de  prévisualisation du code G, une inspection minutieuse.
 
 Une fois que vous vous êtes concentré sur le **pourquoi**, vous pouvez passer aux idées sur le **comment** pour atteindre cet objectif. Mais n'inversez pas l'ordre et les efforts.
 
-Page suivante [Première impression avec SuperSlicer](first_print/first_print.md)
+
+Page suivante  [Configuration](../configuration/configuration.md)
 
 
 [Retour Page principale](superslicer.md)
