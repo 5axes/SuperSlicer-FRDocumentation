@@ -1775,7 +1775,7 @@ Cela peut être exprimé en mm ou un % de la hauteur de la première couche (cel
 Vitesse de l’outil de fraisage.
 
 
-### *[Scripts de post-traitement](post_process.md)*
+### *[Scripts de post-traitement](../variable/post_process.md)*
 
 Si vous voulez traiter le G-code de sortie à l'aide de scripts personnalisés, listez simplement leurs chemins absolus ici. Séparez les divers scripts avec un point-virgule. Les scripts vont recevoir en premier argument le chemin absolu du fichier G-code, et ils peuvent accéder aux réglages de configuration de SuperSlicer en lisant des variables d'environnement.
 
