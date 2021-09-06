@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
-* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)s multiples - Prévention des coulures
+* Sous groupe : [Extrudeuses multiples](../print_settings/print_settings.md#extrudeuses-multiples) - Prévention des coulures
 * Mode : Expert
 
 ## Format du nom de fichier de sortie

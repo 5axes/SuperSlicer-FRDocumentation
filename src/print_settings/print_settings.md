@@ -1539,7 +1539,7 @@ Ce paramètre vous permet de réduire le chevauchement entre les périmètres et
 
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le remplissage de l'espace. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que le remplissage des espaces ne touchera pas les périmètres.
 
-#### *Chevauchement remplissage/périmètres*
+#### *[Chevauchement remplissage/périmètres](../variable/infill_overlap.md)*
 
 Cette option applique un chevauchement supplémentaire entre les périmètres et le remplissage pour une meilleur fusion. En théorie, cela ne devrait pas être nécessaire, mais le jeu mécanique peut générer des espacements. Si exprimé en pourcentage (par exemple 15%), la valeur sera calculée en fonction de la largeur d'extrusion du périmètre.
 
@@ -1550,13 +1550,13 @@ Cette option applique un chevauchement supplémentaire entre les périmètres et
 
 Chevauchement à 25% à gauche, 50% à droite.
 
-#### *Recouvrement des ponts*
+#### *[Recouvrement des ponts](../variable/bridge_overlap.md)*
 
 Quantité de chevauchement entre les lignes du pont. Si vous voulez plus d'espace entre les lignes (ou moins), vous pouvez le modifier. La valeur par défaut est de 100%. Une valeur de 50% créer deux fois moins de lignes.
 
 ### Débit
 
-#### *Ratio de débit pour les ponts*
+#### *[Ratio de débit pour les ponts](../variable/bridge_flow_ratio.md)*
 
 Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouvez le diminuer légèrement pour éviter l'affaissement. La valeur par défaut est généralement suffisante et vous devriez expérimenter le refroidissement (utiliser un ventilateur) avant de modifier ceci.
 
@@ -1565,23 +1565,23 @@ Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouv
 
 ![Image : Options de Débit](./images/131.png)
 
-#### *Ratio de débit Au-dessus des ponts*
+#### *[Ratio de débit Au-dessus des ponts](../variable/over_bridge_flow_ratio.md)*
 
 Ratio de débit permettant de compenser les lacunes des couches au dessus des ponts. Utilisé pour l'étirage du motif de remplissage pour éviter les régions où la passe à faible débit ne permet pas fournir une surface lisse en raison d'un manque de plastique. Vous pouvez l'augmenter légèrement pour obtenir la couche supérieure à la bonne hauteur. 
 
 > Maximum recommandé : 120%.
 
-#### *Ratio de débit Remplissage du dessus*
+#### *[Ratio de débit Remplissage du dessus](../variable/fill_top_flow_ratio.md)*
 
 Vous pouvez augmenter cela pour sur-extruder sur la couche supérieure s'il n'y a pas assez de plastique pour faire un bon remplissage.
 
-#### *Ratio de débit Première couche*
+#### *[Ratio de débit Première couche](../variable/first_layer_flow_ratio.md)*
 
 Vous pouvez augmenter ce paramètre pour sur-extruder sur la première couche s'il n'y a pas assez de plastique parce que votre plateau n'est pas nivelé.
 
 Note : N'UTILISEZ PAS CECI si votre seul problème est le nivellement du plateau, NIVELEZ VOTRE PLATEAU ! N'utilisez ce paramètre qu'en dernier recours, après l'échec de tous les calibrages.
 
-#### *Couper les coins*
+#### *[Couper les coins](../variable/external_perimeter_cut_corners.md)*
 Activez cette option pour modifier le débit afin de reconnaître que la buse est ronde et que les coins auront une forme ronde, et donc de modifier le débit pour réaliser cela et éviter la surextrusion. 100% est activé, 0% est désactivé et 50% est semi-activé.
 
 Note : A 100%, cela change le débit de ~5% sur une très petite distance (~diamètre de la buse), donc cela ne devrait pas être perceptible à moins que vous ayez une très grande buse et une imprimante très précise.
@@ -1617,11 +1617,11 @@ L'extrudeur à utiliser pour imprimer les intercalaires du support (1+,0 pour ut
 
 ### Prévention des coulures
 
-#### *Activer*
+#### *[Activer](../variable/ooze_prevention.md)*
 
 Cette option abaissera la température des extrudeurs inutilisés pour prévenir le oozing (suintement). Cela active automatiquement la génération d'une grande bordure et le déplacement des extrudeurs hors de cette bordure lors des changements de température.
 
-#### *Variation de température*
+#### *[Variation de température](../variable/standby_temperature_delta.md)*
 
 Différence de température devant être appliquée quand un extrudeur n'est pas actif. Permet la génération d'un contour complet "sacrificiel" sur lequel les buses sont nettoyées régulièrement.
 
