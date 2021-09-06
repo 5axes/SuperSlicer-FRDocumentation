@@ -11,7 +11,7 @@
 	* [Support](#support)
 	* [Vitesse](#vitesse)
 	* [Largeur et Débit](#largeur-et-débit)
-	* [Extrudeurs multiples](#extrudeurs-multiples)
+	* [Extrudeuses multiples](#extrudeuses-multiples)
 	* [Options de sortie](#options-de-sortie)
 	* [Remarques](#remarques)
 	* [Dépendances](#dépendances)
