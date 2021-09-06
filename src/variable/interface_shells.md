@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Extrudeuse multiples](../print_settings/print_settings.md#extrudeuse-multiples) - Avancé
+* Sous groupe : [Extrudeuses multiples](../print_settings/print_settings.md#extrudeuses-multiples) - Avancé
 * Mode : Expert
 
 ## Création d'interface entre coques

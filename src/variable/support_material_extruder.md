@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Extrudeuse multiples](../print_settings/print_settings.md#extrudeuse-multiples) - Extrudeuses
+* Sous groupe : [Extrudeuse multiples](../print_settings/print_settings.md#extrudeuses-multiples) - Extrudeuses
 * Mode : Avancé
 
 ## Extrudeuse pour support/radeau/jupe

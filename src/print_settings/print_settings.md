@@ -1597,19 +1597,19 @@ Définition des extrudeuses à utiliser pour la création des différentes parti
 
 L'extrudeuse à utiliser pour imprimer les périmètres et la jupe. La première extrudeuse a le numéro 1.
 
-#### *Extrudeur pour le remplissage*
+#### *[Extrudeur pour le remplissage](../variable/infill_extruder.md)*
 
 L'extrudeuse à utiliser pour imprimer le remplissage.
 
-#### *Extrudeur pour le remplissage plein*
+#### *[Extrudeur pour le remplissage plein](../variable/solid_infill_extruder.md)*
 
 L'extrudeuse à utiliser pour imprimer les remplissages pleins.
 
-#### *Extrudeur pour support/radeau/jupe*
+#### *[Extrudeur pour support/radeau/jupe](../variable/support_material_extruder.md)*
 
 L'extrudeuse à utiliser pour imprimer des supports, du radeau ou des contours (1+,0 pour utiliser l'extrudeur actuel et limiter les changements de filament).
 
-#### *Extrudeur pour l’interface des supports/du radeau*
+#### *[Extrudeur pour l’interface des supports/du radeau](../variable/support_material_interface_extruder.md)*
 
 L'extrudeur à utiliser pour imprimer les intercalaires du support (1+,0 pour utiliser l'extrudeur actuel et limiter les changements d'outil). Cela affecte également le raft.
 
