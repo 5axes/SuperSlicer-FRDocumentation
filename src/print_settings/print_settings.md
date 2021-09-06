@@ -1629,7 +1629,7 @@ Différence de température devant être appliquée quand un extrudeur n'est pas
 
 ### Tour de purge
 
-#### *Activer*
+#### *[Activer](../variable/wipe_tower.md)*
 
 Les imprimantes multi-matériaux peuvent avoir besoin de préparer ou de purger leurs extrudeurs lors d'un changement d'outil. Extruder le matériau en excès dans la tour de purge.
 
@@ -1637,35 +1637,35 @@ Attention l’activation de la tour de purge n’est pas possible en mode ***Com
 
 ![Image : Décocher pour activer la tour de purge](./images/134.png)
 
-#### *Position de la tour de purge X & Y*
+#### *[Position de la tour de purge X & Y](../variable/wipe_tower_x.md)*
 
-Coordonnées X et Y du coin avant gauche d'une tour de purge
+Coordonnées [X](../variable/wipe_tower_x.md) et [Y](../variable/wipe_tower_y.md) du coin avant gauche d'une tour de purge.
 
-#### *Largeur du bord de la tour de purge*
+#### *[Largeur du bord de la tour de purge](../variable/wipe_tower_brim.md)*
 
 Peut être exprimée en mm ou en % du (supposée) diamètre de buse.
 
-#### *Largeur*
+#### *[Largeur](../variable/wipe_tower_width.md)*
 
 Largeur d'une tour de purge. La longueur sera elle fonction du volume de purge à utiliser.
 
-#### *Angle de rotation de la tour de purge*
+#### *[Angle de rotation de la tour de purge](../variable/wipe_tower_rotation_angle.md)*
 
 Angle de rotation de la tour de purge par rapport à l'axe X.
 
 Il est à noter qu’il est aussi très facile de repositionner et orienter la tour de purge depuis l’interface graphique. 
 
-#### *Distance maximale de pont*
+#### *[Distance maximale de pont](../variable/wipe_tower_bridging.md)*
 
 Distance maximale entre les supports sur les sections de remplissage épars.
 
 Dans le cas où les couches de la tour de purge ne sont là que pour maintenir le niveau d’impression, les couches de la tour ne sont pas pleines et un cadrillage permet simplement de garantir une stabilité et un support pour les futurs couches pleines. Dans ce cas le distance entre le quadrillage et piloté par ce paramètre appelé ***Distance maximale de pont.***
 
-#### *Sans couches dispersées (EXPERIMENTAL)*
+#### *[Sans couches dispersées (EXPERIMENTAL)](../variable/wipe_tower_no_sparse_layers.md)*
 
 Si elle est activée, la tour de purge ne sera pas imprimée sur des couches sans changement de filament. Sur les couches avec un changement de filament, l'extrudeur se déplacera vers le bas pour imprimer la tour de purge. C'est à l'utilisateur de s'assurer qu'il n'y a pas de collision avec l'impression.
 
-#### *Préparer toutes les extrudeuses d’impression*
+#### *[Préparer toutes les extrudeuses d’impression](../variable/single_extruder_multi_material_priming.md)*
 
 Si l'option est activé, tous les extrudeurs qui impriment seront amorcés sur l’avant du plateau d’impression au début de l'impression.
 

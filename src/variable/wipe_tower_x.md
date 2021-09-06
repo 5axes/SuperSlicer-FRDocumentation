@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Extrudeuse](../printer_settings/printer_settings.md#extrudeuse)s multiples - Tour de purge
+* Sous groupe : [Extrudeuses multiples](../printer_settings/printer_settings.md#extrudeuses-multiples) - Tour de purge
 * Mode : Avancé
 
 ## *Position de la tour de purge*  X
