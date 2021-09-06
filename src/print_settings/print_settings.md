@@ -1587,13 +1587,13 @@ Activez cette option pour modifier le débit afin de reconnaître que la buse es
 Note : A 100%, cela change le débit de ~5% sur une très petite distance (~diamètre de la buse), donc cela ne devrait pas être perceptible à moins que vous ayez une très grande buse et une imprimante très précise.
 
 
-## Extrudeurs multiples
+## Extrudeuses multiples
 
 ### Extrudeuses
 
 Définition des extrudeuses à utiliser pour la création des différentes parties de l’impression.
 
-#### *Extrudeur pour les périmètres*
+#### *[Extrudeur pour les périmètres](../variable/perimeter_extruder.md)*
 
 L'extrudeuse à utiliser pour imprimer les périmètres et la jupe. La première extrudeuse a le numéro 1.
 
