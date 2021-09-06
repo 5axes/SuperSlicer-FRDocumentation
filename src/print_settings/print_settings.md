@@ -1481,7 +1481,7 @@ Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage 
 
 ### Largeur d’extrusion
 
-#### *Largeur d’extrusion par défaut*
+#### *[Largeur d’extrusion par défaut](../variable/extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
@@ -1509,13 +1509,13 @@ Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la lar
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage ou les surfaces supérieures. Vous voudrez peut-être utiliser des extrudats plus fins pour remplir les zones les plus étroites et obtenir des finitions plus lisses. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon le diamètre de la buse sera utilisé. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Supports*
+#### *[Supports](../variable/support_material_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour les supports. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon le diamètre de la buse sera utilisé. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
 Pour limiter la résistance des supports et faciliter leurs enlèvement il est possible de paramétrer une largeur d’extrusion plus faible pour les supports afin de les rendre plus fragile.
 
-#### *Bordure*
+#### *[Bordure](../variable/skirt_extrusion_width.md)*
 
 Largeur horizontale de la bordure qui sera imprimée autour de chaque objet. Si la valeur est laissée à zéro les paramètres de la première couche seront utilisés pour définir les largeurs d’extrusion sur la bordure.
 
