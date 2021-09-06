@@ -1527,15 +1527,15 @@ Largeur horizontale de la bordure qui sera imprimée autour de chaque objet. Si 
 ![Image : Options Chevauchement](./images/125.png)
 
 
-#### *Chevauchement du périmètre*
+#### *[Chevauchement du périmètre](../variable/perimeter_overlap.md)*
 
 Ce paramètre par **Défaut** vous permet de réduire le chevauchement entre les périmètres, pour réduire l'impact des artefacts des périmètres. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que les périmètres ne se touchent plus.
 
-##### *Externe*
+#### *[Externe](../variable/external_perimeter_overlap.md)*
 
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le contour externe, afin de réduire l'impact des artefacts des périmètres. 100% signifie qu'aucun vide n'est laissé, et 0% signifie que le périmètre externe ne contribue pas au chevauchement avec le périmètre interne.
 
-##### *Remplir les trous entre les parois*
+#### *[Remplir les trous entre les parois](../variable/gap_fill_overlap.md)*
 
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le remplissage de l'espace. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que le remplissage des espaces ne touchera pas les périmètres.
 

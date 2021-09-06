@@ -203,7 +203,7 @@ Permet de s'assurer que le slicer n'ajoutera pas de commandes de chauffage, de v
 
 Il est possible de définir un G-Code personnalisé pour les sections :
 
-#### *G-Code de début*
+#### *[G-Code de début](../variable/start_gcode.md)*
 
 Cette procédure de démarrage est insérée au début, après un G-Code de démarrage de l'imprimante (et après tout changement de filaments vers ce filament, si vous utilisez l'option multi-matériaux).
 
@@ -215,25 +215,25 @@ Notez que vous pouvez utiliser des variables génériques pour tous les réglage
 
 Si vous avez plusieurs extrudeuses, le G-Code sera exécuté dans l'ordre des extrudeuses.
 
-#### *G-Code de fin*
+#### *[G-Code de fin](../variable/end_gcode.md)*
 
 Cette procédure de fin est insérée à la fin du fichier de sortie, juste avant le G-Code de fin (et avant tout changement d’extrudeuse de ce filament dans le cas d’imprimantes multi-matériaux).
 
 Notez que vous pouvez utiliser des variables de substitution pour tous les paramètres SuperSlicer. Si vous avez plusieurs extrudeuses, le G-Code est ajouté dans leur ordre.
 
-#### *G-Code avant changement de couche*
+#### *[G-Code avant changement de couche](../variable/before_layer_gcode.md)*
 
 Ce code personnalisé est inséré à chaque changement de couche, juste avant le mouvement en Z.
 
 Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer de même que [layer_num] et [layer_z].
 
-#### *G-Code après changement de couche*
+#### *[G-Code après changement de couche](../variable/layer_gcode.md)*
 
 Ce code personnalisé est inséré à chaque changement de couche, juste après le mouvement Z et avant le déplacement de l'extrudeuse au point de départ de la couche suivante.
 
 Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer de même que [layer_num] et [layer_z].
 
-#### *G-Code de changement d’extrudeuse*
+#### *[G-Code de changement d’extrudeuse](../variable/toolchange_gcode.md)*
 
 Ce code personnalisé est inséré à chaque changement d'extrudeuse. Si vous ne laissez pas ce champ vide, vous devrez vous occuper du code de changement de l’extrudeuse vous-même.
 
@@ -245,11 +245,11 @@ La commande standard toolchange peut être écrite sous la forme *T [next_extrud
 
 **!! Attention !!** Si un quelconque caractère est écrit ici, SuperSlicer n'écrira aucun G-code de changement de buse par lui-même.
 
-#### *Entre le G-Code des objets (Pour une impression séquentielle)*
+#### *[Entre le G-Code des objets (Pour une impression séquentielle)](../variable/between_objects_gcode.md)*
 
 Ce code est inséré entre des objets lorsque vous utilisez l'impression séquentielle. Par défaut la température de l'extrudeuse et du plateau est réinitialisée et utilise la commande sans attente ; toutefois si des commandes M104, M109, M140 ou M190 sont détectées dans ce code personnalisé, SuperSlicer n'ajoutera pas de commandes de température. Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer, donc vous pouvez entrer une commande ***M109S[first_layer_temperature]*** où vous le souhaitez."
 
-#### *Entre changement G-Code de type d’extrusion* 
+#### *[Entre changement G-Code de type d’extrusion](../variable/feature_gcode.md)* 
 
 Ce code personnalisé est inséré à chaque changement de type d'extrusion.
 

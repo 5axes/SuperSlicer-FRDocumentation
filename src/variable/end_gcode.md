@@ -11,7 +11,7 @@
 
 Cette procédure de fin est insérée à la fin du fichier de sortie.
 
-Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer.
+Notez que vous pouvez utiliser des [variables génériques](variable_list.md) pour tous les réglages de SuperSlicer.
 
 
 [Retour Liste variables](variable_list.md)
