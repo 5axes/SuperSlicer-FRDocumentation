@@ -664,18 +664,23 @@ différence entre remplissage Rectilinéaire et monotone ( Image Prusa)
 
 
 ##### *Rectiligne aligné*
+
 Ce motif de remplissage fonctionne de la même façon que le remplissage rectiligne mais la dernière couche n’est pas imprimée à 90° de la précédente. Au lieu de cela, les trajets des deux couches sont parallèles l’un à l’autre. Cela peut aider à créer un motif de couche du dessus homogène pour les modèles qui ont des couches du dessus à différentes hauteurs (imaginez un modèle en escalier). 
 
 ##### *Concentrique* 
+
 Le motif de remplissage concentrique copie la forme du périmètre. Si vous imprimez un cylindre, il dessinera des cercles concentriques sur le dessus du modèle. 
 
 ##### *Courbe de Hilbert*
+
 Il s’agit surtout d’un remplissage esthétique. S’il est imprimé à l’intérieur, le motif Courbe de Hilbert génère des formes rectangulaires, tandis que la couche du haut ressemblera davantage à **un panier en osier.** Certaines personnes disent que cela ressemble à « des vers ». Ce remplissage augmente significativement le temps d’impression du fait de sa forme complexe. 
 
 ##### *Spirale d'Archimède*
+
 Avec les Spirales d'Archimède, la surface qui se trouve le plus au-dessus est imprimée en spirale. Ce remplissage peut permettre de gagner du temps lorsque vous imprimez certains modèles. 
 
 ##### *Spirale octagramme*
+
 Là aussi, ce remplissage a été décrit précédemment. Il est surtout intéressant pour des raisons esthétiques, mais sa forme complexe allonge le temps d’impression.
 
 #### *[Longueur de la connexion](../variable/infill_anchor_max.md)*
@@ -844,6 +849,7 @@ Lorsque la buse chaude se déplace sur la couche supérieure qui vient d'être i
 
 
 #### *Les inconvénients*
+
 Le principal inconvénient est **l'augmentation du temps d'impression**, car la deuxième phase de remplissage du haut est effectuée avec un très faible espacement entre les lignes de repassage. Vous pouvez voir combien de temps d'impression sera consacré au lissage dans l'aperçu.
 
 Si vous repassez une grande surface, sur certaines machines, vous risquez de constater un **fluage de chaleur** et, éventuellement, un bouchage de la partie chaude parce que l'extrusion est très petite et lente pendant le repassage. Cela peut poser un problème surtout lors de l'impression avec du PLA, en raison de sa faible résistance à la température. Le risque est accru pendant les canicules d'été.
@@ -851,6 +857,7 @@ Si vous repassez une grande surface, sur certaines machines, vous risquez de con
 Un autre inconvénient est que les bords seront un peu flous ou moins tranchants. Le parcours de repassage est prévu pour une petite extrusion, mais la buse est physiquement toujours de la même taille, de sorte qu'un peu de plastique va saigner sur le bord.
 
 #### *Quand utiliser le lissage*
+
 Le lissage est utile pour les impressions à surface plane, **comme les plaques d'identification, les logos, les badges, les boîtes, les couvercles,** etc.
 
 Le lissage peut également être utile lorsque vous souhaitez coller deux pièces ensemble et que vous avez besoin que les surfaces soient aussi plates que possible afin de réduire au maximum l'écart entre elles.
@@ -885,9 +892,11 @@ Tout d'abord, passez en mode Expert, le repassage pour les modèles individuels 
 Si vous avez plusieurs instances du même objet sur la plaque de construction et que vous souhaitez activer le repassage pour l'une d'entre elles, vous devez d'abord cliquer avec le bouton droit de la souris sur le modèle et choisir "***Définir comme Objets séparés***" dans le menu contextuel. Sinon, vous l'activerez pour toutes les instances, car elles partagent tous les paramètres.
 
 #### *Modificateurs - Comment activer le lissage uniquement pour certaines surfaces*
+
 Vous pouvez utiliser les modificateurs de plage de hauteur ou les maillages modificateurs pour activer le lissage juste pour une partie d'un modèle (dans le mode **Expert**).
 
 ##### *Modificateur de la plage de hauteur*
+
 Comme le lissage ne fonctionne que sur des surfaces planes, il est logique d'utiliser un modificateur de hauteur pour spécifier un intervalle vertical, où le lissage sera utilisé.
 
 1. Cliquez avec le bouton droit de la souris sur un modèle et sélectionnez **Modificateur de la plage de hauteur**.
@@ -898,6 +907,7 @@ Comme le lissage ne fonctionne que sur des surfaces planes, il est logique d'uti
 
 
 ##### *Maillage modificateur*
+
 1. Avec le bouton droit de la souris sur un modèle et sélectionnez **Ajouter un modificateur**
 1. Vous pouvez soit utiliser une forme de base (boîte, cylindre), soit utiliser **Charger**... pour importer un maillage personnalisé comme modificateur
 1. Positionnez le modificateur de manière à ce qu'il chevauche la partie du modèle que vous souhaitez
@@ -909,32 +919,40 @@ Comme le lissage ne fonctionne que sur des surfaces planes, il est logique d'uti
 #### *Type de lissage*
 
 ##### *Toutes les surfaces de dessus*
+
 La buse lissera la couche supérieure de chaque surface (la dernière couche de chaque zone plane).
 
 ##### *Surface supérieure uniquement*
+
 Seule la toute dernière couche de l'objet sera lissée. Cela signifie que dans le cas d'un texte en relief (orienté parallèlement au lit d'impression), seule la partie supérieure des lettres sera repassée, mais pas l'espace entre les lettres.
 
 ![Image : Toutes les surfaces supérieures (à gauche), Surface supérieure seulement (à droite)](./images/085.jpeg)
 
 
 ##### ***Toutes les surfaces pleines***
+
 Cette option ne fonctionne pas correctement pour le moment.
 
 Chaque couche recevra une passe de lissage. Une fonction expérimentale destinée à être utilisée avec un remplissage à 100% pour créer des objets plus transparents.
 
 #### *Débit*
+
 Pourcentage d'un débit par rapport à la hauteur de couche normale de l'objet a utiliser pour le lissage. La valeur par défaut est fixée à 15%
 
 #### *Espacement entre les passes de lissage*
+
 Distance entre les différentes lignes de lissage. Cette valeur doit être inférieure au diamètre de votre buse. De ce fait, la buse passera plusieurs fois sur le même point.
 
 #### *Vitesse de lissage*
+
 Cette option n'est pas regroupée avec les autres paramètres de lissage. Vous la trouverez plutôt dans [**Paramètres d'impression - Vitesse - Lissage**](#vitesse). N'hésitez pas à expérimenter cette valeur, mais en général, les vitesses plus lentes sont les plus efficaces.
 
 #### *Calibration*
+
 Le lissage est très sensible au calibrage précis de l'extrudeuse. Des rainures trop peu nombreuses et trop brillantes seront visibles sur la couche supérieure, qui ne sera pas lissée. Trop et l'excès de plastique sera entraîné par la buse vers les bords de la surface supérieure. Le calibrage est donc une question d'essais et d'erreurs. On peut expérimenter avec le débit, la vitesse et l'espacement du repassage pour obtenir les meilleurs résultats.
 
 #### ***Différents matériaux***
+
 En ce qui concerne les réglages, ils ne font pas vraiment la différence entre les différents matériaux. Cependant, le repassage se fait un peu différemment selon le filament utilisé.
 
 Le lissage PLA est très bien, mais il est plus sujet au fluage thermique (dépend de votre imprimante et de la température ambiante).
@@ -948,6 +966,7 @@ Lorsque nous avons essayé de lisser des filaments remplis de bois, nous n'avons
 ## Bordure et jupe
 
 ### Bordure
+
 La bordure est un contour imprimé autour de tous les modèles sur le plateau d'impression. Elle est imprimée avant les modèles et son objectif est principalement de **stabiliser le flux** du filament à travers la buse.
 
 La bordure est également utile pour **vérifier l'adhérence de la première couche** sur le plateau d'impression. Puisqu'elle est imprimée avant les modèles, vous pouvez changer rapidement l'**Ajustement en direct de l'axe Z** si vous voyez que la première couche ne colle pas correctement ou est trop écrasée par la buse.
@@ -955,14 +974,17 @@ La bordure est également utile pour **vérifier l'adhérence de la première co
 ![Image : Réglage Bordure et Jupe](./images/086.png)
 
 #### *Boucles (minimum)*
+
 Nombre de boucles de la bordure. Si la **Longueur Minimale d'Extrusion** est paramétrée, le nombre de boucles minimal sera plus grand que celui configuré ici.
 
 > **Mettez à 0 pour désactiver** complètement la bordure.
 
 #### *Distance de l'objet*
+
 Distance entre le la bordure et le ou les objet(s). Mettez à 0 pour attacher la bordure a(ux) objet(s) (peut être utilisé comme une alternative à la jupe pour augmenter l'adhérence).
 
 #### *Hauteur de la bordure*
+
 Le nombre de couches de bordure à imprimer. 
 
 Les bordures d'une couche de hauteur peuvent être difficiles à retirer du plateau d'impression. Les profils Prusa utilisent généralement une bordure haute de 3 couches pour cette raison.
@@ -970,6 +992,7 @@ Les bordures d'une couche de hauteur peuvent être difficiles à retirer du plat
 > **Vous pouvez aussi mettre à 0 ce paramètre pour désactiver** complètement la bordure.
 
 #### *Bouclier contre les flux d'air*
+
 Si cette option est activée, elle crée une bordure aussi haute que l'objet le plus haut de la scène. Cela peut être utilisé pour protéger l'ABS, l'ASA et d'autres matériaux contre la déformation en créant un microclimat autour de la pièce imprimée et en protégeant l'impression d'un courant d'air/du vent.
 
 Les caractéristiques du bouclier vont dépendre des réglages de la bordure avec notamment le nombre de boucles qui va constituer le bouclier.
@@ -978,6 +1001,7 @@ Les caractéristiques du bouclier vont dépendre des réglages de la bordure ave
 
 
 #### *Longueur minimale d'extrusion de filament*
+
 Force plus de boucles de bordure lorsque cela est nécessaire pour garantir que la quantité minimale de filament définie ici est extrudée avant la fin de la bordure. Pour les machines multi-extrudeurs, ce minimum s'applique à chaque extrudeur.
 
 ![Image : Bordure](./images/089.jpeg)
@@ -998,21 +1022,26 @@ Vous devriez envisager d'utiliser l'option jupe lors de l'**impression de :**
 Quand la **Compensation de l'effet patte d'éléphant** est activée, un petit espace apparaît entre le modèle et la jupe dans l'aperçu.
 
 #### *Largeur de la jupe*
+
 Largeur horizontale de la jupe qui sera imprimée autour de chaque objet sur la première couche.
 
 #### *Jupe à l’intérieur des trous*
+
 Permet de créer une jupe sur un ilot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
 
 ![Image : Jupe sur ilot à l’intérieur des trous](./images/091.jpeg)
 
 
 #### *Largeur de jupe intérieure*
+
 Largeur de la jupe intérieure, Elle sera imprimée à l'intérieur des trous d'un objet sur la première couche.
 
 #### *Jupe sur les coins*
+
 Option pour ne mettre une jupe qu'autour des arrêtes saillantes du modèle
 
 ##### *Angle maximal*
+
 Angle maximum pour ajouter une jupe de coin.
 
 > **Si mis à 0, aucune jupe ne sera créée.**
@@ -1020,17 +1049,20 @@ Angle maximum pour ajouter une jupe de coin.
 Si mis à environ 178, la jupe sera créée autour de toutes les arrêtes sauf les sections droites.
 
 ##### *Rayon de détection*
+
 La géométrie sera décimée avant de détecter les angles aigus. Ce paramètre indique la longueur minimale de la déviation après décimation.
 
 > **Mettre 0 pour désactiver la fonction.**
 
 ##### *Motif*
+
 Motif pour le coin. Le concentrique est celui par défaut. Le rectiligne a un périmètre autour de lui, vous pouvez l'essayer si le concentrique a trop de problèmes pour coller à la plaque de construction.
 
 ![Image : Jupe sur coin](./images/092.png)
 
 
 #### *Décalage de la jupe*
+
 Distance entre la jupe et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à [brim_width](../variable/brim_width.md) et [brim_width_interior](../variable/brim_width_interior.md), elle doit donc être inférieure à celles-ci.
 
 ![Image : Options Jupe](./images/093.png)
@@ -1064,15 +1096,18 @@ Cela garantit que chaque surplomb et toutes les parties commençant dans le vide
 
 
 ### Supports sur le plateau uniquement
+
 Crée uniquement des supports qui ont leur base au niveau du plateau d'impression.
 
 ![Image : Supports sur le plateau uniquement (à gauche), Supports partout (à droite)](./images/095.jpeg)
 
 
 ### Uniquement pour les générateurs de supports
+
 La génération de supports automatique est activée uniquement pour les zones marquées avec un générateur de supports. Cette option est essentiellement un raccourci qui active **Paramètres d'impression - Supports - Générer des supports**, mais désactive **Paramètres d'impression - Supports - Supports générés automatiquement**.
 
 ### Activation/désactivation des supports pour chaque modèle
+
 Il est possible d'imprimer plusieurs objets à la fois chacun avec leurs propres paramètres de supports. Par défaut, tous les modèles sont affectés par les paramètres globaux. Vous pouvez les remplacer en faisant un **clic droit** sur un modèle dans la vue 3D et en sélectionnant **Supports**. Vous pouvez également cliquer avec le bouton droit sur l'icône d'édition dans la Liste d'objets.
 
 Une nouvelle fenêtre apparaîtra dans le panneau de droite appelée **Paramètres de l'objet à modifier - Supports**. La modification de ces paramètres affectera uniquement l'objet concerné et ses instances. Vous pouvez supprimer les paramètres remplacés en cliquant sur l'icône croix rouge. Si vous le faites, les paramètres globaux seront à nouveau appliqués.
@@ -1080,6 +1115,7 @@ Une nouvelle fenêtre apparaîtra dans le panneau de droite appelée **Paramètr
 ![Image : Réglages de l'Objet à modifier - Supports](./images/096.png)
 
 ### Générateur/Bloqueur de supports
+
 Les supports automatiques peuvent parfois apparaître dans des endroits difficiles d'accès, ce qui entraîne un retrait fastidieux des structures de support. Si vous pensez qu'une telle partie du modèle pourrait être imprimée sans supports, mais ni le paramètre **Seuil de surplomb** ni l'option **Supports sur le plateau uniquement** n'ont aidé, vous pouvez ajuster les supports manuellement.
 
 À partir de SuperSlicer 2.3, vous pouvez également utiliser les Supports peints.
@@ -1095,9 +1131,11 @@ Faites un **clic-droit** sur un modèle et choisissez soit un **Bloqueur de supp
 Les bloqueurs et les générateurs de supports peuvent être manipulés avec les outils habituels de déplacement, rotation et mise à l'échelle. Vous pouvez également les dupliquer rapidement par copier-coller.
 
 ### Bloqueur de supports
+
 Les bloqueurs de support sont utiles lorsque vous êtes généralement satisfait des supports automatiques et que vous souhaitez simplement supprimer certains d'entre eux. Concentrez-vous sur le placement des bloqueurs là où les supports rencontrent l'objet, le reste de la structure de support en-dessous sera supprimé automatiquement.
 
 ### Générateur de supports
+
 Les générateurs de supports sont excellents dans les situations où seules quelques parties de l'objet doivent être supportées, mais l'algorithme automatique place les supports sur tout le modèle. Dans cette situation, n'oubliez pas de basculer le mode de support sur Seulement pour les générateurs de supports. 
 
 C'est moins courant, mais vous pouvez également utiliser des générateurs de support avec la génération automatique activée.
@@ -1127,6 +1165,7 @@ Plus la valeur est faible, moins de supports seront générés.
 1. Seuil de surplomb 15
 
 #### *Générer des supports sur le(s) X première(s) couches*
+
 Générer des supports pour le nombre de couches spécifié à partir du bas, que les supports normaux soient activés ou non et sans tenir compte des seuils d'inclinaison. Ceci est utile pour obtenir une meilleure adhérence pour des objets ayant une surface de contact très fine ou limitée sur le plateau.
 
 ![Image : Générer des supports sur les 100 premières couches](./images/098.jpeg)* 
