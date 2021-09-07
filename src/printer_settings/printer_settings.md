@@ -135,13 +135,13 @@ Il suppose une accélération infinie pour cette estimation de temps et ne prend
 
 L’option ***[Uniquement pour les surplombs](../variable/fan_speedup_overhangs.md)***, ne tiendra compte que du délai pour le refroidissement des surplombs.
 
-#### *Durée de la phase de démarrage*
+#### *[Durée de la phase de démarrage](../variable/fan_kickstart.md)*
 
 Ajoutez un M106 S255 (vitesse maximale du ventilateur) pendant ce nombre de secondes avant de passer à la vitesse désirée pour démarrer le ventilateur de refroidissement.
 
 > Réglez à 0 pour désactiver.
 
-#### *Réglage ventilateur de 0-100*
+#### *[Réglage ventilateur de 0-100](../variable/fan_percentage.md)*
 
 Définissez cette option si votre imprimante utilise des valeurs de contrôle de 0 à 100 au lieu de 0 à 255.
 

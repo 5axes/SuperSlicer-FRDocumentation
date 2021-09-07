@@ -49,13 +49,13 @@ Entrez ***le poids d'une bobine de filament vide***. De cette manière pouvez pe
 
 ![Image : Réglage des températures](./images/003.png)
 
-#### *Extrudeur*
+#### *Extrudeuse*
 
-##### *Première couche*
+##### *[Première couche](../variable/first_layer_temperature.md)*
 
 Température de la buse pour la première couche. Si vous souhaitez contrôler la température manuellement pendant l'impression, réglez ce paramètre sur zéro pour désactiver les commandes de contrôle de la température dans le G-Code de sortie.
 
-##### *Autres couches*
+##### *[Autres couches](../variable/temperature.md)*
 
 Température de la buse pour les couches après la première. Réglez ceci sur zéro pour désactiver les commandes de contrôle de température dans le G-Code de sortie.
 
@@ -92,13 +92,13 @@ Veillez à laisser suffisamment d'espace entre les objets, car cette compensatio
 
 ### Contournement de la vitesse d’impression
 
-#### *Vitesse maximale*
+#### *[Vitesse maximale](../variable/filament_max_speed.md)*
 
 Vitesse maximale autorisée pour ce filament. Limite la vitesse maximale d'une impression au minimum de la vitesse d'impression et de la vitesse du filament. 
 
 > Définir à zéro pour ne fixer aucune limite.
 
-#### *Vitesse volumétrique maximale*
+#### *[Vitesse volumétrique maximale](../variable/filament_max_volumetric_speed.md)*
 
 Vitesse volumétrique maximale autorisée pour ce filament. Limite la vitesse volumétrique d'une impression au minimum des vitesses volumétriques d'impression et de filament. Mettez à zéro pour enlever la limite. 
 
@@ -138,7 +138,7 @@ Il faut être prudent car l'effet escompté pourrait être atténué par le fait
 
  SuperSlicer vous permet de régler les paramètres de refroidissement pour chaque filament.
 
-#### *Garder le ventilateur toujours actif*
+#### *[Garder le ventilateur toujours actif](../variable/fan_always_on.md)*
 
 Le ventilateur d'impression maintiendra toujours au moins une vitesse minimale. **Ce paramètre est généralement activé** pour la plupart des matériaux à l'exception de l'ABS, du PC et de certains flexibles.
 
@@ -157,7 +157,7 @@ Lorsqu'il est désactivé, le ventilateur d'impression fonctionnera à une vites
 
 Si cette option est activée, le ventilateur fonctionnera continuellement à la vitesse de base si aucun réglage n'annule la vitesse. Utile pour le PLA, nuisible pour l'ABS.
 
-#### *Vitesse du ventilateur par défaut*
+#### *[Vitesse du ventilateur par défaut](../variable/min_fan_speed.md)*
 
 Vous pouvez définir le **Min** et le **Max** de la vitesse du ventilateur en pourcentage du régime maximal du ventilateur. 
 
@@ -169,7 +169,7 @@ Si le temps d'impression de la couche se situe entre ces deux valeurs, la vitess
 
 Cela peut sembler un peu déroutant, mais vous pouvez utiliser la description textuelle mise à jour en direct sous les Réglages du ventilateur, qui, nous l'espérons, clarifiera tout. Essayez de modifier les valeurs et voyez comment la description change.
 
-#### *Vitesse du ventilateur pour les ponts*
+#### *[Vitesse du ventilateur pour les ponts](../variable/bridge_fan_speed.md)*
 
 Augmente la vitesse du ventilateur avec la valeur définie lors de l'impression de **ponts et surplombs**. En règle générale, vous définissez cette valeur sur une valeur supérieure à celle de l'impression normale.
 
@@ -179,7 +179,7 @@ L’option ne ralentira pas le ventilateur s'il fonctionne déjà à une vitesse
 
 > Mettez la valeur -1 pour utiliser la vitesse normale du ventilateur sur les ponts et les surplombs.
 
-#### *Vitesse du ventilateur pour le dessus*
+#### *[Vitesse du ventilateur pour le dessus](../variable/top_fan_speed.md)*
 
 Cette vitesse de ventilation est appliquée pendant tous les remplissages du dessus.
 
@@ -189,7 +189,7 @@ Cette vitesse de ventilation est appliquée pendant tous les remplissages du des
 
 Ne peut être remplacée que par disable_fan_first_layers.
 
-#### *Vitesse du ventilateur du périmètre externe*
+#### *[Vitesse du ventilateur du périmètre externe](../variable/external_perimeter_fan_speed.md)*
 
 Lorsqu'elle est définie sur une valeur non nulle, cette vitesse de ventilation n'est utilisée que pour les périmètres extérieurs (ceux qui sont visibles).
 
@@ -199,7 +199,7 @@ Lorsqu'elle est définie sur une valeur non nulle, cette vitesse de ventilation 
 
 Les périmètres externes peuvent bénéficier d'une vitesse de ventilation plus élevée pour améliorer la finition de surface, tandis que les périmètres internes, les remplissages, etc. bénéficient d'une vitesse de ventilation plus faible pour améliorer l'adhésion des couches.
 
-#### *Désactiver le ventilateur pour les X premières couches*
+#### *[Désactiver le ventilateur pour les X premières couches](../variable/disable_fan_first_layers.md)*
 
 Le refroidissement de la toute première couche n'est généralement **pas nécessaire**, car elle est déposée sur une surface plane. Avec de nombreux filaments, vous pouvez même vouloir éviter le refroidissement pendant les quelques premières couches supplémentaires (généralement entre 1 et 5) pour éviter de déformer et de détacher l'impression du plateau d'impression, ce qui entraînerait inévitablement une impression ratée.
 
