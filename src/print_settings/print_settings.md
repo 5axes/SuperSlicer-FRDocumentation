@@ -393,7 +393,7 @@ Ce paramètre est très expérimental, veuillez faire un rapport sur l'utilité.
 
 ### Hauteur de couche
 
-#### *Hauteur de  base des couches*
+#### *[Hauteur de  base des couches](../variable/layer_height.md)*
 
 Hauteur de chaque tranche/épaisseur de chaque couche. La hauteur de couche est le principal facteur affectant à la fois :
 
@@ -417,7 +417,7 @@ Pour tirer le meilleur parti des deux mondes, pensez à utiliser la **Fonction d
 
 La hauteur de couche doit être **inférieure à 80%** du **diamètre de la buse** (par exemple, la hauteur de couche maximale avec une buse de 0,4 mm est d'environ 0,32 mm). La hauteur de couche ne peut pas être supérieure au diamètre de la buse, SuperSlicer affichera un message d'erreur si vous essayez de saisir une telle valeur.
 
-#### *Hauteur de la première couche*
+#### *[Hauteur de la première couche](../variable/first_layer_height.md)*
 
 Lors de l'impression avec des hauteurs de couche très basses, vous souhaiterez peut-être toujours imprimer une première couche plus épaisse pour augmenter l'adhérence au plateau d'impression. **Les profils d'impression Original Prusa utilisent toujours 0,20 mm comme première hauteur de couche.**
 
@@ -427,18 +427,18 @@ Changer la hauteur de la première couche nécessitera très probablement une **
 
 ### Filtration
 
-#### *Résolution*
+#### *[Résolution](../variable/resolution.md)*
 
 Résolution minimale pour les détails, utilisée pour simplifier le fichier d'entrée afin d'accélérer le découpage et de réduire l'utilisation de la mémoire. Les modèles haute-résolution possèdent souvent plus de détails que ce que les imprimantes peuvent produire. 
 
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
 
-#### *Précision de la lecture du modèle*
+#### *[Précision de la lecture du modèle](../variable/model_precision.md)*
 
 C'est la précision du fichier de l'objet en entrée. Il est utilisé pour aligner des points qui devraient être sur la même ligne.
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
 
-#### *Découper le rayon de fermeture de l’espacement*
+#### *[Distance de fermeture des faces disjointes](../variable/slice_closing_radius.md)*
 
 Les fentes d'une taille inférieure à 2x le rayon de l'espacement sont remplies au cours du tranchage par maillage triangulaire. L'opération de fermeture de l'espacement peut réduire la résolution de l'impression finale, aussi est-il conseillé de conserver une valeur relativement basse.
 
@@ -447,7 +447,7 @@ Les fentes d'une taille inférieure à 2x le rayon de l'espacement sont remplies
 
 ### Modification des couches
 
-#### *Lissage des courbes*
+#### *[Lissage des courbes](../variable/curve_smoothing_precision.md)*
 
 Ces paramètres permettent au logiciel de lisser les angles de chaque couche. La nouvelle précision sera celle de ce paramètre. 
 
@@ -463,15 +463,15 @@ L’algorithme de lissage des courbes peut être modifié en jouant sur 3 param�
 - **Angle convexe minimum**
 - **La Distance Maxi**
 
-#### *Compensation en XY*
+#### *[Compensation en XY](../variable/xy_size_compensation.md)*
 
 L'objet sera agrandi/réduit sur les plans XY selon la valeur indiquée (négatif = réduit, positif = agrandi). Ce réglage peut être utile pour un réglage fin des tailles de trous.
 
 Il est possible de définir une valeur
 
-Pour les contour **Extérieurs** ou **Intérieurs** et sur la **Première couche**.
+Pour les contour **[Extérieurs](../variable/xy_size_compensation.md)** ou **[Intérieurs](../variable/xy_inner_size_compensation.md)** et sur la **[Première couche](../variable/first_layer_size_compensation.md)**.
 
-#### *XY Compensation de la première couche*
+#### *[XY Compensation de la première couche](../variable/first_layer_size_compensation.md)*
 
 Lors de l'impression, **la Première couche** est écrasée sur le plateau d'impression chauffé et, par conséquent, elle est généralement **un peu plus large qu'elle ne devrait l'être.** Ce problème est également appelé effet [pied d'éléphant](../glossary/glossary.md#pied_déléphant).
 
@@ -483,13 +483,13 @@ Pour accéder à ces paramètres, SuperSlicer doit être en mode avancé ou expe
 
 Vous pouvez régler la valeur de compensation pour la ***[Première couche](../variable/first_layer_size_compensation.md)*** . Avec ce paramètre , la première couche sera agrandie / réduite dans le plan XY par la valeur configurée pour compenser l'augmentation de la largeur par écrasement  (la valeur devrait être négative = vers l'intérieur).
 
-la variable ***[hauteur de couche](../variable/first_layer_size_compensation_layer.md)*** indique le nombre de couches sur lesquelles la compensation des premières couches sera active.  La première couche sera réduite de la valeur de la compensation de la première couche, puis  les couches suivantes seront progressivement réduites, jusqu'à la couche indiquée par  cette valeur.
+La variable ***[hauteur des couches](../variable/first_layer_size_compensation_layers.md)*** indique le nombre de couches sur lesquelles la compensation des premières couches sera active.  La première couche sera réduite de la valeur de la compensation de la première couche, puis  les couches suivantes seront progressivement réduites, jusqu'à la couche indiquée par  cette valeur.
 
-#### *Compensation du rétrécissement des trous verticaux*
+#### *[Compensation du rétrécissement des trous verticaux](../variable/hole_size_compensation.md)*
 
 Les trous convexes seront agrandis/rétrécis dans le plan XY par la valeur configurée (négatif = vers l'intérieur, positif = vers l'extérieur, devrait être négatif car les trous sont toujours un peu plus petits à l'intérieur). Cela peut être utile pour affiner la taille des trous.
 
-Ce paramètre se comporte de la même manière que la compensation de la taille XY interne, mais uniquement pour les formes convexes. Il s'ajoute à **Compensation XY intérieure**, il ne le remplace pas.
+Ce paramètre se comporte de la même manière que la compensation de la taille XY interne, mais uniquement pour les formes convexes. Il s'ajoute à **[Compensation XY intérieure](../variable/xy_inner_size_compensation.md)**, il ne le remplace pas.
 
 ##### *[Le seuil](../variable/hole_size_threshold.md)*
 
@@ -497,7 +497,7 @@ Ce paramètre exprimé (en mm²) représente la zone maximale pour le trou où l
 
 Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer entièrement à tous les trous détectés.
 
-#### *Convertir les trous verticaux rond en Polygone*
+#### *[Convertir les trous verticaux rond en Polygone](../variable/hole_to_polyhole.md)*
 
 ![Image : Polygones](./images/035.jpeg)
 
@@ -516,6 +516,9 @@ Idée et mathématiques de ***polygones*** [http://hydraraptor.blogspot.com/2011
 
 ![Image : Modifications des couches](./images/036.png)
 
+##### *[torsion](../variable/hole_to_polyhole_twisted.md)*
+
+Cette option permet de pivoter les polygones créés à chaque section [#1396](https://github.com/supermerill/SuperSlicer/issues/1396).
 
 ### Autre
 

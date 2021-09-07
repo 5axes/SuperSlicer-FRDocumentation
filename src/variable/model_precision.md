@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - Filtration
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - [Filtration](../print_settings/print_settings.md#filtration)
 * Mode : Avancé
 
 ## Précision de la lecture du modèle

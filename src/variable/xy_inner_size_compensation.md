@@ -2,14 +2,14 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Modifications des couches
+* Sous groupe : [Couche](../print_settings/print_settings.md#couche) - [Modifications des couches](../print_settings/print_settings.md#modifications-des-couches)
 * Mode : Expert
 
 ## Compensation en XY intérieur
 
 ### Description
 
-L'objet sera agrandi/rétréci dans le plan XY de la valeur configurée (négatif = vers l'intérieur, positif = vers l'extérieur). Cela peut être utile pour régler les dimensions des pièces.
+L'objet sera agrandi/rétréci dans le plan XY de la valeur configurée (négatif = vers l'intérieur, positif = vers l'extérieur). Cela peut être utile pour régler les dimensions des pièces et les ajustements entre assemblages.
 
 Celui-ci ne s'applique qu'aux parties **internes** de l'objet.
 
