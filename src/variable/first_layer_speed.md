@@ -5,7 +5,7 @@
 * Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Modificateurs
 * Mode : Avancé
 
-## Vitesse pour la première couche par défaut
+## Vitesse pour la première couche maximum
 
 ### Description
 

@@ -11,6 +11,8 @@
 
 Cela fixe le seuil de la petite longueur périmétrique. Chaque boucle dont la longueur inférieure à cela sera imprimée à une vitesse de petit périmètre.
 
+La valeur de ce paramètre doit être inférieure à la valeur maximum de la longueur des petits périmètres : [small_perimeter_max_length](small_perimeter_max_length.md) .
+
 Peut être exprimé en mm ou un % du [diamètre de la buse](nozzle_diameter.md).
 
 * Valeur par défaut : 6mm

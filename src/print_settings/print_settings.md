@@ -1322,15 +1322,12 @@ Section de réglage des vitesses dans le logiciel.
 
 ### Vitesse pour les déplacements d’impression
 
-#### *Périmètres*
+#### *Vitesse pour les parois paramètre par défaut*
 
 Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
 
-#### *Périmètres courts*
 
-Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
-
-#### *Périmètres externes*
+#### *Parois externes*
 
 Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
@@ -1342,7 +1339,7 @@ Vitesse pour imprimer le remplissage interne. Réglez sur zéro pour un ajusteme
 
 Vitesse pour imprimer des zones pleines (supérieures/inférieures/parois horizontales internes). Peut être exprimée en pourcentage (par exemple: 80%) de la vitesse de remplissage par défaut susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-#### *Remplissage supérieur*
+#### Remplissage couche pleine *supérieure*
 
 Vitesse pour imprimer les couches pleines supérieures (ne s'applique qu'aux couches externes les plus hautes et pas aux couches internes pleines). Vous voudrez peut-être abaisser cette vitesse afin d'avoir une finition de surface plus nette. Peut être exprimé en pourcentage (par exemple: 80%) de la vitesse de remplissage plein susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
@@ -1358,9 +1355,22 @@ Vitesse d'impression des couches d'interface des supports. Si exprimée en pourc
 
 Vitesse d'impression des ponts.
 
-#### *Remplissage des trous*
+#### *Ponts internes*
+
+Vitesse d'impression des ponts internes.
+
+#### *Surplombs*
+
+Vitesse d'impression des surplombs.
+
+#### *Bouchage des trous*
 
 Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
+
+
+#### *[Murs minces](../variable/thin_walls_speed.md)*
+
+Vitesse pour l'impression des parois minces. Les parois minces sont les extrusions externes qui ne sont pas imprimable sous forme de boucle car trop mince pour etre imprimé en 2 passages.
 
 #### *Lissage*
 
@@ -1390,7 +1400,19 @@ Possibilité de définir la vitesse pour les axes **X/Y** et **Z** différencié
 
 Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée à tous les déplacements d'impression de la première couche, quel que soit leur type. Si exprimée comme un pourcentage (par exemple 40%), cela modulera la vitesse par défaut.
 
-##### *Remplissage* 
+##### *[Minimum](../variable/first_layer_min_speed.md)*
+
+Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée à tous les mouvements d'impression, elle peut être écrasée par la vitesse 'par défaut' (la valeur par défaut dépend du le type de trajectoire) si elle est supérieure à celle-ci. Si elle est exprimée en pourcentage, elle sera mise à l'échelle de la vitesse actuelle.
+Définir à zéro pour désactiver.
+
+##### *[Maximum](../variable/first_layer_speed.md)*
+
+Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée à tous les les mouvements d'impression sauf le remplissage de la première couche, elle peut être écrasée par la vitesse 'par défaut' (la valeur par défaut dépend du type de trajectoire) si elle est inférieure à celle-ci. 
+Si elle est exprimée en pourcentage, elle sera mise à l'échelle de la vitesse actuelle.
+Définissez-la à 100% pour supprimer toute modification de la vitesse de la première couche (avec first_layer_infill_speed et first_layer_speed_min).
+
+
+##### *[Remplissage](../variable/first_layer_infill_speed.md)* 
 
 Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
 
@@ -1410,7 +1432,7 @@ Cela fixe la fin du seuil de la petite longueur périmétrique. Chaque boucle de
 
 Peut être exprimé en mm ou un % du diamètre de la buse.
 
-##### *Vitesse*
+##### *[Vitesse](../variable/small_perimeter_speed.md)*
 
 **Ce réglage distinct affectera la vitesse des périmètre ayant un rayon <= 6.5mm (les trous habituellement). Si cette valeur est exprimée en pourcentage (par exemple: 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée.**
 
@@ -1420,35 +1442,40 @@ Réglez sur zéro pour un ajustement automatique.
 
 ### Contrôle de l’accélération (avancé)
 
-#### *Périmètres*
+#### *[Défaut](../variable/default_acceleration.md)*
 
-Permet de définir l'accélération qui sera utilisée par votre imprimante pour les périmètres. Régler sur zéro pour désactiver l'accélération pour les périmètres.
+C'est l'accélération sur laquelle votre imprimante sera réinitialisée après que des valeurs d'accélération spécifiques sont utilisées (périmètre/remplissage).
+Vous pouvez la définir en tant que % du maximum de la limite d'accélération de la machine X/Y.
+Indiquez zéro pour empêcher toute réinitialisation de l'accélération.
 
-#### *Remplissage*
+#### *[Périmètres](../variable/perimeter_acceleration.md)*
+
+Permet de définir l'accélération qui sera utilisée par votre imprimante pour les périmètres.
+Régler sur zéro pour désactiver l'accélération pour les périmètres.
+
+#### *[Remplissage](../variable/infill_acceleration.md)*
 
 Il s'agit de l'accélération que votre imprimante utilisera pour le remplissage. Régler sur zéro afin de désactiver le contrôle de l'accélération pour le remplissage.
 
-#### *Ponts*
+#### *[Ponts](../variable/bridge_acceleration.md)*
 
 L'accélération qui sera utilisée par votre imprimante pour les ponts. Régler sur zéro pour désactiver l'accélération pour les ponts.
 
-#### *Première couche*
+#### *[Première couche](../variable/first_layer_acceleration.md)*
 
 L'accélération que l'imprimante utilisera pour la première couche. Régler sur zéro afin de désactiver le contrôle de l'accélération pour la première couche.
 
-#### *Défaut*
-
-Accélération à laquelle votre imprimante sera réinitialisée suite à une modification de l'accélération des fonctions spécifiques (périmètre/remplissage). Régler sur zéro pour ne pas réinitialiser l'accélération.
 
 ![Contrôle de l’accélération](./images/114.png) 
 
 ### Vitesse automatique (avancé)
 
-#### *Vitesse d’impression maximale*
+#### *[Vitesse d’impression maximale](../variable/max_print_speed.md)*
 
-Lorsque vous réglez les autres vitesses à 0, SuperSlicer calculera automatiquement la vitesse optimale de façon à garder une pression constante dans l'extrudeur. Cette fonction expérimentale est utilisée pour régler la plus haute vitesse que vous souhaitez autoriser.
+Cette fonction expérimentale est utilisée pour régler la plus haute vitesse que vous souhaitez autoriser.
+Lorsque vous réglez les autres vitesses à 0, SuperSlicer calculera automatiquement la vitesse optimale de façon à garder une pression constante dans l'extrudeur. 
 
-#### *Vitesse volumétrique maximale*
+#### *[Vitesse volumétrique maximale](../variable/max_volumetric_speed.md)*
 
 Le **réglage de la vitesse volumétrique maximale (MVS)** est l'une des **fonctionnalités les plus puissantes de SuperSlicer**. Le paramètre MVS crée essentiellement un gestionnaire pour la quantité maximale de filament que SuperSlicer tentera de faire passer à travers la hotend de votre imprimante 3D.
 
@@ -1471,6 +1498,7 @@ Cette valeur définit la vitesse volumétrique maximale globale. Même si vous r
 ![Image : Réglages d'impression - Vitesse - Vitesse volumétrique maximale](./images/115.png)
 
 #### *Le MVS dans les Réglages du filament*
+
 **Réglages du filament - Avancé - Vitesse volumétrique maximale** (Mode avancé) 
 
 Cette valeur est limitée par le MVS défini dans les Réglages d'impression, vous pouvez toutefois l'outrepasser avec une valeur inférieure.
@@ -1558,27 +1586,27 @@ Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage 
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Première couche*
+#### *[Première couche](../variable/first_layer_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour la première couche. Vous pouvez procéder ainsi pour obtenir des extrudats plus épais afin d’avoir une meilleure adhérence. Si la valeur est exprimée en pourcentage (par exemple : 120%), elle sera calculée par rapport à la hauteur de la première couche. Si elle est réglée sur zéro, elle utilisera la largeur d’extrusion par défaut.
 
-#### *Périmètre*
+#### *[Périmètre](../variable/perimeter_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement une largeur d’extrusion pour les périmètres. Vous voudrez peut-être utiliser des extrudats plus fin pour obtenir des surfaces plus nettes. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 200%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Périmètre extérieure*
+#### *[Périmètre extérieure](../variable/external_perimeter_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour les périmètres extérieurs. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 200%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Remplissage*
+#### *[Remplissage](../variable/infill_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Vous voudrez peut-être utiliser des extrudats plus épais pour accélérer le remplissage et rendre vos pièces plus solides. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Remplissage plein*
+#### *[Remplissage plein](../variable/solid_infill_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage ou les surfaces pleines. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon la valeur 1.125 x diamètre de la buse sera utilisée. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
-#### *Remplissage supérieur*
+#### *[Remplissage supérieur](../variable/top_infill_extrusion_width.md)*
 
 Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion pour le remplissage ou les surfaces supérieures. Vous voudrez peut-être utiliser des extrudats plus fins pour remplir les zones les plus étroites et obtenir des finitions plus lisses. Si la valeur reste sur zéro, la largeur d’extrusion par défaut sera utilisée si définie, sinon le diamètre de la buse sera utilisé. Si la valeur est exprimée en pourcentage (par exemple : 90%), elle sera calculée par rapport à la hauteur de couche.
 
