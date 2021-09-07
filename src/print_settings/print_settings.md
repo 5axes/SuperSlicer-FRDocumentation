@@ -1218,11 +1218,11 @@ Générer des supports pour le nombre de couches spécifié à partir du bas, qu
 ![Image : Générer des supports sur les 100 premières couches](./images/098.jpeg)* 
 
 
-L’option **Générer des supports** doit être activé à minima pour obtenir ces X premières couches.
+L’option **[Générer des supports](../variable/support_material.md)** doit être activé à minima pour obtenir ces X premières couches.
 
 ### Radeau
 
-#### *Première couche pleine*
+#### *[Première couche pleine](../variable/support_material_solid_first_layer.md)*
 
 Dépose une couche pleine sur le plateau à la place d'un radeau.
 
@@ -1230,7 +1230,7 @@ Dépose une couche pleine sur le plateau à la place d'un radeau.
 
 Première Couche pleine à droite / Radeau classique à gauche.
 
-#### *Couches du radeau*
+#### *[Couches du radeau](../variable/raft_layers.md)*
 
 L'objet sera surélevé de ce nombre de couches et des supports seront générés en-dessous. Une fois l'impression terminée, vous pouvez saisir le radeau et le décoller de la pièce.
 
@@ -1299,11 +1299,11 @@ Attention non seulement ce paramètre va jouer sur la distance entre les lignes 
 ![Image : Augmentation de l’espacement du motif](./images/104.png)
 
 
-#### *Angle du motif*
+#### *[Angle du motif](../variable/support_material_angle.md)*
 
 Angle des lignes du motif d'interface.
 
-#### *Supports sur le plateau uniquement*
+#### *[Supports sur le plateau uniquement](../variable/support_material_buildplate_only.md)*
 
 Les supports ne peuvent démarrer que sur le plateau d'impression. L'activation de cette option est un moyen très rapide de se débarrasser des supports excédentaires, principalement sur les formes organiques. Assurez-vous de vérifier l'aperçu et de vérifier que toutes les parties sont supportées ou à un angle de surplomb gérable par l'imprimante.
 
@@ -1311,7 +1311,7 @@ Les supports ne peuvent démarrer que sur le plateau d'impression. L'activation 
 
 Supports partout (à gauche) vs Support sur le plateau uniquement (à droite).
 
-#### *Séparation XY entre un objet et ses supports*
+#### *[Distance XY entre un objet et son support](../variable/support_material_xy_spacing.md)*
 
 Définit la largeur de l'espace entre le modèle et les supports. Une plus grande séparation XY diminue le contact des supports mais les rend plus faciles à retirer et moins sujets à la fusion avec le modèle.
 
