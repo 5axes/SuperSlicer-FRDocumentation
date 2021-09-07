@@ -10,7 +10,7 @@
 ### Description
 
 Différence de température devant être appliquée quand un extrudeuse n'est pas actif.
-Permet la génération d'une jupe \"sacrificielle\" de même hauteur sur laquelle les buses peuvent s'auto-nettoyer régulièrement.
+Permet la génération d'une bordure \"sacrificielle\" de même hauteur sur laquelle les buses peuvent s'auto-nettoyer régulièrement.
 
 * Valeur par défaut : -5 ∆°C
 

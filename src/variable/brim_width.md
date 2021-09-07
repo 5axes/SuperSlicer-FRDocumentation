@@ -2,17 +2,17 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Bordure et Jupe](../print_settings/print_settings.md#bordure-et-jupe) - Jupe
+* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - [Bordure](../print_settings/print_settings.md#bordure)
 * Mode : Simple
 
-## Largeur de la jupe
+## Largeur de la bordure
 
 ### Description
 
-Largeur de la jupe qui sera imprimée autour de chaque objet sur la première couche.
+Largeur de la bordure qui sera imprimée autour de chaque objet sur la première couche.
 
 ![brim_width](./images/brim_width/001.svg)
 
-Une jupe plus large améliorera l'adhérence au plateau, en augmentant la surface de votre impression.
+Une bordure plus large améliorera l'adhérence au plateau, en augmentant la surface de votre impression.
 
 [Retour Liste variables](variable_list.md)

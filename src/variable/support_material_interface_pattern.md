@@ -11,13 +11,13 @@
 
 Motifs pour couches d'interface.
 
- - Rectilinear
- - Monotonic
- - Concentric
- - Concentric (filled)
- - Hilbert Curve
- - Sawtooth
- - Ironing
+- ***[Rectiligne](pattern_rectilinear.md)*** : par défaut, généralement le plus facile à supprimer
+- ***[Monotone](pattern_monotonic.md)***  : Comme rectiligne mais en remplissage continue
+- ***[Concentrique](pattern_concentric.md)*** : Concentrique
+- ***[Concentrique Remplit](pattern_concentricgapfill.md)*** : Concentrique avec remplissage des espaces
+- ***[Courbe de Hilbert](pattern_hilbertcurve.md)*** : Courbe de Hilbert
+- ***[Dent de scie](pattern_sawtooth.md)*** : Motif en dent de scie
+- ***[Lissage](pattern_smooth.md)*** : Permet de réaliser un lissage de la dernière couche.
 
 
 [Retour Liste variables](variable_list.md)

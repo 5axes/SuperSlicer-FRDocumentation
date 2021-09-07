@@ -2,15 +2,15 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Bordure et Jupe](../print_settings/print_settings.md#bordure-et-jupe) - Bordure
+* Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - Jupe
 * Mode : Avancé
 
-## Hauteur de la bordure
+## Hauteur de la jupe
 
 ### Description
 
-Hauteur de la bordure exprimée en nombre de couches.
+Hauteur de la jupe exprimée en nombre de couches.
 
-Mettez une valeur élevée pour utiliser la bordure comme un bouclier contre les flux d'air.
+Mettez une valeur élevée pour utiliser la jupe comme un bouclier contre les flux d'air.
 
 [Retour Liste variables](variable_list.md)

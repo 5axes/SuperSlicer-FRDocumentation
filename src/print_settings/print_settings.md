@@ -7,7 +7,7 @@
 	* [Périmètre et enveloppe](#périmètre-et-enveloppe) 
 	* [Couche](#couche)
 	* [Remplissage](#remplissage)
-	* [Bordure et jupe](#bordure-et-jupe)
+	* [Jupe et bordure](#jupe-et-bordure)
 	* [Support](#support)
 	* [Vitesse](#vitesse)
 	* [Largeur et Débit](#largeur-et-débit)
@@ -1001,109 +1001,109 @@ Les lissages ASA fonctionnent incroyablement bien, produisant des surfaces supé
 
 Lorsque nous avons essayé de lisser des filaments remplis de bois, nous n'avons pas obtenu de très bons résultats. Mais votre expérience peut varier.
 
-## Bordure et jupe
+## Jupe et bordure
 
-### Bordure
+### Jupe
 
-La bordure est un contour imprimé autour de tous les modèles sur le plateau d'impression. Elle est imprimée avant les modèles et son objectif est principalement de **stabiliser le flux** du filament à travers la buse.
+La jupe est un contour imprimé autour de tous les modèles sur le plateau d'impression. Elle est imprimée avant les modèles et son objectif est principalement de **stabiliser le flux** du filament à travers la buse.
 
-La bordure est également utile pour **vérifier l'adhérence de la première couche** sur le plateau d'impression. Puisqu'elle est imprimée avant les modèles, vous pouvez changer rapidement l'**Ajustement en direct de l'axe Z** si vous voyez que la première couche ne colle pas correctement ou est trop écrasée par la buse.
+La jupe est également utile pour **vérifier l'adhérence de la première couche** sur le plateau d'impression. Puisqu'elle est imprimée avant les modèles, vous pouvez changer rapidement l'**Ajustement en direct de l'axe Z** si vous voyez que la première couche ne colle pas correctement ou est trop écrasée par la buse.
 
-![Image : Réglage Bordure et Jupe](./images/086.png)
+![Image : Réglage Jupe et Bordure](./images/086.png)
 
 #### *Boucles (minimum)*
 
-Nombre de boucles de la bordure. Si la **Longueur Minimale d'Extrusion** est paramétrée, le nombre de boucles minimal sera plus grand que celui configuré ici.
+Nombre de boucles de la jupe. Si la **Longueur Minimale d'Extrusion** est paramétrée, le nombre de boucles minimal sera plus grand que celui configuré ici.
 
-> **Mettez à 0 pour désactiver** complètement la bordure.
+> **Mettez à 0 pour désactiver** complètement la jupe.
 
 #### *Distance de l'objet*
 
-Distance entre le la bordure et le ou les objet(s). Mettez à 0 pour attacher la bordure a(ux) objet(s) (peut être utilisé comme une alternative à la jupe pour augmenter l'adhérence).
+Distance entre le la jupe et le ou les objet(s). Mettez à 0 pour attacher la jupe a(ux) objet(s) (peut être utilisé comme une alternative à la bordure pour augmenter l'adhérence).
 
-#### *Hauteur de la bordure*
+#### *Hauteur de la jupe*
 
-Le nombre de couches de bordure à imprimer. 
+Le nombre de couches de jupe à imprimer. 
 
-Les bordures d'une couche de hauteur peuvent être difficiles à retirer du plateau d'impression. Les profils Prusa utilisent généralement une bordure haute de 3 couches pour cette raison.
+Les jupes d'une couche de hauteur peuvent être difficiles à retirer du plateau d'impression. Les profils Prusa utilisent généralement une jupe haute de 3 couches pour cette raison.
 
-> **Vous pouvez aussi mettre à 0 ce paramètre pour désactiver** complètement la bordure.
+> **Vous pouvez aussi mettre à 0 ce paramètre pour désactiver** complètement la jupe.
 
 #### *Bouclier contre les flux d'air*
 
-Si cette option est activée, elle crée une bordure aussi haute que l'objet le plus haut de la scène. Cela peut être utilisé pour protéger l'ABS, l'ASA et d'autres matériaux contre la déformation en créant un microclimat autour de la pièce imprimée et en protégeant l'impression d'un courant d'air/du vent.
+Si cette option est activée, elle crée une jupe aussi haute que l'objet le plus haut de la scène. Cela peut être utilisé pour protéger l'ABS, l'ASA et d'autres matériaux contre la déformation en créant un microclimat autour de la pièce imprimée et en protégeant l'impression d'un courant d'air/du vent.
 
-Les caractéristiques du bouclier vont dépendre des réglages de la bordure avec notamment le nombre de boucles qui va constituer le bouclier.
+Les caractéristiques du bouclier vont dépendre des réglages de la jupe avec notamment le nombre de boucles qui va constituer le bouclier.
 
 ![Image : Exemple de bouclier réglé avec 3 contours](./images/087.png)  ![Exemple de bouclier réglé avec 3 contours](./images/088.png)
 
 
 #### *Longueur minimale d'extrusion de filament*
 
-Force plus de boucles de bordure lorsque cela est nécessaire pour garantir que la quantité minimale de filament définie ici est extrudée avant la fin de la bordure. Pour les machines multi-extrudeurs, ce minimum s'applique à chaque extrudeur.
+Force plus de boucles de jupe lorsque cela est nécessaire pour garantir que la quantité minimale de filament définie ici est extrudée avant la fin de la jupe. Pour les machines multi-extrudeurs, ce minimum s'applique à chaque extrudeur.
 
-![Image : Bordure](./images/089.jpeg)
+![Image : Jupe](./images/089.jpeg)
 
 
-### Jupe
-Avant d'envisager d'appliquer un matériau pour une meilleure adhésion sur le plateau, envisagez d'utiliser l'**option** **Jupe** dans SuperSlicer qui augmente la surface de la première couche. Vous pouvez définir manuellement la taille de la jupe dans **SuperSlicer** en allant dans **Réglages d'impression - Bordure et jupe - Jupe**. Généralement, il est conseillé d'utiliser au moins un bord de 3 mm pour augmenter l'adhérence.
+### Bordure
+Avant d'envisager d'appliquer un matériau pour une meilleure adhésion sur le plateau, envisagez d'utiliser l'**option** **Bordure** dans SuperSlicer qui augmente la surface de la première couche. Vous pouvez définir manuellement la taille de la bordure dans **SuperSlicer** en allant dans **Réglages d'impression - Jupe et bordure - Bordure**. Généralement, il est conseillé d'utiliser au moins un bord de 3 mm pour augmenter l'adhérence.
 
-Vous devriez envisager d'utiliser l'option jupe lors de l'**impression de :**
+Vous devriez envisager d'utiliser l'option bordure lors de l'**impression de :**
 
 - Objets hauts avec une petite base
 - Plusieurs petits objets à la fois
 
-![Image : Jupe](./images/090.jpeg)
+![Image : Bordure](./images/090.jpeg)
 
 
 
-Quand la **Compensation de l'effet patte d'éléphant** est activée, un petit espace apparaît entre le modèle et la jupe dans l'aperçu.
+Quand la **Compensation de l'effet patte d'éléphant** est activée, un petit espace apparaît entre le modèle et la bordure dans l'aperçu.
 
-#### *Largeur de la jupe*
+#### *Largeur de la bordure*
 
-Largeur horizontale de la jupe qui sera imprimée autour de chaque objet sur la première couche.
+Largeur horizontale de la bordure qui sera imprimée autour de chaque objet sur la première couche.
 
-#### *Jupe à l’intérieur des trous*
+#### *Bordure à l’intérieur des trous*
 
-Permet de créer une jupe sur un ilot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
+Permet de créer une bordure sur un ilot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
 
-![Image : Jupe sur ilot à l’intérieur des trous](./images/091.jpeg)
+![Image : Bordure sur ilot à l’intérieur des trous](./images/091.jpeg)
 
 
-#### *Largeur de jupe intérieure*
+#### *[Largeur de bordure intérieure](../variable/brim_width_interior.md)*
 
-Largeur de la jupe intérieure, Elle sera imprimée à l'intérieur des trous d'un objet sur la première couche.
+Largeur de la bordure intérieure, Elle sera imprimée à l'intérieur des trous d'un objet sur la première couche.
 
-#### *Jupe sur les coins*
+#### *[Bordure sur les coins](../variable/brim_ears.md)*
 
-Option pour ne mettre une jupe qu'autour des arrêtes saillantes du modèle
+Option pour ne mettre une bordure qu'autour des arrêtes saillantes du modèle
 
-##### *Angle maximal*
+##### *[Angle maximal](../variable/brim_ears_max_angle.md)*
 
-Angle maximum pour ajouter une jupe de coin.
+Angle maximum pour ajouter une bordure de coin.
 
-> **Si mis à 0, aucune jupe ne sera créée.**
+> **Si mis à 0, aucune bordure ne sera créée.**
 
-Si mis à environ 178, la jupe sera créée autour de toutes les arrêtes sauf les sections droites.
+Si mis à environ 178, la bordure sera créée autour de toutes les arrêtes sauf les sections droites.
 
-##### *Rayon de détection*
+##### *[Longeur de détection](../variable/brim_ears_detection_length.md)*
 
 La géométrie sera décimée avant de détecter les angles aigus. Ce paramètre indique la longueur minimale de la déviation après décimation.
 
 > **Mettre 0 pour désactiver la fonction.**
 
-##### *Motif*
+##### *[Motif](../variable/brim_ears_pattern.md)*
 
 Motif pour le coin. Le concentrique est celui par défaut. Le rectiligne a un périmètre autour de lui, vous pouvez l'essayer si le concentrique a trop de problèmes pour coller à la plaque de construction.
 
-![Image : Jupe sur coin](./images/092.png)
+![Image : Bordure sur coin](./images/092.png)
 
 
-#### *Décalage de la jupe*
+#### *[Décalage de la bordure](../variable/brim_offset.md)*
 
-Distance entre la jupe et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à [brim_width](../variable/brim_width.md) et [brim_width_interior](../variable/brim_width_interior.md), elle doit donc être inférieure à celles-ci.
+Distance entre la bordure et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à [brim_width](../variable/brim_width.md) et [brim_width_interior](../variable/brim_width_interior.md), elle doit donc être inférieure à celles-ci.
 
-![Image : Options Jupe](./images/093.png)
+![Image : Options Bordure](./images/093.png)
 
 ## Support
 
@@ -1202,7 +1202,7 @@ Plus la valeur est faible, moins de supports seront générés.
 1. Seuil de surplomb 35
 1. Seuil de surplomb 15
 
-#### *Générer des supports sur le(s) X première(s) couches*
+#### *[Renforcer des supports sur le(s) X première(s) couches](../variable/support_material_enforce_layers.md)*
 
 Générer des supports pour le nombre de couches spécifié à partir du bas, que les supports normaux soient activés ou non et sans tenir compte des seuils d'inclinaison. Ceci est utile pour obtenir une meilleure adhérence pour des objets ayant une surface de contact très fine ou limitée sur le plateau.
 
@@ -1245,7 +1245,7 @@ Des valeurs comprises entre 50 et 75% de la hauteur de la couche semblent bien f
 ![Image : Distance de contact Z](./images/103.jpeg)
 
 
-##### *Type*
+##### *[Type](../variable/support_material_contact_distance_type.md)*
 
 Comment calculer la distance de contact verticale Z.
 
@@ -1255,7 +1255,7 @@ Comment calculer la distance de contact verticale Z.
 
 - ***Aucune (soluble)*** : pas de distance de contact verticale Z. Utile pour les supports solubles. 
 
-##### *Dessus*
+##### *[Dessus](../variable/support_material_contact_distance_top.md)*
 
 Distance verticale entre l’interface du support et l’objet (lorsque l’objet est imprimé sur le support).
 
@@ -1263,22 +1263,23 @@ Définir ce paramètre à 0 empêchera également SuperSlicer d’utiliser le fl
 
 Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couches d'interface.
 
-##### *Dessous*
+##### *[Dessous](../variable/support_material_contact_distance_bottom.md)*
 
 La distance verticale entre l’objet et l’interface du support (lorsque le support est imprimé sur l’objet).
 
 Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couches d'interface.
 
-#### *Motif*
+#### *[Motif](../variable/support_material_pattern.md)*
+
 - ***Rectiligne*** - par défaut, généralement le plus facile à supprimer
 - ***Grille rectiligne*** - plus solide et moins sujette à la rupture pendant l'impression par rapport au remplissage rectiligne, plus difficile à retirer
 - ***Nid d'abeille*** - robuste, un peu difficile à enlever
 
-#### *Avec une enveloppe autour du support*
+#### *[Avec une enveloppe autour du support](../variable/support_material_with_sheath.md)*
 
 Crée un périmètre unique autour des supports, ce qui les rend plus robustes, mais plus difficiles à retirer.
 
-#### *Espacement du motif*
+#### *[Espacement du motif](../variable/support_material_spacing.md)*
 
 Espacement entre les lignes des supports. Augmentez-le pour faciliter le retrait des supports. Les couches d'interface du support pontent sur les lignes des supports, si vous augmentez trop cette valeur, ces ponts commenceront à s'affaisser et auront une connexion imparfaite avec le modèle.
 
@@ -1320,7 +1321,10 @@ Les supports seront imprimés à des hauteurs de couche égales au modèle lui-m
 
 ### Options pour l’interface des supports
 
-#### *Motif*
+#### *[Motif](../variable/support_material_interface_pattern.md)*
+
+Motifs pour couches d'interface
+
 - ***[Rectiligne](../pattern/pattern_rectilinear.md)*** : par défaut, généralement le plus facile à supprimer
 - ***[Monotone](../pattern/pattern_monotonic.md)***  : Comme rectiligne mais en remplissage continue
 - ***[Concentrique](../pattern/pattern_concentric.md)*** : Concentrique
@@ -1329,19 +1333,19 @@ Les supports seront imprimés à des hauteurs de couche égales au modèle lui-m
 - ***[Dent de scie](../pattern/pattern_sawtooth.md)*** : Motif en dent de scie
 - ***[Lissage](../pattern/pattern_smooth.md)*** : Permet de réaliser un lissage de la dernière couche.
 
-#### *Couches d'interface*
+#### *[Couches d'interface](../variable/support_material_interface_layers.md)*
 
 Les couches d'interface forment une surface plus uniforme entre l'objet et les supports. Celles-ci sont de préférence définies sur un motif beaucoup plus dense que les couches normales de support afin que vous puissiez à la fois maximiser la surface du support en contact avec le modèle pour éviter l'affaissement tout en minimisant le temps d'impression et le matériau utilisé avec un espacement de motif de support plus grand.
 
 Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports.
 
-#### *Espacement du motif d’interface*
+#### *[Espacement du motif d’interface](../variable/support_material_interface_spacing.md)*
 
 Espacement entre les lignes des motifs d’interface.
 
 Mettre à zéro pour obtenir des motifs d’interface pleins.
 
-#### *Boucles d’interface*
+#### *[Boucles d’interface](../variable/support_material_interface_contact_loops.md)*
 
 Recouvrir la couche de contact supérieure des supports avec des boucles.  Va créer des boucles autour du modèle.
 
@@ -1360,48 +1364,52 @@ Section de réglage des vitesses dans le logiciel.
 
 ### Vitesse pour les déplacements d’impression
 
-#### *Vitesse pour les parois paramètre par défaut*
+#### *[Vitesse pour les parois paramètre par défaut](../variable/perimeter_speed.md)*
 
 Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
 
 
-#### *Parois externes*
+#### *[Parois externes](../variable/external_perimeter_speed.md)*
 
 Ce réglage distinct affectera la vitesse des périmètres extérieurs (ceux qui sont visibles). Si cette valeur est exprimée en pourcentage (par exemple : 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-#### *Remplissage*
+#### *[Remplissage](../variable/infill_speed.md)*
 
 Vitesse pour imprimer le remplissage interne. Réglez sur zéro pour un ajustement automatique.
 
-#### *Remplissage couche pleine*
+#### *[Remplissage couche pleine](../variable/solid_infill_speed.md)*
 
 Vitesse pour imprimer des zones pleines (supérieures/inférieures/parois horizontales internes). Peut être exprimée en pourcentage (par exemple: 80%) de la vitesse de remplissage par défaut susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-#### Remplissage couche pleine *supérieure*
+#### [Remplissage couche pleine *supérieure*](../variable/top_solid_infill_speed.md)
 
 Vitesse pour imprimer les couches pleines supérieures (ne s'applique qu'aux couches externes les plus hautes et pas aux couches internes pleines). Vous voudrez peut-être abaisser cette vitesse afin d'avoir une finition de surface plus nette. Peut être exprimé en pourcentage (par exemple: 80%) de la vitesse de remplissage plein susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-#### *Supports*
+#### *[Vitesse de Lissage](../variable/ironing_speed.md)*
+
+Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
+
+#### *[Supports](../variable/support_material_speed.md)*
 
 Vitesse d'impression du support.
 
-#### *Interface de supports*
+#### *[Interface de supports](../variable/support_material_interface_speed.md)*
 
 Vitesse d'impression des couches d'interface des supports. Si exprimée en pourcentage (par exemple 50%), elle sera calculée à partir de la vitesse d'impression des supports.
 
-#### *Ponts*
+#### *[Ponts](../variable/bridge_speed.md)*
 
 Vitesse d'impression des ponts.
 
-#### *Ponts internes*
+#### *[Ponts internes](../variable/bridge_speed_internal.md)*
 
 Vitesse d'impression des ponts internes.
 
-#### *Surplombs*
+#### *[Surplombs](../variable/overhangs_speed.md)*
 
 Vitesse d'impression des surplombs.
 
-#### *Bouchage des trous*
+#### *[Bouchage des trous](../variable/gap_fill_speed.md)*
 
 Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
 
@@ -1410,9 +1418,7 @@ Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. 
 
 Vitesse pour l'impression des parois minces. Les parois minces sont les extrusions externes qui ne sont pas imprimable sous forme de boucle car trop mince pour etre imprimé en 2 passages.
 
-#### *Lissage*
 
-Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
 
 ![Image : Vitesse pour les déplacements d’impression](./images/110.png) 
 
@@ -1427,7 +1433,7 @@ Note : Si vous fixez une vitesse à 0 cela revient à désactiver la fonction. 
 
 **Vitesse de déplacement :** Vitesse pour les déplacements (trajet entre deux points d'extrusion distants).
 
-Possibilité de définir la vitesse pour les axes **X/Y** et **Z** différencié.
+Possibilité de définir la vitesse pour les axes **[X/Y](../variable/travel_speed.md)** et **Z](../variable/travel_speed_z.md)** différencié.
 
 ![Image : Vitesse pour les déplacements sans impression](./images/112.png)
 
@@ -1458,13 +1464,13 @@ Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée a
 
 Ces paramètres permettent de définir la notion de petit périmètre.
 
-##### *Longueur minimale*
+##### *[Longueur minimale](../variable/small_perimeter_min_length.md)*
 
 Cela fixe le seuil de la petite longueur périmétrique. Chaque boucle dont la longueur inférieure à cela sera imprimée à une vitesse de petit périmètre.
 
 Peut être exprimé mm ou un % du diamètre de la buse.
 
-##### *Longueur maximale*
+##### *[Longueur maximale](../variable/small_perimeter_max_length.md)*
 
 Cela fixe la fin du seuil de la petite longueur périmétrique. Chaque boucle de périmètre inférieure à cela verra sa vitesse réduite un peu, de leur vitesse normale à cette longueur jusqu'à la vitesse du petit périmètre.
 
@@ -1654,9 +1660,9 @@ Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la lar
 
 Pour limiter la résistance des supports et faciliter leurs enlèvement il est possible de paramétrer une largeur d’extrusion plus faible pour les supports afin de les rendre plus fragile.
 
-#### *[Bordure](../variable/skirt_extrusion_width.md)*
+#### *[Jupe](../variable/skirt_extrusion_width.md)*
 
-Largeur horizontale de la bordure qui sera imprimée autour de chaque objet. Si la valeur est laissée à zéro les paramètres de la première couche seront utilisés pour définir les largeurs d’extrusion sur la bordure.
+Largeur horizontale de la jupe qui sera imprimée autour de chaque objet. Si la valeur est laissée à zéro les paramètres de la première couche seront utilisés pour définir les largeurs d’extrusion sur la jupe.
 
 ![Image : Réglage des largeurs d'extrusion](./images/124.png)
 
@@ -1735,7 +1741,7 @@ Définition des extrudeuses à utiliser pour la création des différentes parti
 
 #### *[Extrudeur pour les périmètres](../variable/perimeter_extruder.md)*
 
-L'extrudeuse à utiliser pour imprimer les périmètres et la jupe. La première extrudeuse a le numéro 1.
+L'extrudeuse à utiliser pour imprimer les périmètres et la bordure. La première extrudeuse a le numéro 1.
 
 #### *[Extrudeur pour le remplissage](../variable/infill_extruder.md)*
 
@@ -1745,7 +1751,7 @@ L'extrudeuse à utiliser pour imprimer le remplissage.
 
 L'extrudeuse à utiliser pour imprimer les remplissages pleins.
 
-#### *[Extrudeur pour support/radeau/jupe](../variable/support_material_extruder.md)*
+#### *[Extrudeur pour support/radeau/bordure](../variable/support_material_extruder.md)*
 
 L'extrudeuse à utiliser pour imprimer des supports, du radeau ou des contours (1+,0 pour utiliser l'extrudeur actuel et limiter les changements de filament).
 
@@ -1759,7 +1765,7 @@ L'extrudeur à utiliser pour imprimer les intercalaires du support (1+,0 pour ut
 
 #### *[Activer](../variable/ooze_prevention.md)*
 
-Cette option abaissera la température des extrudeurs inutilisés pour prévenir le oozing (suintement). Cela active automatiquement la génération d'une grande bordure et le déplacement des extrudeurs hors de cette bordure lors des changements de température.
+Cette option abaissera la température des extrudeurs inutilisés pour prévenir le oozing (suintement). Cela active automatiquement la génération d'une grande jupe et le déplacement des extrudeurs hors de cette jupe lors des changements de température.
 
 #### *[Variation de température](../variable/standby_temperature_delta.md)*
 
@@ -1859,9 +1865,9 @@ Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela
 - **Le plus bas Y** les triera en fonction de leur point Y le plus bas. Utile pour les imprimantes avec une barre X.
 - **Le plus bas Z** les triera par leur hauteur, utile pour les imprimantes delta.
 - 
-#### *[N’autoriser qu’une seule boucle de bordure](../variable/complete_objects_one_skirt.md)*
+#### *[N’autoriser qu’une seule boucle de jupe](../variable/complete_objects_one_skirt.md)*
 
-Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la bordure autour de chaque objet. Si vous préférez n'avoir qu'une seule bordure pour l’impression entière, utilisez cette option.
+Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la jupe autour de chaque objet. Si vous préférez n'avoir qu'une seule jupe pour l’impression entière, utilisez cette option.
 
 Pour aider SuperSlicer à détecter les collisions, spécifiez les paramètres **Dégagement de l'extrudeuse :**
 

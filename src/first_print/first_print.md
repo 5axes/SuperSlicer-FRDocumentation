@@ -10,7 +10,7 @@
 	* [Sélection d'un profil d'impression/d'une hauteur de couche](#sélection-dun-profil-dimpressiondune-hauteur-de-couche)
 	* [Supports](#supports)
 	* [Remplissage](#remplissage)
-	* [Jupe](#jupe)
+	* [Bordure](#bordure)
 	* [Prévisualisation du G-code avant l'impression](#prévisualisation-du-g-code-avant-limpression)
 
 * [Retour Page principale](../superslicer.md)
@@ -71,11 +71,11 @@ Les objets ne sont généralement pas imprimés pleins, mais ils ne sont pas non
 
 ![Image : Remplissage d’une pièce](./images/008.jpeg)
 
-## Jupe
+## Bordure
 
-Une jupe est utilisée pour augmenter l'adhérence au plateau d'impression et réduire la possibilité de déformation. Cela se fait en imprimant des contours supplémentaires sur la première couche et c'est particulièrement utile lorsque la surface de la première couche est très petite. Vous pouvez l'activer en cochant une case dans le panneau de droite. Lorsque l'impression est terminée, il est généralement très facile de retirer la jupe à la main.
+Une bordure est utilisée pour augmenter l'adhérence au plateau d'impression et réduire la possibilité de déformation. Cela se fait en imprimant des contours supplémentaires sur la première couche et c'est particulièrement utile lorsque la surface de la première couche est très petite. Vous pouvez l'activer en cochant une case dans le panneau de droite. Lorsque l'impression est terminée, il est généralement très facile de retirer la bordure à la main.
 
-![Image : Ajout d’une jupe](./images/009.jpeg)
+![Image : Ajout d’une bordure](./images/009.jpeg)
 
 
 ## Prévisualisation du G-code avant l'impression

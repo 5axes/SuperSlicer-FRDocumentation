@@ -5,7 +5,7 @@
 * Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Vitesses pour les déplacements d'impression
 * Mode : Avancé
 
-## *Vitesse pour les remplissage*  Couche pleine du dessus
+## *Vitesse pour les remplissages*  Couche pleine du dessus
 
 ### Description
 

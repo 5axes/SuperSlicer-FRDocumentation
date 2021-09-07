@@ -9,7 +9,7 @@
 
 ### Description
 
-Si l'option est activé, toutes les extrudeuses qui impriment seront positionnés sur la jupe avant du plateau d'impression au début de l'impression et une bande de test sera extrudé pour chacune.
+Si l'option est activé, toutes les extrudeuses qui impriment seront positionnés sur la bordure avant du plateau d'impression au début de l'impression et une bande de test sera extrudé pour chacune.
 
 ![Image : Préparation des extrudeuses activée](./images/single_extruder_multi_material_priming/136.png)
 

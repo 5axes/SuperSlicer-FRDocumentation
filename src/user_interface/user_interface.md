@@ -18,7 +18,7 @@
 
 ## Présentation de l'interface utilisateur
 
-SuperSlicer possède une interface utilisateur assez simple. La majorité de l'écran est dédiée à la vue 3D, qui est utilisée pour manipuler des modèles 3D. La barre d'outils supérieure (**1**) est utilisée pour ajouter et supprimer des objets. La barre d'outils de gauche (**4**) contient des outils de manipulation des modèles 3D, tels que l'outil redimensionner ou pivoter. Le panneau de droite est principalement utilisé pour sélectionner un profil d'impression, de filament et d'imprimante (**6,7,8**) et pour choisir de générer ou non des supports ou des jupes.
+SuperSlicer possède une interface utilisateur assez simple. La majorité de l'écran est dédiée à la vue 3D, qui est utilisée pour manipuler des modèles 3D. La barre d'outils supérieure (**1**) est utilisée pour ajouter et supprimer des objets. La barre d'outils de gauche (**4**) contient des outils de manipulation des modèles 3D, tels que l'outil redimensionner ou pivoter. Le panneau de droite est principalement utilisé pour sélectionner un profil d'impression, de filament et d'imprimante (**6,7,8**) et pour choisir de générer ou non des supports ou des bordures.
 
 
 Le bouton **"Découper maintenant"** (**5**) est utilisé pour générer le G-code, qui peut ensuite être exporté sur une carte SD ou envoyé directement à une imprimante. Certaines fonctions avancées sont masquées par défaut, vous pouvez les activer plus tard en passant en mode avancé ou expert (**12**).

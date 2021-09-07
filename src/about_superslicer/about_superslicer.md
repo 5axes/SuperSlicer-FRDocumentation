@@ -31,7 +31,7 @@ Voir le [wiki](https://github.com/supermerill/SuperSlicer/wiki) et le [répertoi
 - De meilleurs murs minces (ancrés à l'intérieur de l'impression, plus de morceaux aléatoires aux extrémités, intégrés dans les boucles du périmètre).
 - Options permettant de modifier les dimensions et/ou la géométrie des trous, pour les imprimer à la bonne taille.
 - Meilleurs débordements (ajoutez des périmètres si nécessaire, inversion du sens d'impression à chaque couche).
-- Définition des jupes : beaucoup plus d'options (intérieur, extérieur seulement, 'coins', par objet).
+- Définition des bordures : beaucoup plus d'options (intérieur, extérieur seulement, 'coins', par objet).
 - Quelques nouvelles options de couture, pour aider à les cacher.
 - Impressions de calibration intégrées 
 - Script de génération d'objets intégré (FreeCad) 
@@ -63,7 +63,7 @@ Les principales caractéristiques communes à ces 3 solutions sont les suivantes
 - Mode vase en spirale pour les modèles avec peu de  relief.
 - Réglage fin de la vitesse, de l'accélération et de la largeur d'extrusion.
 - Plusieurs motifs de remplissage, dont les nids d'abeille, les spirales, les courbes de Hilbert et les gyroïdes.
-- Création de géométrie de support, radeau, jupe, bordure.
+- Création de géométrie de support, radeau, bordure, jupe.
 - ***Température de veille*** et essuyage automatique pour l'impression multi-extrudeurs
 - ***Macros G-code personnalisables*** et nom de fichier de sortie avec des caractères de remplacement variables.
 - Support pour les ***scripts de post-traitement.***

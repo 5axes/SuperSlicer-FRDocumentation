@@ -5,7 +5,7 @@
 * Sous groupe : [Support](../print_settings/print_settings.md#support) 
 * Mode : Expert
 
-## Renforce le support sur les X premières couches
+## Renforcer le support sur les X premières couches
 
 ### Description
 
