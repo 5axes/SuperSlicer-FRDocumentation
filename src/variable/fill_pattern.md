@@ -6,11 +6,13 @@
 * Mode : Simple
 
 ## Motif de remplissage
+
 ### Description
 
-Motif pour les remplissage de faible densité.
+Motif pour les remplissages de faible densité.
 
 #### InfillPattern
+
  - [Rectilinear](../pattern/pattern_rectilinear.md)
  - [Monotonic](../pattern/pattern_monotonic.md)
  - [Grid](../pattern/pattern_grid.md)
@@ -28,5 +30,7 @@ Motif pour les remplissage de faible densité.
  - [Scattered Rectilinear](../pattern/pattern_scatteredrectilinear.md)
  - [Adaptive Cubic](../pattern/pattern_adaptivecubic.md)
  - [Support Cubic](../pattern/pattern_supportcubic.md)
+
+Valeur par défaut : [Triangles](../pattern/pattern_triangles.md)
 
 [Retour Liste variables](variable_list.md)

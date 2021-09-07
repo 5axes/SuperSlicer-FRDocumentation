@@ -524,11 +524,11 @@ Cette option permet de pivoter les polygones créés à chaque section [#1396](h
 
 ![Image : Autre](./images/037.png)
 
-#### *Dissocier les objets multi-pièces*
+#### *[Dissocier les objets multi-pièces](../variable/clip_multipart_objects.md)*
 
 Lorsque vous imprimez des objets multi-matériaux, ce réglage fera en sorte que SuperSlicer rattache ensemble les parties de l'objet qui se superposent (la 2e partie sera rattachée à la 1ere, la 3e partie sera rattachée à la 1ere et la 2e, etc...).
 
-#### *Autoriser les couches vides*
+#### *[Autoriser les couches vides](../variable/allow_empty_layers.md)*
 
 Evite que le moteur de découpe d’afficher un message d’erreur si une couche pleine est vide et donc l'impression devra repartir dans le vide par la suite.
 
@@ -538,22 +538,26 @@ Evite que le moteur de découpe d’afficher un message d’erreur si une couche
 
 
 ## Remplissage
+
 La principale fonction du remplissage est de servir de support interne pour les couches supérieures, qui devraient autrement former un pont au-dessus d'un espace vide. Le remplissage affecte également la vitesse d'impression, la résistance structurelle, la consommation de filament et même l'apparence de l'objet terminé.
 
 ![Image : Option de remplissage](./images/039.png)
 
 
 ### Remplissage
+
 Paramètres liés directement au remplissage des modèles
 
-#### *Densité de remplissage*
+#### *[Densité de remplissage](../variable/fill_density.md)*
+
 La plupart des modèles peuvent être imprimés avec un remplissage de 10-15%. Si le dessus du modèle se referme progressivement, il peut être imprimé vide (remplissage 0%), même si nous ne le conseillons généralement pas. Si vous voulez que le modèle soit plus lourd, qu'il ait une résistance à la compression plus importante ou une plus grande rigidité, vous pouvez augmenter le remplissage. Vous aurez rarement besoin d'un remplissage supérieur à 30%. Enfin, vous pouvez imprimer le modèle avec un remplissage de 100% et motif de remplissage sera alors obligatoirement rectilinéaire. Gardez à l'esprit qu'un remplissage de 100% peut avoir un impact négatif sur l'apparence de l'objet imprimé.
 
 **Augmenter la résistance d'un modèle**
 
-La résistance d'un modèle est surtout définie par le nombre de **périmètres (pas le remplissage**). Si vous voulez obtenir une impression plus résistante, augmentez le nombre de périmètres. Cela dit, le remplissage augmente la résistance à la compression.
+La résistance d'un modèle est surtout définie par le nombre de **périmètres (pas le remplissage)**. Si vous voulez obtenir une impression plus résistante, augmentez le nombre de périmètres. Cela dit, le remplissage augmente la résistance à la compression.
 
-#### *Motif de remplissage*
+#### *[Motif de remplissage](../variable/fill_pattern.md)*
+
 SuperSlicer vous propose de choisir entre plusieurs motifs de remplissage. Au moment de choisir un motif de remplissage, voici les choses à prendre en considération :
 
 - La vitesse d'impression
@@ -564,6 +568,7 @@ SuperSlicer vous propose de choisir entre plusieurs motifs de remplissage. Au mo
 
 
 #### *Options de modèles de remplissage dans SuperSlicer*
+
 Pour couvrir le large éventail de motifs imprimés, les objets circulaires et rectangulaires ont été découpés. Le remplissage a été fixé à 10 % pour aider à illustrer les motifs de remplissage. La couche supérieure est enlevée dans les images afin de montrer le motif intérieur.
 
 SuperSlicer vous permet de modifier le motif de la structure de remplissage imprimée, ce qui est avantageux dans certains cas d'utilisation. Par exemple :
@@ -598,6 +603,7 @@ Les options de modèle suivantes sont disponibles :
 | P. **Support Cubique :** fort remplissage 3D                                                                                                                                                                             | ![](./images/052.png) |
 
 ##### *Remplissage gyroïde*
+
 Le remplissage gyroïde est l'un des remplissages les plus polyvalents.
 
 - Il est tridimensionnel- ce qui lui confère **une résistance égale dans toutes les directions**
@@ -608,12 +614,15 @@ Le remplissage gyroïde est l'un des remplissages les plus polyvalents.
 Pour plus d’information sur le remplissage Gyroïde <https://mathcurve.com/surfaces/Gyroide/gyroide.shtml>
 
 #### *Motif de remplissage couche pleine*
+
 Vous pouvez choisir un motif de remplissage personnalisé qui ne s'appliquera aux couches pleines. La couche supérieure visible utilisera elle sont propre réglage avec le Motif de remplissage du dessus.
 
 #### *Motif de remplissage du dessus*
+
 Vous pouvez choisir un motif de remplissage personnalisé qui ne s'appliquera qu'à la couche supérieure visible, et pas aux couches pleines adjacentes du dessous. 
 
 #### *Motif de remplissage du dessous*
+
 Vous pouvez choisir un motif de remplissage personnalisé qui n'affectera que la couche inférieure visible, et pas les couches pleines adjacentes au-dessus.
 
 Les options de modèle suivantes sont disponibles :
@@ -669,25 +678,31 @@ Avec les Spirales d'Archimède, la surface qui se trouve le plus au-dessus est i
 ##### *Spirale octagramme*
 Là aussi, ce remplissage a été décrit précédemment. Il est surtout intéressant pour des raisons esthétiques, mais sa forme complexe allonge le temps d’impression.
 
-#### *Longueur de la connexion*
-Le remplissage est généralement **connecté aux périmètres** avec ce qu’on appelle une ancre, qui consiste en une courte ligne qui constitue un autre périmètre (interne) et qui se transforme en ligne de remplissage. La longueur de l’ancre de remplissage détermine quelle longueur en millimètres de cette ancre sera connectée au remplissage et aux périmètres. Si vous réglez cette valeur sur 0, le remplissage sera imprimé indépendamment sur les périmètres. Une valeur plus haute permettra d’imprimer l’ancre en tant que prolongement du remplissage. L’ancre de remplissage aide à améliorer **l’intégrité du modèle et sa solidité**. **Longueur maximum de l’ancre de remplissage** Cette valeur détermine la longueur maximum de l’ancre de remplissage connectant le remplissage aux périmètres.
+#### *[Longueur de la connexion](../variable/infill_anchor_max.md)*
+
+Le remplissage est généralement **connecté aux périmètres** avec ce qu’on appelle une ancre, qui consiste en une courte ligne qui constitue un autre périmètre (interne) et qui se transforme en ligne de remplissage. La longueur de l’ancre de remplissage détermine quelle longueur en millimètres de cette ancre sera connectée au remplissage et aux périmètres. Si vous réglez cette valeur sur 0, le remplissage sera imprimé indépendamment sur les périmètres. Une valeur plus haute permettra d’imprimer l’ancre en tant que prolongement du remplissage. L’ancre de remplissage aide à améliorer **l’intégrité du modèle et sa solidité**. 
+
+**[Longueur maximum de l’ancre de remplissage](../variable/anchor_length_max.md)** Cette valeur détermine la longueur maximum de l’ancre de remplissage connectant le remplissage aux périmètres.
 
 Mettre une valeur de 1000 dans le paramètre **Longueur de la connexion** revient à fixer ce paramètre à illimité ( 0 le désactive)
 
 ![Image : Valeur de Longueur de l'ancre de remplissage à 1000](./images/071.png)
-#### *Ancrage périphérique*
+#### *[Ancrage périphérique](../variable/infill_anchor.md)*
+
 Ce paramètre permet de relier une ligne intercalaire à un périmètre interne avec un court segment d'un périmètre supplémentaire. Si elle est exprimée en pourcentage (exemple : 15 %), elle est calculé sur la largeur d'extrusion du remplissage. 
 SuperSlicer tente de relier deux lignes de remplissage proches à un court segment de périmètre. Si aucun un tel segment de périmètre plus court que `infill_anchor_max` n'est trouvé, la ligne de remplissage est connectée à un segment de périmètre sur un seul côté et la longueur du  segment de périmètre pris est limité à ce paramètre, mais pas plus long que `anchor_length_max`.
 
 Définissez ce paramètre sur **zéro** pour désactiver l'ancrage des périmètres connectés à une ligne de remplissage unique.
 
 ### Réduction du temps d’impression
+
 SuperSlicer propose deux méthodes pour économiser du temps et du matériau. La première option permet de **combiner le remplissage toutes les X couches.** La valeur par défaut est réglée sur 1, c’est à dire que chaque couche de périmètre est imprimée avec une couche de remplissage (1 = ratio de 1 couche de remplissage pour 1 couche de périmètre). Le fait d’augmenter cette valeur à 2 (ratio 2:1) va permettre d’imprimer une couche de remplissage (à la hauteur de couche correspondante) toutes les deux couches de périmètre. Mais gardez à l’esprit que cette valeur ne peut pas être augmentée à l’infini. SuperSlicer vous laissera entrer une valeur très haute mais seule la valeur maximale qui est physiquement possible sera inscrite dans le G-code. Pour être plus spécifique : Si vous utilisez une buse de 0,4 mm et une hauteur de couche de 0,15 mm, le slicer ne vous permettra pas d’imprimer une couche de périmètre moins souvent que deux couches de périmètre. Sinon le remplissage serait imprimé dans le vide. Mais si vous imprimez avec une hauteur de couche de 0,05 mm (buse de 0,4 mm), vous pouvez combiner le remplissage toutes les 8 couches. La seconde méthode pour économiser du temps (et du matériau) consiste à **imprimer du remplissage seulement là où il en a besoin,** Par exemple, si vous imprimez une sphère, cette fonction ne génèrera qu’une colonne de remplissage au centre afin de soutenir d’éventuels surplombs. Le principal désavantage de cette fonction est la faible résistance à l’impact du fait du manque de remplissage dans certaines zones du modèle.
 
 ![Image : Options de réduction des temps d'impression](./images/072.png)
 
 
-#### *Combinez le remplissage toutes les X couches*
+#### *[Combinez le remplissage toutes les X couches](../variable/infill_every_layers.md)*
+
 Différentes hauteurs de couche seront utilisées pour le remplissage et pour les périmètres afin d'accélérer l'impression sans sacrifier sa qualité.
 
 **Exemple :** Combiner un remplissage toutes les 3 couches, avec une hauteur de couche de 0,1 mm, le remplissage étant imprimé avec une hauteur de couche de 0,3 mm.
@@ -699,6 +714,7 @@ La hauteur de couche maximum est limitée par le diamètre de votre buse. Si vou
 Remplissage (en gris) imprimé avec une hauteur de couche deux fois supérieure à celle des périmètres (en orange)
 
 #### *Faire remplissage seulement où cela est nécessaire*
+
 En choisissant cette option le remplissage se fera comme pour une structure de support interne, et seule les zones ayant besoin de support génèreront sous elles un motif de remplissage. Si cette option est activée elle ralentira la génération du G-code (du fait des tests de surplomb supplémentaires requis). De plus, le remplissage ne sera probablement plus en contact avec le périmètre à certains endroits, donc utilisez cette option avec précaution.
 
 Cette option ne prend pas le réglage de **seuil de surplomb** des supports en compte.
@@ -721,25 +737,32 @@ Lorsque ce commutateur est activé, si le remplissage est inférieur à 40%, il 
 
 
 #### *Algorithme*
+
 Choisissez la disposition de la couche dense. L'option automatique permettait d'essayer de dessiner la plus petite surface avec uniquement des lignes droites à l'intérieur du remplissage peu dense. 'Ancrés' ne fait qu'agrandir un peu (par 'Marge de remplissage par défaut') les surfaces qui nécessitent un meilleur support.
 
 
 ### Avancé
+
 SuperSlicer vous permet d’ajuster encore davantage les motifs de remplissage ! Si vous basculez en mode Avancé ou Expert, vous trouverez bien plus de réglages dans l’onglet Remplissage. Voyons donc tous les réglages liés aux remplissages, qu’ils soient dans le mode Avancé ou Expert 
 
 Ces réglages de remplissage sont vraiment des paramètres avancés et la plupart des utilisateurs d’imprimantes 3D n’en auront vraisemblablement jamais besoin. Néanmoins, il y aura peut-être quelques situations où vous voudrez les ajuster, donc voyons ce qu’ils permettent de faire :
+
 #### *Remplissage plein toutes les X couches*
+
 Cette fonctionnalité permet d'imposer une couche pleine après chaque nombre de couches donné. Cela peut être utile pour augmenter la résistance de la pièce imprimée, néanmoins d'autres options, comme l'augmentation du nombre de périmètres ou le pourcentage de remplissage sont préférables. Cela peut également servir à créer des cellules internes séparées afin d'accroitre l'isolation thermique.
 
 **Régler sur 0 pour désactiver.**
 
 L’impression d’un remplissage plein toutes les X couches** peut être pratique lorsque vous voulez améliorer la solidité d’un modèle (le fait d’augmenter le nombre de périmètres fonctionne mieux, cela dit) ou pour diviser le remplissage en cavités multiples afin de permettre à un objet de flotter sur l’eau. Cette fonction permet simplement l’impression d’un remplissage plein à intervalles réguliers.
+
 #### *Angle du remplissage*
+
 Angle par défaut pour l'orientation du remplissage. Un quadrillage sera appliqué à certains motifs de remplissage.
 
 **Les ponts** seront imprimés en utilisant la meilleure direction détectée par SuperSlicer, donc ce réglage ne les concerne pas.
 
 #### *Surface de seuil pour le remplissage plein*
+
 Impose le remplissage plein pour des zones présentant une surface plus petite que celle définie par le seuil spécifié.
 
 **Régler sur 0 pour désactiver.**
@@ -749,15 +772,18 @@ Impose le remplissage plein pour des zones présentant une surface plus petite q
 Le paramètre Surface de seuil pour le remplissage plein est surtout pratique pour les petites pièces ou celles qui sont complexes. Grâce à ce réglage, vous pouvez déterminer comment les grandes et petites cavités du modèle seront comblées avec un remplissage à 100%. Cela peut aider à rendre les petites pièces plus solides.
 
 #### *L’angle de remplissage*
+
 L’angle de base pour le remplissage, fait pivoter le motif selon l’angle choisi.
 
 
 #### *L’angle pour les ponts*
+
 L’angle pour les ponts est calculé automatiquement par SuperSlicer. Si vous laissez 0°, SuperSlicer choisira la meilleure valeur. Néanmoins, vous pouvez la changer manuellement si vous le souhaitez. Pour imprimer avec un angle de pontage égal à 0° il faut en fait régler sur 180°.
 
 > **Utilisez 180° pour un angle nul.**
 
 #### *L’angle d’incrément*
+
 L’angle d’incrément cet angle est ajouté à chaque couche à l'angle de base pour le remplissage. Peut être utile pour une raison esthétique, ou pour être sûr de toucher chaque caractéristique de l'objet même avec un remplissage très faible. 
 
 > **Régler sur 0 pour désactiver.**
@@ -768,20 +794,25 @@ Ce paramètre fait croître les couches haut / bas / pleines par la valeur rense
 > **Mettez 0 pour le désactiver.** Peut être un% de la largeur du périmètre.
 
 ##### *Pour les ponts*
+
 Ce paramètre fait croître les couches en pont par la valeur renseignée pour les ancrer dans la pièce.
 
 > **Mettez 0 pour le désactiver.** Peut être spécifié par un % de la largeur du périmètre externe.
 
 #### *Rétracter uniquement lors du franchissement de parois*
+
 Désactiver la rétraction lorsque le chemin de déplacement ne franchit pas les périmètres des couches extérieures (et donc les coulures seront probablement invisibles).
 
 La rétractation seulement lors du franchissement de parois peut réduire un peu le temps d’impression et augmenter l’intégrité du remplissage. Le fait de désactiver les rétractions va accroitre les écoulements de filament non-visibles (cachés dans le modèle). Les rétractations resteront activées pour les périmètres.
 
 #### *Remplissage avant les périmètres*
+
 Cette option inverse l'ordre d'impression des périmètres et du remplissage, ce dernier étant alors imprimé en premier. L’impression du remplissage avant les périmètres peut parfois être utile pour l’impression de surplombs où les périmètres n’ont rien à quoi se rattacher. Néanmoins, le remplissage peut impacter négativement la qualité de la surface externe. La seconde utilisation de cette méthode concerne les MMU2s, pour lesquelles la purge des couleurs se fait plus efficacement – la couleur est nettoyée dans le remplissage et le périmètre est imprimé avec une couleur nette.
 
 ### Options avancées de remplissage
+
 #### *Réglage du remplissage pour le lissage*
+
 C'est le pourcentage du débit qui est utilisé pour la deuxième passe de lissage. Typiquement 10-20%. Ne devrait pas être supérieur à 20%, à moins que votre largeur d'extrusion soit largement supérieure à celle de votre buse. Une valeur trop faible et votre extrudeuse va manger le filament. Une valeur trop élevée et la première passe ne sera pas bien imprimée.
 
 #### *Espacement des lignes de lissage*
