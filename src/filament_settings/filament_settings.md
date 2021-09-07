@@ -370,39 +370,39 @@ Paramètres de gestion personnalisés de la **Rétraction**.
 
 ![Image : Paramètres pour la rétraction](./images/018.png)
 
-#### *Longueur*
+#### *[Longueur](../variable/filament_retract_length.md)*
 
 Lorsque la rétraction est déclenchée avant un changement d'outil, le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
 
-#### *Décalage de l’axe Z*
+#### *[Décalage de l’axe Z](../variable/filament_retract_lift.md)*
 
 Si vous indiquez une valeur positive, l'axe Z est rapidement élevé à chaque rétraction. Lorsque vous utilisez plusieurs extrudeurs, seul le réglage du premier extrudeur sera pris en compte.
 
-#### *Décaler Z seulement au-dessus de*
+#### *[Décaler Z seulement au-dessus de](../variable/filament_retract_lift_above.md)*
 
 Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché qu'à partir de la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***éviter*** le levage de l'axe Z ***sur les premières couches***.
 
-#### *Décaler Z seulement en-dessous de*
+#### *[Décaler Z seulement en-dessous de](../variable/filament_retract_lift_below.md)*
 
 Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché que jusqu'à la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***limiter*** le levage de l'axe Z ***aux premières couches***.
 
-#### *Vitesse de Rétraction*
+#### *[Vitesse de Rétraction](../variable/filament_retract_speed.md)*
 
 La vitesse des rétractions (ne s'applique qu'au moteur de l'extrudeur).
 
-#### *Vitesse de Réinsertion*
+#### *[Vitesse de Réinsertion](../variable/filament_deretract_speed.md)*
 
 La vitesse de chargement d'un filament dans l'extrudeur après une rétraction (ne s'applique qu'au moteur de l'extrudeur). Si cette valeur reste sur zéro, la vitesse de rétraction est utilisée.
 
-#### *Longueur supplémentaire à la reprise*
+#### *[Longueur supplémentaire à la reprise](../variable/filament_retract_restart_extra.md)*
 
 Lorsque la rétraction est compensée après un déplacement, l'extruder exprimera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
 
-#### *Trajet minimal après une rétraction*
+#### *[Trajet minimal après une rétraction](../variable/filament_retract_before_travel.md)*
 
 La rétraction n'est pas déclenchée lorsque les déplacements sont plus courts que cette distance.
 
-#### *Rétracter lors des changements de couche*
+#### *[Rétracter lors des changements de couche](../variable/filament_retract_layer_change.md)*
 
 Cette option active la rétraction lors d'un déplacement sur l'axe Z.
 
@@ -416,11 +416,15 @@ Zone d’essuyage
 
 ![Image : Nettoyer lors des rétractions](./images/019.png)
 
-#### *Essuyage Extra pour les périmètres extérieurs*
+#### *[Vitesse d'essuyage](../variable/filament_wipe_speed.md)*
+
+Vitesse en mm/s pour l'essuyage. Si vous l'augmenter, l'essuyage se fera sur une distance plus grande. 
+
+#### *[Essuyage Extra pour les périmètres extérieurs](../variable/filament_wipe_extra_perimeter.md)*
 
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long du cordon avant l'essuyage final.
 
-#### *Quantité de rétraction avant essuyage*
+#### *[Quantité de rétraction avant essuyage](../variable/filament_retract_before_wipe.md)*
 
 Avec les extrudeurs bowden, il est conseillé d'effectuer une rétraction rapide avant de réaliser le mouvement d’essuyage.
 
@@ -428,16 +432,16 @@ Avec les extrudeurs bowden, il est conseillé d'effectuer une rétraction rapide
 
 ![Image : G-code personnalisé](./images/020.png) 
 
-### G-Code de début
+### [G-Code de début](../variable/start_filament_gcode.md)
 
 Cette procédure de départ est insérée au début, après n'importe quel G-Code de départ de l'imprimante (et après n'importe quel changement d'outil pour ce filament dans le cas des imprimantes multi-matériaux). Ceci est utilisé pour supplanter les réglages d'un filament spécifique. Si SuperSlicer détecte **M104**, **M109**, **M140** ou **M190** dans vos codes personnalisés, de telles commandes ne seront pas ajoutées automatiquement de sorte que vous restez libre de personnaliser l'ordre des commandes de chauffe et autres actions personnalisées. Notez que vous pouvez utiliser des variables génériques pour les tous les paramètres SuperSlicer, donc vous pouvez utiliser une commande "**M109 S[first_layer_temperature]**" où vous voulez.
 
-### G-Code de fin
+### [G-Code de fin](../variable/end_filament_gcode.md)
 
 Cette procédure de fin est insérée à la fin d'un fichier de sortie, avant le G-Code de fin de l'imprimante (et avant tout changement d'outil de ce filament dans le cas des imprimantes multimatériaux). Notez que vous pouvez utiliser des variables génériques pour tous les réglages SuperSlicer. Si vous avez des extrudeurs multiples, le G-Code est traité dans l'ordre des extrudeurs.
 
 
-## Remarques
+## [Remarques](../variable/filament_notes.md)
 
 Vous pouvez renseigner dans cette zone les notes concernant le filament. 
 
@@ -449,7 +453,7 @@ Cette partie permet de définir les dépendances du profil par rapport à une ma
 
 Sélectionner les imprimantes compatibles avec ce profil. Vous pouvez cocher l’option **Tout** pour toutes les sélectionner.
 
-### Condition de compatibilité des imprimantes
+### [Condition de compatibilité des imprimantes](../variable/compatible_printers_condition.md)
 
 Une expression booléenne utilisant les valeurs de configuration d'un profil d'imprimante actif. Si cette expression est évaluée comme vraie, ce profil est considéré comme compatible avec le profil d'imprimante actif.
 
@@ -457,7 +461,7 @@ Une expression booléenne utilisant les valeurs de configuration d'un profil d'i
 
 Sélectionnez les profils d’impression compatibles. Vous pouvez cocher l’option **Tout** pour toutes les sélectionner.
 
-### Conditions des profils d’impression compatibles
+### [Conditions des profils d’impression compatibles](../variable/compatible_prints_condition.md)
 
 Une expression booléenne utilisant les valeurs de configuration d'un profil d'imprimante actif.  Si cette expression est évaluée comme vraie, ce profil est considéré comme compatible avec le profil d'imprimante actif.
 

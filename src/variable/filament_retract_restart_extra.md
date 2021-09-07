@@ -9,6 +9,8 @@
 
 ### Description
 
-Lorsque la rétraction est compensée après un déplacement, l'extruder extrudera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
+Lorsque la rétraction est compensée après un déplacement, l'extruder extrudera cette quantité de filament en plus. 
+
+Ce réglage est rarement nécessaire.
 
 [Retour Liste variables](variable_list.md)

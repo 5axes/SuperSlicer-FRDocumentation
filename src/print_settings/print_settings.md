@@ -1320,11 +1320,11 @@ Si exprimée en pourcentage (par exemple 150%), elle sera calculée à partir de
 ![Image : Expression en pourcentage](./images/106.jpeg)
 
 
-#### *Ne pas supporter les ponts*
+#### *[Ne pas supporter les ponts](../variable/dont_support_bridges.md)*
 
 Cette option, empêche la génération de supports sous les ponts.
 
-#### *Synchroniser avec les couches de l'objet*
+#### *[Synchroniser avec les couches de l'objet](../variable/support_material_synchronize_layers.md)*
 
 Les supports seront imprimés à des hauteurs de couche égales au modèle lui-même. Ceci est utile avec les imprimantes multi-matériaux, où le changement d'extrudeur est coûteux.
 
