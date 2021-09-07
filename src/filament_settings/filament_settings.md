@@ -25,23 +25,23 @@
 
 Ceci est utilisé dans l'interface de SuperSlicer uniquement en tant qu’indication visuelle.
 
-#### *Diamètre*
+#### *[Diamètre](../variable/filament_diameter.md)*
 
 Entrez le diamètre de votre filament ici. Une bonne précision est requise, utilisez un pied à coulisse et calculez la moyenne de plusieurs mesures le long du filament.
 
-#### *Multiplicateur d’extrusion*
+#### *[Multiplicateur d’extrusion](../variable/extrusion_multiplier.md)*
 
 Ce facteur modifie proportionnellement le flux d'extrusion. Vous pouvez avoir besoin de modifier ceci afin d'obtenir un rendu de surface net et une largeur correcte pour les murs uniques. Les valeurs habituelles vont de 0.9 à 1.1. Si vous pensez devoir changer davantage cette valeur, vérifiez le diamètre de votre filament et les E Steps dans le firmware.
 
-#### *Densité*
+#### *[Densité](../variable/filament_density.md)**
 
 Entrez ici la densité de votre filament. Ceci est uniquement pour des informations statistiques. Un bon moyen d'obtenir cette valeur est de peser un morceau de filament d'une longueur connue et de calculer le rapport de sa longueur par son poids. 
 
-#### *Coût*
+#### *[Coût](../variable/filament_cost.md)*
 
 Entrez le coût par Kg de votre filament. Ceci est uniquement pour l'information statistique.
 
-#### *Poids de la bobine*
+#### *[Poids de la bobine](../variable/filament_spool_weight.md)*
 
 Entrez ***le poids d'une bobine de filament vide***. De cette manière pouvez peser une bobine de filament partiellement utilisée avant l'impression et ainsi comparer le poids que vous avez mesuré avec le poids du filament calculé avec la bobine pour savoir si la quantité de filament est suffisante pour terminer l'impression.
 

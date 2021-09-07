@@ -11,6 +11,10 @@
 
 L'option permet d'optimiser les déplacements afin de minimiser le franchissement de périmètres. Ceci est surtout utile avec les extrudeuses de type Bowden qui sont sujettes aux coulures.
 
-**Attention** l'utilisation de cette fonctionnalité ralentit l'impression et la génération du G-Code.
+**Attention** L'activation de cette fonction ralentit considérablement la génération du G-code et augmente le temps d'impression.
+
+![Éviter de traverser les périmètres option actives à droite*](./images/avoid_crossing_perimeters/001.jpeg)
+
+Éviter de traverser les périmètres option actives à droite.
 
 [Retour Liste variables](variable_list.md)

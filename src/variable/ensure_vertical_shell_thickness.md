@@ -14,4 +14,8 @@ Ajouter un remplissage plein à proximité des surfaces inclinées pour garantir
 ![Ajout de zone pleine](./images/ensure_vertical_shell_thickness/001.png)
 
 
+Cette fonction résout l'un des plus gros problèmes des slicers plus anciens, à savoir le fait d'avoir des trous entre les périmètres sur une surface inclinée. Cela était typique lors de l'impression de bustes et d'autres modèles à l'aspect organique. De tels objets avaient généralement quelques trous au-dessus de la tête. Lorsque cette fonction est activée, SuperSlicer s'assure qu'elle définit les supports (internes) nécessaires pour les périmètres dans une couche à venir.
+
+Cette fonctionnalité affecte actuellement encore la génération du G-code même lorsqu'elle est désactivée et peut produire un G-code inattendu. Il s'agit d'un problème connu et nous travaillons sur un correctif.
+
 [Retour Liste variables](variable_list.md)

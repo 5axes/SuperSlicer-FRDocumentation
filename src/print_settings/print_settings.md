@@ -118,9 +118,15 @@ Attention l'utilisation de ces options génère un découpage plus lent.
 ![Paramètres de Qualité](./images/007.png)
 
 
-#### *Un seul périmètre sur le dessus*
+#### *[Un seul périmètre sur le dessus](../variable/only_one_perimeter_top.md)*
 
 Option pour n’'utiliser qu'un seul périmètre sur les surfaces plates du dessus, pour laisser plus de place au motif de dessus.
+
+##### *[Largeur minimale](../variable/min_width_top_surface.md)*
+
+Si une surface du dessus doit être imprimée et qu'elle est partiellement couverte par une autre couche, elle ne sera pas considérée comme une couche du dessus dont la largeur est inférieure à cette valeur. 
+
+Cela peut être utile pour ne pas laisser l'option ***[un périmètre sur le dessus](only_one_perimeter_top.md)*** se déclencher sur surface qui ne devrait être couverte que par des périmètres. Cette valeur peut être un mm ou un % de la [largeur d'extrusion du périmètre](perimeter_extrusion_width.md).
 
 #### *Périmètres supplémentaires si nécessaire*
 
@@ -128,7 +134,16 @@ Une option héritée qui, à notre connaissance, ne fait plus vraiment grand-cho
 
 Théoriquement cette option permet d’ajouter plus de périmètres si nécessaire pour éviter des trous dans les parois inclinées. SuperSlicer ajoute des périmètres, jusqu'à ce que plus de 70% de la boucle immédiatement au-dessus soit supportée.
 
-#### *S'assurer de l'épaisseur de la coque verticale*
+##### *[Sur les surplombs](../variable/extra_perimeters_overhangs.md)*
+
+Ajoutez des périmètres supplémentaires si nécessaire pour éviter les vides dans les murs en pente.
+SuperSlicer continue d'ajouter des périmètres jusqu'à ce que tous les surplombs soient remplis.
+
+##### *[Sur les couches impaires](../variable/extra_perimeters_odd_layers.md)*
+
+Ajouter un périmètre à chaque couche impaire. Avec cela, le remplissage est pris en sandwich et vous pourrez peut-être réduire considérablement  le paramètre de chevauchement remplissage / périmètre.
+
+#### *[S'assurer de l'épaisseur de la coque verticale](../variable/ensure_vertical_shell_thickness.md)*
 
 Cette fonction résout l'un des plus gros problèmes des slicers plus anciens, à savoir le fait d'avoir des trous entre les périmètres sur une surface inclinée. Cela était typique lors de l'impression de bustes et d'autres modèles à l'aspect organique. De tels objets avaient généralement quelques trous au-dessus de la tête. Lorsque cette fonction est activée, SuperSlicer s'assure qu'elle définit les supports (internes) nécessaires pour les périmètres dans une couche à venir.
 
@@ -137,7 +152,7 @@ Cette fonctionnalité affecte actuellement encore la génération du G-code mêm
 ![Image : Suppression des trous entre les périmètres sur une surface inclinée (image Prusa)](./images/008.jpeg)
 
 
-#### *Éviter de traverser les périmètres*
+#### *[Éviter de traverser les périmètres](../variable/avoid_crossing_perimeters.md)*
 
 Permet d’optimiser les déplacements afin de minimiser le franchissement de périmètres. Cela peut aider à empêcher les coulures de la buse lors des déplacements, en particulier avec les extrudeurs Bowden. L'activation de cette fonction ralentit considérablement la génération du G-code et augmente le temps d'impression.
 
@@ -145,37 +160,50 @@ Permet d’optimiser les déplacements afin de minimiser le franchissement de p�
 
 Éviter de traverser les périmètres option actives à droite.
 
-#### *Eviter de traverser les périmètres - Longueur de détour maximum*
+##### *[Eviter de traverser les périmètres - Pas sur la première couche](../variable/avoid_crossing_not_first_layer.md)*
+
+Permet de ne pas activer l'option 'Éviter de traverser les périmètres' sur la première couche.
+
+##### *[Eviter de traverser les périmètres - Longueur de détour maximum](../variable/avoid_crossing_perimeters_max_detour.md)*
 
 Paramètre actif si l’option ***Éviter de traverser les périmètres*** est active. Il indique, la longueur de détour maximum pour éviter de croiser les périmètres. Si le détour est plus long que cette valeur, l'option *Eviter de traverser les périmètres* ne s'applique pas pour ce chemin de déplacement. La longueur de détour peut être spécifiée soit comme une valeur absolue soit comme le pourcentage (par exemple 50%) d'un chemin de déplacement direct.
 
 #### *Murs minces*
 
-Option pour détecter les parois extrudable par une seule passe (parois minces) (pièces dans lesquelles deux extrusions ne rentrent pas et nous devons réduire à une seule trace). Si cette case n'est pas cochée, SuperSlicer peut essayer d’adapter les périmètres là où ce n’est pas possible, créant ainsi un chevauchement conduisant à une sur-extrusion.
+Option pour détecter les parois extrudable par une seule passe (Murs minces) (pièces dans lesquelles deux extrusions ne rentrent pas et nous devons réduire à une seule trace). Si cette case n'est pas cochée, SuperSlicer peut essayer d’adapter les périmètres là où ce n’est pas possible, créant ainsi un chevauchement conduisant à une sur-extrusion.
 
-#### *Détecter les parois fines*
+##### *[Largeur minimales](../variable/thin_walls_min_width.md)*
 
-Par défaut, chaque mur se compose de périmètres extérieurs et intérieurs (un minimum de deux périmètres pour les parois fines). S'il y a suffisamment d'espace pour cela, un motif de remplissage est utilisé pour combler le vide entre ces périmètres intérieurs/extérieurs. 
+La largeur minimale pour extruder (les largeurs inférieures au diamètre de la buse seront sur-extrudées au diamètre de la buse). Si exprimé en pourcentage (par exemple 110%), il sera calculé sur le diamètre de la buse. Le comportement par défaut de SuperSlicer est d'utiliser une valeur de 33%. Mettez 100% pour éviter toute sorte de sur-extrusion.
 
-L'activation de **Détecter les parois fines** permet à SuperSlicer de générer un seul périmètre qui officie à la fois pour l'intérieur et l'extérieur de la coque. Cela vous aidera à obtenir de petits détails. Cependant, les parois plus fines qu'une seule largeur d'extrusion de périmètre seront probablement ignorées.
+##### *[Chevauchement](../variable/thin_walls_overlap.md)*
 
-#### *Détecter les périmètres faisant des ponts*
+Recouvrement entre les parois minces et les périmètres. 
+Peut être un % de la largeur des périmètres extérieur (par défaut: 50%).
 
-Active **le flux de pontage** pour les surplombs et allume le ventilateur. C’est une option expérimentale qui ajuste le flux pour les surplombs (le flux pour les ponts sera utilisé), leur applique la vitesse pour les ponts et active le ventilateur.
+##### *[Fusion avec les périmètres](../variable/thin_walls_merge.md)*
 
-![Image : En haut l’option de détection n’est pas active](./images/010.jpeg)
+Permettre au périmètre extérieur de se chevaucher lui-même pour éviter l'utilisation de murs minces.
+Notez que le flux n'est pas ajusté et qu'il en résultera une sur-extrusion et un comportement indéfini.
 
-![Image : En haut l’option de détection est active dans l’image du dessous](./images/011.png)
+#### *[Chevauchement du périmètre extérieur](../variable/thin_perimeters.md)*
 
+Permettre au périmètre extérieur de se chevaucher lui-même pour éviter l'utilisation de murs minces.
+Notez que le flux n'est pas ajusté et qu'il en résultera une sur-extrusion et un comportement indéfini.
 
-Voir le paramètre  [Ratio de débit pour les ponts](#ratio-de-débit-pour-les-ponts) pour le réglage du débit sur les ponts.
+#### *[Egalement pour tous les périmètres](../variable/thin_perimeters_all.md)*
+
+Permettez à tous les périmètres de se chevaucher, et pas seulement aux périmètres externes.
+
+Modifiable si l'option [thin_perimeters](thin_perimeters.md) est active.
+
 
 ### Surplombs
 
 ![Image : Paramètres de Surplombs](./images/012.png)
 
 
-#### *Seuil pour Vitesse du pont et ventilateur*
+#### *[Seuil pour Vitesse du pont et ventilateur](../variable/overhangs_width_speed.md)*
 
 Largeur minimale non supportée pour une extrusion afin d'appliquer le ventilateur de pont & vitesse du surplomb à ce surplomb. 
 
@@ -183,7 +211,7 @@ Peut être spécifié en mm ou en % du diamètre de la buse diamètre de la buse
 
 > ***Mettre à 0 pour le désactiver.***
 
-#### *Seuil pour débit du pont*
+#### *[Seuil pour débit du pont](../variable/overhangs_width.md)*
 
 Largeur minimale non supportée pour une extrusion afin d'appliquer le flux de pont à ce porte-à-faux. 
 
@@ -193,22 +221,24 @@ Largeur minimale non supportée pour une extrusion afin d'appliquer le flux de p
 
 #### *Direction d’extrusion*
 
-##### *Inversé sur impair*
+##### *[Inversé sur impair](../variable/overhangs_reverse.md)*
 
 Extrudez les périmètres qui ont une partie sur un surplomb dans la direction inverse dans le sens inverse, en couches impaires. Ce motif alterné peut améliorer considérablement les surplombs abrupts.
 
-***!! Cet algorithme est très lent (il utilise les mêmes résultats que extra_perimeters_overhangs) !!***
+***!! Cet algorithme est très lent (il utilise les mêmes résultats que [extra_perimeters_overhangs](../variable/extra_perimeters_overhangs.md)) !!***
 
-##### *Seuil inversé*
+##### *[Seuil inversé](../variable/overhangs_reverse_threshold.md)*
 
 Nombre de mm que doit avoir le surplomb pour que l'inversion soit considérée utile. 
 
 > Peut être défini par un % de la largeur du périmètre.
 
+Pour être défini l'option [overhangs_reverse](overhangs_reverse.md) doit être active.
 
 ### Avancé
 
-#### *Pas de périmètres dans un pont*
+#### *[Pas de périmètres dans un pont](../variable/no_perimeter_unsupported_algo.md)*
+
 Cette option est là pour aider à découper les objets qui ont un trou de contre-perçage. 
 
 ![Image : Exemple de trou avec contre-perçage](./images/013.jpeg)
@@ -247,14 +277,21 @@ Il existe plusieurs options pour résoudre ce problème :
 ![Image : Conserver les ponts et les surplombs](./images/018.jpeg)
 
 
-#### *Remplir les trous entre les parois*
+#### *[Remplir les trous entre les parois](../variable/gap_fill.md)*
 
-##### *Surface minimum*
+PErmet d'activer l'algorithme de remplissage des trous. Il extrudera de petites lignes entre les périmètres lorsqu'il n'y a pas assez d'espace pour un autre périmètre ou un remplissage complet.
+
+##### *[Surface minimum](../variable/gap_fill_min_area.md)*
+
 Ce paramètre représente le minimum de mm² pour la création d’une extrusion de remplissage d’espace entre les parois.
 
 > Peut être définie par un % de (largeur du périmètre)²
 
-#### *Position des jointures*
+##### *[Après le dernier périmètre](../variable/gap_fill_last.md)*
+
+Tous les espaces entre le dernier périmère et le remplissage qui sont plus minces qu'un périmètre seront remplis par du remplissage.
+
+#### *[Position des jointures](../variable/seam_position.md)*
 
 Détermine le point de départ de chaque boucle de périmètre, et donc la position de la **jointure verticale** potentiellement visible sur le côté de l'objet. Sauf si vous imprimez en mode vase spirale.
 
@@ -319,19 +356,20 @@ Exemple de position de la couture en fonction des réglages
 |<p>**Aléatoire**</p>|<p>**Basé sur les coûts**</p>|<p>**Aligné**</p>|<p>**Arrière**</p>|
 
 
-### Périmètre à une boucle
+
+#### [Périmètre à une boucle](../variable/perimeter_loop.md)
 
 Cette option permet d’enchaîner les périmètres pour créer une seule extrusion continue sans interruption. Les longs déplacements intérieurs (de l'extérieur aux trous) ne sont pas extrudés pour laisser un peu d'espace au remplissage.
 
 ![Image : Exemple périmètre à une boucle](./images/028.png)
 
-L’option ***Jointures*** Permet de spécifier la position des points de départ des jonctions entre périmètres. Il est possible de choisir entre :
+L’option ***[Jointures](../variable/perimeter_loop_seam.md)*** Permet de spécifier la position des points de départ des jonctions entre périmètres. Il est possible de choisir entre :
 
 - ***Au plus près*** : Au plus près entre les jointures ou sur l’arrière.
 - Et ***Arrière*** : à l’arrière du modèle.
 
 
-### Coins arrondis
+#### [Coins arrondis](../variable/perimeter_round_corners.md)
 
 Avec cette option, les périmètres internes contourneront les angles aigus en créant un rayon au lieu de faire un angle aigu. Cela peut aider quand il y a des trous visibles dans les coins aigus des périmètres.
 
@@ -339,7 +377,7 @@ Avec cette option, les périmètres internes contourneront les angles aigus en c
 
  Exemple de périmètres à droite obtenus avec l’option **Coins arrondis**
 
-### Périmètres externes en premier
+### [Périmètres externes en premier](../variable/external_perimeters_first.md)
 
 Les périmètres seront imprimés de l'extérieur vers l'intérieur au lieu de l'ordre inverse.
 
@@ -349,15 +387,15 @@ Ce paramètre peut aider à la **précision dimensionnelle** car le périmètre 
 
 L’option permet de régler le mode d’application de cette option sur les périmètres de l’impression.
 
-##### *Seulement le coté extérieure*
+##### *[Seulement le coté extérieure](../variable/external_perimeters_nothole.md)*
 
 Ne faites le périmètre extérieur que sur les côtés extérieurs. Utile quand l’épaisseur est trop faible.
 
-##### *Seulement pour le coté intérieur*
+##### *[Seulement pour le coté intérieur](../variable/external_perimeters_hole.md)*
 
-Ne faites le périmètre extérieur que sur les côtés intérieurs Utile quand vous voulez seulement retirer la couture des trous de vis.
+Ne faites le périmètre extérieur que sur les côtés intérieurs. Utile quand vous voulez seulement retirer la couture des trous de vis.
 
-#### *En mode vase (sans couture)*
+#### *[En mode vase (sans couture)](../variable/external_perimeters_vase.md)*
 
 Imprimez les périmètres de contour en deux cercles de manière continue, un peu comme pour le mode vase. 
 
@@ -371,7 +409,7 @@ Si sa hauteur n'est pas inférieure à deux fois la hauteur actuelle de la couch
 
 Par exemple, pour que cet algorithme ai un vrai impact, il faut que la hauteur minimale soit au moins à 0.05 pour une hauteur de couche de 0.2.
 
-#### *Une meilleur liaison*
+#### *[Une meilleur liaison](../variable/perimeter_bonding.md)*
 
 Ce réglage peut dégrader un peu la qualité de votre périmètre externe, en échange d'une meilleure liaison entre les périmètres.
 
@@ -1142,14 +1180,14 @@ C'est moins courant, mais vous pouvez également utiliser des générateurs de s
 
 Une autre utilisation intéressante des générateurs de supports est de diviser les ponts longs en plus petits en plaçant un support au milieu du pont. Vous pouvez répéter ce processus et imprimer des ponts plus courts et presque parfaits tout en facilitant le retrait des supports.
 
-#### *Générer des supports*
+#### *[Générer des supports](../variable/support_material.md)*
 Les supports sont désactivés sauf si un modèle a un écrasement pour ce paramètre.
 
-#### *Supports générés automatiquement*
+#### *[Supports générés automatiquement](../variable/support_material_auto.md)*
 
 Lorsque cette option est désactivée, la détection de surplomb est désactivée. Seuls les générateurs de supports génèrent des supports.
 
-#### *Seuil de surplomb*
+#### *[Seuil de surplomb](../variable/support_material_threshold.md)*
 
 La valeur de seuil de surplomb représente la pente la plus horizontale (mesurée à partir du plan horizontal) que vous pouvez imprimer sans support (90 = vertical).
 
@@ -1683,6 +1721,7 @@ Vous pouvez augmenter ce paramètre pour sur-extruder sur la première couche s'
 Note : N'UTILISEZ PAS CECI si votre seul problème est le nivellement du plateau, NIVELEZ VOTRE PLATEAU ! N'utilisez ce paramètre qu'en dernier recours, après l'échec de tous les calibrages.
 
 #### *[Couper les coins](../variable/external_perimeter_cut_corners.md)*
+
 Activez cette option pour modifier le débit afin de reconnaître que la buse est ronde et que les coins auront une forme ronde, et donc de modifier le débit pour réaliser cela et éviter la surextrusion. 100% est activé, 0% est désactivé et 50% est semi-activé.
 
 Note : A 100%, cela change le débit de ~5% sur une très petite distance (~diamètre de la buse), donc cela ne devrait pas être perceptible à moins que vous ayez une très grande buse et une imprimante très précise.

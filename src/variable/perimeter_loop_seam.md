@@ -9,7 +9,7 @@
 
 ### Description
 
-Position des points de départ des jonctions entre périmètres.
+Position des points de départ des jonctions entre périmètres dans le cas d'utilisation de l'option [Périmètres à une boucle](perimeter_loop.md).
 
 Option :
  - Au plus près
