@@ -9,7 +9,7 @@
 
 ### Description
 
-Cela fixe le seuil de la petite longueur périmétrique. Chaque boucle dont la longueur inférieure à cela sera imprimée à une vitesse de petit périmètre.
+Cela fixe le seuil de la petite longueur périmétrique. Chaque boucle dont la longueur inférieure à cela sera imprimée à une [vitesse du petit périmètre](small_perimeter_speed.md)..
 
 La valeur de ce paramètre doit être inférieure à la valeur maximum de la longueur des petits périmètres : [small_perimeter_max_length](small_perimeter_max_length.md) .
 
