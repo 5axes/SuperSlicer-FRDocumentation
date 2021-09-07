@@ -1011,17 +1011,17 @@ La jupe est également utile pour **vérifier l'adhérence de la première couch
 
 ![Image : Réglage Jupe et Bordure](./images/086.png)
 
-#### *Boucles (minimum)*
+#### *[Boucles (minimum)](../variable/skirts.md)*
 
 Nombre de boucles de la jupe. Si la **Longueur Minimale d'Extrusion** est paramétrée, le nombre de boucles minimal sera plus grand que celui configuré ici.
 
 > **Mettez à 0 pour désactiver** complètement la jupe.
 
-#### *Distance de l'objet*
+#### *[Distance de l'objet](../variable/skirt_distance.md)*
 
 Distance entre le la jupe et le ou les objet(s). Mettez à 0 pour attacher la jupe a(ux) objet(s) (peut être utilisé comme une alternative à la bordure pour augmenter l'adhérence).
 
-#### *Hauteur de la jupe*
+#### *[Hauteur de la jupe](../variable/skirt_height.md)*
 
 Le nombre de couches de jupe à imprimer. 
 
@@ -1029,7 +1029,11 @@ Les jupes d'une couche de hauteur peuvent être difficiles à retirer du plateau
 
 > **Vous pouvez aussi mettre à 0 ce paramètre pour désactiver** complètement la jupe.
 
-#### *Bouclier contre les flux d'air*
+#### *[A partir de la bordure](../variable/skirt_distance_from_brim.md)*
+
+La jupe est créée en rajoutant la distance de l'objet à partir de la bordure , sinon elle est créée à partir de l'objet.
+
+#### *[Bouclier contre les flux d'air](../variable/draft_shield.md)*
 
 Si cette option est activée, elle crée une jupe aussi haute que l'objet le plus haut de la scène. Cela peut être utilisé pour protéger l'ABS, l'ASA et d'autres matériaux contre la déformation en créant un microclimat autour de la pièce imprimée et en protégeant l'impression d'un courant d'air/du vent.
 
@@ -1038,7 +1042,12 @@ Les caractéristiques du bouclier vont dépendre des réglages de la jupe avec n
 ![Image : Exemple de bouclier réglé avec 3 contours](./images/087.png)  ![Exemple de bouclier réglé avec 3 contours](./images/088.png)
 
 
-#### *Longueur minimale d'extrusion de filament*
+#### *[Bordure](../variable/skirt_brim.md)*
+
+Lignes de bordure supplémentaire qui sera rajouté à la jupe. Utile par exemple si la jupe est utilisé en bouclier contre les flux d'air afin d'assurer l'adhérence du bouclier sur le plateau d'impression.
+
+
+#### *[Longueur minimale de la jupe](../variable/min_skirt_length.md)*
 
 Force plus de boucles de jupe lorsque cela est nécessaire pour garantir que la quantité minimale de filament définie ici est extrudée avant la fin de la jupe. Pour les machines multi-extrudeurs, ce minimum s'applique à chaque extrudeur.
 
@@ -1059,11 +1068,11 @@ Vous devriez envisager d'utiliser l'option bordure lors de l'**impression de :**
 
 Quand la **Compensation de l'effet patte d'éléphant** est activée, un petit espace apparaît entre le modèle et la bordure dans l'aperçu.
 
-#### *Largeur de la bordure*
+#### *[Largeur de la bordure](../variable/brim_width.md)*
 
 Largeur horizontale de la bordure qui sera imprimée autour de chaque objet sur la première couche.
 
-#### *Bordure à l’intérieur des trous*
+#### *[Bordure à l’intérieur des trous](../variable/brim_inside_holes.md)*
 
 Permet de créer une bordure sur un ilot lorsqu'il est à l'intérieur d'un trou (ou entourée par un objet).
 
@@ -1597,11 +1606,11 @@ En revanche, lors de l'impression de modèles plus grands avec des hauteurs de c
 
 ## Largeur et Débit
 
-### Largeur d’extrusion
+### [Largeur d’extrusion](../variable/extrusion_width.md)
 
 Ce paramètre permet de régler une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse. Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
 
-### Espacement
+### [Espacement](../variable/extrusion_spacing.md)
 
 L’espacement est une solution alternative de définition de la largeur de ligne. Vous pouvez spécifier soit l’un ou l’autre des paramètres. En modifiant dans une case l’autre valeur sera calculée automatiquement et vice et versa.
 
@@ -1983,7 +1992,7 @@ _**Attention dans le cas de script Python, il est nécessaire d’indiquer le ch
 
 Pour les scripts Python, l’interpréteur Python peut être téléchargé à l’adresse suivante : <https://www.python.org/downloads/> .
 
-## Remarques
+## [Remarques](../variable/notes.md)
 
 Vous pouvez inscrire ici vos commentaires personnels. Ce texte sera ajouté aux commentaires en entête du G-Code.
 

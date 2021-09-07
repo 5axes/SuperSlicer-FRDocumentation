@@ -1,16 +1,16 @@
-# min_skirt_length
+# skirt_brim
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : [Jupe et Bordure](../print_settings/print_settings.md#jupe-et-bordure) - [Jupe](../print_settings/print_settings.md#jupe)
 * Mode : Expert
 
-## Longueur minimale d’extrusion de la jupe
+## Bordure
 
 ### Description
 
-Longueur minimal de jupes à imprimer afin de consommer la quantité de filament spécifiée par ce paramètre.
+Lignes de bordure supplémentaire qui sera rajouté à la jupe. Utile par exemple si la jupe est utilisé en bouclier contre les flux d'air afin d'assurer l'adhérence du bouclier sur le plateau d'impression.
 
-Pour les machines multi-extrudeuses, ce minimum s'applique à chaque extrudeuse.
+![bordure supplémentaire sur bouclier](images/skirt_brim/001.png)
 
 [Retour Liste variables](variable_list.md)
