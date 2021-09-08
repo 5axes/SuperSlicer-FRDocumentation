@@ -5,7 +5,7 @@
 * Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Vitesse du ventilateur par défaut
 * Mode : Expert
 
-## Ventilateur à pleine vitesse pour la couche
+## Ventilateur à pleine vitesse pour la couche *X*
 
 ### Description
 

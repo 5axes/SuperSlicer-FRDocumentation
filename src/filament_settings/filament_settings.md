@@ -142,10 +142,6 @@ Il faut être prudent car l'effet escompté pourrait être atténué par le fait
 
 Le ventilateur d'impression maintiendra toujours au moins une vitesse minimale. **Ce paramètre est généralement activé** pour la plupart des matériaux à l'exception de l'ABS, du PC et de certains flexibles.
 
-#### *Activer le refroidissement automatique*
-
-Lorsqu'il est activé, le ventilateur de refroidissement et la vitesse d'impression changeront pendant l'impression en fonction des paramètres ci-dessous. Une description textuelle ci-dessous sera **mise à jour à chaque changement de n'importe quel paramètre de refroidissement** et expliquera en détail le comportement de refroidissement résultant.
-
 ![Image : Réglages du refroidissement](./images/007.png)
 
 
@@ -153,9 +149,9 @@ Lorsqu'il est désactivé, le ventilateur d'impression fonctionnera à une vites
 
 ### Réglages du ventilateur (par défaut)
 
-#### *Faites fonctionner le ventilateur à la vitesse par défaut quand c’est possible*
+#### *[Garder le ventilateur toujours actif](../variable/fan_always_on.md)*
 
-Si cette option est activée, le ventilateur fonctionnera continuellement à la vitesse de base si aucun réglage n'annule la vitesse. Utile pour le PLA, nuisible pour l'ABS.
+Le ventilateur d'impression maintiendra toujours au moins une vitesse minimale. **Ce paramètre est généralement activé** pour la plupart des matériaux à l'exception de l'ABS, du PC et de certains flexibles.
 
 #### *[Vitesse du ventilateur par défaut](../variable/min_fan_speed.md)*
 
@@ -203,17 +199,17 @@ Les périmètres externes peuvent bénéficier d'une vitesse de ventilation plus
 
 Le refroidissement de la toute première couche n'est généralement **pas nécessaire**, car elle est déposée sur une surface plane. Avec de nombreux filaments, vous pouvez même vouloir éviter le refroidissement pendant les quelques premières couches supplémentaires (généralement entre 1 et 5) pour éviter de déformer et de détacher l'impression du plateau d'impression, ce qui entraînerait inévitablement une impression ratée.
 
-#### *Ventilateur à pleine vitesse pour la X couche*
+#### *[Ventilateur à pleine vitesse pour la X couche](../variable/full_fan_speed_layer.md)*
 
 La vitesse du ventilateur va augmenter de façon linéaire en partant de zéro pour la couche [disable_fan_first_layers](../variable/disable_fan_first_layers.md) jusqu'au maximum pour la couche [full_fan_speed_layer](../variable/full_fan_speed_layer.md). [full_fan_speed_layer](../variable/full_fan_speed_layer.md) sera ignorée si inférieure à [disable_fan_first_layers](../variable/disable_fan_first_layers.md), auquel cas le ventilateur fonctionnera à la vitesse maximum autorisée pour la couche [disable_fan_first_layers](../variable/disable_fan_first_layers.md) +1.
 
 ### Temps de couche court
 
-#### *Activer le ventilateur si le temps d'impression de la couche est inférieur à*
+#### *[Activer le ventilateur si le temps d'impression de la couche est inférieur à](../variable/fan_below_layer_time.md)*
 
 Si le temps d'impression estimé de la couche est inférieur à ce nombre de secondes, le ventilateur sera activé et sa vitesse calculée par interpolation des vitesses Min et Max.
 
-#### *Vitesse maximale du ventilateur*
+#### *[Vitesse maximale du ventilateur](../variable/max_fan_speed.md)*
 
 Ce paramètre représente la vitesse maximale à utiliser pour le ventilateur, utilisé lorsque pour une couche le temps d'impression est très court.
 
@@ -221,15 +217,15 @@ Ce paramètre représente la vitesse maximale à utiliser pour le ventilateur, u
 
 ### Temps de couche très court
 
-#### *Durée minimale de la couche*
+#### *[Durée minimale de la couche](../variable/slowdown_below_layer_time.md)*
 
 Si le temps d'impression estimé de la couche est inférieur à ce nombre de secondes, la vitesse des déplacements d'impression sera réduite afin d'atteindre cette valeur. Le ralentissement se fait en mettant à l'échelle les vitesses d'impression, de sorte que certains mouvements seront toujours plus rapides que d'autres.
 
-#### *Réduction de la vitesse maximale*
+#### *[Réduction de la vitesse maximale](../variable/max_speed_reduction.md)*
 
 Réglez sur 90% si vous ne voulez pas que la vitesse soit réduite de plus de 90%.
 
-#### *Vitesse d'impression minimale*
+#### *[Vitesse d'impression minimale](../variable/min_print_speed.md)*
 
 La vitesse minimale à laquelle SuperSlicer réduira les vitesses. L'impression à des vitesses extrêmement basses pendant des périodes prolongées peut entraîner des problèmes tels que le fluage thermique.
 
@@ -243,7 +239,7 @@ Gardez à l'esprit qu'en augmentant cette valeur trop haute, vous pouvez invalid
 
 Propriété Multimatériaux du filament
 
-#### *Température de changement de filament multi-matériaux*
+#### *[Température de changement de filament multi-matériaux](../variable/filament_enable_toolchange_temp.md)*
 
 ![Image : Température de changement de filament multi-matériaux](./images/011.png)
 Température de changement de filament multi-matériaux 

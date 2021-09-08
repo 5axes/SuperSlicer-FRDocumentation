@@ -9,6 +9,8 @@
 
 ### Description
 
-SuperSlicer ne fera jamais passer la vitesse en dessous de celle-ci.
+Vitesse d'impression minimale, SuperSlicer ne fera jamais passer la vitesse en dessous de celle-ci.
+
+Valeur par défaut : 10 mm/s
 
 [Retour Liste variables](variable_list.md)
