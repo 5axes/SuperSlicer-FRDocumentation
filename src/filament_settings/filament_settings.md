@@ -33,7 +33,7 @@ Entrez le diamètre de votre filament ici. Une bonne précision est requise, uti
 
 Ce facteur modifie proportionnellement le flux d'extrusion. Vous pouvez avoir besoin de modifier ceci afin d'obtenir un rendu de surface net et une largeur correcte pour les murs uniques. Les valeurs habituelles vont de 0.9 à 1.1. Si vous pensez devoir changer davantage cette valeur, vérifiez le diamètre de votre filament et les E Steps dans le firmware.
 
-#### *[Densité](../variable/filament_density.md)**
+#### *[Densité](../variable/filament_density.md)*
 
 Entrez ici la densité de votre filament. Ceci est uniquement pour des informations statistiques. Un bon moyen d'obtenir cette valeur est de peser un morceau de filament d'une longueur connue et de calculer le rapport de sa longueur par son poids. 
 
@@ -244,23 +244,23 @@ Propriété Multimatériaux du filament
 ![Image : Température de changement de filament multi-matériaux](./images/011.png)
 Température de changement de filament multi-matériaux 
 
-##### *Température de changement de filaments activé*
+##### *[Température de changement de filaments activé](../variable/filament_enable_toolchange_temp.md)*
 
 Détermine si les températures de changement de filament seront appliquées.
 
-##### *Température de changement de filament*
+##### *[Température de changement de filament](../variable/filament_enable_toolchange.md)*
 
 Pour réduire davantage les fils, il peut être utile de définir une température inférieure juste avant l'extraction du filament de la tête chauffante.
 
-##### *Mode rapide*
+##### *[Mode rapide](../variable/filament_use_fast_skinnydip.md)*
 
 Expérimental : diminue la température de la buse pendant les mouvements de refroidissement plutôt qu'avant l'extraction pour réduire le temps d'attente.
 
-##### *Utilise aussi le ventilateur de filament pour l’extrudeuse*
+##### *[Utilise aussi le ventilateur de filament pour l’extrudeuse](../variable/filament_enable_toolchange_part_fan.md)*
 
 Paramètre expérimental. Peut permettre au hotend de refroidir plus rapidement lors des changements de filament.
 
-##### *Vitesse du ventilateur de changement de filaments*
+##### *[Vitesse du ventilateur de changement de filaments](../variable/filament_toolchange_part_fan_speed)*
 
 Paramètre expérimental. Des vitesses de ventilateur trop élevées peuvent entrer en conflit avec la routine PID du hotend.
 
@@ -268,7 +268,7 @@ Paramètre expérimental. Des vitesses de ventilateur trop élevées peuvent ent
 
 ![Image : Réduction de changement de filament multi-matériaux](./images/012.png)
 
-##### *Active la réduction de fil ‘skinnydip’*
+##### *[Active la réduction de fil ‘skinnydip’](../variable/filament_use_skinnydip.md)*
 
 Skinnydip effectue un plongeon supplémentaire dans la zone de fusion pour 'brûler' les fines chaînes de filaments.
 
@@ -278,31 +278,36 @@ Skinnydip effectue un plongeon supplémentaire dans la zone de fusion pour 'brû
 
 Lien sur discussion skinnydip sur [Github PrusaSlicer](https://github.com/prusa3d/PrusaSlicer/issues/2729)
 
-##### *Distance d’insertion*
+##### *[Distance d’insertion](../variable/filament_skinnydip_distance.md)*
 
 Pour les extrudeuses standard, généralement de 40 à 42 mm. Pour la mise à niveau par l'extrudeuse bondtech, généralement de 30 à 32 mm. Commencez avec une valeur faible et augmentez-la progressivement jusqu'à ce que les fils disparaissent. S'il y a des taches sur votre tour de purge, votre valeur est trop élevée.
 
-##### *Pause en zone de fusion*
+##### *[Pause en zone de fusion](../variable/filament_melt_zone_pause.md)*
 
 Restez dans la zone de fusion pendant cette durée avant d’extraire le filament.  Généralement pas nécessaire.
 
-##### *Pause avant extraction*
+##### *[Pause avant extraction](../variable/filament_cooling_zone_pause.md)*
 
 Peut être utile pour éviter que les engrenages de l’extrudeur Bondtech ne déforment les pointes encore un peu chaudes, mais ce n'est généralement pas nécessaire.
 
-##### *Vitesse pour entrer dans la zone de fusion*
+##### *[Vitesse pour entrer dans la zone de fusion](../variable/filament_dip_insertion_speed.md)*
 
 Ce n’est généralement pas nécessaire de changer cette valeur.
 
-##### *Vitesse pour sortir de la zone de fusion*
+##### *[Vitesse pour sortir de la zone de fusion](../variable/filament_dip_extraction_speed.md)*
 
 Ce n’est généralement pas nécessaire de changer cette valeur.
 
 #### *Paramètres de la tour de purge*
 
-##### *Purge minimale sur la tour de purge*
+##### *[Purge minimale sur la tour de purge](../variable/filament_minimal_purge_on_wipe_tower.md)*
 
 Après un changement d'outil, la position exacte dans la buse du filament qui vient d'être chargé peut ne pas être connue, et la pression du filament n'est probablement pas encore stable. Avant de purger la tête d'impression dans un remplissage ou un objet sacrificiel, SuperSlicer va toujours utiliser cette quantité de matériau dans la tour de purge pour produire un remplissage successif ou des extrusions d'objet sacrificiel de façon fiable.
+
+##### *[Vitesse maximum sur la tour de purge](../variable/filament_max_wipe_tower_speed.md)*
+
+Ce paramètre est utilisé pour définir la vitesse maximale lors de l'extrusion à l'intérieur de la tour de purge  (utilisez M220). 
+En %, mettez 0 pour désactiver et utiliser le type de filament à la place.
 
 ![Image : Paramètres de la tour de purge](./images/014.png)
 
