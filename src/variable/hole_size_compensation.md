@@ -5,7 +5,7 @@
 * Sous groupe : [Couche](../print_settings/print_settings.md#couche) - [Modifications des couches](../print_settings/print_settings.md#modifications-des-couches)
 * Mode : Expert
 
-## Compensation en XY
+## Compensation du rétrécissement des trous verticaux
 
 ### Description
 
@@ -13,7 +13,7 @@ Les trous convexes seront agrandis/rétrécis dans le plan XY par la valeur conf
 
 Ce paramètre se comporte de la même manière que la [compensation de la taille XY interne](xy_inner_size_compensation.md), mais uniquement pour les formes convexes. Il s'ajoute à [xy_inner_size_compensation](xy_inner_size_compensation.md), il ne le remplace pas. 
 
-La compensation s'applique pour les trous dont la dimmension est inférieure au [Seuil](hole_size_threshold.md).
+La compensation s'applique pour les trous dont la dimension est inférieure au [Seuil](hole_size_threshold.md).
 
 
 [Retour Liste variables](variable_list.md)
