@@ -4,7 +4,7 @@
 
 * A propos de SuperSlicer
 	* [Quelles sont les principales caractéristiques de SuperSlicer / PrusaSlicer / Slic3r ?](#quelles-sont-les-principales-caractéristiques-de-superslicer--prusaSlicer--slic3r-) 
-	* [Quelles sont les principales différences de SuperSlicer ?](#quelles-sont-les-principales-différences-de-superslicer-)
+	* [Quelles sont les principales différences de SuperSlicer ?](#quelles-sont-les-principales-différences-de-superslicer--)
 	* [Les autres caractéristiques principales](#les-autres-caractéristiques-principales)
 	* [Développement](#développement)
 	* [Licence et attribution](#licence-et-attribution)
