@@ -12,8 +12,8 @@ Version 1.19 du 21/08/2021
 * [Préambule](overview.md)
 
 * [A propos de SuperSlicer](about_superslicer/about_superslicer.md)
-	* [Quelles sont les principales caractéristiques de SuperSlicer ? Les principales différences ?](about_superslicer/about_superslicer.md#quelles-sont-les-principales-caractéristiques-de-superslicer--les-principales-différences-)
 	* [Quelles sont les principales caractéristiques de SuperSlicer / PrusaSlicer / Slic3r ?](about_superslicer/about_superslicer.md#quelles-sont-les-principales-caractéristiques-de-superslicer--prusaSlicer--slic3r-) 
+	* [Quelles sont les principales différences de SuperSlicer ?](about_superslicer/about_superslicer.md#quelles-sont-les-principales-différences-de-superslicer-)
 	* [Les autres caractéristiques principales](about_superslicer/about_superslicer.md#les-autres-caractéristiques-principales)
 	* [Développement](about_superslicer/about_superslicer.md#Développement)
 	* [Licence et attribution](about_superslicer/about_superslicer.md#licence-et-attribution)
