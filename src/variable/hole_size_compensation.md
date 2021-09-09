@@ -17,5 +17,12 @@ Ce paramètre se comporte de la même manière que la [compensation de la taille
 
 La compensation s'applique pour les trous dont la dimension est inférieure au [Seuil](hole_size_threshold.md).
 
+Attention aux géométries comportant des intersections avec trous horizontaux. Au niveau de ces intersections la section passe contour extérieure est la correction ne s'applique plus.
+
+![Compensation non active si le contour devient 'externe'](images/hole_size_compensation/001.png)
+
+![Section ouverte](images/hole_size_compensation/002.png)
+
+
 
 [Retour Liste variables](variable_list.md)

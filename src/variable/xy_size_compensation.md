@@ -14,6 +14,6 @@ L'objet sera agrandi/rétréci dans le plan XY de la valeur configurée (négati
 
 Celui-ci ne s'applique qu'à l'enveloppe 'extérieure' de l'objet.
 
-! !! il est recommandé de mettre la même valeur dans la 'compensation de taille XY intérieure', sauf si vous êtes sûr de ne pas avoir de trous horizontaux. !!!
+!!! il est recommandé de mettre la même valeur dans la '[compensation de taille XY intérieure](xy_inner_size_compensation.md)', sauf si vous êtes sûr de ne pas avoir de trous horizontaux. !!!
 
 [Retour Liste variables](variable_list.md)

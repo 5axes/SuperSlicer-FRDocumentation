@@ -13,8 +13,13 @@ L'objet sera agrandi/rétréci dans le plan XY de la valeur configurée (négati
 
 Celui-ci ne s'applique qu'aux parties **internes** de l'objet.
 
-**!!! les trous horizontaux créés des sections ouvertes transformant ces zones en zones extérieures !!!**
+**!!! les trous horizontaux créés des sections ouvertes transformant ces zones en zones extérieures !!!** La compensation n'est donc plus appliquée dans ce cas
 
 ![trou dans le modèle la compensation ne s'applique plus](./images/xy_inner_size_compensation/001.png)
+
+
+![Section ouverte](images/hole_size_compensation/002.png)
+
+
 
 [Retour Liste variables](variable_list.md)
