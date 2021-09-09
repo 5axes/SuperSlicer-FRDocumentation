@@ -3,8 +3,8 @@
 ## Contenu de la page
 
 * A propos de SuperSlicer
-	* [Quelles sont les principales caractéristiques de SuperSlicer ? Les principales différences ?](#quelles-sont-les-principales-caractéristiques-de-superslicer--les-principales-différences-)
 	* [Quelles sont les principales caractéristiques de SuperSlicer / PrusaSlicer / Slic3r ?](#quelles-sont-les-principales-caractéristiques-de-superslicer--prusaSlicer--slic3r-) 
+	* [Quelles sont les principales différences de SuperSlicer ?](#quelles-sont-les-principales-différences-de-superslicer-)
 	* [Les autres caractéristiques principales](#les-autres-caractéristiques-principales)
 	* [Développement](#développement)
 	* [Licence et attribution](#licence-et-attribution)
@@ -24,7 +24,21 @@ SuperSlicer est basé sur [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) 
 
 Voir le [wiki](https://github.com/supermerill/SuperSlicer/wiki) et le [répertoire de documentation](https://github.com/supermerill/SuperSlicer/tree/master/doc) pour des informations sur la compilation.
 
-## Quelles sont les principales caractéristiques de SuperSlicer ? Les principales différences ?
+
+## Quelles sont les principales caractéristiques de SuperSlicer / PrusaSlicer / Slic3r ?
+
+Les principales caractéristiques communes à ces 3 solutions sont les suivantes :
+
+- ***Multi-plateforme*** (Linux/Mac/Win) et distribué comme une application autonome sans aucune dépendance requise.
+- Interface de ***ligne de commande complète*** pour l'utiliser sans interface graphique.
+- Impression d'objets multi-matériaux (***extrudeuses multiples***)
+- Prise en charge de plusieurs types de codes G (RepRap, Makerbot, Mach3, Machinekit, etc.). 
+- Possibilité d’imprimer plusieurs objets ***ayant des paramètres d'impression distincts***
+- Traitement multithread
+- Réparation automatique STL (tolérance pour les modèles invalides)
+- Tests unitaires automatisés étendus
+
+## Quelles sont les principales différences de SuperSlicer  ?
 
 - ***Lissage*** de la surface supérieure et de nombreux nouveaux paramètres pour affiner la qualité de la surface supérieure, comme "un seul périmètre sur le dessus".
 - Une option "remplissage plus dense" pour soutenir les couches supérieures (pleines).
@@ -40,20 +54,6 @@ Voir le [wiki](https://github.com/supermerill/SuperSlicer/wiki) et le [répertoi
 - Il possède également toutes les fonctionnalités actuelles de PrusaSlicer. 
 
 **Liste complète des changements [ici.](https://github.com/supermerill/SuperSlicer/wiki)** Voir le [wiki](https://github.com/supermerill/SuperSlicer/wiki) pour d’autres infos sur le logiciel 
-
-## Quelles sont les principales caractéristiques de SuperSlicer / PrusaSlicer / Slic3r ?
-
-Les principales caractéristiques communes à ces 3 solutions sont les suivantes :
-
-- ***Multi-plateforme*** (Linux/Mac/Win) et distribué comme une application autonome sans aucune dépendance requise.
-- Interface de ***ligne de commande complète*** pour l'utiliser sans interface graphique.
-- Impression d'objets multi-matériaux (***extrudeuses multiples***)
-- Prise en charge de plusieurs types de codes G (RepRap, Makerbot, Mach3, Machinekit, etc.). 
-- Possibilité d’imprimer plusieurs objets ***ayant des paramètres d'impression distincts***
-- Traitement multithread
-- Réparation automatique STL (tolérance pour les modèles invalides)
-- Tests unitaires automatisés étendus
-
 
 ## Les autres caractéristiques principales
 
