@@ -9,7 +9,8 @@
 
 ### Description
 
-Le % de pigment pour ce filament (entre 0 et 1, 1=100%). 0 pour translucide/naturel, 0.2-0.5 pour le blanc et 1 pour le noir.
+Le % de pigment pour ce filament (entre 0 et 1, 1=100%). 
+0 pour translucide/naturel, 0.2-0.5 pour le blanc et 1 pour le noir.
 
 * Valeur par défaut : 0.5%
 

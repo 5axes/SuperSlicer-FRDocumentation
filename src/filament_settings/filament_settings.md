@@ -315,45 +315,50 @@ En %, mettez 0 pour désactiver et utiliser le type de filament à la place.
 
 ![Image : Paramètres de changement de filament pour les imprimantes multi-matériaux mono extrudeur](./images/015.png)
 
-##### *Vitesse de chargement au départ*
+##### *[Vitesse de chargement au départ](../variable/filament_loading_speed_start.md)*
 
 Vitesse utilisée au tout début de la phase de chargement.
 
-##### *Vitesse de chargement*
+##### *[Vitesse de chargement](../variable/filament_loading_speed.md)*
 
 Vitesse utilisée pour charger le filament sur la tour de purge.
 
-##### *Vitesse de déchargement au démarrage*
+##### *[Vitesse de déchargement au démarrage](../variable/filament_unloading_speed_start.md)*
 
 Vitesse utilisée pour décharger l'extrémité du filament juste après l'expulsion.
 
-##### *Vitesse de déchargement*
+##### *[Vitesse de déchargement](../variable/filament_unloading_speed.md)*
 
 Vitesse utilisée pour décharger le filament sur la tour de purge (n'affecte pas l'étape initiale de déchargement juste après l'expulsion).
 
-##### *Temps de chargement du filament*
+##### *[Temps de chargement du filament](../variable/filament_load_time.md)*
 
 Temps nécessaire pour que le Firmware de l'imprimante (ou la Multi Material Unit 2.0) charge un filament au cours d'un changement d'outils (lorsqu'il exécute le T code). Ce temps est ajouté au temps total d'impression par l'estimateur de temps du G-code.
 
-##### *Temps de décharge du filament*
+##### *[Temps de décharge du filament](../variable/filament_unloading_time.md)*
 
 Temps nécessaire pour que le Firmware de l'imprimante (ou la Multi Material Unit 2.0) décharge un filament au cours d'un changement d'outils (lorsqu'il exécute le T code). Ce temps est ajouté au temps total d'impression par l'estimateur de temps du G-code.
 
-##### *Délais après le déchargement*
+##### *[Délais après le déchargement](../variable/filament_toolchange_delay.md)*
 
 Temps d'attente nécessaire après que le filament a été déchargé.  Peut aider à obtenir des changements d'outils fiables avec des matériaux flexible qui ont besoin de plus de temps pour revenir à leurs dimensions originales.
 
-##### *Nombres de mouvements de refroidissement*
+##### *[Nombres de mouvements de refroidissement](../variable/filament_cooling_moves.md)*
 
 Le filament est refroidi en étant déplacé d'avant en arrière dans les tubes de refroidissement. Spécifiez le nombre souhaité de ces mouvements.
 
-##### *Vitesse du premier mouvement de refroidissement*
+##### *[Vitesse du premier mouvement de refroidissement](../variable/filament_cooling_initial_speed.md)*
 
 Les mouvements de refroidissement accélèrent progressivement jusqu'à cette vitesse.
 
-##### *Vitesse du dernier mouvement de refroidissement*
+##### *[Vitesse du dernier mouvement de refroidissement](../variable/filament_cooling_final_speed.md)*
 
 Les mouvements de refroidissement accélèrent progressivement à partir de cette vitesse.
+
+##### *[Pourcentage de pigment](../variable/filament_wipe_advanced_pigment.md)*
+
+Le % de pigment pour ce filament (entre 0 et 1, 1=100%). 
+0 pour translucide naturel, 0.2-0.5 pour le blanc et 1 pour le noir.
 
 ##### *Paramètres de l’expulsion*
 
