@@ -508,9 +508,7 @@ L’algorithme de lissage des courbes peut être modifié en jouant sur 3 param�
 
 L'objet sera agrandi/réduit sur les plans XY selon la valeur indiquée (négatif = réduit, positif = agrandi). Ce réglage peut être utile pour un réglage fin des tailles de trous.
 
-Il est possible de définir une valeur
-
-Pour les contour **[Extérieurs](../variable/xy_size_compensation.md)** ou **[Intérieurs](../variable/xy_inner_size_compensation.md)** et sur la **[Première couche](../variable/first_layer_size_compensation.md)**.
+Il est possible de définir une valeur pour les contours **[Extérieurs](../variable/xy_size_compensation.md)** ou **[Intérieurs](../variable/xy_inner_size_compensation.md)** et sur la **[Première couche](../variable/first_layer_size_compensation.md)**.
 
 #### *[XY Compensation de la première couche](../variable/first_layer_size_compensation.md)*
 
@@ -857,18 +855,20 @@ Cette option inverse l'ordre d'impression des périmètres et du remplissage, ce
 
 ### Options avancées de remplissage
 
-#### *Réglage du remplissage pour le lissage*
+Ces options sont actives à condition que le type **Lissage** soit sélectionné pour les remplissages des couches pleines ou du dessus.
+
+#### *[Réglage du remplissage pour le lissage](../variable/fill_smooth_distribution.md)*
 
 C'est le pourcentage du débit qui est utilisé pour la deuxième passe de lissage. Typiquement 10-20%. Ne devrait pas être supérieur à 20%, à moins que votre largeur d'extrusion soit largement supérieure à celle de votre buse. Une valeur trop faible et votre extrudeuse va manger le filament. Une valeur trop élevée et la première passe ne sera pas bien imprimée.
 
-#### *Espacement des lignes de lissage*
+#### *[Espacement des lignes de lissage](../variable/fill_smooth_width.md)*
 Il s'agit de la largeur de la passe de lissage, en % de l'extrusion du remplissage supérieur la largeur, ne doit pas être supérieure à 50% (deux fois plus de lignes, 50% de chevauchement). Il n'est pas nécessaire de descendre en dessous de 25% (quatre fois plus de lignes, 75% de chevauchement). 
 
 Si vous avez des problèmes avec votre processus de lissage, n'oubliez pas de regarder le débit->débit du pont supérieur, car ce paramètre doit être réglé à min 110% pour s’assurer d'avoir assez de plastique dans la couche supérieure. Une valeur trop basse fera que votre extrudeuse mangera le filament.
 
 ![Image : Options avancées de remplissage](./images/077.png)
 
-### Lissage Post-processus
+### Lissage Post-traitement
 
 Le lissage permet d’obtenir **une surface lisse** sur les plans horizontaux – les trajets du filament sont presque invisibles. Comment cela est-il possible ? La buse chaude passe sur la surface **une fois supplémentaire mais avec un débit de filament réduit.** Le fait d’activer ou de désactiver le lissage, et de choisir ou pas le type de lissage (toutes les surfaces, uniquement la surface la plus au-dessus, toutes les surfaces pleines) devrait suffire à la plupart des utilisateurs d’imprimantes 3D. Néanmoins, peut-être voudrez-vous ajuster le ratio de flux ou l’espacement entre les passages du lissage. Le **ratio de flux** est réglé en tant que pourcentage de la hauteur de couche normale, et **l’espacement entre les passages du lissage** détermine à quelle distance les lignes parallèles tracées par la buse doivent se trouver les unes par rapport aux autres. Les valeurs de ces paramètres sont réglées sur des valeurs optimales, mais vous pouvez les modifier à votre guise si le résultat ne vous convient pas.
 
@@ -919,12 +919,12 @@ Le **remplissage monotone** est une autre caractéristique qui améliore la qual
 #### *Comment activer le lissage pour tous les modèles*
 Le lissage n'est pas disponible dans le mode Simple, alors passez en mode Avancé ou Expert.
 
-Sélectionnez ensuite [**Paramètres d'impression - Remplissage - Lissage - Activer le lissage.**](#activer-le-lissage)
+Sélectionnez ensuite [**Paramètres d'impression - Remplissage - Lissage en Post-traitement - Permettre le lissage en post-traitement.**](#activer-le-lissage)
 
 ![Image : Activation du lissage](./images/083.png)
 
 #### *Comment activer le lissage uniquement pour le modèle sélectionné*
-Tout d'abord, passez en mode Expert, le repassage pour les modèles individuels n'est activé que dans ce mode. Faites un clic droit sur un modèle et sélectionnez **Ajouter des réglages - lissage** dans le menu contextuel. Cochez **Activer** le lissage, vous pouvez également sélectionner le reste des paramètres de repassage afin de les personnaliser modèle par modèle. Vous pouvez maintenant modifier les paramètres de repassage pour ce modèle à l'aide du panneau de droite.
+Tout d'abord, passez en mode Expert, le lissage pour les modèles individuels n'est activé que dans ce mode. Faites un clic droit sur un modèle et sélectionnez **Ajouter des réglages - lissage** dans le menu contextuel. Cochez **Activer** le lissage, vous pouvez également sélectionner le reste des paramètres de repassage afin de les personnaliser modèle par modèle. Vous pouvez maintenant modifier les paramètres de repassage pour ce modèle à l'aide du panneau de droite.
 
 ![Image : Ajout du lissage](./images/084.jpeg)
 
@@ -957,7 +957,7 @@ Comme le lissage ne fonctionne que sur des surfaces planes, il est logique d'uti
 1. Cochez Activer le lissage, vous pouvez maintenant activer le lissage uniquement pour cette partie dans le panneau de droite
 
 
-#### *Type de lissage*
+#### *[Type de lissage](../variable/ironing_type.md)*
 
 ##### *Toutes les surfaces de dessus*
 
@@ -976,21 +976,21 @@ Cette option ne fonctionne pas correctement pour le moment.
 
 Chaque couche recevra une passe de lissage. Une fonction expérimentale destinée à être utilisée avec un remplissage à 100% pour créer des objets plus transparents.
 
-#### *Débit*
+#### *[Débit](../variable/ironing_flowrate.md)*
 
 Pourcentage d'un débit par rapport à la hauteur de couche normale de l'objet a utiliser pour le lissage. La valeur par défaut est fixée à 15%
 
-#### *Espacement entre les passes de lissage*
+#### *[Espacement des lignes de lissage](../variable/ironing_spacing.md)*
 
 Distance entre les différentes lignes de lissage. Cette valeur doit être inférieure au diamètre de votre buse. De ce fait, la buse passera plusieurs fois sur le même point.
 
-#### *Vitesse de lissage*
+#### *[Vitesse du post_traitement de lissage](../variable/ironing_speed.md)*
 
 Cette option n'est pas regroupée avec les autres paramètres de lissage. Vous la trouverez plutôt dans [**Paramètres d'impression - Vitesse - Lissage**](#vitesse). N'hésitez pas à expérimenter cette valeur, mais en général, les vitesses plus lentes sont les plus efficaces.
 
 #### *Calibration*
 
-Le lissage est très sensible au calibrage précis de l'extrudeuse. Des rainures trop peu nombreuses et trop brillantes seront visibles sur la couche supérieure, qui ne sera pas lissée. Trop et l'excès de plastique sera entraîné par la buse vers les bords de la surface supérieure. Le calibrage est donc une question d'essais et d'erreurs. On peut expérimenter avec le débit, la vitesse et l'espacement du repassage pour obtenir les meilleurs résultats.
+Le lissage est très sensible au calibrage précis de l'extrudeuse. Pas assez et des rainures dispersées et trop brillantes seront visibles sur la couche supérieure, qui ne sera pas lissée. Trop et l'excès de plastique sera entraîné par la buse vers les bords de la surface supérieure. Le calibrage est donc une question d'essais et d'erreurs. On peut expérimenter avec le débit, la vitesse et l'espacement du repassage pour obtenir les meilleurs résultats.
 
 #### ***Différents matériaux***
 

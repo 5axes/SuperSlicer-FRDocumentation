@@ -9,9 +9,24 @@
 
 
 Définition du type de lissage. Permet d'indiquer où sera appliqué l'opération de lissage.
-- Toutes les surfaces du dessus
-- Uniquement la partie supérieure
-- Toutes les surfaces pleines
+
+### *Toutes les surfaces de dessus*
+
+La buse lissera la couche supérieure de chaque surface (la dernière couche de chaque zone plane).
+
+### *Surface supérieure uniquement*
+
+Seule la toute dernière couche de l'objet sera lissée. Cela signifie que dans le cas d'un texte en relief (orienté parallèlement au lit d'impression), seule la partie supérieure des lettres sera repassée, mais pas l'espace entre les lettres.
+
+![Toutes les surfaces supérieures (à gauche), Surface supérieure seulement (à droite)](images/ironing_type/085.jpeg)
+
+
+### ***Toutes les surfaces pleines***
+
+Cette option ne fonctionne pas correctement pour le moment.
+
+Chaque couche recevra une passe de lissage. Une fonction expérimentale destinée à être utilisée avec un remplissage à 100% pour créer des objets plus transparents.
+
 
 Paramètre actif si [ironing](ironing.md) est actif.
 
