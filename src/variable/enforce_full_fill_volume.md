@@ -13,6 +13,13 @@ Option expérimentale qui modifie (en remplissage plein) le débit de remplissag
 
 Il présente l'avantage de supprimer la sur-extrusion causée par le paramètre de chevauchement dans les surfaces de remplissage étroites
 
+Dans l'image ci dessous on peut voir l'effet du paramètre. la modification de la largeur d'extrusion est mineure mais réelle. 
+
+![Comparaison de 2 fichiers GCode](images/enforce_full_fill_volume/001.png)
+
+A gauche avec l'option activée, A droite sans .  Avec l'activation la largeur programmé de 0.45 va devenir 0.452182 soit 0.5% d'écart.
+
+
 * Valeur par défaut à Vraie.
 
 [Retour Liste variables](variable_list.md)

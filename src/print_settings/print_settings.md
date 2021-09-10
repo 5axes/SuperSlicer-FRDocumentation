@@ -26,7 +26,7 @@
 
 ### Parois verticales
 
-#### *Périmètres*
+#### *[Périmètres](../variable/perimeters.md)*
 
 Définit le nombre minimal de contours qui forment la paroi d'un modèle. Les profils  utilisent pratiquement toujours un minimum de deux périmètres. 
 
@@ -36,8 +36,28 @@ La résistance d'un modèle est principalement définie par le nombre de périm�
 
 ![Image : Nombre de périmètres](./images/002.jpeg)
 
+Pour un nombre sélectionné de périmètres et une hauteur de couche, SuperSlicer calcule l'**épaisseur des parois fines optimale**. Si vous revenez à votre dessin CAO et modifiez l'épaisseur de la paroi à cette valeur exacte, vous éliminerez les chevauchements inutiles du périmètre et votre impression aura une finition parfaite de la surface des parois.
 
-#### *Vase spirale*
+Vous pouvez penser que lorsque la largeur d'extrusion d'un périmètre est de 0,45 mm, deux périmètres auront une largeur de 0,90 mm (2x0,45). Cependant, si vous regardez la recommandation pour une hauteur de couche de 0,2 mm, vous constaterez que ce n'est pas vrai et que la valeur suggérée est de 0,86 mm.
+
+Afin de comprendre comment ce nombre est calculé, nous devons examiner la section transversale d'un cordon. SuperSlicer suppose que la section transversale d'une extrusion est un rectangle avec des extrémités semi-circulaires. Notez que la largeur d'extrusion comprend les deux extrémités semi-circulaires.
+
+![Image : Section d’un cordon](./images/001.svg)
+
+*(Cette image est une reprise de la source originale : <https://manual.slic3r.org/advanced/flow-math> )*
+
+Ajoutons maintenant une seconde extrusion/périmètre. Si nous supposons qu'il n'y a pas de chevauchement (chemins tangents), il y aurait un espace vide (en jaune). Afin de remplir l'espace vide et de relier les périmètres ensemble, SuperSlicer chevauche légèrement les périmètres. C'est essentiellement pourquoi vous ne pouvez pas simplement multiplier le nombre de périmètres par la largeur d'un seul périmètre pour obtenir l'épaisseur de paroi idéale.
+
+![Image : tangence des périmètres](./images/004.svg)
+![Image : Chevauchement des périmètres](./images/005.svg)
+
+*(Cette image a été fortement inspirée par la source originale : <https://manual.slic3r.org/advanced/flow-math>)*
+
+> Notez que la hauteur de couche (h) est utilisée dans le calcul et l'implication que cela a - si vous modifiez la hauteur de couche, votre épaisseur de paroi idéale changera également !
+
+Pour plus d'informations, consultez la [page mathématique du Flux de Slic3r](https://manual.slic3r.org/advanced/flow-math) (certaines parties de ce texte proviennent de la même page).
+
+#### *[Vase spirale](../variable/spirale_vase.md)*
 
 Crée un conteneur avec un contour unique continu, augmentant progressivement la hauteur en Z.
 
@@ -59,37 +79,11 @@ Vous pouvez toujours ajuster le nombre de **couches pleines inférieures**. De p
 
 Le modèle doit être défini comme un solide plein, sinon, SuperSlicer essaiera (et échouera) à créer des surfaces intérieures et extérieures, donc modélisez uniquement les dimensions extérieures.
 
-**Un seul objet à la fois peut être imprimé en mode vase**. Si vous aviez plusieurs objets sur le plateau d'impression, il serait impossible de les imprimer en continu. Vous pouvez contourner cette limitation en activant l'impression séquentielle.
+**Un seul objet à la fois peut être imprimé en mode vase**. Si vous aviez plusieurs objets sur le plateau d'impression, il serait impossible de les imprimer en continu. Vous pouvez contourner cette limitation en activant [l'impression séquentielle](../variable/complete_objects.md).
 
 ### Coques horizontales
 
-#### *Épaisseur de coque minimale*
-
-Pour un nombre sélectionné de périmètres et une hauteur de couche, SuperSlicer calcule l'**épaisseur des parois fines optimale**. Si vous revenez à votre dessin CAO et modifiez l'épaisseur de la paroi à cette valeur exacte, vous éliminerez les chevauchements inutiles du périmètre et votre impression aura une finition parfaite de la surface des parois.
-
-Normalement, vous obtenez des recommandations pour un nombre pair de périmètres (2,4,6…). Si vous activez Détecter les parois fines, vous obtiendrez également une recommandation pour un nombre impair de périmètres (1,3…).
-
-Vous pouvez penser que lorsque la largeur d'extrusion d'un périmètre est de 0,45 mm, deux périmètres auront une largeur de 0,90 mm (2x0,45). Cependant, si vous regardez la recommandation pour une hauteur de couche de 0,2 mm, vous constaterez que ce n'est pas vrai et que la valeur suggérée est de 0,86 mm.
-
-Afin de comprendre comment ce nombre est calculé, nous devons examiner la section transversale d'un cordon. SuperSlicer suppose que la section transversale d'une extrusion est un rectangle avec des extrémités semi-circulaires. Notez que la largeur d'extrusion comprend les deux extrémités semi-circulaires.
-
-![Image : Section d’un cordon](./images/001.svg)
-
-*(Cette image est une reprise de la source originale : <https://manual.slic3r.org/advanced/flow-math> )*
-
-Ajoutons maintenant une seconde extrusion/périmètre. Si nous supposons qu'il n'y a pas de chevauchement (chemins tangents), il y aurait un espace vide (en jaune). Afin de remplir l'espace vide et de relier les périmètres ensemble, SuperSlicer chevauche légèrement les périmètres. C'est essentiellement pourquoi vous ne pouvez pas simplement multiplier le nombre de périmètres par la largeur d'un seul périmètre pour obtenir l'épaisseur de paroi idéale.
-
-![Image : tangence des périmètres](./images/004.svg)
-![Image : Chevauchement des périmètres](./images/005.svg)
-
-
-*(Cette image a été fortement inspirée par la source originale : <https://manual.slic3r.org/advanced/flow-math>)*
-
-> Notez que la hauteur de couche (h) est utilisée dans le calcul et l'implication que cela a - si vous modifiez la hauteur de couche, votre épaisseur de paroi idéale changera également !
-
-Pour plus d'informations, consultez la [page mathématique du Flux de Slic3r](https://manual.slic3r.org/advanced/flow-math) (certaines parties de ce texte proviennent de la même page).
-
-#### *Couches pleines - supérieures/inférieures*
+#### *[Couches pleines  supérieures](../variable/top_solid_layers.md) / [Couches pleines inférieures](../variable/bottom_solid_layers.md)*
 
 Les parties inférieures et supérieures de chaque modèle sont généralement remplies de couches pleines (100% de remplissage).
 
@@ -99,7 +93,9 @@ Régler les couches pleines supérieures ou inférieures à 0 remplace l'épaiss
 
 ![Image : Nombre de couches supérieures et inférieures](./images/005.png)
 
-Le remplissage plein supérieur est essentiellement un pont sur le motif de remplissage. Pour cette raison, vous verrez presque toujours un peu d'affaissement des premières lignes de remplissage pleins. Plus le remplissage est faible, plus la distance de pontage est longue et, par conséquent, plus l'affaissement est important. Cela peut être contrecarré en augmentant simplement le nombre de couches pleines - nous suggérons ***au moins 3 couches supérieures***. Vous pouvez réduire davantage ce comportement avec un maillage modificateur, qui augmente le remplissage pour les dernières couches avant le remplissage plein.
+Le remplissage plein supérieur est essentiellement un pont sur le motif de remplissage. Pour cette raison, vous verrez presque toujours un peu d'affaissement des premières lignes de remplissage pleins. Plus le remplissage est faible, plus la distance de pontage est longue et, par conséquent, plus l'affaissement est important. Cela peut être contrecarré en augmentant simplement le nombre de couches pleines - il est recommandé d'avoir  ***au moins 3 couches supérieures***. 
+
+Vous pouvez réduire davantage ce comportement avec un maillage modificateur, qui augmente le remplissage pour les dernières couches avant le remplissage plein.
 
 ![Image :* De gauche à droite, 1, 2, 3 et 5 couches supérieures, imprimées à une hauteur de couche de 0,1 mm (Image Prusa)](./images/006.jpeg)
 
@@ -107,7 +103,14 @@ Gardez à l'esprit que lorsque vous imprimez à des hauteurs de couche basses, v
 
 Le motif de remplissage plein par défaut est rectiligne, mais vous pouvez choisir parmi plusieurs autres motifs.
 
-#### *S’assurer que les remplissages sont à 100% du volume*
+
+#### *[Épaisseur de coque minimale Dessus](../variable/top_solid_min_thickness.md) / [Épaisseur de coque minimale Dessous](../variable/bottom_solid_min_thickness.md)*
+
+Permet de définir une **épaisseur de coque minimale**, ce qui est particulièrement utile lorsque vous utilisez la fonction de hauteur de couche variable. L'information sous ces paramètres sera mise à jour à chaque modification que vous apporterez, vous donnant une meilleure idée de l'épaisseur de paroi supérieure/inférieure résultante.
+
+![Image : Info sur les épaisseurs de coque](./images/009.png)
+
+#### *[S’assurer que les remplissages sont à 100% du volume](../variable/enforce_full_fill_volume.md)*
 
 Option expérimentale qui modifie (en remplissage plein) le débit de remplissage pour avoir la quantité exacte de plastique à l'intérieur du volume à remplir (le débit varie généralement de -7% à + 4%, en fonction de la taille de la surface à remplir et du paramètre de chevauchement, mais il peut aller jusqu'à + 50% pour le remplissage dans de très petites zones où la couverture rectilinéaire n’est pas bonne). Il présente l'avantage de supprimer la surextrusion causée par le paramètre de chevauchement dans les surfaces de remplissage étroites.
 
