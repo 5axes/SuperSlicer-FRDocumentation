@@ -1,8 +1,6 @@
 $fn = 100;
 
 difference() {
-    cylinder(4, 52, 52, center=true);
-    translate([30, 0, 0]) {
-        cylinder(5, 18, 18, center=true);
-    }
+    cylinder(30, 20, 10, center=true);
+    cylinder(35, 10, 10, center=true);
 }
