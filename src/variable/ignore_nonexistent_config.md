@@ -9,6 +9,6 @@
 
 ### Description
 
-Ne pas échouer si un fichier fourni à --load n'existe pas.
+Ne pas échouer si un fichier fourni via la commande '--load' n'existe pas.
 
 [Retour Liste variables](variable_list.md)
