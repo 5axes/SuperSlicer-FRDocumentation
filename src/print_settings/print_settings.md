@@ -83,11 +83,11 @@ Le modèle doit être défini comme un solide plein, sinon, SuperSlicer essaiera
 
 ### Coques horizontales
 
-#### *[Couches pleines  supérieures](../variable/top_solid_layers.md) / [Couches pleines inférieures](../variable/bottom_solid_layers.md)*
+#### *[Couches pleines  du dessus](../variable/top_solid_layers.md) / [Couches pleines du dessous](../variable/bottom_solid_layers.md)*
 
 Les parties inférieures et supérieures de chaque modèle sont généralement remplies de couches pleines (100% de remplissage).
 
-Vous pouvez définir le nombre **de couches pleines (supérieures et inférieures)** que vous souhaitez imprimer. Vous pouvez également définir une **épaisseur de coque minimale**, ce qui est particulièrement utile lorsque vous utilisez la fonction de hauteur de couche variable. L'info-bulle sous ces paramètres sera mise à jour à chaque modification que vous apporterez, vous donnant une meilleure idée de l'épaisseur de paroi supérieure/inférieure résultante.
+Vous pouvez définir le nombre **de couches pleines (du dessus et du dessous)** que vous souhaitez imprimer. Vous pouvez également définir une **épaisseur de coque minimale**, ce qui est particulièrement utile lorsque vous utilisez la fonction de hauteur de couche variable. L'info-bulle sous ces paramètres sera mise à jour à chaque modification que vous apporterez, vous donnant une meilleure idée de l'épaisseur de paroi supérieure/inférieure résultante.
 
 Régler les couches pleines supérieures ou inférieures à 0 remplace l'épaisseur de paroi minimale. Vous n'avez donc pas besoin de régler également l'épaisseur de paroi minimale à 0 pour obtenir des couches supérieures ou inférieures.
 
@@ -104,7 +104,7 @@ Gardez à l'esprit que lorsque vous imprimez à des hauteurs de couche basses, v
 Le motif de remplissage plein par défaut est rectiligne, mais vous pouvez choisir parmi plusieurs autres motifs.
 
 
-#### *[Épaisseur de coque minimale Dessus](../variable/top_solid_min_thickness.md) / [Épaisseur de coque minimale Dessous](../variable/bottom_solid_min_thickness.md)*
+#### *[Épaisseur de coque minimale du Dessus](../variable/top_solid_min_thickness.md) / [Épaisseur de coque minimale du  Dessous](../variable/bottom_solid_min_thickness.md)*
 
 Permet de définir une **épaisseur de coque minimale**, ce qui est particulièrement utile lorsque vous utilisez la fonction de hauteur de couche variable. L'information sous ces paramètres sera mise à jour à chaque modification que vous apporterez, vous donnant une meilleure idée de l'épaisseur de paroi supérieure/inférieure résultante.
 
