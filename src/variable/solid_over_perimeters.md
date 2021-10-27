@@ -13,7 +13,9 @@ Lorsque vous avez un nombre moyen/haut de couches pleines supérieures/inférieu
 
 En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'remplissage intérieur'. 
 
-Ce nombre permet d'en garder si le nombre de [périmètre au-dessus du vide](extra_perimeters_overhangs.md) est faible.
+Ce nombre permet d'en garder si le nombre de périmètre au-dessus du vide est faible.
+
+![normal](images/solid_over_perimeters/normal.png)
 
 Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien.
 
