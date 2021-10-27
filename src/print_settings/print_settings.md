@@ -112,7 +112,7 @@ Permet de définir une **épaisseur de coque minimale**, ce qui est particulièr
 
 #### *[Pas de remplissage plein si plus de ](../variable/solid_over_perimeters.md) X périmètres*
 
-Lorsque vous avez un nombre moyen/haut de couches pleines supérieures/inférieures, et un nombre faible/moyen de périmètres, alors il faut mettre du remplissage plein à l'intérieur de la pièce pour avoir assez de couches solides."
+Lorsque vous avez un nombre moyen/haut de couches pleines supérieures/inférieures, et un nombre faible/moyen de périmètres, alors il faut mettre du remplissage plein à l'intérieur de la pièce pour avoir assez de couches solides.
 En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'remplissage intérieur'. Ce nombre permet d'en garder si le nombre de 'périmètre au-dessus du vide' est faible.
 
 Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien.
