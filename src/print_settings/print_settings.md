@@ -110,6 +110,16 @@ Permet de définir une **épaisseur de coque minimale**, ce qui est particulièr
 
 ![Image : Info sur les épaisseurs de coque](./images/009.png)
 
+#### *[Pas de remplissage plein si plus de ](../variable/solid_over_perimeters.md) périmètres*
+
+Lorsque vous avez un nombre moyen/haut de couches pleines supérieures/inférieures, et un nombre faible/moyen de périmètres, alors il faut mettre du remplissage plein à l'intérieur de la pièce pour avoir assez de couches solides."
+En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'remplissage intérieur'. Ce nombre permet d'en garder si le nombre de 'périmètre au-dessus du vide' est faible.
+
+Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien.
+
+Si ce paramètre est réglé sur 1, il enlévera toutes les couches pleines qui sont seulement au-dessus des périmètres.
+
+
 #### *[S’assurer que les remplissages sont à 100% du volume](../variable/enforce_full_fill_volume.md)*
 
 Option expérimentale qui modifie (en remplissage plein) le débit de remplissage pour avoir la quantité exacte de plastique à l'intérieur du volume à remplir (le débit varie généralement de -7% à + 4%, en fonction de la taille de la surface à remplir et du paramètre de chevauchement, mais il peut aller jusqu'à + 50% pour le remplissage dans de très petites zones où la couverture rectilinéaire n’est pas bonne). Il présente l'avantage de supprimer la surextrusion causée par le paramètre de chevauchement dans les surfaces de remplissage étroites.
