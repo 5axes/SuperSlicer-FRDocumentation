@@ -16,18 +16,24 @@ En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'r
 
 Ce nombre permet d'en garder si le nombre de périmètre au-dessus du vide est faible.
 
-Exemple avec une section dans le vide et un réglage des paramètres à 3 Périmètres et 3 couches inférieures.
+Exemple avec une section dans le vide et un réglage des paramètres à 4 Périmètres et 4 Couches inférieures.
 
 Remplissage normal si l'option est désactivée : 
+
 ![normal](images/solid_over_perimeters/normal.png)
 
-Plus de 1, toutes les couches de remplissages sont désactivées
-![more_than1](images/solid_over_perimeters/more_than1.png)
+Plus de 1, toutes les couches de remplissages sont désactivées :
 
-Plus de 2, reste les 2 premières couches de remplissage
-![more_than2](images/solid_over_perimeters/more_than2.png)
+![more_than1](images/solid_over_perimeters/more_than1.png) :
 
-Plus de 3, reste les 3 premières couches de remplissage
+
+Plus de 2, reste les 2 premières couches de remplissage :
+
+![more_than2](images/solid_over_perimeters/more_than2.png) :
+
+
+Plus de 3, reste les 3 premières couches de remplissage :
+
 ![more_than3](images/solid_over_perimeters/more_than3.png)
 
 
