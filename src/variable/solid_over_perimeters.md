@@ -24,17 +24,17 @@ Remplissage normal si l'option est désactivée, A noter que l'option [S'assurer
 
 Les contours en gris supérieurs sont les contours rajoutés pour [s'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md).
 
-Plus de 1, toutes les couches de remplissages sont désactivées :
+Plus de 1, toutes les couches pleines de remplissages sont désactivées :
 
 ![more_than1](images/solid_over_perimeters/more_than1.png) 
 
 
-Plus de 2, reste les 2 premières couches de remplissage :
+Plus de 2, reste les 2 premières couches pleines de remplissage :
 
 ![more_than2](images/solid_over_perimeters/more_than2.png) 
 
 
-Plus de 3, reste les 3 premières couches de remplissage :
+Plus de 3, reste les 3 premières couches pleines de remplissage :
 
 ![more_than3](images/solid_over_perimeters/more_than3.png)
 
