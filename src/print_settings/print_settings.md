@@ -120,6 +120,8 @@ Attention l'utilisation de ces options génère un découpage plus lent.
 
 ![Paramètres de Qualité](./images/007.png)
 
+#### *[Un seul périmètre sur la première couche](../variable/only_one_perimeter_first_layer.md)*
+Option pour n’'utiliser qu'un seul périmètre sur les surfaces plates du dessous, pour laisser plus de place au motif de dessous.
 
 #### *[Un seul périmètre sur le dessus](../variable/only_one_perimeter_top.md)*
 
