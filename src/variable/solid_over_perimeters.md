@@ -29,15 +29,18 @@ Plus de 1, toutes les couches pleines de remplissages sont désactivées :
 ![more_than1](images/solid_over_perimeters/more_than1.png) 
 
 
-Plus de 2, reste les 2 premières couches pleines de remplissage :
+Plus de 2, reste la première couche pleine de remplissage :
 
 ![more_than2](images/solid_over_perimeters/more_than2.png) 
 
 
-Plus de 3, reste les 3 premières couches pleines de remplissage :
+Plus de 3, reste les 2 premières couches pleines de remplissage :
 
 ![more_than3](images/solid_over_perimeters/more_than3.png)
 
+Plus de 4, reste les 3 premières couches pleines de remplissage :
+
+![more_than3](images/solid_over_perimeters/more_than3.png)
 
 Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien.
 
