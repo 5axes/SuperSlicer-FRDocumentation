@@ -17,6 +17,11 @@ Exemple d'une pièce en mode normale avec 3 périmètres.
 
 Avec le paramètre **Un seul périmètre sur la première couche**  activé.
 
-![Réglage normale](./images/only_one_perimeter_first_layer/002.png)
+![Exemple de réglage ou le paramètre impose d'avoir un seul périmètre](./images/only_one_perimeter_first_layer/002.png)
+
+Dès la 2 eme couche le nombre de périmètres redevient normale.
+
+![2 eme couche](./images/only_one_perimeter_first_layer/003.png)
+
 
 [Retour Liste variables](variable_list.md)
