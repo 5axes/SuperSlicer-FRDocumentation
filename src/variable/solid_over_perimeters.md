@@ -18,19 +18,22 @@ Ce nombre permet d'en garder si le nombre de périmètre au-dessus du vide est f
 
 Exemple avec une section dans le vide et un réglage des paramètres à 3 Périmètres et 3 Couches inférieures.
 
-Remplissage normal si l'option est désactivée, A noter que l'option [S'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md) : 
+Remplissage normal si l'option est désactivée, A noter que l'option [S'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md) ne sera plus respecté si l'option est active : 
 
 ![normal](images/solid_over_perimeters/normal.png)
 
 
 Plus de 1, toutes les couches de remplissages sont désactivées :
 
-![more_than1](images/solid_over_perimeters/more_than1.png) :
+![more_than1](images/solid_over_perimeters/more_than1.png) 
+
+Les contours en gris supérieures sont les controu rajouter pour [s'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md).
+
 
 
 Plus de 2, reste les 2 premières couches de remplissage :
 
-![more_than2](images/solid_over_perimeters/more_than2.png) :
+![more_than2](images/solid_over_perimeters/more_than2.png) 
 
 
 Plus de 3, reste les 3 premières couches de remplissage :
