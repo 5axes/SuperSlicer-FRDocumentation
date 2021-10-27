@@ -21,7 +21,7 @@ Version 1.11
 01/07/2021 : Mise à jour de la [version au format MarkDown](src/superslicer.md)
 
 Version 1.12
-11/07/2021 : passage version 2.3.56.7
+11/07/2021 : Passage version 2.3.56.7
 
 Version 1.13
 12/07/2021 : Mise à jour de la partie variable.
