@@ -22,6 +22,7 @@ Remplissage normal si l'option est désactivée :
 
 ![normal](images/solid_over_perimeters/normal.png)
 
+
 Plus de 1, toutes les couches de remplissages sont désactivées :
 
 ![more_than1](images/solid_over_perimeters/more_than1.png) :
