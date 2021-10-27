@@ -42,11 +42,10 @@ Plus de 4, reste les 3 premières couches pleines de remplissage :
 
 ![more_than3](images/solid_over_perimeters/more_than3.png)
 
-Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien.
+Si ce paramètre est égal ou supérieur au nombre de couches pleines supérieures et inférieures, il n'enlévera rien. Si ce paramètre est réglé sur 1, il enlévera toutes les couches pleines qui sont seulement au-dessus des périmètres.
 
-Si ce paramètre est réglé sur 1, il enlévera toutes les couches pleines qui sont seulement au-dessus des périmètres.
 
-Mettez à zéro pour le désactiver.
+	Mettez à zéro pour le désactiver.
 
 
 [Retour Liste variables](variable_list.md)
