@@ -16,9 +16,9 @@ En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'r
 
 Ce nombre permet d'en garder si le nombre de périmètre au-dessus du vide est faible.
 
-Exemple avec une section dans le vide et un réglage des paramètres à 4 Périmètres et 4 Couches inférieures.
+Exemple avec une section dans le vide et un réglage des paramètres à 3 Périmètres et 3 Couches inférieures.
 
-Remplissage normal si l'option est désactivée : 
+Remplissage normal si l'option est désactivée, A noter que l'option [S'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md) : 
 
 ![normal](images/solid_over_perimeters/normal.png)
 
