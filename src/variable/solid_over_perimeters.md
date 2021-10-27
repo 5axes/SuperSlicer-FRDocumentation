@@ -22,7 +22,7 @@ Remplissage normal si l'option est désactivée, A noter que l'option [S'assurer
 
 ![normal](images/solid_over_perimeters/normal.png)
 
-Les contours en gris supérieures sont les controu rajouter pour [s'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md).
+Les contours en gris supérieurs sont les contours rajoutés pour [s'assurer de l'épaisseur de la coque verticale](ensure_vertical_shell_thickness.md).
 
 Plus de 1, toutes les couches de remplissages sont désactivées :
 
