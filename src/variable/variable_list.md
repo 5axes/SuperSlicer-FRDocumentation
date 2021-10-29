@@ -240,6 +240,8 @@ Il s'agit de la valeur réelle (0-100) qui a été saisie, et non de 0-255 .
 #### Qualité
 
 * [only_one_perimeter_top](only_one_perimeter_top.md)
+* [only_one_perimeter_first_layer](only_one_perimeter_first_layer.md)
+* [solid_over_perimeters](solid_over_perimeters.md)
 * [min_width_top_surface](min_width_top_surface.md)
 * [extra_perimeters_overhangs](extra_perimeters_overhangs.md)
 * [extra_perimeters_odd_layers](extra_perimeters_odd_layers.md)
@@ -357,9 +359,7 @@ Il s'agit de la valeur réelle (0-100) qui a été saisie, et non de 0-255 .
 * [inherits](inherits.md)
 * [inherits_cummulative](inherits_cummulative.md)
 
-
 * [interface_shells](interface_shells.md)
-
 
 * [ironing](ironing.md)
 * [ironing_type](ironing_type.md)
