@@ -9,13 +9,13 @@
 
 ### Description
 
-Activez cette option pour modifier le débit afin de reconnaître que la buse est ronde et que les coins auront une forme ronde, et donc de modifier le débit pour réaliser cela et éviter la sur-extrusion. 100% est activé, 0% est désactivé et 50% est semi-activé.
+Activez cette option pour modifier le débit afin de reconnaître que la buse est ronde et que les coins auront une forme ronde, et donc de modifier le débit pour réaliser cela et éviter la sur-extrusion. Fixé à 100% l'option est activé, à 0%  elle est désactivé et à 50% elle est semi-activé.
 
-Exemple avec la première extrusion dans un coin :
+Exemple avec le départ de la première extrusion dans un coin :
 
 ![première extrusion dans un coin](images/external_perimeter_cut_corners/cut_corner_1.jpg)
 
-Ce que nous voudrions avoir mais ne pouvons pas avoir :
+Ce que nous voudrions avoir mais ne pouvons pas avoir à cause de la forme du cordon déposé :
 ![ce que nous voulons mais ne pouvons pas avoir](images/external_perimeter_cut_corners/cut_corner_2.jpg)
 
 Ce qui se passe (théoriquement) :
