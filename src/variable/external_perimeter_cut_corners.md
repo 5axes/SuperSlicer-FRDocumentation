@@ -11,6 +11,21 @@
 
 Activez cette option pour modifier le débit afin de reconnaître que la buse est ronde et que les coins auront une forme ronde, et donc de modifier le débit pour réaliser cela et éviter la sur-extrusion. 100% est activé, 0% est désactivé et 50% est semi-activé.
 
+Exemple avec la première extrusion dans un coin :
+
+![première extrusion dans un coin](images/external_perimeter_cut_corners/cut_corner_1.jpg)
+
+Ce que nous voudrions avoir mais ne pouvons pas avoir :
+![ce que nous voulons mais ne pouvons pas avoir](images/external_perimeter_cut_corners/cut_corner_2.jpg)
+
+Ce qui se passe (théoriquement) :
+![ce qui se passe (théoriquement)](images/external_perimeter_cut_corners/cut_corner_3.jpg)
+
+
+Ce que l'option Couper les coins à 100% devrait faire :
+![ce que cut_corners à 100% devrait faire](images/external_perimeter_cut_corners/cut_corner_4.jpg)
+
+
 Note : A 100%, cela change le débit de ~5% sur une très petite distance (~diamètre de la buse), donc cela ne devrait pas être perceptible à moins que vous ayez une très grande buse et une imprimante très précise.
 
 C'est très expérimental, s'il vous plaît faites un rapport sur l'utilité. Il peut être supprimé s'il n'y a pas d'utilité.
