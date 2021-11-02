@@ -754,7 +754,7 @@
      inkscape:document-units="mm"
      inkscape:cy="275.0277"
      inkscape:cx="314.24692"
-     inkscape:zoom="0.82"
+     inkscape:zoom="2.02"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1062,10 +1062,10 @@
        id="rect9125"
        style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.416145;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:17.6586;stroke-opacity:1" />
     <path
-       inkscape:original-d="m 81.476872,138.08374 c -6.168962,-0.0878 -12.622688,-0.17581 -18.93443,-0.26412"
+       inkscape:original-d="m 82.131783,135.8623 c -6.168962,-0.0878 -12.622688,-0.17581 -18.93443,-0.26412"
        inkscape:path-effect="#path-effect2505"
        id="path2503"
-       d="m 81.476872,138.08374 c -6.168986,-0.0861 -12.622684,-0.17608 -18.93443,-0.26412"
+       d="m 82.131783,135.8623 c -6.168986,-0.0861 -12.622684,-0.17608 -18.93443,-0.26412"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:original-d="m 101.28588,163.66535 c -13.056463,-0.08 -26.113192,-0.16033 -39.170185,-0.24089"
@@ -1074,11 +1074,11 @@
        d="m 101.28588,163.66535 c -13.056461,-0.0803 -26.11319,-0.16059 -39.170185,-0.24089"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       inkscape:original-d="m 69.370399,163.42446 c 0.142514,-8.53468 0.284763,-17.06963 0.426747,-25.60484"
+       inkscape:original-d="m 67.788316,163.42797 c 0.138895,-9.1338 0.277532,-18.2679 0.415911,-27.40228"
        inkscape:path-effect="#path-effect2513"
        id="path2511"
-       d="m 69.370399,163.42446 c 0.142245,-8.53468 0.284494,-17.06963 0.426747,-25.60484"
-       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+       d="m 67.788316,163.42797 c 0.138633,-9.1338 0.27727,-18.2679 0.415911,-27.40228"
+       style="fill:none;stroke:#000000;stroke-width:0.27064;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
     <text
        transform="scale(0.69821457,1.4322245)"
        id="text2991"
