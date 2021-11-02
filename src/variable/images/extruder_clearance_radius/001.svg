@@ -1151,10 +1151,10 @@
        d="m 122.34492,158.94893 c -0.26434,-19.36273 -0.53049,-38.85834 -0.79574,-58.2879"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       inkscape:original-d="m 54.110275,158.75 c 0.06658,5.96831 0.132887,11.93635 0.198935,17.90413"
+       inkscape:original-d="m 122.37294,158.75 c 0.0666,5.96831 0.13289,11.93635 0.19894,17.90413"
        inkscape:path-effect="#path-effect4767"
        id="path4765"
-       d="m 54.110275,158.75 c 0.06631,5.96831 0.132626,11.93635 0.198935,17.90413"
+       d="m 122.37294,158.75 c 0.0663,5.96831 0.13263,11.93635 0.19894,17.90413"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:original-d="m 88.12813,165.71272 c 0.06658,3.58109 0.13289,7.16192 0.198937,10.74248"
@@ -1163,22 +1163,22 @@
        d="m 88.12813,165.71272 c 0.06632,3.58109 0.13263,7.16192 0.198937,10.74248"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       inkscape:original-d="m 87.953964,172.4765 c -11.052171,2.7e-4 -22.104525,2.7e-4 -33.157066,0"
+       inkscape:original-d="m 120.76243,172.4765 c -11.05223,2.7e-4 -22.104637,2.7e-4 -33.157178,0"
        inkscape:path-effect="#path-effect4775"
        id="path4773"
-       d="m 87.953964,172.4765 c -11.052171,0 -22.104525,0 -33.157066,0"
+       d="m 120.76243,172.4765 c -11.05223,0 -22.104637,0 -33.157178,0"
        style="fill:none;stroke:#000000;stroke-width:0.220838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
     <text
-       transform="scale(0.92039294,1.0864925)"
+       transform="scale(0.92039292,1.0864925)"
        id="text4997"
-       y="167.35457"
+       y="166.86752"
        x="37.090134"
        style="font-style:normal;font-weight:normal;font-size:7.9543px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.198858"
        xml:space="preserve"><tspan
          style="stroke-width:0.198858"
-         y="167.35457"
+         y="166.86752"
          x="37.090134"
          id="tspan4995"
-         sodipodi:role="line">Rayon de Dégagement de l'extrudeuse </tspan></text>
+         sodipodi:role="line">Rayon de dégagement de l'extrudeuse </tspan></text>
   </g>
 </svg>
