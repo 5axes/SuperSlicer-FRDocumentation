@@ -5,7 +5,7 @@
 * Sous groupe : [Périmètre et enveloppe](../print_settings/print_settings.md#périmètre-et-enveloppe) - Périmètre extérieur en premier
 * Mode : Expert
 
-## *Appliquer sur* Le coté Intérieur
+## *Appliquer sur* Le côté intérieur
 
 ### Description
 
