@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="002.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg5101"
+   version="1.1"
+   viewBox="0 0 83.157835 50.899947"
+   height="50.899948mm"
+   width="83.157837mm">
+  <defs
+     id="defs5095">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6205"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2539" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2542" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect6116"
+       effect="bspline" />
+    <style
+       id="style5664">.cls-1{fill:#d3d3d3;}.cls-2{fill:#898989;}.cls-11,.cls-16,.cls-3,.cls-8{fill:none;}.cls-10,.cls-3{stroke:#696969;stroke-width:0.1px;}.cls-10,.cls-11,.cls-16,.cls-3,.cls-8{stroke-miterlimit:10;}.cls-4{fill:#9b9b9b;}.cls-5{fill:#666;}.cls-6{fill:#545454;}.cls-7{fill:#606060;}.cls-8{stroke:#898989;stroke-width:0.25px;}.cls-9{fill:#a5a5a5;}.cls-10{fill:#fff;}.cls-11{stroke:#000;stroke-width:0.5px;}.cls-12{fill:#0096ff;}.cls-13{fill:#7a7a7a;}.cls-14{fill:#eaeaea;}.cls-15{fill:#f5f5f5;}.cls-16{stroke:#7a7a7a;stroke-width:0.15px;}</style>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2539-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="84.755664"
+     inkscape:cx="-115.49788"
+     inkscape:zoom="1.88"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5098">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-66.763187,-118.87027)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <path
+       style="stroke-width:0.456809"
+       id="path5672"
+       d="M 112.52805,142.40097"
+       class="cls-1" />
+    <polygon
+       transform="matrix(0.48121536,0,0,0.43364219,79.252468,33.121215)"
+       id="polygon5674"
+       points="82.506,249.809 82.506,202.735 80.375,200.341 2.97,200.341 0.13,202.735 0.13,231.458 0.13,238.639 0.13,250.606 2.97,253 79.665,253 "
+       class="cls-2" />
+    <polygon
+       transform="matrix(0.48121536,0,0,0.43364219,79.252468,33.121215)"
+       id="polygon5680"
+       points="34.177,255.184 34.177,271.08 42.92,270.957 48.484,279.823 53.253,279.823 58.816,270.957 67.559,271.08 67.559,255.184 61.996,255.184 61.996,252.799 63.585,252.799 63.585,224.186 38.151,224.186 38.151,252.799 39.741,252.799 39.741,255.184 "
+       class="cls-5" />
+    <polyline
+       transform="matrix(0.48121536,0,0,0.43364219,79.252468,33.121215)"
+       id="polyline5682"
+       points="51.663 279.823 51.663 276.644 53.253 276.644 53.253 272.67 55.637 271.08 55.637 224.186 46.099 224.186 46.099 271.08 48.484 272.67 48.484 276.644 50.073 276.644 50.073 279.823 51.663 279.823"
+       class="cls-6" />
+    <rect
+       style="stroke-width:0.456809"
+       id="rect5830"
+       ry="0.34466749"
+       rx="0.38247961"
+       height="8.6166525"
+       width="0.76495433"
+       y="150.32826"
+       x="103.34859"
+       class="cls-12" />
+    <rect
+       style="stroke-width:0.456809"
+       id="rect5852"
+       ry="0.43364218"
+       rx="0.48121533"
+       height="3.4466622"
+       width="2.2948632"
+       y="149.63901"
+       x="102.58364"
+       class="cls-12" />
+    <ellipse
+       ry="5.420527"
+       rx="6.0151916"
+       style="stroke-width:0.456809"
+       id="circle5866"
+       cy="127.43838"
+       cx="87.435837"
+       class="cls-5" />
+    <ellipse
+       ry="1.5177476"
+       rx="1.6842538"
+       style="stroke-width:0.456809"
+       id="circle5868"
+       cy="134.81032"
+       cx="114.38389"
+       class="cls-5" />
+    <rect
+       style="stroke-width:0.238539"
+       id="rect5878"
+       ry="0.24387653"
+       rx="0.99250668"
+       height="32.147343"
+       width="3.8247819"
+       x="101.81869"
+       class="cls-12"
+       y="118.87027" />
+    <path
+       inkscape:label="path6114"
+       inkscape:original-d="m 105.07599,158.94493 c 13.44184,4.3e-4 26.88321,4.3e-4 40.32407,0"
+       inkscape:path-effect="#path-effect6116"
+       id="path6114"
+       d="m 105.07599,158.94493 c 13.44184,0 26.88321,0 40.32407,0"
+       style="fill:none;stroke:#000000;stroke-width:0.457529;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:0.457528;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-1)"
+       d="m 102.38616,158.94493 c -2.598665,-0.0669 -5.197819,-0.13383 -7.797473,-0.20077"
+       id="path6114-6"
+       inkscape:path-effect="#path-effect6205"
+       inkscape:original-d="m 102.38616,158.94493 c -2.598676,-0.0665 -5.19783,-0.13341 -7.797473,-0.20077"
+       inkscape:label="path6114" />
+    <text
+       transform="scale(1.0230159,0.97750191)"
+       id="text6269"
+       y="173.55473"
+       x="64.468254"
+       style="font-style:normal;font-weight:normal;font-size:8.11918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202978"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.202978"
+         y="173.55473"
+         x="64.468254"
+         id="tspan6267"
+         sodipodi:role="line">Diamètre de la buse</tspan></text>
+  </g>
+</svg>
