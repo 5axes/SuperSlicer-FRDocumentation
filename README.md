@@ -6,7 +6,7 @@ Documentation non officielle de SuperSlicer en français.
 ## Documentation en ligne
 
 
-[![Version 2.3.57.0](src/images/001.png)](src/superslicer.md)
+[![Version 2.3.57.0](src/images/23573.png)](src/superslicer.md)
 
 
 [Accès à la version en ligne sur ce repository](src/superslicer.md)
