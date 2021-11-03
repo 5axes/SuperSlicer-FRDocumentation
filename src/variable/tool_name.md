@@ -9,6 +9,8 @@
 
 ### Description
 
-Utilisé uniquement pour klipper, où vous pouvez nommer l'extrudeuse. S'il n'est pas défini, ce sera **'extruderX'** avec **'X'** remplacé par le numéro de l'extrudeuse.
+Utilisé uniquement pour klipper, où vous pouvez nommer l'extrudeuse.
+
+S'il n'est pas défini, ce sera **'extruderX'** avec **'X'** remplacé par le numéro de l'extrudeuse.
 
 [Retour Liste variables](variable_list.md)
