@@ -12,5 +12,10 @@
 Réglez cette valeur sur la hauteur maximum que peut atteindre votre extrudeuse au cours de l'impression.
 
 * Valeur par défaut : 200 mm
+
+Si la hauteur d'impression déapsse cette limite SuperSlicer affichera un message d'erreur et ne calculera pas le G-Code
+
+![image erreur](./images/max_print_height/erreur.png)
+
  
 [Retour Liste variables](variable_list.md)
