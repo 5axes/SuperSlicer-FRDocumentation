@@ -69,7 +69,7 @@ En mode Avancé et Expert, un choix entre les coordonnées Locales et Absolues e
 
 Le système de coordonnées locales est fixe par rapport à l'objet. Les coordonnées globales sont fixes par rapport au plateau d'impression. Cela signifie que la taille d'un objet changera dans les coordonnées globales lorsque vous le tournerez, par exemple, autour de l'axe Z. La taille en coordonnées locales est constante quelle que soit la rotation autour de l'un des axes.
 
-![Image : Coordonnées Locales (à gauche) vs coordonnées Absolues (à droite)](./images/014.png)
+![Image : Coordonnées Locales (à gauche) vs coordonnées Absolues (à droite)](./images/034.svg)
 
 
 ## Liste des objets
