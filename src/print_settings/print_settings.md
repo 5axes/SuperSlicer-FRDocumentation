@@ -664,15 +664,15 @@ Le remplissage gyroïde est l'un des remplissages les plus polyvalents.
 
 Pour plus d’information sur le remplissage Gyroïde <https://mathcurve.com/surfaces/Gyroide/gyroide.shtml>
 
-#### *Motif de remplissage couche pleine*
+#### *[Motif de remplissage couche pleine](../variable/solid_fill_pattern.md)*
 
 Vous pouvez choisir un motif de remplissage personnalisé qui ne s'appliquera aux couches pleines. La couche supérieure visible utilisera elle sont propre réglage avec le Motif de remplissage du dessus.
 
-#### *Motif de remplissage du dessus*
+#### *[Motif de remplissage du dessus](../variable/top_fill_pattern.md)*
 
 Vous pouvez choisir un motif de remplissage personnalisé qui ne s'appliquera qu'à la couche supérieure visible, et pas aux couches pleines adjacentes du dessous. 
 
-#### *Motif de remplissage du dessous*
+#### *[Motif de remplissage du dessous](../variable/bottom_fill_pattern.md)*
 
 Vous pouvez choisir un motif de remplissage personnalisé qui n'affectera que la couche inférieure visible, et pas les couches pleines adjacentes au-dessus.
 

@@ -24,6 +24,6 @@ Vous pouvez essayer le [Lissage](../pattern/pattern_smooth.md) pour les matière
  - [Concentrique (rempli)](../pattern/pattern_concentricgapfill.md)
  - [Courbe de Hilbert](../pattern/pattern_hilbertcurve.md)
  - [Spirale d'Archimède](../pattern/pattern_archimedeanchords.md)
- - [Spirale de l'Octagram](../pattern/pattern_octagramspiral.md)
+ - [Spirale de l'Octagramme](../pattern/pattern_octagramspiral.md)
 
 [Retour Liste variables](variable_list.md)
