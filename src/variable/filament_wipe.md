@@ -11,6 +11,6 @@
 
 Cette option déplace la buse sur les parties déjà extrudées lors des rétractions, limitant ainsi l'apparition d'amas sur les extrudeuses ayant tendance à suinter.
 
-Cette option permet d'imposer l'essuyage déjà définissable dans le paramètre [wipe](wipe.md). Attention si l'option d'essuyage est activée au niveau des réglages du filament et qu'elle n'est pas coché alors l'essuyage sera désactivé, même si l'option [wipe](wipe.md) est active sur les [réglages imprimantes](../printer_settings/printer_settings.md#extrudeuse).
+Cette option permet d'imposer l'essuyage déjà définissable dans le paramètre [wipe](wipe.md). Attention si l'option d'essuyage est activée au niveau des réglages du filament et qu'elle n'est pas coché alors l'essuyage sera désactivé, même si l'option [wipe](wipe.md) est active sur les [réglages imprimantes](../printer_settings/printer_settings.md#rétraction).
 
 [Retour Liste variables](variable_list.md)
