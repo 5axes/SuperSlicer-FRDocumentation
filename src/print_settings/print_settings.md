@@ -528,7 +528,7 @@ Lors de l'impression, **la Première couche** est écrasée sur le plateau d'imp
 
 Pour de nombreuses applications, ce n'est peut-être pas un problème. Mais si vous avez quelque chose qui a vraiment besoin d'avoir des dimensions précises ou de s'adapter avec des tolérances très serrées, cela peut être un problème. 
 
-![Image : Sans la compensation de l'effet patte d'éléphant, la première couche peut être plus large que prévu](./images/034.png)
+![Image : Sans la compensation de l'effet patte d'éléphant, la première couche peut être plus large que prévu](./images/034.svg)
 
 Pour accéder à ces paramètres, SuperSlicer doit être en mode avancé ou expert.
 
