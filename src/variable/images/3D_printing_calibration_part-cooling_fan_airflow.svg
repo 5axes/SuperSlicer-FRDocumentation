@@ -747,18 +747,18 @@
         </dc:rights>
         <dc:publisher>
           <cc:Agent>
-            <dc:title>STEMFIE.ORG</dc:title>
+            <dc:title>SuperSlicer</dc:title>
           </cc:Agent>
         </dc:publisher>
         <dc:subject>
           <rdf:Bag>
-            <rdf:li>STEMFIE</rdf:li>
+            <rdf:li>SUPERSLICER</rdf:li>
             <rdf:li>3D printing</rdf:li>
             <rdf:li>3DP</rdf:li>
             <rdf:li>Construction Set</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>STEMFIE.org - The 3D-printable construction set</dc:description>
+        <dc:description>SuperSlicer-3D-printer</dc:description>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
