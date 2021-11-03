@@ -84,8 +84,8 @@ Ensuite, vous devez ouvrir le fichier ***fr/todo.po*** et compléter toutes les 
 * msgstr est la chaîne traduite, qui doit être une chaîne vide ("").
 
 Important: 
-* vous devez l'écrire sur une seule ligne, utilisez \n pour entrer un changement de ligne. 
-* les %1, %2, ... DOIT aussi être mis dans la traduction, car c'est un espace réservé pour les nombres d'entrée, si l'un d'entre eux est oublié, le logiciel se plantera, donc soyez prudent. '%%' est le moyen d'écrire '%' sans faire planter le programme. L'utilitaire doit vous avertir de chaque traduction qui comporte un nombre différent de '%'.
+* vous devez l'écrire sur une seule ligne, utilisez '\n' pour entrer un changement de ligne. 
+* les %1, %2, ... DOIVENT aussi être mis dans la traduction, car c'est un espace réservé pour les nombres d'entrée, si l'un d'entre eux est oublié, le logiciel se plantera, donc soyez prudent. '%%' est le moyen d'écrire '%' sans faire planter le programme. L'utilitaire doit vous avertir de chaque traduction qui comporte un nombre différent de '%'.
 
 
 ### 4) relancer l'utilitaire
@@ -129,7 +129,7 @@ Notez que vous devez le renommer en SuperSlicer.mo si vous utilisez Superslicer 
 
 * Ouvrez le fichier .po problématique dans un éditeur de texte.
 * Recherchez la phrase incriminée.
-* *Modifiez la phrase traduite (à droite de 'msgstr').
+* Modifiez la phrase traduite (à droite de 'msgstr').
   * Notez que vous devez conserver un '"' de chaque côté de chaque ligne, mais vous pouvez concaténer plusieurs lignes en une seule si vous préférez.
   * Vous pouvez utiliser '\n' pour ajouter une 'nouvelle ligne' dans votre phrase.
 * Une fois terminé, compilez votre .po en .mo et remplacez le .mo actuel.
