@@ -23,8 +23,8 @@ Outils utiles :
 * **macos :** peut-être comme linux ?
 
 ### 1) initialisation
-ouvrir le fichier settings.ini
-pour chaque fichier pouvant contenir une traduction utile, créer/modifier une ligne "data" pour pointer vers ledit fichier.
+
+Ouvrir le fichier settings.ini, pour chaque fichier pouvant contenir une traduction utile, créer/modifier une ligne "data" pour pointer vers ledit fichier.
 La propriété "input" doit être le chemin de Slic3r.pot.
 La "sortie" doit être le fichier Slic3r.po.
 Le "todo" contient le chemin du fichier po à compléter.
@@ -33,7 +33,7 @@ Notez que la première ligne de données a la priorité sur les autres (la premi
 
 Dans cet exemple, nous allons mettre à jour la traduction française.
 Nous allons utiliser votre ancien fichier de traduction et le fichier actuel de SuperSlicer.
-Pour décompiler le .mo de SuperSlicer, utilisez la commande `msgunfmt SuperSlicer.mo -o SuperSlicer.po`.
+Pour décompiler le .mo de SuperSlicer, utilisez la commande **`msgunfmt SuperSlicer.mo -o SuperSlicer.po`**.
 Ainsi, le fichier **settings.ini** contient ces lignes :
 
 ```
@@ -74,7 +74,7 @@ output = fr/Slic3r.po
 * Ouvrez une console
 * Allez dans le répertoire de localisation (cd),
 * Exécutez 'python pom_merger.py'.
-  * utilisez python3 si python est l'executave de la version V2 de  python
+  * utilisez **python3** si python est l'executable de la version V2 de python
   * vous pouvez utiliser le chemin complet de python.exe si vous venez de l'installer et qu'il n'est pas dans votre chemin. Il est installé par défaut dans vos appdata sous Windows.
 Il vous dira si vous avez fait des erreurs sur les chemins, le nombre de traductions réutilisées et le nombre à faire.
 
