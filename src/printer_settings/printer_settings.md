@@ -393,10 +393,11 @@ Si vous indiquez une valeur positive, le relevage de l'axe Z ne sera déclenché
 
 Si vous indiquez une valeur positive, le relevage de l'axe Z ne sera déclenché que jusqu'à la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***limiter*** le relevage de l'axe Z ***aux dernières couches***.
 
-#### [*Exécution de l’élévation de Z*](../variable/retract_lift_first_layer.md)
+#### *Exécution de l’élévation de Z*
 
 Ces options permettent de spécifier quand sera appliqué le décalage en Z :
-##### *Appliquer sur la première couche*
+
+##### [*Appliquer sur la première couche*](../variable/retract_lift_first_layer.md)
 Sélectionner cette option pour appliquer le décalage en Z sur la première couche.
 
 ##### [*Sur surfaces*](../variable/retract_lift_top.md)
@@ -407,7 +408,7 @@ Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur 
 - ***Pas sur le dessus*** : ne pas appliquer sur les surfaces supérieures
 - ***Seulement sur le dessus*** : appliquer seulement sur les surfaces supérieures
 
-#### [*Vitesse de Rétractation*](../variable/retract_speed.md)
+#### [*Vitesse de Rétraction*](../variable/retract_speed.md)
 
 La vitesse des rétractations (ne s'applique qu'au moteur de l'extrudeur).
 
@@ -450,6 +451,12 @@ Avec les extrudeurs bowden, il est conseillé d'effectuer une rétractation rapi
 #### [*Essuyage extra pour les périmètres extérieurs*](../variable/wipe_extra_perimeter.md)
 
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long de la boucle avant l'essuyage final.
+
+#### [*Espace de jointure*](../variable/seam_gap.md)
+
+Pour éviter une couture visible, l'extrusion peut être arrêtée un peu avant la fin de la boucle.
+
+Peut être un mm ou un % du diamètre actuel de la buse.
 
 
 ### Rétraction lorsque le filament est désactivé
