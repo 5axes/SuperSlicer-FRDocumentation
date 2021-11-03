@@ -8,7 +8,7 @@ Vous devrez compléter un fichier texte '.po', avec un éditeur de texte ou un l
 
 Si votre langue est déjà là, vous supprimez tous les fichiers actuels pour repartir de zéro ou vous les renommez pour les utiliser comme point de départ.
 
-Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la [section B](#B Mettre à jour un fichier .po existant).
+Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la [section B](#b-mettre-à-jour-un-fichier-po-existant).
 
 ## A) Faites votre propre traduction
 
