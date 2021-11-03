@@ -11,4 +11,6 @@
 
 Cette option déplace la buse sur les parties déjà extrudées lors des rétractions, limitant ainsi l'apparition d'amas sur les extrudeuses ayant tendance à suinter.
 
+Cette option permet d'imposer l'essuyage déjà définissable dans le paramètre [wipe](wipe.md)
+
 [Retour Liste variables](variable_list.md)
