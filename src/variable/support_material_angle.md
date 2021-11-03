@@ -9,7 +9,14 @@
 
 ### Description
 
-Utiliser ce réglage pour orienter le motif du support sur le plan horizontal.
+Utiliser ce réglage pour orienter le motif du support. Exemple avec une réglage à 0° pour l'angle des motifs des supports.
+
+![angle 0°](./images/support_material_angle/0°.png)
+
+La même pièce cette fois à 45° :
+
+
+![angle 45°](./images/support_material_angle/45°.png)
 
 Valide si l'option [support_material](support_material.md) est active
 
