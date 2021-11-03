@@ -1,11 +1,11 @@
 # SuperSlicer
 
-![Version 2.3.56.7](./images/001.png)
+![Version 2.3.56.7](./images/23573.png)
 
-[**Version 2.3.57.0**](overview.md)
+[**Version 2.3.57.3**](overview.md)
 
    
-Version 1.19 du 21/08/2021
+Version 1.19 du 03/11/2021
 
 # Table des matières
 
