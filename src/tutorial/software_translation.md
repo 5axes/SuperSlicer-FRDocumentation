@@ -1,6 +1,6 @@
 # Comment créer / mettre à jour votre propre langue
 
-Notez que SuperSlicer ne prend en charge que les langues de gauche à droite (si vous voulez changer cela, vous êtes le bienvenu pour contribuer).
+Notez que SuperSlicer ne prend en charge que les langues s'écrivant de gauche à droite (si vous voulez changer cela, vous êtes le bienvenu pour contribuer).
 
 Votre langue doit avoir [un code](https://www.loc.gov/standards/iso639-2/php/code_list.php) (utilisez l'ISO 639-1, deuxième colonne). Créer un répertoire et y placer un fichier .mo ajoutera automatiquement la traduction dans Slic3r.
 
@@ -8,7 +8,7 @@ Vous devrez compléter un fichier texte '.po', avec un éditeur de texte ou un l
 
 Si votre langue est déjà là, vous supprimez tous les fichiers actuels pour repartir de zéro ou vous les renommez pour les utiliser comme point de départ.
 
-Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la section B).
+Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la [section B](#B Mettre à jour un fichier .po existant).
 
 ## A) Faites votre propre traduction
 
