@@ -359,17 +359,17 @@ Les hauteurs de couche sur les supports sont automatiquement gérées par le Sli
 
 ### Décalages (pour les imprimantes multi-extrudeur)
 
-#### [*Décalage de l’extrudeur*](../variable/extruder_offset.md)
+#### [*Décalage de l’extrudeuse*](../variable/extruder_offset.md)
 
-Si le firmware de votre imprimante ne gère pas le décalage de l'extrudeur, c'est au G-code d'en tenir compte. Cette option vous permet de spécifier le décalage de chaque extrudeur par rapport au premier. Des valeurs positives sont attendues (elles seront soustraites des coordonnées XY).
+Si le firmware de votre imprimante ne gère pas le décalage de l'extrudeuse, c'est au G-code d'en tenir compte. Cette option vous permet de spécifier le décalage de chaque extrudeuse par rapport à la première. Des valeurs positives sont attendues (elles seront soustraites des coordonnées XY).
 
-![Image : Décalage X et Y de l'extrudeur](./images/015.png)
+![Image : Décalage X et Y de l'extrudeuse](./images/015.png)
 
 #### [*Décalage de la température de l'extrudeuse*](../variable/extruder_temperature_offset.md)
 
 Ce décalage sera ajouté à toutes les températures définies dans le réglage du filament.
 
-#### [*Décalage du ventilateur de l'extrudeuser*](../variable/extruder_fan_offset.md)
+#### [*Décalage du ventilateur de l'extrudeuse*](../variable/extruder_fan_offset.md)
 
 Ce décalage sera ajouté à toutes les vitesses du refroidissement définies dans le réglage du filament. Le résultat ne pourra cependant pas aller plus haut que 100% ou plus bas que 0%.
 

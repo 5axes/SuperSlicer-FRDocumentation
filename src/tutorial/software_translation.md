@@ -1,6 +1,6 @@
 # Comment créer / mettre à jour votre propre langue
 
-Notez que SuperSlicer ne prend en charge que les langues de gauche à droite (si vous voulez changer cela, vous êtes le bienvenu pour contribuer).
+Notez que SuperSlicer ne prend en charge que les langues s'écrivant de gauche à droite (si vous voulez changer cela, vous êtes le bienvenu pour contribuer).
 
 Votre langue doit avoir [un code](https://www.loc.gov/standards/iso639-2/php/code_list.php) (utilisez l'ISO 639-1, deuxième colonne). Créer un répertoire et y placer un fichier .mo ajoutera automatiquement la traduction dans Slic3r.
 
@@ -8,7 +8,7 @@ Vous devrez compléter un fichier texte '.po', avec un éditeur de texte ou un l
 
 Si votre langue est déjà là, vous supprimez tous les fichiers actuels pour repartir de zéro ou vous les renommez pour les utiliser comme point de départ.
 
-Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la section B).
+Si vous avez trouvé une traduction bizarre et que vous voulez la modifier, passez à la [section B](#b-mettre-à-jour-un-fichier-po-existant).
 
 ## A) Faites votre propre traduction
 
@@ -23,8 +23,8 @@ Outils utiles :
 * **macos :** peut-être comme linux ?
 
 ### 1) initialisation
-ouvrir le fichier settings.ini
-pour chaque fichier pouvant contenir une traduction utile, créer/modifier une ligne "data" pour pointer vers ledit fichier.
+
+Ouvrir le fichier settings.ini, pour chaque fichier pouvant contenir une traduction utile, créer/modifier une ligne "data" pour pointer vers ledit fichier.
 La propriété "input" doit être le chemin de Slic3r.pot.
 La "sortie" doit être le fichier Slic3r.po.
 Le "todo" contient le chemin du fichier po à compléter.
@@ -33,7 +33,7 @@ Notez que la première ligne de données a la priorité sur les autres (la premi
 
 Dans cet exemple, nous allons mettre à jour la traduction française.
 Nous allons utiliser votre ancien fichier de traduction et le fichier actuel de SuperSlicer.
-Pour décompiler le .mo de SuperSlicer, utilisez la commande `msgunfmt SuperSlicer.mo -o SuperSlicer.po`.
+Pour décompiler le .mo de SuperSlicer, utilisez la commande **`msgunfmt SuperSlicer.mo -o SuperSlicer.po`**.
 Ainsi, le fichier **settings.ini** contient ces lignes :
 
 ```
@@ -74,7 +74,7 @@ output = fr/Slic3r.po
 * Ouvrez une console
 * Allez dans le répertoire de localisation (cd),
 * Exécutez 'python pom_merger.py'.
-  * utilisez python3 si python est l'executave de la version V2 de  python
+  * utilisez **python3** si python est l'executable de la version V2 de python
   * vous pouvez utiliser le chemin complet de python.exe si vous venez de l'installer et qu'il n'est pas dans votre chemin. Il est installé par défaut dans vos appdata sous Windows.
 Il vous dira si vous avez fait des erreurs sur les chemins, le nombre de traductions réutilisées et le nombre à faire.
 
@@ -84,8 +84,8 @@ Ensuite, vous devez ouvrir le fichier ***fr/todo.po*** et compléter toutes les 
 * msgstr est la chaîne traduite, qui doit être une chaîne vide ("").
 
 Important: 
-* vous devez l'écrire sur une seule ligne, utilisez \n pour entrer un changement de ligne. 
-* les %1, %2, ... DOIT aussi être mis dans la traduction, car c'est un espace réservé pour les nombres d'entrée, si l'un d'entre eux est oublié, le logiciel se plantera, donc soyez prudent. '%%' est le moyen d'écrire '%' sans faire planter le programme. L'utilitaire doit vous avertir de chaque traduction qui comporte un nombre différent de '%'.
+* vous devez l'écrire sur une seule ligne, utilisez '\n' pour entrer un changement de ligne. 
+* les %1, %2, ... DOIVENT aussi être mis dans la traduction, car c'est un espace réservé pour les nombres d'entrée, si l'un d'entre eux est oublié, le logiciel se plantera, donc soyez prudent. '%%' est le moyen d'écrire '%' sans faire planter le programme. L'utilitaire doit vous avertir de chaque traduction qui comporte un nombre différent de '%'.
 
 
 ### 4) relancer l'utilitaire
@@ -129,7 +129,7 @@ Notez que vous devez le renommer en SuperSlicer.mo si vous utilisez Superslicer 
 
 * Ouvrez le fichier .po problématique dans un éditeur de texte.
 * Recherchez la phrase incriminée.
-* *Modifiez la phrase traduite (à droite de 'msgstr').
+* Modifiez la phrase traduite (à droite de 'msgstr').
   * Notez que vous devez conserver un '"' de chaque côté de chaque ligne, mais vous pouvez concaténer plusieurs lignes en une seule si vous préférez.
   * Vous pouvez utiliser '\n' pour ajouter une 'nouvelle ligne' dans votre phrase.
 * Une fois terminé, compilez votre .po en .mo et remplacez le .mo actuel.
