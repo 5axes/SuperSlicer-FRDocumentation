@@ -326,11 +326,11 @@ Réglages liés à une extrudeuse. Ces réglages peuvent être multiplié selon 
 
 ### Nom et taille
 
-#### *Nom extrudeuse*
+#### [*Nom extrudeuse*](../variable/tool_name.md)
 
 Utilisé uniquement pour klipper, où vous pouvez nommer l'extrudeuse. S'il n'est pas défini, ce sera '**extruderX**' avec 'X' remplacé par le numéro de l'extrudeuse.
 
-#### *Diamètre de la buse*
+#### [*Diamètre de la buse*](../variable/nozzle_diameter.md)
 
 Il s'agit du diamètre de la buse de votre extrudeur (par exemple: 0.5, 0.35, etc.)
 
@@ -339,11 +339,11 @@ Il s'agit du diamètre de la buse de votre extrudeur (par exemple: 0.5, 0.35, et
 
 ### Limites de hauteur de couche
 
-#### *Minimum*
+#### [*Minimum*](../variable/min_layer_height.md)
 
 Cette valeur est la hauteur de couche imprimable minimum pour cet extrudeur et elle limite la résolution pour la hauteur de couche variable. Les valeurs type se situent entre 0.05 mm et 0.1 mm.
 
-#### *Maximum*
+#### [*Maximum*](../variable/max_layer_heigh.md)
 
 Ceci est la hauteur de couche imprimable maximum pour cet extrudeur, utilisée pour plafonner la hauteur de couche variable et la hauteur de couche des supports. La hauteur de couche maximum recommandée est 75% de la largeur d'extrusion afin d'obtenir une adhésion inter-couches correcte. 
 
@@ -359,39 +359,47 @@ Les hauteurs de couche sur les supports sont automatiquement gérées par le Sli
 
 ### Décalages (pour les imprimantes multi-extrudeur)
 
-#### *Décalage de l’extrudeur*
+#### [*Décalage de l’extrudeur*](../variable/extruder_offset.md)
 
 Si le firmware de votre imprimante ne gère pas le décalage de l'extrudeur, c'est au G-code d'en tenir compte. Cette option vous permet de spécifier le décalage de chaque extrudeur par rapport au premier. Des valeurs positives sont attendues (elles seront soustraites des coordonnées XY).
 
 ![Image : Décalage X et Y de l'extrudeur](./images/015.png)
 
+#### [*Décalage de la température de l'extrudeuse*](../variable/extruder_temperature_offset.md)
+
+Ce décalage sera ajouté à toutes les températures définies dans le réglage du filament.
+
+#### [*Décalage du ventilateur de l'extrudeuser*](../variable/extruder_fan_offset.md)
+
+Ce décalage sera ajouté à toutes les vitesses du refroidissement définies dans le réglage du filament. Le résultat ne pourra cependant pas aller plus haut que 100% ou plus bas que 0%.
+
 ### Rétraction
 
 ![Image : Options liées à la Rétraction](./images/016.png) 
 
-#### *Longueur*
+#### [*Longueur*](../variable/retract_length.md)
 
 Lorsque la rétractation est déclenchée avant un déplacement, le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
 
-#### *Décalage de l’axe Z*
+#### [*Décalage de l’axe Z*](../variable/retract_lift.md)
 
 Si vous indiquez une valeur positive, l'axe Z est rapidement élevé à chaque rétraction. Lorsque vous utilisez plusieurs extrudeurs, seul le réglage du premier extrudeur sera pris en compte.
 
-#### *Décaler Z seulement au-delà de Z*
+#### [*Décaler Z seulement au-delà de Z*](../variable/retract_lift_above.md)
 
-Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché qu'à partir de la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***éviter*** le levage de l'axe Z ***sur les premières couches***.
+Si vous indiquez une valeur positive, le relevage de l'axe Z ne sera déclenché qu'à partir de la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***éviter*** le relevage de l'axe Z ***sur les premières couches***.
 
-#### *Décaler Z seulement en-deçà de Z*
+#### [*Décaler Z seulement en-deçà de Z*](../variable/retract_lift_below.md)
 
-Si vous indiquez une valeur positive, le levage de l'axe Z ne sera déclenché que jusqu'à la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***limiter*** le levage de l'axe Z ***aux premières couches***.
+Si vous indiquez une valeur positive, le relevage de l'axe Z ne sera déclenché que jusqu'à la valeur absolue indiquée pour l'axe Z. Vous pouvez modifier ce réglage pour ***limiter*** le relevage de l'axe Z ***aux dernières couches***.
 
-#### *Exécution de l’élévation de Z*
+#### [*Exécution de l’élévation de Z*](../variable/retract_lift_first_layer.md)
 
 Ces options permettent de spécifier quand sera appliqué le décalage en Z :
 ##### *Appliquer sur la première couche*
 Sélectionner cette option pour appliquer le décalage en Z sur la première couche.
 
-##### *Sur surfaces*
+##### [*Sur surfaces*](../variable/retract_lift_top.md)
 
 Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur une surface supérieure. Les possibilités de réglages sont :
 
@@ -399,27 +407,27 @@ Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur 
 - ***Pas sur le dessus*** : ne pas appliquer sur les surfaces supérieures
 - ***Seulement sur le dessus*** : appliquer seulement sur les surfaces supérieures
 
-#### *Vitesse de Rétractation*
+#### [*Vitesse de Rétractation*](../variable/retract_speed.md)
 
 La vitesse des rétractations (ne s'applique qu'au moteur de l'extrudeur).
 
-#### *Vitesse de Dé rétractation*
+#### [*Vitesse de Réinsertion*](../variable/deretract_speed.md)
 
 La vitesse de chargement d'un filament dans l'extrudeur après une rétractation (ne s'applique qu'au moteur de l'extrudeur). Si cette valeur reste sur zéro, la vitesse de rétraction est utilisée.
 
-#### *Longueur supplémentaire à la reprise*
+#### [*Longueur supplémentaire à la reprise*](../variable/retract_restart_extra.md)
 
 Lorsque la rétractation est compensée après un déplacement, l'extruder exprimera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
 
-#### *Trajet minimal après une rétraction*
+#### [*Trajet minimal après une rétraction*](../variable/retract_before_travel.md)
 
 La rétraction n'est pas déclenchée lorsque les déplacements sont plus courts que cette distance.
 
-#### *Rétracter lors des changements de couche*
+#### [*Rétracter lors des changements de couche*](../variable/retract_layer_change.md)
 
 Cette option active la rétractation lors d'un déplacement sur l'axe Z.
 
-#### *[Essuyer lors des rétractions](../variable/wipe.md)*
+#### [*Essuyer lors des rétractions*](../variable/wipe.md)
 
 Cette option déplace la buse lors des rétractions, limitant ainsi l'apparition d'amas sur les extrudeurs ayant tendance à couler.
 
@@ -429,14 +437,20 @@ Zone d’essuyage :
 
 ![Image : Nettoyer lors des rétractions](./images/017.png)
 
+#### [*Vitesse d'essuyage*](../variable/wipe_speed.md)
 
-#### *Quantité de rétractation avant essuyage*
+Définition de la vitesse d'essuyage en mm/s.  Si vous l'augmenter, l'essuyage se fera sur une distance plus grande. Le temps d'essuyage est défini par ( 100% - 'rétraction avant essuyage') * 'distance de rétraction' / 'vitesse de rétraction'.
+Si mis à 0, la vitesse de déplacement est utilisé.
+
+
+#### [*Quantité de rétractation avant essuyage*](../variable/retract_before_wipe.md)
 
 Avec les extrudeurs bowden, il est conseillé d'effectuer une rétractation rapide avant de réaliser le mouvement d’essuyage.
 
-#### *Essuyage extra pour les périmètres extérieurs*
+#### [*Essuyage extra pour les périmètres extérieurs*](../variable/wipe_extra_perimeter.md)
 
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long de la boucle avant l'essuyage final.
+
 
 ### Rétraction lorsque le filament est désactivé
 
@@ -444,11 +458,11 @@ Réglages avancés pour les configurations multi-extrudeurs
 
 Options spécifiques au changement de fil.
 
-#### *Longueur*
+#### [*Retrait minimum*](../variable/retract_length_toolchange.md)
 
 Lorsque la rétractation est déclenchée avant un changement de fil le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
 
-#### *Longueur supplémentaire à la reprise*
+#### [*Non retrait supplémentaire*](../variable/retract_restart_extra_toolchange.md)
 
 Lorsque la rétractation est compensée après un changement de fil, l'extruder exprimera cette quantité de filament en plus. Ce réglage est rarement nécessaire.
 
