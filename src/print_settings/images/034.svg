@@ -754,15 +754,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>STEMFIE.org - The 3D-printable construction set</dc:title>
+        <dc:title>3D Printer</dc:title>
         <dc:creator>
           <cc:Agent>
-            <dc:title>Paulo@Kiefe.com</dc:title>
+            <dc:title>5axes@free.fr</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:rights>
           <cc:Agent>
-            <dc:title>Creative Commons Share Alike</dc:title>
+            <dc:title>Creative Commons</dc:title>
           </cc:Agent>
         </dc:rights>
         <dc:publisher>

@@ -10,7 +10,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="205.25"
    inkscape:export-xdpi="205.25"
-   inkscape:export-filename="/Users/paulokiefe/Documents/Current/STEMFIE/Graphics/Illustrations/3D_printing_calibration_build_plate_levelling_v01_STEMFIE.org_2400x1212pxl.png"
+   inkscape:export-filename="model.png"
    sodipodi:docname="3D_printing_calibration_part-cooling_fan_airflow.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
@@ -19,7 +19,7 @@
    height="150mm"
    width="297mm">
   <title
-     id="title9220">STEMFIE.org - The 3D-printable construction set</title>
+     id="title9220">3D Printer</title>
   <defs
      id="defs2">
     <marker
@@ -734,15 +734,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>STEMFIE.org - The 3D-printable construction set</dc:title>
+        <dc:title>3D Printer</dc:title>
         <dc:creator>
           <cc:Agent>
-            <dc:title>Paulo@Kiefe.com</dc:title>
+            <dc:title>5axes@free.fr</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:rights>
           <cc:Agent>
-            <dc:title>Creative Commons Share Alike</dc:title>
+            <dc:title>Creative Commons</dc:title>
           </cc:Agent>
         </dc:rights>
         <dc:publisher>
