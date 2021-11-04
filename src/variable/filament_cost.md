@@ -9,6 +9,9 @@
 
 ### Description
 
-Coût par Kg de votre filament. Ceci est uniquement pour l'information statistique.
+Coût par Kg de votre filament. Cette information est uniquement utilisée pour l'information statistique.
+Elle permet d'avoir le côut en plastique de votre impression dans les informations de découpage.
+
+![Informations après découpe](./images/filament_cost/001.png)
 
 [Retour Liste variables](variable_list.md)
