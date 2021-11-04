@@ -263,7 +263,7 @@ Mixed n'est utilisé que lorsque le type de l'extrusion n'est pas unique, pas un
 ![Image : Options Limites de la machine](./images/012.png)
 
 
-### Limites de la machine
+### [Limites de la machine](../variable/machine_limits_usage.md)
 
 Option pour définir comment seront appliquer les limites qui sont définie dans cette section du logiciel. Dans tous les cas, elles seront sauvegardé dans le fichier G-Code.
 
@@ -292,11 +292,11 @@ M205 S0 T0 ; sets the minimum extruding and travel feed rate, mm/sec
 
 #### *Vitesses maximums*
 
-Définition des vitesses maximum pour les axes XYZ et E exprimé en mm/s
+Définition des vitesses maximum pour les axes [X](../variable/machine_max_feedrate_x.md)[Y](../variable/machine_max_feedrate_y.md)[Z](../variable/machine_max_feedrate_z.md) et [E](../variable/machine_max_feedrate_e.md) exprimé en mm/s
 
 #### *Accélérations maximums*
 
-Définition des accélérations maximum pour les axes XYZ et E exprimé en mm/s²
+Définition des accélérations maximum pour les axes [X](../variable/machine_max_acceleration_x.md)[Y](../variable/machine_max_acceleration_y.md)[Z](../variable/machine_max_acceleration_z.md) et [E](../variable/machine_max_acceleration_e.md) exprimé en mm/s²
 
 Pour l’axe E (L’extrudeuse) il est aussi possible d’affiner la valeur de l’extrusion maximum en décomposant selon :
 
