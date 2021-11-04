@@ -9,7 +9,7 @@
 
 ### Description
 
-Poids de la bouteille en Kg.
+Poids de la bouteille de résine en Kg.
 
 * Valeur par défaut : 1 Kg
 
