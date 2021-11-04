@@ -11,6 +11,8 @@
 
 Si le firmware de votre imprimante ne gère pas le décalage de l'extrudeuse,  c'est au G-Code d'en tenir compte. Cette option vous permet de spécifier le décalage de chaque extrudeuse par rapport à la première. 
 
-Des valeurs positives sont attendues (elles seront soustraites des coordonnées XY).
+Le décalage est défini selon X et Y.
+
+Les valeurs indiquées seront soustraites des coordonnées XY des points à atteindre.
 
 [Retour Liste variables](variable_list.md)
