@@ -10,6 +10,7 @@
 ### Description
 
 Ce code personnalisé est inséré à chaque changement de couche, juste avant le mouvement en Z.
+
 Notez que vous pouvez utiliser des variables génériques pour tous les réglages de SuperSlicer de même que [layer_num](layer_num.md) et [layer_z](layer_z.md).
 
 [Retour Liste variables](variable_list.md)
