@@ -5,7 +5,7 @@
 * Sous groupe : [Multimatériaux](../filament_settings/filament_settings.md#multimatériaux) - Réduction de chaîne de changement filaments multi-matériaux
 * Mode : Expert
 
-## Vitesse pour entrer de la zone de fusion
+## Vitesse pour entrer dans la zone de fusion
 
 ### Description
 

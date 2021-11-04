@@ -5,7 +5,7 @@
 * Sous groupe : [Extrudeuses multiples](../print_settings/print_settings.md#extrudeuses-multiples) - Prévention des coulures
 * Mode : Expert
 
-## Format du nom de fichier de sortie
+## *Prevention des coulures* Activer
 
 ### Description
 

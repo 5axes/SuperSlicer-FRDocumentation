@@ -9,7 +9,7 @@
 
 ### Description
 
-Ce n'est généralement pas nécessaire de changer ceci
+Ce n'est généralement pas nécessaire de changer ceci.
 
 * Valeur par défaut : 70 mm/sec
 

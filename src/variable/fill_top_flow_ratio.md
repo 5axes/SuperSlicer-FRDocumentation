@@ -9,6 +9,7 @@
 
 ### Description
 
+Réglage du débit pour les couches supérieures. 
 Vous pouvez augmenter cela pour sur-extruder sur la couche du dessus s'il n'y a pas assez de plastique pour faire un bon remplissage.
 
 * Valeur par défaut : 100%

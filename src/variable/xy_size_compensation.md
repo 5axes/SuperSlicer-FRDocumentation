@@ -9,7 +9,7 @@
 
 ### Description
 
-L'objet sera agrandi/rétréci dans le plan XY de la valeur configurée (négatif = vers l'intérieur, positif = vers l'extérieur). Cela peut être utile pour régler les tailles des pièces et les ajustements.
+L'objet sera agrandi/rétréci dans le plan XY de la valeur spécifiée (négatif = vers l'intérieur, positif = vers l'extérieur). Cela peut être utile pour régler les tailles des pièces et les ajustements.
 
 
 Celui-ci ne s'applique qu'à l'enveloppe 'extérieure' de l'objet.

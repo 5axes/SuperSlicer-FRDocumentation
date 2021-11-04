@@ -43,13 +43,13 @@ Le format de fichier STL ne prend pas en charge plusieurs objets dans un seul fi
 Les fichiers 3MF supportent nativement plusieurs objets dans un seul fichier, les modèles multi-matériaux devraient être automatiquement reconnus et chargés correctement. L'enregistrement d'un fichier de projet (Fichier - Enregistrer) est le moyen idéal de stocker et de partager des modèles multi-matériaux pour les imprimantes Prusa.
 
 ## Prévention des coulures
-### Activer
+### [Activer](../variable/ooze_prevention.md)
 Cette option abaissera la température des extrudeurs inutilisés pour prévenir le suintement (oozing). Cela active automatiquement la génération d'une grande jupe et le déplacement des extrudeurs hors de cette jupe lors des changements de température.
 
 ![Image : Options pour la prévention des coulures](./images/004.png)
 
 
-### Variation de température
+### [Variation de température](../variable/standby_temperature_delta.md)
 Ce paramètre n’est actif que si l’option de prévention des coulures a été activée. La valeur représente la différence de température devant être appliquée quand un extrudeur n'est pas actif. Permet la génération d'un contour complet "sacrificiel" sur lequel les buses sont nettoyées régulièrement.
 
 
