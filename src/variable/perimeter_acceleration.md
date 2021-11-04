@@ -15,6 +15,6 @@ Peut être un % de l'accélération par défaut
 
 > Mettez zéro pour désactiver le contrôle de l'accélération pour les périmètres.
 
-Pour être active l'option [default_acceleration](default_acceleration.md) doit avoir une valeur positive
+Pour que ce réglage soit actif l'option [default_acceleration](default_acceleration.md) doit avoir une valeur positive.
 
 [Retour Liste variables](variable_list.md)
