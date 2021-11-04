@@ -9,9 +9,9 @@
 
 ### Description
 
-Détecter les parois extrudable par une seule passe (parois minces) (pièces dans lesquelles deux extrusions ne rentrent pas et que nous devons réduire à une seule trace).
+Détecter les parois extrudable par une seule passe (parois minces) (pièces dans lesquelles deux extrusions ne rentrent pas et que nous devons réduire à une seul cordon).
 
-Si cette case n'est pas cochée, SuperSlicer peut essayer d’adapter les périmètres là où ce n’est pas possible, créant ainsi un chevauchement conduisant à une sur-extrusion.
+Si cette case n'est pas cochée, SuperSlicer pourrait essayer d’adapter les périmètres là où ce n’est pas possible, créant ainsi un chevauchement conduisant à une sur-extrusion.
 
 
 [Retour Liste variables](variable_list.md)
