@@ -10,7 +10,7 @@
 ### Description
 
 
-Peut être un % de la [vitesse du pont](bridge_speed.md).
+Peut être un % de la [vitesse d'impression](print_speed.md).
 
 Vitesse d'impression des ponts.
 
