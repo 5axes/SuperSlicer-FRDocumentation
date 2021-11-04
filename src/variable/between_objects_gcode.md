@@ -11,7 +11,7 @@
 
 Ce code est inséré entre des objets lorsque vous utilisez l'impression séquentielle.
 
-Par défaut la température de l'extrudeuse et du plateau est réinitialisée et utilise la commande sans-attente;  toutefois si des commandes M104, M109, M140 ou M190 sont détectées dans ce code personnalisé,  SuperSlicer n'ajoutera pas de commandes de température. 
+Par défaut la température de l'extrudeuse et du plateau est réinitialisée et utilise la commande sans-attente;  toutefois si des commandes [M104](https://marlinfw.org/docs/gcode/M104.html), [M109](https://marlinfw.org/docs/gcode/M109.html), [M140](https://marlinfw.org/docs/gcode/M140.html) ou [M190](https://marlinfw.org/docs/gcode/M190.html) sont détectées dans ce code personnalisé,  SuperSlicer n'ajoutera pas de commandes de température. 
 
 Notez que vous pouvez utiliser des  [variables génériques](variable_list.md) pour tous les réglages de SuperSlicer, donc vous pouvez entrer une commande du type "M109S[ [first_layer_temperature](first_layer_temperature.md) ]" où vous le souhaitez.
 
