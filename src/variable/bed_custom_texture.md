@@ -1,6 +1,6 @@
 # bed_custom_texture
 
-* Technologie : FDM
+* Technologie : FDM/SLA
 * Groupe : Général
 * Sous groupe : 
 * Mode : Avancé
