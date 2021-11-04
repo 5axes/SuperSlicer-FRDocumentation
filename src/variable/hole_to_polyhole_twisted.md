@@ -10,7 +10,7 @@
 
 ### Description
 
-Cette option permet de pivoter les polygones créés à chaque section [#1396](https://github.com/supermerill/SuperSlicer/issues/1396).
+Cette option permet de pivoter les polygones créés à chaque section. Voir [#1396](https://github.com/supermerill/SuperSlicer/issues/1396).
 
 
 [Retour Liste variables](variable_list.md)
