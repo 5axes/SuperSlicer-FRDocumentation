@@ -9,10 +9,9 @@
 
 ### Chevauvement maximal des lignes
 
-Entrez le pourcentage de retrait que le filament aura après refroidissement (94% si vous mesurez 94mm au lieu de 100mm).
-La pièce sera mise à l'échelle en xy pour conpenser. Seul le filament utilisé pour le périmètre est pris en compte.
+Ce paramètre garantit que tous les chevauchementsne sont pas supérieurs à cette valeur.
 
-Veillez à laisser suffisamment d'espace entre les objets, car cette compensation se fait après les vérifications.
+Ceci est utile pour les filaments trop visqueux, car la ligne ne peut pas passer sous la précédente.
 
 * Valeur par défaut : 100%
 
