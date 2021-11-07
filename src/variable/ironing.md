@@ -9,6 +9,6 @@
 
 ### Description
 
-Activer le lissage des couches du dessus avec la tête d'impression chaude pour une surface lisse.
+Activer le lissage des couches du dessus avec la buse chaude pour obtenir une surface lisse.
 
 [Retour Liste variables](variable_list.md)

@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Vitesse](../print_settings/print_settings.md#vitesse) - Vitesses pour les déplacements d'impression
+* Sous groupe : [Remplissage](../print_settings/print_settings.md#remplissage) - Lissage en post-traitement
 * Mode : Expert
 
 ## *Réglage du lissage* Débit
