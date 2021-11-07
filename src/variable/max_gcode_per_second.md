@@ -1,4 +1,4 @@
-# max_gcode_per_seconde
+# max_gcode_per_second
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
