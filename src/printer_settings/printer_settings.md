@@ -116,11 +116,32 @@ Si vous voulez qu'il soit plus silencieux pendant la nuit, en plus de passer en 
 
 Émet M73 P[pourcentage imprimé] R[temps restant en minutes] à 1 minute d'intervalle dans le G-code afin que le firmware puisse indiquer précisément le temps restant. Jusqu'à présent seul le firmware Prusa i3 MK3 reconnait M73. Par ailleurs le firmware i3 MK3 supporte M73 Qxx Sxx pour le mode silencieux.
 
+##### *[Méthode](../variable/remaining_times_types.md)*
+
+M73: Émet M73 P[pourcentage imprimé] R[temps restant en minutes] à 1 minute d'intervalle dans le G-Code afin que le firmware puisse indiquer précisément le temps restant. Jusqu'à présent seul le firmware Prusa i3 MK3 reconnait M73. Par ailleurs le firmware i3 MK3 supporte M73 Qxx Sxx pour le mode silencieux.
+
+M117: Emet une comande pour afficher un message à l'imprimante, du type 'Time Left .h..m..s'.
+
+
 #### *Précision du G-Code*
 
 Permet de définir le nombre de chiffres après le point pour les coordonnées **[XYZ](../variable/gcode_precision_xyz.md)** et pour les valeurs de pilotage de l’extrudeur **[E](../variable/gcode_precision_e.md)**.
 
-![Image : Options Firmware](./images/007.png)[gcode_precision_e.md](..\variable\gcode_precision_e.md)
+#### *Limite de traitement*
+[G1 maximum par seconde](../variable/max_gcode_per_second.md) : Si votre firmware s'arrête pendant l'impression, il se peut que sa file d'attente de gcode soit pleine. Définissez ce paramètre pour fusionner les extrusions en de plus grandes afin de réduire le nombre de commandes de gcode que l'imprimante doit traiter chaque seconde.
+
+Notez que la réduction de la vitesse d'impression (au moins pour les extrusions externes) réduira le nombre de fois où cela se déclenchera et donc augmentera la qualité.
+
+Une valeur de 150 est typique pour un contrôleur 8 bit.
+
+Mettre zéro pour désactiver.
+
+#### *[Caractères illégaux](../variable/gcode_filename_illegal_char.md)*
+Tous les caractères qui sont écrits ici seront remplacés par "_" lors de l'écriture du nom du fichier gcode.
+
+Si le premier caractère est "["" ou "("", alors ce champ sera considéré comme une expression rationnelle regexp (entrez "[^a-zA-Z0-9]" pour utiliser uniquement les caractères ascii).
+
+![Image : Options Firmware](./images/007.png)
 
 ### Ventilateur de refroidissement
 
