@@ -9,6 +9,6 @@
 
 ### Description
 
-Imprimer les périmètres de l'extérieur vers l'intérieur au lieu de l'ordre par défaut qui est inversé.
+Si l'option est activée, permet d'imprimer les périmètres de l'extérieur vers l'intérieur au lieu de l'ordre par défaut qui est inversé.
 
 [Retour Liste variables](variable_list.md)
