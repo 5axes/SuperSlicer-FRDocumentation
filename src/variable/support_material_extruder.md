@@ -9,6 +9,6 @@
 
 ### Description
 
-L'extrudeuse à utiliser pour imprimer des supports, du radeau ou des jupes (1+,0 pour utiliser l'extrudeuse actuel et limiter les changements de filament).
+L'extrudeuse à utiliser pour imprimer des supports, du radeau ou des jupes (0 pour utiliser l'extrudeuse actuel et limiter les changements de filament).
 
 [Retour Liste variables](variable_list.md)
