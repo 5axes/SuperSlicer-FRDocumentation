@@ -7,7 +7,7 @@ Le dossier utilisateur est accessible via la fonction **Afficher le Répertoire 
 
 ![Accès menu configuration](image/001.png)
 
-
+Vous pouvez ainsi aisément déterminer quel répertoire est utilisé pour la configuration du logiciel !
 
 
 ## Commande 
