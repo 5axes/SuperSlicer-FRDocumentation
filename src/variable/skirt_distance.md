@@ -11,6 +11,9 @@
 
 Distance entre le ou les objet(s) et la jupe. 
 
+![Distance de l'objet](images/skirt_distance/001.svg)
+
+
 Mettez zéro pour attacher la jupe à l'(aux) objet(s) et obtenir une bordure pour une meilleure adhésion.
 
 * Valeur par défaut : 6mm
