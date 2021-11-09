@@ -115,7 +115,7 @@ Ces variables ne sont accessibles que sous forme de tableaux simples et ne peuve
 ## Exemples
 
 ### Tour de température
-Vous pouvez utiliser le G-code personnalisé "Avant changement de couche" pour diminuer lentement la température de la hotend. Tout d'abord, on peut utiliser l'expression if/elseif/else :
+Vous pouvez utiliser le G-code personnalisé **[Avant changement de couche](../variable/before_layer_gcode.md)** pour diminuer lentement la température de la hotend. Tout d'abord, on peut utiliser l'expression if/elseif/else :
 
 	{if layer_z < 10}M104 S265
 
