@@ -29,4 +29,9 @@ Exemple de code utilisé pour définir une tour de température.
 
     {endif}
 
+Le même résultat peut être obtenu par une expression if/else/endif plus courte avec une interpolation linéaire :
+
+	M104 S{if layer_z < 10}265{elsif layer_z > 45}240{else}265+(240-265)
+    
+    
 [Retour Liste variables](variable_list.md)
