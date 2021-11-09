@@ -14,4 +14,6 @@ Peut être un % de la [vitesse d'impression](print_speed.md).
 
 Vitesse d'impression des ponts.
 
+Valeur par défaut : 60 mm/s
+
 [Retour Liste variables](variable_list.md)
