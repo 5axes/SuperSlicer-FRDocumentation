@@ -1216,9 +1216,9 @@ Output options:
                      descriptive text. If you print from an SD card, the additional weight of the
                      file could make your firmware slow down.
  --gcode-filename-illegal-char ABCD
-                     All characters that are written here will be replaced by '_' when writing the
-                     gcode file name. If the first charater is '[' or '(', then this field will be
-                     considered as a regexp (enter '[^a-zA-Z]' to only use ascii char).
+                     All characters that are written here will be replaced by "_" when writing the
+                     gcode file name. If the first charater is "[" or "(", then this field will be
+                     considered as a regexp (enter "[^a-zA-Z]" to only use ascii char).
  --gcode-label-objects
                      Enable this to add comments into the G-Code labeling print moves with what
                      object they belong to, which is useful for the Octoprint CancelObject plugin.

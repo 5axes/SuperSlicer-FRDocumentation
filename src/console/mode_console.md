@@ -15,42 +15,38 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
  --export-sla, --sla Découpez le modèle et exportez les couches d'impression SLA au format PNG.
  --export-stl        Exportez le(s) modèle(s) au format STL.
  --gcodeviewer       Visualiser un code G déjà découpé et enregistré
- --help, -h          Show this help.
- --help-fff          Show the full list of print/G-code configuration options.
- --help-sla          Show the full list of SLA print configuration options.
- --info              Write information about the model to the console.
- --save ABCD         Save configuration to the specified file.
- --slice, -s         Slice the model as FFF or SLA based on the printer_technology configuration  value.
+ --help, -h          Montrer cette aide.
+ --help-fff          Afficher la liste complète des options de configuration de l'impression/du code G.
+ --help-sla          Afficher la liste complète des options de configuration de l'impression SLA.
+ --info              Écrire des informations sur le modèle dans la console.
+ --save ABCD         Sauvegarder la configuration dans le fichier spécifié.
+ --slice, -s         Découpez le modèle en FFF ou SLA en fonction de la valeur de configuration printer_technology.
 
 ### Options de transformation:
- --align-xy X,Y      Align the model to the given point.
- --center X,Y        Center the print around the given center.
- --cut N             Cut model at the given Z.
- --dont-arrange      Do not rearrange the given models before merging and keep their original XY  coordinates.
- --duplicate N       Multiply copies by this factor.
- --duplicate-grid X,Y        Multiply copies by creating a grid.
- --merge, -m         Arrange the supplied models in a plate and merge them in a single model in order  to perform actions once.
- --repair            Try to repair any non-manifold meshes (this option is implicitly added whenever  we need to slice the model to perform the requested action).
- --rotate N           Rotation angle around the Z axis in degrees.
- --rotate-x N        Rotation angle around the X axis in degrees.
- --rotate-y N        Rotation angle around the Y axis in degrees.
- --scale N             Scaling factor or percentage.
- --scale-to-fit X,Y,Z        Scale to fit the given volume.
- --split             Detect unconnected parts in the given model(s) and split them into separate objects.
+ --align-xy X,Y      Alignez le modèle sur le point donné.
+ --center X,Y        Centre l'impression autour du centre donné.
+ --cut N             Coupez le modèle au Z donné.
+ --dont-arrange      Ne réorganisez pas les modèles donnés avant de les fusionner et conservez leurs coordonnées XY originales.
+ --duplicate N       Multipliez les copies par ce facteur.
+ --duplicate-grid X,Y        Multipliez les copies en créant une grille.
+ --merge, -m         Disposez les modèles fournis dans une plaque et fusionnez-les en un seul modèle afin d'effectuer les actions une seule fois.
+ --repair            Essayer de réparer les mailles non-manifold (cette option est implicitement ajoutée lorsque nous devons découper le modèle pour effectuer l'action demandée).
+ --rotate N           Angle de rotation autour de l'axe Z en degrés.
+ --rotate-x N        Angle de rotation autour de l'axe X en degrés.
+ --rotate-y N        Angle de rotation autour de l'axe Y en degrés.
+ --scale N             Facteur d'échelle ou pourcentage.
+ --scale-to-fit X,Y,Z        Mise à l'échelle pour s'adapter au volume donné.
+ --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
 ### Autres options:
- --config-compatibility
-                     This version of Slic3r may not understand configurations produced by newest Slic3r versions. For example, newer Slic3r may extend the list of supported  firmware flavors. One may decide to bail out or to substitute an unknown value  with a default silently or verbosely. (disable, enable, enable_silent; default:  enable)
- --datadir ABCD      Load and store settings at the given directory. This is useful for maintaining  different profiles or including configurations from a network storage.
- --ignore-nonexistent-config
-                     Do not fail if a file supplied to --load does not exist.
- --load ABCD         Load configuration from the specified file. It can be used more than once to  load options from multiple files.
- --loglevel N        Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace
-                     For example. loglevel=2 logs fatal, error and warning level messages.
- --output ABCD, -o ABCD
-                     The file where the output will be written (if not specified, it will be based on    the input file).
- --single-instance   If enabled, the command line arguments are sent to an existing instance of GUI  Slic3r, or an existing Slic3r window is activated. Overrides the  "single_instance" configuration value from application preferences.
- --sw-renderer       Render with a software renderer. The bundled MESA software renderer is loaded  instead of the default OpenGL driver.
+ --config-compatibility   Cette version de Slic3r peut ne pas comprendre les configurations produites par les versions les plus récentes de Slic3r. Par exemple, une version plus récente de Slic3r peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
+ --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
+ --ignore-nonexistent-config Ne pas échouer si un fichier fourni à --load n'existe pas.
+ --load ABCD         Charge la configuration à partir du fichier spécifié. Elle peut être utilisée plus d'une fois pour charger des options à partir de plusieurs fichiers.
+ --loglevel N        Définit la sensibilité de la journalisation. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace Par exemple, loglevel=2 enregistre les messages de niveau fatal, erreur et warning.
+ --output ABCD, -o ABCD Le fichier où la sortie sera écrite (si non spécifié, elle sera basée sur le fichier d'entrée).
+ --single-instance   Si cette option est activée, les arguments de la ligne de commande sont envoyés à une instance existante de l'interface graphique Slic3r, ou une fenêtre Slic3r existante est activée. Remplace la valeur de configuration "single_instance" des préférences de l'application.
+ --sw-renderer       Effectuer un rendu avec un logiciel de rendu. Le logiciel de rendu de MESA est chargé à la place du pilote OpenGL par défaut.
 
 Les options d'impression sont traitées dans l'ordre suivant:
 	1) Configuration des clés à partir de la ligne de commande, par exemple --fill-pattern=stars (priorité la plus élevée, écrase tout ce qui est en dessous)
