@@ -1,7 +1,6 @@
 # Lancement de SuperSlicer en mode Console
 
-Version : SuperSlicer_2.3.57.5 based on Slic3r (with GUI support)
-https://github.com/supermerill/SuperSlicer
+Version : SuperSlicer_2.3.57.5 based on Slic3r (with GUI support) https://github.com/supermerill/SuperSlicer
 
 ## Commande 
 

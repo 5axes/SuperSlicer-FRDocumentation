@@ -1,10 +1,12 @@
 # Lancement de SuperSlicer en mode Console pour les impressions SLA
 
+Version : SuperSlicer_2.3.57.5 based on Slic3r (with GUI support) https://github.com/supermerill/SuperSlicer
+
 ## Commande 
 
 Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
 
-### Actions:
+### Actions
      --export-3mf        Exportez le(s) modèle(s) au format 3MF.
      --export-amf        Exportez le(s) modèle(s) en tant qu'AMF.
      --export-gcode, --gcode, -g Découpez le modèle et exportez les parcours d'outils en code G.
@@ -19,7 +21,7 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --save ABCD         Sauvegarder la configuration dans le fichier spécifié.
      --slice, -s         Découpez le modèle en FFF ou SLA en fonction de la valeur de configuration printer_technology.
 
-### Options de transformation:
+### Options de transformation
      --align-xy X,Y      Alignez le modèle sur le point donné.
      --center X,Y        Centre l'impression autour du centre donné.
      --cut N             Coupez le modèle au Z donné.
@@ -35,7 +37,7 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --scale-to-fit X,Y,Z        Mise à l'échelle pour s'adapter au volume donné.
      --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
-### Autres options:
+### Autres options
      --config-compatibility   Cette version de SuperSlicer peut ne pas comprendre les configurations produites par les versions les plus récentes de SuperSlicer. Par exemple, une version plus récente de SuperSlicer peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
      --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
      --ignore-nonexistent-config Ne pas échouer si un fichier fourni avec **--load** n'existe pas.
@@ -52,7 +54,7 @@ Les options d'impression sont traitées dans l'ordre suivant :
 
 Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
 
-### Options diverses:
+### Options diverses
      --absolute-correction N
                      Will inflate or deflate the sliced 2D polygons according to the sign of the
                      correction. (default: 0)
@@ -114,11 +116,13 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      (double zig-zag) or dynamic which will automatically switch between the first
                      two depending on the distance of the two pillars. (zigzag, cross, dynamic;
                      default: dynamic)
-#### Découpage :
+                     
+#### Découpage 
      --elephant-foot-min-width N
                      Minimum width of features to maintain when doing the first layer compensation.
                      (mm, default: 0.2)
-#### Matériel de soutien :
+                     
+#### Support 
      --support-base-diameter N
                      Diameter in mm of the pillar base (mm, default: 4)
      --support-base-height N
@@ -160,7 +164,8 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      The percentage of smaller pillars compared to the normal pillar diameter which
                      are used in problematic areas where a normal pilla cannot fit. (%, default: 50%)
      --supports-enable   Generate supports for the models
-#### Pad:
+     
+#### Pad
      --pad-around-object Create pad around object and ignore the support elevation
      --pad-around-object-everywhere
                      Force pad around object everywhere
@@ -189,7 +194,8 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      walls. (°, default: 90)
      --pad-wall-thickness N
                      The thickness of the pad and its optional cavity walls. (mm, default: 2)
-#### Evidement:
+
+#### Evidement
      --hollowing-closing-distance N
                      Hollowing is done in two steps: first, an imaginary interior is calculated
                      deeper (offset plus the closing distance) in the object and then it's inflated
