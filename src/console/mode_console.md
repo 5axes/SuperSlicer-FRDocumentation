@@ -39,16 +39,16 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
 ### Autres options:
-     --config-compatibility   Cette version de Slic3r peut ne pas comprendre les configurations produites par les versions les plus récentes de Slic3r. Par exemple, une version plus récente de Slic3r peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
+     --config-compatibility   Cette version de SuperSlicer peut ne pas comprendre les configurations produites par les versions les plus récentes de SuperSlicer. Par exemple, une version plus récente de SuperSlicer peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
      --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
-     --ignore-nonexistent-config Ne pas échouer si un fichier fourni à --load n'existe pas.
+     --ignore-nonexistent-config Ne pas échouer si un fichier fourni avec **--load** n'existe pas.
      --load ABCD         Charge la configuration à partir du fichier spécifié. Elle peut être utilisée plus d'une fois pour charger des options à partir de plusieurs fichiers.
-     --loglevel N        Définit la sensibilité de la journalisation. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace Par exemple, loglevel=2 enregistre les messages de niveau fatal, erreur et warning.
+     --loglevel N        Définit le niveau d'information de la création d'un journal. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace Par exemple, loglevel=2 enregistre les messages de niveau fatal, erreur et warning.
      --output ABCD, -o ABCD Le fichier où la sortie sera écrite (si non spécifié, elle sera basée sur le fichier d'entrée).
-     --single-instance   Si cette option est activée, les arguments de la ligne de commande sont envoyés à une instance existante de l'interface graphique Slic3r, ou une fenêtre Slic3r existante est activée. Remplace la valeur de configuration "single_instance" des préférences de l'application.
+     --single-instance   Si cette option est activée, les arguments de la ligne de commande sont envoyés à une instance existante de l'interface graphique SuperSlicer, ou une fenêtre SuperSlicer existante est activée. Remplace la valeur de configuration "single_instance" des préférences de l'application.
      --sw-renderer       Effectuer un rendu avec un logiciel de rendu. Le logiciel de rendu de MESA est chargé à la place du pilote OpenGL par défaut.
 
-Les options d'impression sont traitées dans l'ordre suivant:
+Les options d'impression sont traitées dans l'ordre suivant :
 	1) Configuration des clés à partir de la ligne de commande, par exemple --fill-pattern=stars (priorité la plus élevée, écrase tout ce qui est en dessous)
 	2) Fichiers de configuration chargés avec --load
 	3) Valeurs de configuration chargées à partir de fichiers amf ou 3mf
