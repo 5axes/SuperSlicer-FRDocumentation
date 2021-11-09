@@ -11,7 +11,7 @@
 
 Cette fonction va élever Z progressivement au cours de l'impression d'un objet à paroi unique afin de supprimer toute jonction visible. Cette option requiert un périmètre unique, aucun remplissage, aucune couche pleine du dessus et aucun matériau de support. Vous pouvez toujours paramétrer le nombre de couches pleines du dessous que vous souhaitez de même que des boucles de jupe/bordure. 
 
-Pièce découpé en mode Vase
+Pièce découpée en mode Vase Spirale : 
 
 ![mode Vase](images/spiral_vase/002.png)
 
