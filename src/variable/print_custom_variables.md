@@ -26,6 +26,12 @@ Toute autre valeur sera analysée comme une chaîne de caractères telle quelle.
 
 Exemple d'utilisation :
 
+Déclaration des variables :
+
+![Déclaration des variables](images/print_custom_variables/001.png)
+Utilisation de la variable dans les G-Code personnalisés :
+
+![Utilisation de la variable](images/print_custom_variables/002.png)
 
 
 [Retour Liste variables](variable_list.md)
