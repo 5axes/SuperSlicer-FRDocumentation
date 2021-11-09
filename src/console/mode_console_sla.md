@@ -4,7 +4,7 @@ Version : SuperSlicer_2.3.57.5 based on Slic3r (with GUI support) https://github
 
 ## Commande 
 
-Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
+Usage : superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
 
 ### Actions
      --export-3mf        Exportez le(s) modèle(s) au format 3MF.
@@ -48,11 +48,11 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --sw-renderer       Effectuer un rendu avec un logiciel de rendu. Le logiciel de rendu de MESA est chargé à la place du pilote OpenGL par défaut.
 
 Les options d'impression sont traitées dans l'ordre suivant :
-	1) Configuration des clés à partir de la ligne de commande, par exemple --fill-pattern=stars (priorité la plus élevée, écrase tout ce qui est en dessous)
+	1) Configuration des paramètres à partir de la ligne de commande, par exemple --fill-pattern=stars (priorité la plus élevée, écrase tout ce qui est en dessous)
 	2) Fichiers de configuration chargés avec --load
 	3) Valeurs de configuration chargées à partir de fichiers amf ou 3mf
 
-Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
+Exécutez **--help-fff / --help-sla** pour voir la liste complète des options d'impressions.
 
 ### Options diverses
      --absolute-correction N
