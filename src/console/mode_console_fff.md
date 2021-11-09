@@ -4,7 +4,7 @@
 
 Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
 
-### Actions:
+### Actions
      --export-3mf        Exportez le(s) modèle(s) au format 3MF.
      --export-amf        Exportez le(s) modèle(s) en tant qu'AMF.
      --export-gcode, --gcode, -g Découpez le modèle et exportez les parcours d'outils en code G.
@@ -19,7 +19,7 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --save ABCD         Sauvegarder la configuration dans le fichier spécifié.
      --slice, -s         Découpez le modèle en FFF ou SLA en fonction de la valeur de configuration printer_technology.
 
-### Options de transformation:
+### Options de transformation
      --align-xy X,Y      Alignez le modèle sur le point donné.
      --center X,Y        Centre l'impression autour du centre donné.
      --cut N             Coupez le modèle au Z donné.
@@ -35,7 +35,7 @@ Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --scale-to-fit X,Y,Z        Mise à l'échelle pour s'adapter au volume donné.
      --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
-### Autres options:
+### Autres options
      --config-compatibility   Cette version de SuperSlicer peut ne pas comprendre les configurations produites par les versions les plus récentes de SuperSlicer. Par exemple, une version plus récente de SuperSlicer peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
      --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
      --ignore-nonexistent-config Ne pas échouer si un fichier fourni avec **--load** n'existe pas.
@@ -52,7 +52,8 @@ Les options d'impression sont traitées dans l'ordre suivant :
 
 Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
 
-### Options diverses:
+### Options diverses
+
      --color-change-gcode ABCD
                      This G-code will be used as a code for the color change (default: M600)
      --draft-shield      If enabled, the skirt will be as tall as a highest printed object. This is
@@ -283,7 +284,8 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      1/200 = 0.005. Note that the gcode will write the z values with 6 digits after
                      the dot if z_step is set (it's 3 digits if it's disabled). Set zero to disable.
                      (mm, default: 0.005)
-#### Périmètre et enveloppe:
+
+#### Périmètre et enveloppe
      --avoid-crossing-not-first-layer
                      Do not use the 'Avoid crossing perimeters' on the first layer.
      --avoid-crossing-perimeters
@@ -456,7 +458,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      to satisfy minimum thickness of top shell. This is useful to prevent pillowing
                      effect when printing with variable layer height. (mm, default: 0)
 
-#### Découpage :
+#### Découpage
      --allow-empty-layers
                      Do not prevent the gcode builder to trigger an exception if a full layer is
                      empty and so the print will have to start from thin air afterward.
@@ -540,7 +542,8 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      sizes. This one only applies to the 'exterior' shell of the object. !!! it's
                      recommended you put the same value into the 'Inner XY size compensation', unless
                      you are sure you don't have horizontal holes. !!! (mm, default: 0)
-#### Remplissage:
+
+#### Remplissage
      --bottom-fill-pattern, --external-fill-pattern
                      Fill pattern for bottom infill. This only affects the bottom visible layer, and
                      not its adjacent solid shells. (rectilinear, monotonicgapfill, monotonic,
@@ -671,7 +674,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      concentric, concentricgapfill, hilbertcurve, archimedeanchords, octagramspiral,
                      sawtooth, smooth, smoothtriple, smoothhilbert; default: monotonic)
 
-#### Repassage PP:
+#### Lissage
      --ironing           Enable ironing of the top layers with the hot print head for smooth surface
      --ironing-angle N   Ironing angle. if negative, it will use the fill angle. (°, default: -1)
      --ironing-flowrate  Percent of a flow rate relative to object's normal layer height. It's the
@@ -684,7 +687,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      computation. (mm/s, default: 15)
      --ironing-type      Ironing Type (top, topmost, solid; default: top)
 
-##### Jupe et bordure:
+#### Jupe et bordure
      --brim-ears         Only draw brim over the sharp edges of the model.
      --brim-ears-detection-length N
                      The geometry will be decimated before dectecting sharp angles. This parameter
@@ -719,7 +722,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      the number of loops might be greater than the one configured here. Set this to
                      zero to disable skirt completely. (default: 1)
 
-#### Support :
+#### Support
      --dont-support-bridges
                      Experimental option for preventing support material from being generated under
                      bridged areas.
@@ -798,7 +801,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      example 50%), it will be calculated over external perimeter width. (mm or %,
                      default: 50%)
 
-##### Vitesse:
+#### Vitesse
      --bridge-acceleration N
                      This is the acceleration your printer will use for bridges. Can be a % of the
                      default acceleration Set zero to disable acceleration control for bridges. Note
@@ -912,7 +915,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
      --travel-speed-z N  Speed for movements along the Z axis. When set to zero, this value is ignored
                      and regular travel speed is used instead. (mm/s, default: 0)
 
-#### Largeur et débit:
+#### Largeur et débit
      --bridge-flow-ratio This factor affects the amount of plastic for bridging. You can decrease it
                      slightly to pull the extrudates and prevent sagging, although default settings
                      are usually good and you should experiment with cooling (use a fan) before
@@ -1164,7 +1167,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      the wipe time is set by ( 100% - 'retract before wipe') * 'retaction length' /
                      'retraction speed'. If set to zero, the travel speed is used. (default: 0)
 
-#### Options de sortie:
+#### Options de sortie
      --complete-objects  When printing multiple objects or copies, this feature will complete each object
                      before moving onto next one (and starting it from its bottom layer). This
                      feature is useful to avoid the risk of ruined prints. Slic3r should warn and
@@ -1220,7 +1223,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      [year], [month], [day], [hour], [minute], [second], [version], [input_filename],
                      [input_filename_base]. (default: [input_filename_base].gcode)
 
-#### Notes:
+#### Notes
      --filament-notes ABCD
                      You can put your notes regarding the filament here. (default: "")
      --notes ABCD        Here you can put your personal notes. This text will be added to the G-code
@@ -1228,7 +1231,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
      --printer-notes ABCD
                      You can put your notes regarding the printer here.
 
-#### Filament:
+#### Filament
      --bed-temperature N Bed temperature for layers after the first one. Set this to zero to disable bed
                      temperature control commands in the output. (°C, default: 0)
      --extrusion-multiplier N
@@ -1292,7 +1295,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
      --temperature N     Extruder nozzle temperature for layers after the first one. Set this to zero to
                      disable temperature control commands in the output G-code. (°C, default: 200)
 
-#### Refroidissement:
+#### Refroidissement
      --bridge-fan-speed N
                      This fan speed is enforced during bridges and overhangs. It won't slow down the
                      fan if it's currently running at a higher speed. Set to -1 to disable this
@@ -1329,7 +1332,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      Set to -1 to disable this override. Can only be overriden by
                      disable_fan_first_layers. (%, default: -1)
 
-#### Code G personnalisé:
+#### Code G personnalisé
      --before-layer-gcode ABCD
                      This custom code is inserted at every layer change, right before the Z move.
                      Note that you can use placeholder variables for all Slic3r settings as well as
@@ -1403,7 +1406,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      T[next_extruder].!! Warning !!: if any character is written here, Slic3r won't
                      output any toochange command by itself.
 
-#### Generale:
+#### Generale
      --gcode-flavor      Some G/M-code commands, including temperature control and others, are not
                      universal. Set this option to your printer's firmware to get a compatible
                      output. The "No extrusion" flavor prevents Slic3r from exporting any extrusion
@@ -1444,7 +1447,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                      if your endstop zero actually leaves the nozzle 0.3mm far from the print bed,
                      set this to -0.3 (or fix your endstop). (mm, default: 0)
 
-#### Limites de la machine:
+#### Limites de la machine
      --machine-limits-usage
                      How to apply the Machine Limits. * In every case, they will be used as
                      safeguards: Even if you use a print profile that sets an acceleration of 5000,
@@ -1491,7 +1494,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
      --machine-min-travel-rate N
                          Minimum travel feedrate (M205 T) (mm/s, default: 0,0)
 
-#### Configuration d'une extrudeuse unique MM:
+#### Configuration d'une extrudeuse unique MM
      --cooling-tube-length N
                      Length of the cooling tube to limit space for cooling moves inside it. (mm,
                      default: 5)
@@ -1508,7 +1511,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                          layers with a toolchange, extruder will travel downward to print the wipe tower.
                          User is responsible for ensuring there is no collision with the print.
 
-#### Firmware:
+#### Firmware
      --fan-kickstart N   Add a M106 S255 (max speed for fan) for this amount of seconds before going down
                          to the desired speed to kick-start the cooling fan. This value is used for a
                          0->100% speedup, it will go down if the delta is lower. Set to 0 to deactivate.
@@ -1536,7 +1539,7 @@ Exécuter --help-fff / --help-sla pour voir la liste complète des options d'imp
                          only uses the Marlin algorithm, it's not precise enough if another firmware is
                          used. (%, default: 100%)
 
-#### Options d'essuyage:
+#### Options d'essuyage
      --wipe-into-infill  Purging after toolchange will be done inside this object's infills. This lowers
                          the amount of waste but may result in longer print time due to additional travel
                          moves.
