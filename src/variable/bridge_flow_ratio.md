@@ -11,7 +11,7 @@
 
 Ce facteur affecte la quantité de plastique utilisée pour les ponts. Vous pouvez le diminuer légèrement pour éviter l'affaissement.
 
-La valeur par défaut est généralement suffisante et vous devriez expérimenter le refroidissement (utiliser un ventilateur) avant de modifier ceci.
+La valeur par défaut est généralement suffisante et vous devriez en premier régler le refroidissement (réglage du ventilateur) avant de modifier ce paramètre.
 
 * Valeur par défaut : 100%
 
