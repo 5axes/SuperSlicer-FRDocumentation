@@ -53,7 +53,7 @@ Les options d'impression sont traitées dans l'ordre suivant :
 	2) Fichiers de configuration chargés avec --load
 	3) Valeurs de configuration chargées à partir de fichiers amf ou 3mf
 
-Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
+Exécutez **--help-fff / --help-sla** pour voir la liste complète des options d'impressions pour les deux modes d'impression.
 
 
 Page suivante [Mode console pour impression FDM](mode_console_fff.md) 
