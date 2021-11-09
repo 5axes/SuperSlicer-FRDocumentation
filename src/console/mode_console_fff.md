@@ -53,7 +53,7 @@ Les options d'impression sont traitées dans l'ordre suivant :
 Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
 
 ### Options diverses:
-     --[color-change-gcode](../variable/color_change_gcode.md) ABCD
+     --color-change-gcode ABCD
                      This G-code will be used as a code for the color change (default: M600)
      --draft-shield      If enabled, the skirt will be as tall as a highest printed object. This is
                      useful to protect an ABS or ASA print from warping and detaching from print bed
