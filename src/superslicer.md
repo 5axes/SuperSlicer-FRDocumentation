@@ -164,6 +164,12 @@ Version 1.19 du 03/11/2021
 	* [Associer à l'extension de fichier .gcode](gcode_viewer/gcode_viewer.md#associer-à-lextension-de-fichier-gcode)
 	* [Caractéristiques](gcode_viewer/gcode_viewer.md#caractéristiques)
 
+* Lancement en mode console
+    * [Lancement en mode console](console/mode_console.md)
+    * [Lancement en mode console pour les impressions FDM](console/mode_console_fff.md) 
+    * [Lancement en mode console pour les impressions SLA](console/mode_console_sla.md) 
+
+
 * Tutoriels
     * [Correction d'un modèle non valide](tutorial/repairing-models.md) 
     * Contribuer sur github
