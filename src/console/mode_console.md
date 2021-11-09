@@ -2,6 +2,14 @@
 
 Version : SuperSlicer_2.3.57.5 based on Slic3r (with GUI support) https://github.com/supermerill/SuperSlicer
 
+Concernant le repertoire de configuration, si vous avez un dossier nommé `configuration` à côté de l'exe, il sera utilisé à la place du dossier utilisateur. 
+Le dossier utilisateur est accessible via la fonction **Afficher le Répertoire de Configuration**
+
+![Accès menu configuration](image/001.png)
+
+
+
+
 ## Commande 
 
 Usage : superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
