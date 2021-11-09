@@ -73,7 +73,7 @@ La légende indique désormais le temps d'impression et la fraction de temps d'i
 
 On peut lancer autant de SuperSlicer G-Code Viewer qu'on le souhaite, soit en ouvrant un G-Code dans le menu **Fichier->Aperçu du G-Code**, soit en lançant l'application G-Code Viewer, soit en double-cliquant sur un fichier G-Code dans un explorateur de fichiers.
 
-Page suivante [Correction d'un modèle non valide](../tutorial/repairing-models.md) 
+Page suivante [LAncement mode console](../console/mode_console.md) 
 
 [Retour Page principale](../superslicer.md)
 
