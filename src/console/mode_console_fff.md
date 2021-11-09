@@ -1,226 +1,204 @@
 # Lancement de SuperSlicer en mode Console pour les impressions FDM
 
-SuperSlicer_2.3.57.5 based on Slic3r (with GUI support)
-https://github.com/supermerill/SuperSlicer
+## Commande 
 
 Usage: superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
 
-Actions:
- --export-3mf        Export the model(s) as 3MF.
- --export-amf        Export the model(s) as AMF.
- --export-gcode, --gcode, -g
-                     Slice the model and export toolpaths as G-code.
- --export-obj        Export the model(s) as OBJ.
- --export-sla, --sla Slice the model and export SLA printing layers as PNG.
- --export-stl        Export the model(s) as STL.
- --gcodeviewer       Visualize an already sliced and saved G-code
- --help, -h          Show this help.
- --help-fff          Show the full list of print/G-code configuration options.
- --help-sla          Show the full list of SLA print configuration options.
- --info              Write information about the model to the console.
- --save ABCD         Save configuration to the specified file.
- --slice, -s         Slice the model as FFF or SLA based on the printer_technology configuration
-                     value.
+### Actions:
+     --export-3mf        Exportez le(s) modèle(s) au format 3MF.
+     --export-amf        Exportez le(s) modèle(s) en tant qu'AMF.
+     --export-gcode, --gcode, -g Découpez le modèle et exportez les parcours d'outils en code G.
+     --export-obj        Exportez le(s) modèle(s) au format OBJ.
+     --export-sla, --sla Découpez le modèle et exportez les couches d'impression SLA au format PNG.
+     --export-stl        Exportez le(s) modèle(s) au format STL.
+     --gcodeviewer       Visualiser un code G déjà découpé et enregistré
+     --help, -h          Montrer cette aide.
+     --help-fff          Afficher la liste complète des options de configuration de l'impression/du code G.
+     --help-sla          Afficher la liste complète des options de configuration de l'impression SLA.
+     --info              Écrire des informations sur le modèle dans la console.
+     --save ABCD         Sauvegarder la configuration dans le fichier spécifié.
+     --slice, -s         Découpez le modèle en FFF ou SLA en fonction de la valeur de configuration printer_technology.
 
-Transform options:
- --align-xy X,Y      Align the model to the given point.
- --center X,Y        Center the print around the given center.
- --cut N             Cut model at the given Z.
- --dont-arrange      Do not rearrange the given models before merging and keep their original XY
-                     coordinates.
- --duplicate N       Multiply copies by this factor.
- --duplicate-grid X,Y
-                     Multiply copies by creating a grid.
- --merge, -m         Arrange the supplied models in a plate and merge them in a single model in order
-                     to perform actions once.
- --repair            Try to repair any non-manifold meshes (this option is implicitly added whenever
-                     we need to slice the model to perform the requested action).
- --rotate N          Rotation angle around the Z axis in degrees.
- --rotate-x N        Rotation angle around the X axis in degrees.
- --rotate-y N        Rotation angle around the Y axis in degrees.
- --scale N           Scaling factor or percentage.
- --scale-to-fit X,Y,Z
-                     Scale to fit the given volume.
- --split             Detect unconnected parts in the given model(s) and split them into separate
-                     objects.
+### Options de transformation:
+     --align-xy X,Y      Alignez le modèle sur le point donné.
+     --center X,Y        Centre l'impression autour du centre donné.
+     --cut N             Coupez le modèle au Z donné.
+     --dont-arrange      Ne réorganisez pas les modèles donnés avant de les fusionner et conservez leurs coordonnées XY originales.
+     --duplicate N       Multipliez les copies par ce facteur.
+     --duplicate-grid X,Y        Multipliez les copies en créant une grille.
+     --merge, -m         Disposez les modèles fournis dans une plaque et fusionnez-les en un seul modèle afin d'effectuer les actions une seule fois.
+     --repair            Essayer de réparer les mailles non-manifold (cette option est implicitement ajoutée lorsque nous devons découper le modèle pour effectuer l'action demandée).
+     --rotate N           Angle de rotation autour de l'axe Z en degrés.
+     --rotate-x N        Angle de rotation autour de l'axe X en degrés.
+     --rotate-y N        Angle de rotation autour de l'axe Y en degrés.
+     --scale N             Facteur d'échelle ou pourcentage.
+     --scale-to-fit X,Y,Z        Mise à l'échelle pour s'adapter au volume donné.
+     --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
-Other options:
- --config-compatibility
-                     This version of Slic3r may not understand configurations produced by newest
-                     Slic3r versions. For example, newer Slic3r may extend the list of supported
-                     firmware flavors. One may decide to bail out or to substitute an unknown value
-                     with a default silently or verbosely. (disable, enable, enable_silent; default:
-                     enable)
- --datadir ABCD      Load and store settings at the given directory. This is useful for maintaining
-                     different profiles or including configurations from a network storage.
- --ignore-nonexistent-config
-                     Do not fail if a file supplied to --load does not exist.
- --load ABCD         Load configuration from the specified file. It can be used more than once to
-                     load options from multiple files.
- --loglevel N        Sets logging sensitivity. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace
-                     For example. loglevel=2 logs fatal, error and warning level messages.
- --output ABCD, -o ABCD
-                     The file where the output will be written (if not specified, it will be based on
-                     the input file).
- --single-instance   If enabled, the command line arguments are sent to an existing instance of GUI
-                     Slic3r, or an existing Slic3r window is activated. Overrides the
-                     "single_instance" configuration value from application preferences.
- --sw-renderer       Render with a software renderer. The bundled MESA software renderer is loaded
-                     instead of the default OpenGL driver.
+### Autres options:
+     --config-compatibility   Cette version de SuperSlicer peut ne pas comprendre les configurations produites par les versions les plus récentes de SuperSlicer. Par exemple, une version plus récente de SuperSlicer peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
+     --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
+     --ignore-nonexistent-config Ne pas échouer si un fichier fourni avec **--load** n'existe pas.
+     --load ABCD         Charge la configuration à partir du fichier spécifié. Elle peut être utilisée plus d'une fois pour charger des options à partir de plusieurs fichiers.
+     --loglevel N        Définit le niveau d'information de la création d'un journal. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:trace Par exemple, loglevel=2 enregistre les messages de niveau fatal, erreur et warning.
+     --output ABCD, -o ABCD Le fichier où la sortie sera écrite (si non spécifié, elle sera basée sur le fichier d'entrée).
+     --single-instance   Si cette option est activée, les arguments de la ligne de commande sont envoyés à une instance existante de l'interface graphique SuperSlicer, ou une fenêtre SuperSlicer existante est activée. Remplace la valeur de configuration "single_instance" des préférences de l'application.
+     --sw-renderer       Effectuer un rendu avec un logiciel de rendu. Le logiciel de rendu de MESA est chargé à la place du pilote OpenGL par défaut.
 
-Print options are processed in the following order:
-	1) Config keys from the command line, for example --fill-pattern=stars
-	   (highest priority, overwrites everything below)
-	2) Config files loaded with --load
-	3) Config values loaded from amf or 3mf files
+Les options d'impression sont traitées dans l'ordre suivant :
+	1) Configuration des clés à partir de la ligne de commande, par exemple --fill-pattern=stars (priorité la plus élevée, écrase tout ce qui est en dessous)
+	2) Fichiers de configuration chargés avec --load
+	3) Valeurs de configuration chargées à partir de fichiers amf ou 3mf
 
-Misc options:
- --color-change-gcode ABCD
+Exécuter --help-fff / --help-sla pour voir la liste complète des options d'impressions.
+
+### Options diverses:
+     --color-change-gcode ABCD
                      This G-code will be used as a code for the color change (default: M600)
- --draft-shield      If enabled, the skirt will be as tall as a highest printed object. This is
+     --draft-shield      If enabled, the skirt will be as tall as a highest printed object. This is
                      useful to protect an ABS or ASA print from warping and detaching from print bed
                      due to wind draft.
- --external-perimeter-fan-speed N
+     --external-perimeter-fan-speed N
                      When set to a non-zero value this fan speed is used only for external perimeters
                      (visible ones). Set to 1 to disable the fan. Set to -1 to use the normal fan
                      speed on external perimeters.External perimeters can benefit from higher fan
                      speed to improve surface finish, while internal perimeters, infill, etc. benefit
                      from lower fan speed to improve layer adhesion. (%, default: -1)
- --extra-loading-move N
+     --extra-loading-move N
                      When set to zero, the distance the filament is moved from parking position
                      during load is exactly the same as it was moved back during unload. When
                      positive, it is loaded further, if negative, the loading move is shorter than
                      unloading. (mm, default: -2)
- --filament-cooling-final-speed N
+     --filament-cooling-final-speed N
                      Cooling moves are gradually accelerated towards this speed. (mm/s, default: 3.4)
- --filament-cooling-initial-speed N
+     --filament-cooling-initial-speed N
                      Cooling moves are gradually accelerated, starting at this speed. (mm/s, default:
                      2.2)
- --filament-cooling-moves N
+     --filament-cooling-moves N
                      Filament is cooled by being moved back and forth in the cooling tubes. Specify
                      desired number of these moves. (default: 4)
- --filament-cooling-zone-pause N
+     --filament-cooling-zone-pause N
                      Can be useful to avoid bondtech gears deforming hot tips, but not ordinarily
                      needed (milliseconds, default: 0)
- --filament-deretract-speed N
+     --filament-deretract-speed N
                      The speed for loading of a filament into extruder after retraction (this only
                      applies to the extruder motor). If left as zero, the retraction speed is used.
                      (mm/s, default: 0)
- --filament-diameter N
+     --filament-diameter N
                      Enter your filament diameter here. Good precision is required, so use a caliper
                      and do multiple measurements along the filament, then compute the average. (mm,
                      default: 1.75)
- --filament-dip-extraction-speed N
+     --filament-dip-extraction-speed N
                      usually not necessary to change this (mm/sec, default: 70)
- --filament-dip-insertion-speed N
+     --filament-dip-insertion-speed N
                      usually not necessary to change this (mm/sec, default: 33)
- --filament-enable-toolchange-part-fan
+     --filament-enable-toolchange-part-fan
                      Experimental setting. May enable the hotend to cool down faster during
                      toolchanges (default: 0)
- --filament-enable-toolchange-temp
+     --filament-enable-toolchange-temp
                      Determines whether toolchange temperatures will be applied (default: 0)
- --filament-load-time N
+     --filament-load-time N
                      Time for the printer firmware (or the Multi Material Unit 2.0) to load a new
                      filament during a tool change (when executing the T code). This time is added to
                      the total print time by the G-code time estimator. (s, default: 0)
- --filament-loading-speed N
+     --filament-loading-speed N
                      Speed used for loading the filament on the wipe tower. (mm/s, default: 28)
- --filament-loading-speed-start N
+     --filament-loading-speed-start N
                      Speed used at the very beginning of loading phase. (mm/s, default: 3)
- --filament-max-overlap
+     --filament-max-overlap
                      This setting will ensure that all 'overlap' are not higher than this value. This
                      is useful for filaments that are too viscous, as the line can't flow under the
                      previous one. (%, default: 100%)
- --filament-max-wipe-tower-speed N
+     --filament-max-wipe-tower-speed N
                      This setting is used to set the maximum speed when extruding inside the wipe
                      tower (use M220). In %, set 0 to disable and use the Filament type instead. If
                      disabled, these filament types will have a defaut value of: - PVA: 80% to 60% -
                      SCAFF: 35% - FLEX: 35% - OTHERS: 100% Note that the wipe tower reset the speed
                      at 100% for the unretract in any case. If using marlin, M220 B/R is used to save
                      the speed override before the wipe tower print. (%, default: 0)
- --filament-melt-zone-pause N
+     --filament-melt-zone-pause N
                      Stay in melt zone for this amount of time before extracting the filament. Not
                      usually necessary. (milliseconds, default: 0)
- --filament-minimal-purge-on-wipe-tower N
+     --filament-minimal-purge-on-wipe-tower N
                      After a tool change, the exact position of the newly loaded filament inside the
                      nozzle may not be known, and the filament pressure is likely not yet stable.
                      Before purging the print head into an infill or a sacrificial object, Slic3r
                      will always prime this amount of material into the wipe tower to produce
                      successive infill or sacrificial object extrusions reliably. (mm³, default: 15)
- --filament-ramming-parameters ABCD
+     --filament-ramming-parameters ABCD
                      This string is edited by RammingDialog and contains ramming specific parameters.
                      (default: "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8
                      0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95
                      7.6")
- --filament-retract-before-travel N
+     --filament-retract-before-travel N
                      Retraction is not triggered when travel moves are shorter than this length. (mm,
                      default: 2)
- --filament-retract-before-wipe
+     --filament-retract-before-wipe
                      With bowden extruders, it may be wise to do some amount of quick retract before
                      doing the wipe movement. (%, default: 0%)
- --filament-retract-layer-change
+     --filament-retract-layer-change
                      This flag enforces a retraction whenever a Z move is done (before it). (default:
                      0)
- --filament-retract-length N
+     --filament-retract-length N
                      When retraction is triggered, filament is pulled back by the specified amount
                      (the length is measured on raw filament, before it enters the extruder). (mm
                      (zero to disable), default: 2)
- --filament-retract-lift N
+     --filament-retract-lift N
                      If you set this to a positive value, Z is quickly raised every time a retraction
                      is triggered. When using multiple extruders, only the setting for the first
                      extruder will be considered. (mm, default: 0)
- --filament-retract-lift-above N
+     --filament-retract-lift-above N
                      If you set this to a positive value, Z lift will only take place above the
                      specified absolute Z. You can tune this setting for skipping lift on the first
                      layers. (mm, default: 0)
- --filament-retract-lift-below N
+     --filament-retract-lift-below N
                      If you set this to a positive value, Z lift will only take place below the
                      specified absolute Z. You can tune this setting for limiting lift to the first
                      layers. (mm, default: 0)
- --filament-retract-restart-extra N
+     --filament-retract-restart-extra N
                      When the retraction is compensated after the travel move, the extruder will push
                      this additional amount of filament. This setting is rarely needed. (mm, default:
                      0)
- --filament-retract-speed N
+     --filament-retract-speed N
                      The speed for retractions (this only applies to the extruder motor). (mm/s,
                      default: 40)
- --filament-seam-gap To avoid visible seam, the extrusion can be stoppped a bit before the end of the
+     --filament-seam-gap To avoid visible seam, the extrusion can be stoppped a bit before the end of the
                      loop. Can be a mm or a % of the current extruder diameter. (mm or %, default:
                      15%)
- --filament-shrink   Enter the shrinkage percentage that the filament will get after cooling (94% if
+     --filament-shrink   Enter the shrinkage percentage that the filament will get after cooling (94% if
                      you measure 94mm instead of 100mm). The part will be scaled in xy to compensate.
                      Only the filament used for the perimeter is taken into account. Be sure to allow
                      enough space between objects, as this compensation is done after the checks. (%,
                      default: 100%)
- --filament-skinnydip-distance N
+     --filament-skinnydip-distance N
                      For stock extruders, usually 40-42mm. For bondtech extruder upgrade, usually
                      30-32mm. Start with a low value and gradually increase it until strings are
                      gone. If there are blobs on your wipe tower, your value is too high. (mm,
                      default: 31)
- --filament-toolchange-delay N
+     --filament-toolchange-delay N
                      Time to wait after the filament is unloaded. May help to get reliable
                      toolchanges with flexible materials that may need more time to shrink to
                      original dimensions. (s, default: 0)
- --filament-toolchange-part-fan-speed N
+     --filament-toolchange-part-fan-speed N
                      Experimental setting. Fan speeds that are too high can clash with the hotend's
                      PID routine. (%, default: 50)
- --filament-toolchange-temp N
+     --filament-toolchange-temp N
                      To further reduce stringing, it can be helpful to set a lower temperature just
                      prior to extracting filament from the hotend. (°C, default: 200)
- --filament-unload-time N
+     --filament-unload-time N
                      Time for the printer firmware (or the Multi Material Unit 2.0) to unload a
                      filament during a tool change (when executing the T code). This time is added to
                      the total print time by the G-code time estimator. (s, default: 0)
- --filament-unloading-speed N
+     --filament-unloading-speed N
                      Speed used for unloading the filament on the wipe tower (does not affect initial
                      part of unloading just after ramming). (mm/s, default: 90)
- --filament-unloading-speed-start N
+     --filament-unloading-speed-start N
                      Speed used for unloading the tip of the filament immediately after ramming.
                      (mm/s, default: 100)
- --filament-use-fast-skinnydip
+     --filament-use-fast-skinnydip
                      Experimental: drops nozzle temperature during cooling moves instead of prior to
                      extraction to reduce wait time. (default: 0)
- --filament-use-skinnydip
+     --filament-use-skinnydip
                      Skinnydip performs a secondary dip into the meltzone to burn off fine strings of
                      filament (default: 0)
  --filament-wipe     This flag will move the nozzle while retracting to minimize the possible blob on
