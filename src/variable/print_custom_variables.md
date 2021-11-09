@@ -4,6 +4,7 @@
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
 * Sous groupe : Variables personnalisées
 * Mode : Avancé
+* Version : 2.3.57.5
 
 ## Variables personnalisées
 
@@ -22,6 +23,9 @@ Une valeur qui est encadrée de guillemets doubles sera disponible sous forme de
 Une valeur qui ne prend que les valeurs 'true' ou 'false' sera un booléen (boolean).
 
 Toute autre valeur sera analysée comme une chaîne de caractères telle quelle.
+
+Exemple d'utilisation :
+
 
 
 [Retour Liste variables](variable_list.md)
