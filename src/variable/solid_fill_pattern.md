@@ -12,9 +12,9 @@
 Motif de remplissage pour une surface pleine (interne). Cela n'affecte que les couches pleines non visibles.
 Vous devriez utiliser [Rectiligne](../pattern/pattern_rectilinear.md) dans la plupart des cas.
 
-Vous pouvez essayer le [Lissage](../pattern/pattern_smooth.md) pour les matières  translucide.
+Vous pouvez essayer le type [Lissage](../pattern/pattern_smooth.md) pour les matières  translucide.
 
-[Rectiligne (rempli)](../pattern/pattern_rectilineargapfill.md)  permet de remplacer les motifs en zig-zag trop rapprochés par une seule épaisse ligne et il est plus efficace pour remplir de petits espaces.
+[Rectiligne (rempli)](../pattern/pattern_rectilineargapfill.md)  permet de remplacer les motifs en zig-zag trop rapprochés par une seule ligne épaisse et il est plus efficace pour remplir de petits espaces.
 
  - [Lissage](../pattern/pattern_smooth.md)
  - [Rectiligne](../pattern/pattern_rectilinear.md)
