@@ -1,7 +1,7 @@
 # help
 
 * Technologie : FDM & SLA
-* Groupe : Fonction générique
+* Groupe : Option console
 * Sous groupe : -
 * Mode : - 
 
@@ -9,6 +9,9 @@
 
 ### Description
 
-Afficher cette aide.
+Afficher l'aide en mode console.
+
+Voir [Mode console](../console/mode_console.md)
+
 
 [Retour Liste variables](variable_list.md)
