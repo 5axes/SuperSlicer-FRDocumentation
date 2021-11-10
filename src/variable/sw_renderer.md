@@ -1,7 +1,7 @@
 # sw_renderer
 
 * Technologie : Variable générique
-* Groupe : -
+* Groupe : Option console
 * Sous groupe : -
 * Mode : -
 
@@ -9,6 +9,9 @@
 
 ### Description
 
-Render with a software renderer. The bundled MESA software renderer is loaded instead of the default OpenGL driver.
+Effectuer un rendu avec un logiciel de rendu. Le logiciel de rendu de MESA est chargé à la place du pilote OpenGL par défaut.
+
+Voir [Mode console](../console/mode_console.md#options-de-transformation)
+
 
 [Retour Liste variables](variable_list.md)
