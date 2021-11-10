@@ -1,7 +1,7 @@
 # help_fff
 
 * Technologie : FDM
-* Groupe : Fonction générique
+* Groupe : Option Console
 * Sous groupe : -
 * Mode : - 
 
