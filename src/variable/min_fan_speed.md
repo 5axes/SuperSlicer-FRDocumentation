@@ -9,6 +9,6 @@
 
 ### Description
 
-Ce paramètre représente la vitesse de base du ventilateur dont ce filament a besoin, ou au moins la PWM minimum dont votre ventilateur a besoin pour fonctionner.
+Ce paramètre représente la vitesse de base du ventilateur dont ce filament a besoin, ou au moins la vitese minimum dont votre ventilateur a besoin pour fonctionner.
 
 [Retour Liste variables](variable_list.md)
