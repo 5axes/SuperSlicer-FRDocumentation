@@ -14,7 +14,7 @@ Vous pouvez ainsi aisément déterminer quel répertoire est utilisé pour la co
 
 Usage : superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
 
-### Actions:
+### Actions
      --export-3mf        Exportez le(s) modèle(s) au format 3MF.
      --export-amf        Exportez le(s) modèle(s) en tant qu'AMF.
      --export-gcode, --gcode, -g Découpez le modèle et exportez les parcours d'outils en code G.
@@ -29,7 +29,7 @@ Usage : superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --save ABCD         Sauvegarder la configuration dans le fichier spécifié.
      --slice, -s         Découpez le modèle en FFF ou SLA en fonction de la valeur de configuration printer_technology.
 
-### Options de transformation:
+### Options de transformation
      --align-xy X,Y      Alignez le modèle sur le point donné.
      --center X,Y        Centre l'impression autour du centre donné.
      --cut N             Coupez le modèle au Z donné.
@@ -45,7 +45,7 @@ Usage : superslicer [ ACTIONS ] [ TRANSFORM ] [ OPTIONS ] [ file.stl ... ]
      --scale-to-fit X,Y,Z        Mise à l'échelle pour s'adapter au volume donné.
      --split             Détecter les parties non connectées dans le(s) modèle(s) donné(s) et les diviser en objets distincts.
 
-### Autres options:
+### Autres options
      --config-compatibility   Cette version de SuperSlicer peut ne pas comprendre les configurations produites par les versions les plus récentes de SuperSlicer. Par exemple, une version plus récente de SuperSlicer peut étendre la liste des saveurs de firmware supportées. On peut décider d'abandonner ou de remplacer une valeur inconnue par une valeur par défaut de manière silencieuse ou verbeuse. (disable, enable, enable_silent ; par défaut : enable)
      --datadir ABCD      Charge et stocke les configurations dans le répertoire donné. Ceci est utile pour maintenir différents profils ou inclure des configurations à partir d'un stockage réseau.
      --ignore-nonexistent-config Ne pas échouer si un fichier fourni avec **--load** n'existe pas.
