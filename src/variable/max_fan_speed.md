@@ -11,4 +11,6 @@
 
 Ce paramètre représente la vitesse maximale de votre ventilateur, utilisé lorsque pour une couche le temps d'impression est très court.
 
+La vitesse de refroidissement sera augmenté jusqu'à cette valeur maximum si le temps d'impression de la couche passe sous le temps mini [fan_below_layer_time](../variable/fan_below_layer_time.md)
+
 [Retour Liste variables](variable_list.md)
