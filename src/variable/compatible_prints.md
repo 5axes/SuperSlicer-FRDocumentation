@@ -11,7 +11,7 @@
 
 Sélection des profils d'impression compatibles avec  lesquels  les réglages sont compatibles.
 
-La sélection de la case Tout permet de tout sélectionner.
+La sélection de la case **Tout** permet de tout sélectionner.
 
 ![Dépendances du profil](./images/compatible_prints/001.png)
 
