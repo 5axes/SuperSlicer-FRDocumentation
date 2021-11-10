@@ -10,7 +10,9 @@
 
 ### Description
 
-Vitesse en mm/s pour l'essuyage. Si vous l'augmenter, l'essuyage se fera sur une distance plus grande. Le temps d'essuyage est défini par ( 100% - [rétraction avant essuyage](retract_before_wipe.md)) * [distance de rétraction](retract_length.md) / [vitesse de rétraction](retract_speed.md).
+Vitesse en mm/s pour l'essuyage. Si vous l'augmenter, l'essuyage se fera sur une distance plus grande. 
+
+Le temps d'essuyage est défini par ( 100% - [rétraction avant essuyage](retract_before_wipe.md)) * [distance de rétraction](retract_length.md) / [vitesse de rétraction](retract_speed.md).
 
 Si le paramètre est laissé à 0, la [vitesse de déplacement](travel_speed.md) est alors utilisée.
 
