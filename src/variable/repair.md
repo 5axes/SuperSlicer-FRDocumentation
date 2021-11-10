@@ -11,7 +11,7 @@
 
 Essayer de réparer tout maillage non-multiple (cette option est ajoutée implicitement dès que nous devons découper le modèle pour accomplir l'action demandée).
 
-Voir [Mode console](../console/mode_console.md)
+Voir [Mode console](../console/mode_console.md#actions)
 
 
 [Retour Liste variables](variable_list.md)
