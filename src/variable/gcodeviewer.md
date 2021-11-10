@@ -11,6 +11,6 @@
 
 Visualisez un G-Code déjà découpé et enregistré.
 
-Voir [Mode console](../console/mode_console.md)
+Voir [Mode console FDM](../console/mode_console_fff.md)
 
 [Retour Liste variables](variable_list.md)
