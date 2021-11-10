@@ -10,7 +10,9 @@
 ### Description
 
 Permet la création d'une couche de support sous la première surface pleine interne.
-Cela vous permet d'utiliser un taux de remplissage très bas sans compromettre la qualité du remplissage solide.
+
+Cela vous permet d'utiliser un taux de remplissage très bas sans compromettre la qualité du remplissage plein.
+
 Le remplissage dense utilise une densité de remplissage de 50%.
 
 [Retour Liste variables](variable_list.md)
