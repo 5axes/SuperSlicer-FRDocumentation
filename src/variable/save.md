@@ -11,6 +11,6 @@
 
 Enregistrer la configuration dans le fichier spécifié.
 
-Voir [Mode console](../console/mode_console.md#options-de-transformation)
+Voir [Mode console](../console/mode_console.md#actions)
 
 [Retour Liste variables](variable_list.md)
