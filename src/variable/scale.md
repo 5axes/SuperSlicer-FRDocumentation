@@ -1,7 +1,7 @@
 # scale
 
 * Technologie : FDM & SLA
-* Groupe : Fonction Générique
+* Groupe : Option console
 * Sous groupe : -
 * Mode : -
 
@@ -10,5 +10,7 @@
 ### Description
 
 Facteur ou pourcentage d'échelle.
+
+Voir [Mode console](../console/mode_console.md#options-de-transformation)
 
 [Retour Liste variables](variable_list.md)
