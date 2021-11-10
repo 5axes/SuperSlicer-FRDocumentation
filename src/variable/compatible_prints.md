@@ -13,4 +13,6 @@ Sélection des profils d'impression compatibles avec  lesquels  les réglages so
 
 La sélection de la case Tout permet de tout sélectionner.
 
+![Dépendances du profil](./images/compatible_prints/001.png)
+
 [Retour Liste variables](variable_list.md)
