@@ -12,6 +12,6 @@
 Charger la configuration depuis le fichier spécifié.
 Ceci peut être utilisé plusieurs fois afin de charger des options depuis plusieurs fichiers.
 
-Voir [Mode console](../console/mode_console.md#actions)
+Voir [Mode console](../console/mode_console.md#autres-options)
 
 [Retour Liste variables](variable_list.md)
