@@ -10,7 +10,7 @@
 ### Description
 
 Il s'agit de l'accélération que votre imprimante utilisera pour la première couche.
-Peut être un % de l'accélération par défaut\n"
+Peut être un % de [l'accélération par défaut](default_acceleration.md).
 
 > Mettez zéro pour désactiver le contrôle de l'accélération pour la première couche.
 
