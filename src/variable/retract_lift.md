@@ -9,8 +9,7 @@
 
 ### Description
 
-Si vous indiquez une valeur positive, l'axe Z est rapidement élevé à chaque rétraction. Lorsque vous utilisez plusieurs extrudeuses, seul le réglage du premier extrudeuse sera pris en compte.
+Si vous indiquez une valeur positive, l'axe Z est rapidement élevé à chaque rétraction de la valeur indiquée en mm. Lorsque vous utilisez plusieurs extrudeuses, seul le réglage de la première extrudeuse sera pris en compte.
 
-Valeur exprimée en mm.
 
 [Retour Liste variables](variable_list.md)
