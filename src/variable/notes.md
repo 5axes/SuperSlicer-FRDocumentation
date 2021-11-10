@@ -2,7 +2,7 @@
 
 * Technologie : FDM & SLA
 * Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : Remarques
+* Sous groupe : [Remarques](../print_settings/print_settings.md#remarques)
 * Mode : Avancé
 
 ## Remarques
