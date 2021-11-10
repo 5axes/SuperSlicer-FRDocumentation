@@ -11,4 +11,6 @@
 
 Afficher la liste complète des options de configuration d'impression SLA.
 
+Voir [Mode console SLA](../console/mode_console_sla.md)
+
 [Retour Liste variables](variable_list.md)
