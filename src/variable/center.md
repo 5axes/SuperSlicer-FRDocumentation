@@ -1,7 +1,7 @@
 # center
 
 * Technologie : FDM
-* Groupe : -
+* Groupe : option console
 * Sous groupe : -
 * Mode : -
 
@@ -11,5 +11,6 @@
 
 Centrer l'impression autour d'un point donné.
 
+Voir [Mode console](../console/mode_console.md#actions)
 
 [Retour Liste variables](variable_list.md)
