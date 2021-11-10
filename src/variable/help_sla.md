@@ -1,7 +1,7 @@
 # help_sla
 
 * Technologie : SLA
-* Groupe : Fonction générique
+* Groupe : Option Console
 * Sous groupe : -
 * Mode : - 
 
