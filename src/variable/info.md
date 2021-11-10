@@ -1,7 +1,7 @@
 # info
 
 * Technologie : FDM & SLA
-* Groupe : Variable générique
+* Groupe : Option console
 * Sous groupe : -
 * Mode : -
 
@@ -10,5 +10,7 @@
 ### Description
 
 Rédiger des informations au sujet du modèle en direction de la console.
+
+Voir [Mode console](../console/mode_console.md#actions)
 
 [Retour Liste variables](variable_list.md)
