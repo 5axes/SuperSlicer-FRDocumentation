@@ -17,8 +17,7 @@ Si le manuel ne répond pas à votre question, vous avez d'autres options.
 
 ## Discord
 
-Le projet SuperSlicer gère un serveur Discord, pour le rejoindre vous devez suivre ce
-lien d'invitation: https://discord.gg/ygBBdRRwJY
+Le projet SuperSlicer gère un serveur Discord, pour le rejoindre vous devez suivre ce lien d'invitation: https://discord.gg/4TVUG4VRzP
 
 Si vous êtes nouveau sur Discord, cet article peut vous être utile : 
 [Beginner's Guide to Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord).
