@@ -1,8 +1,8 @@
 # extrusion_axis
 
 * Technologie : FDM
-* Groupe : [Réglages de l'Impression](../print_settings/print_settings.md)
-* Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Largeur d'extrusion
+* Groupe : -
+* Sous groupe : -
 * Mode : - 
 
 ## Axe d'extrusion
