@@ -16,13 +16,28 @@
    height="185.7375mm"
    width="282.04584mm">
   <defs
-     id="defs2013" />
+     id="defs2013">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4310"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4308" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="130"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -33,7 +48,7 @@
      inkscape:document-units="mm"
      inkscape:cy="379.64287"
      inkscape:cx="453.07143"
-     inkscape:zoom="0.35"
+     inkscape:zoom="0.76"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -2309,5 +2324,50 @@ UwKKOh0U20GaBBT5XF5fsB/DM2FCmW1F/x+Gj5mDlCqk3AAAAABJRU5ErkJggg==
        width="282.04584"
        x="-14.041817"
        y="47.71949" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.0781px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.201953"
+       x="62.430546"
+       y="166.1573"
+       id="text3820-2"
+       transform="scale(0.76630213,1.3049683)"><tspan
+         sodipodi:role="line"
+         id="tspan3818-1"
+         x="62.430546"
+         y="166.1573"
+         style="fill:#ffffff;stroke-width:0.201953">Ventilateur à pleine vitesse pour la couche</tspan></text>
+    <path
+       id="path4172"
+       d="M 135.85263,206.8045 149.9099,191.1721"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.912955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4310)" />
+    <text
+       transform="scale(0.61716338,1.6203165)"
+       id="text4414"
+       y="93.432365"
+       x="322.5896"
+       style="font-style:normal;font-weight:normal;font-size:17.1483px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.42871"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.42871"
+         y="93.432365"
+         x="322.5896"
+         id="tspan4412"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       transform="scale(0.95132787,1.0511623)"
+       id="text4418"
+       y="134.53473"
+       x="246.61145"
+       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="134.53473"
+         x="246.61145"
+         id="tspan4416"
+         sodipodi:role="line">Vitesse pour couches</tspan><tspan
+         id="tspan4420"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="142.16029"
+         x="246.61145"
+         sodipodi:role="line"> temps courts</tspan></text>
   </g>
 </svg>
