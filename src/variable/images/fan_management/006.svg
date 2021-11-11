@@ -16,13 +16,28 @@
    height="186.00209mm"
    width="280.98749mm">
   <defs
-     id="defs5400" />
+     id="defs5400">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4356"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4354"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="132"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -33,7 +48,7 @@
      inkscape:document-units="mm"
      inkscape:cy="377.2143"
      inkscape:cx="490.99996"
-     inkscape:zoom="0.35"
+     inkscape:zoom="0.66"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -2675,5 +2690,23 @@ AADa639t2W6vbskI+gAAAABJRU5ErkJggg==
        width="280.98749"
        x="-24.077072"
        y="48.362049" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.56726px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.214182"
+       x="8.0019388"
+       y="169.7348"
+       id="text4350"
+       transform="scale(0.83820147,1.1930306)"><tspan
+         sodipodi:role="line"
+         id="tspan4348"
+         x="8.0019388"
+         y="169.7348"
+         style="fill:#ffffff;stroke-width:0.214182">Vitesse pour les périmètres externes <tspan
+   id="tspan6048"
+   style="fill:#ff0000">= 1</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4356)"
+       d="M 78.358956,183.827 92.284395,169.20529"
+       id="path4352" />
   </g>
 </svg>
