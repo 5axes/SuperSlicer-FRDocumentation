@@ -9,6 +9,7 @@
 
 ### Description
 
-Ce décalage sera ajouté à toutes les valeurs de ventilateur définies par les propriétés du filament. Il ne les fera pas aller plus haut que 100% et plus bas que 0%.
+Ce décalage sera ajouté à toutes les valeurs de ventilateur définies par les propriétés du filament.
+Il ne les fera pas aller plus haut que 100% et plus bas que 0%.
 
 [Retour Liste variables](variable_list.md)
