@@ -9,6 +9,6 @@
 
 ### Description
 
-Les mouvements de refroidissement accélèrent progressivement vers de cette vitesse.
+Les mouvements de refroidissement accélèrent progressivement vers cette vitesse.
 
 [Retour Liste variables](variable_list.md)
