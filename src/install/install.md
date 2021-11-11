@@ -51,4 +51,6 @@ Pour démarrer SuperSlicer, exécutez la commande ci-dessous à partir du Termin
 
 	./SuperSlicer-exact-file-name.AppImage
 
+Page suivante  [Avoir du support](../getting-support.md)
+
 [Retour Page principale](../superslicer.md)
