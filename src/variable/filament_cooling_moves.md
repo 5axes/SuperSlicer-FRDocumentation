@@ -3,7 +3,7 @@
 * Technologie : FDM
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : [Multimatériaux](../filament_settings/filament_settings.md#multimatériaux) - Paramètres de changement de filament pour les imprimantes multi-matériaux mono-extrudeuse
-* Mode : Mode : Expert
+* Mode : Expert
 
 ## Nombre de mouvement de refroidissement
 
