@@ -16,13 +16,28 @@
    height="185.47292mm"
    width="281.51666mm">
   <defs
-     id="defs3235" />
+     id="defs3235">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4356"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4354" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="52"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -31,9 +46,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="833.35715"
+     inkscape:cy="407.82523"
      inkscape:cx="411.99999"
-     inkscape:zoom="0.35"
+     inkscape:zoom="0.62"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -3235,5 +3250,21 @@ Qdnxof8PaSYhOOsG4SgAAAAASUVORK5CYII=
        width="281.51666"
        x="-3.174998"
        y="-72.325745" />
+    <text
+       transform="scale(0.73210756,1.3659195)"
+       id="text4350"
+       y="64.944122"
+       x="24.097771"
+       style="font-style:normal;font-weight:normal;font-size:10.8538px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.271344"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.271344"
+         y="64.944122"
+         x="24.097771"
+         id="tspan4348"
+         sodipodi:role="line">Vitesse pour les périmètres externes</tspan></text>
+    <path
+       id="path4352"
+       d="M 92.536525,73.963067 106.46196,59.341358"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4356)" />
   </g>
 </svg>
