@@ -11,4 +11,6 @@
 
 Peut être utile pour éviter que les engrenages bondtech ne déforment les pointes encore un peu chaudes, mais ce n'est généralement pas nécessaire.
 
+Valeur par défaut : 0
+
 [Retour Liste variables](variable_list.md)
