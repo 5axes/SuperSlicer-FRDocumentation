@@ -1908,15 +1908,15 @@ QmCC
        x="-26.118156"
        y="46.982441" />
     <text
-       transform="scale(0.76630213,1.3049683)"
+       transform="scale(0.68092575,1.4685889)"
        id="text3820-2"
-       y="165.54784"
-       x="28.418177"
-       style="font-style:normal;font-weight:normal;font-size:8.0781px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.201953"
+       y="149.73289"
+       x="4.2943459"
+       style="font-style:normal;font-weight:normal;font-size:10.391px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.259776"
        xml:space="preserve"><tspan
-         style="fill:#ffffff;stroke-width:0.201953"
-         y="165.54784"
-         x="28.418177"
+         style="fill:#ffffff;stroke-width:0.259776"
+         y="149.73289"
+         x="4.2943459"
          id="tspan3818-1"
          sodipodi:role="line">Ventilateur à pleine vitesse pour la couche</tspan></text>
     <path
@@ -1925,21 +1925,21 @@ QmCC
        id="path4172" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
-       x="184.92422"
-       y="119.08305"
+       style="font-style:normal;font-weight:normal;font-size:8.54781px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.213695"
+       x="201.19701"
+       y="113.46936"
        id="text4418-0"
-       transform="scale(0.95132787,1.0511623)"><tspan
+       transform="scale(0.93599378,1.0683832)"><tspan
          sodipodi:role="line"
-         x="184.92422"
-         y="119.08305"
-         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         x="201.19701"
+         y="113.46936"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.213695"
          id="tspan4420-7">Vitesse du ventilateur </tspan><tspan
          id="tspan4695"
          sodipodi:role="line"
-         x="184.92422"
-         y="126.70861"
-         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511">par défaut</tspan></text>
+         x="201.19701"
+         y="124.15413"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.213695">par défaut</tspan></text>
     <path
        id="path4697"
        d="m 147.64095,132.26636 -10.09594,9.39967"
