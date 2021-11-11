@@ -1,7 +1,7 @@
 # export_sla
 
 * Technologie : SLA
-* Groupe : Général
+* Groupe : Option console
 * Sous groupe : -
 * Mode : - 
 
@@ -10,5 +10,7 @@
 ### Description
 
 Découpez le modèle et exportez les couches d'impression SLA au format PNG.
+
+Voir [Mode console sla](../console/mode_console_sla.md#options-de-transformation)
 
 [Retour Liste variables](variable_list.md)
