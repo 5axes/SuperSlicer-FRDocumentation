@@ -49,7 +49,6 @@ et décrivez ce que vous aimeriez améliorer et pourquoi. Faites un effort pour 
 Une fois que vous vous êtes concentré sur le **pourquoi**, vous pouvez passer aux idées sur le **comment** pour atteindre cet objectif. Mais n'inversez pas l'ordre et les efforts.
 
 
-Page suivante  [Configuration](../configuration/configuration.md)
-
+Page suivante  [Configuration](configuration/configuration.md)
 
 [Retour Page principale](superslicer.md)
