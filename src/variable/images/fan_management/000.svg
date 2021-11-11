@@ -16,13 +16,98 @@
    height="185.7375mm"
    width="281.78125mm">
   <defs
-     id="defs2" />
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4356"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         id="path4354" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4310"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         id="path4308" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         id="path3851" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         id="path3845" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4176"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4174" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ffffff;stroke-width:1pt;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3827" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="132"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -32,8 +117,8 @@
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
      inkscape:cy="359.6429"
-     inkscape:cx="555.92858"
-     inkscape:zoom="0.35"
+     inkscape:cx="595.71739"
+     inkscape:zoom="0.76"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -58,6 +143,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Calque 1">
     <image
+       style="fill:#ffffff"
        id="image2606"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCkAAAK+CAYAAACPRUSmAAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJzsvXmYY2Wd9/25zznZaq/q7uqlmk0YEGgRRBEEWVoH5cGRkfFFXxdG7G7FwWdQB4QBUWeewWFz
@@ -3362,5 +3448,82 @@ MRUiAAAAAElFTkSuQmCC
        width="281.78125"
        x="-41.256104"
        y="53.01115" />
+    <text
+       transform="scale(0.81774946,1.2228684)"
+       id="text3820"
+       y="60.835007"
+       x="138.20711"
+       style="font-style:normal;font-weight:normal;font-size:8.06197px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.20155"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.20155"
+         y="60.835007"
+         x="138.20711"
+         id="tspan3818"
+         sodipodi:role="line">Vitesse pour le dessus</tspan></text>
+    <path
+       id="path3822"
+       d="M 111.57558,75.639987 82.680297,91.306105"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.0781px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.201953"
+       x="127.22308"
+       y="167.21231"
+       id="text3820-2"
+       transform="scale(0.76630213,1.3049683)"><tspan
+         sodipodi:role="line"
+         id="tspan3818-1"
+         x="127.22308"
+         y="167.21231"
+         style="fill:#ffffff;stroke-width:0.201953">Ventilateur à pleine vitesse pour la couche</tspan></text>
+    <path
+       id="path4172"
+       d="M 166.87549,209.22566 153.95475,193.59327"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.87527;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4310)" />
+    <text
+       transform="scale(0.8382015,1.1930306)"
+       id="text4350"
+       y="149.25423"
+       x="-20.510023"
+       style="font-style:normal;font-weight:normal;font-size:8.56727px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.214182"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.214182"
+         y="149.25423"
+         x="-20.510023"
+         id="tspan4348"
+         sodipodi:role="line">Vitesse pour les ponts</tspan></text>
+    <path
+       id="path4352"
+       d="M 30.80804,165.8072 44.733478,151.18549"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4356)" />
+    <text
+       transform="scale(0.61716338,1.6203165)"
+       id="text4414"
+       y="96.215767"
+       x="281.19586"
+       style="font-style:normal;font-weight:normal;font-size:17.1483px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.428709"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.428709"
+         y="96.215767"
+         x="281.19586"
+         id="tspan4412"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       transform="scale(0.95132785,1.0511623)"
+       id="text4418"
+       y="138.82521"
+       x="219.75771"
+       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="138.82521"
+         x="219.75771"
+         id="tspan4416"
+         sodipodi:role="line">Vitesse pour couches</tspan><tspan
+         id="tspan4420"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="146.45078"
+         x="219.75771"
+         sodipodi:role="line"> temps courts</tspan></text>
   </g>
 </svg>
