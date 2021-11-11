@@ -17,4 +17,7 @@ Lorsqu'elle est définie sur une valeur non nulle, cette vitesse de ventilation 
 
 Les périmètres externes peuvent bénéficier d'une vitesse de ventilation plus élevée pour améliorer la finition de surface, tandis que les périmètres internes, les remplissages, etc. bénéficient d'une vitesse de ventilation plus faible pour améliorer l'adhésion des couches.
 
+
+![Vitesse du ventilateur du périmètre externe](./images/fan_management/005.svg)
+
 [Retour Liste variables](variable_list.md)
