@@ -14,5 +14,4 @@ Si cette option est activée, le ventilateur fonctionnera continuellement à la 
 Utile pour le PLA, nuisible pour l'ABS.
 
 
-
 [Retour Liste variables](variable_list.md)

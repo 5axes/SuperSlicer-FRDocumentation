@@ -13,4 +13,8 @@ La vitesse du ventilateur va augmenter de façon linéaire en partant de zéro p
 
 [full_fan_speed_layer](full_fan_speed_layer.md) sera ignorée si inférieure à [disable_fan_first_layers](disable_fan_first_layers.md), auquel cas le ventilateur fonctionnera à la vitesse maximum autorisée pour la couche [disable_fan_first_layers](disable_fan_first_layers.md) +1. 
 
+
+![Ventilateur à pleine vitesse pour la couche ](./images/fan_management/004.svg)
+
+
 [Retour Liste variables](variable_list.md)
