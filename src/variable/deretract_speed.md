@@ -9,7 +9,7 @@
 
 ### Description
 
-La vitesse de chargement d'un filament dans l'extrudeuse après une rétraction (ne s'applique qu'au moteur de l'extrudeuse).
+La vitesse de re chargement du filament dans l'extrudeuse après une rétraction (ne s'applique qu'au moteur de l'extrudeuse).
 
 > Si cette valeur reste sur zéro, la vitesse de rétraction est utilisée.
 
