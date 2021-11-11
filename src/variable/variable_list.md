@@ -56,6 +56,11 @@ note : Il prendra toujours la valeur du filament chargé dans l'extrudeuse_0
 [layer_z](layer_z.md)
 
 	M117 printing layer [layer_num] at [layer_z]mm
+    
+ [max_layer_z](max_layer_z.md)
+ 
+     {if max_layer_z < max_print_height}G1 Z{z_offset+min(max_layer_z+2, max_print_height)} F600 ; Move print head up{endif}
+    
 
 [total_layer_count](total_layer_count.md)
 

@@ -1,6 +1,6 @@
 # max_layer_z
 
-* Technologie : FDM
+* Technologie : Variable générique
 * Groupe : -
 * Sous groupe : -
 * Mode : -
