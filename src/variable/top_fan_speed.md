@@ -16,4 +16,8 @@ Cette vitesse de ventilation est appliquée pendant tous les remplissages du des
 
 Ne peut être remplacée que par [disable_fan_first_layers](disable_fan_first_layers.md).
 
+
+![vitesse du dessus](./images/fan_management/000.svg)
+
+
 [Retour Liste variables](variable_list.md)

@@ -11,4 +11,6 @@
 
 Ce paramètre représente la vitesse de base du ventilateur dont ce filament a besoin, ou au moins la vitese minimum dont votre ventilateur a besoin pour fonctionner.
 
+![gestion vitesse ventilateur](./images/fan_management/000.svg)
+
 [Retour Liste variables](variable_list.md)

@@ -17,5 +17,6 @@ Elle ne ralentira pas le ventilateur s'il fonctionne déjà à une vitesse plus 
 
 Ne peut être remplacée que par [disable_fan_first_layers](disable_fan_first_layers.md).
 
+![vitesse pour les ponts](./images/fan_management/002.svg)
 
 [Retour Liste variables](variable_list.md)
