@@ -16,13 +16,42 @@
    height="185.7375mm"
    width="282.04584mm">
   <defs
-     id="defs2652" />
+     id="defs2652">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4310"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4308"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4701"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4699" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="104"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -33,7 +62,7 @@
      inkscape:document-units="mm"
      inkscape:cy="382.42857"
      inkscape:cx="498.71429"
-     inkscape:zoom="0.35"
+     inkscape:zoom="0.66"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1878,5 +1907,42 @@ QmCC
        width="282.04584"
        x="-26.118156"
        y="46.982441" />
+    <text
+       transform="scale(0.76630213,1.3049683)"
+       id="text3820-2"
+       y="165.54784"
+       x="28.418177"
+       style="font-style:normal;font-weight:normal;font-size:8.0781px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.201953"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.201953"
+         y="165.54784"
+         x="28.418177"
+         id="tspan3818-1"
+         sodipodi:role="line">Ventilateur à pleine vitesse pour la couche</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.912955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4310)"
+       d="m 109.78888,206.00916 14.05727,-15.6324"
+       id="path4172" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
+       x="184.92422"
+       y="119.08305"
+       id="text4418-0"
+       transform="scale(0.95132787,1.0511623)"><tspan
+         sodipodi:role="line"
+         x="184.92422"
+         y="119.08305"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         id="tspan4420-7">Vitesse du ventilateur </tspan><tspan
+         id="tspan4695"
+         sodipodi:role="line"
+         x="184.92422"
+         y="126.70861"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511">par défaut</tspan></text>
+    <path
+       id="path4697"
+       d="m 147.64095,132.26636 -10.09594,9.39967"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4701)" />
   </g>
 </svg>
