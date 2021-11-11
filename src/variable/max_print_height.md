@@ -18,7 +18,7 @@ Si la hauteur d'impression dépasse cette limite SuperSlicer affichera un messag
 ![image erreur](./images/max_print_height/erreur.png)
 
 
-La variable peut être utilisé aussi dans les macros de réglage des dégagements comme par exemple dans le G-Code de fin:
+La variable peut être utilisé aussi dans les macros de réglage des dégagements comme par exemple dans le [G-Code de fin](end_gcode.md) :
 
     {if max_layer_z +32 < max_print_height}G1 Z30{else}G1 Z{max_print_height - max_layer_z -2}{endif}
 
