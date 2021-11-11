@@ -19,7 +19,7 @@ Si la hauteur d'impression dépasse cette limite SuperSlicer affichera un messag
 
 La variable peut être utilisé aussi dans les macros de réglage des dégagements comme par exemple dans le G-Code de fin:
 
-  {if max_layer_z +32 < max_print_height}G1 Z30{else]G1 Z{max_print_height - max_layer_z -2}{endif}
+  '{if max_layer_z +32 < max_print_height}G1 Z30{else]G1 Z{max_print_height - max_layer_z -2}{endif}'
 
  
 [Retour Liste variables](variable_list.md)
