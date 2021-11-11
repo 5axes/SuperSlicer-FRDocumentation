@@ -16,13 +16,56 @@
    height="185.7375mm"
    width="281.51666mm">
   <defs
-     id="defs1430" />
+     id="defs1430">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4701"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4699"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4356"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4354"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4310"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4308"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="77"
-     inkscape:window-x="48"
-     inkscape:window-height="860"
-     inkscape:window-width="1452"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -31,9 +74,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="793.42859"
-     inkscape:cx="426.85713"
-     inkscape:zoom="0.35"
+     inkscape:cy="440.16895"
+     inkscape:cx="620.53203"
+     inkscape:zoom="0.88"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -2510,5 +2553,87 @@ k8JEOV1eX6T9MBSTuGBb+5CQ0VGBEEIIIYQQQggh5GD8/7mejCfew4CpAAAAAElFTkSuQmCC
        width="281.51666"
        x="-7.1059484"
        y="-61.761314" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.56726px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.214182"
+       x="10.909666"
+       y="50.633945"
+       id="text4350"
+       transform="scale(0.83820147,1.1930306)"><tspan
+         sodipodi:role="line"
+         id="tspan4348"
+         x="10.909666"
+         y="50.633945"
+         style="fill:#ffffff;stroke-width:0.214182">Vitesse pour les ponts</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4356)"
+       d="M 57.144067,48.150183 71.069506,33.528474"
+       id="path4352" />
+    <text
+       transform="scale(0.95132787,1.0511623)"
+       id="text4418-0"
+       y="1.8922765"
+       x="249.54999"
+       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
+       xml:space="preserve"><tspan
+         id="tspan4420-7"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="1.8922765"
+         x="249.54999"
+         sodipodi:role="line">Vitesse du ventilateur </tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         y="9.5178394"
+         x="249.54999"
+         sodipodi:role="line"
+         id="tspan4695">par défaut</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4701)"
+       d="M 209.12124,9.0798388 199.0253,18.479509"
+       id="path4697" />
+    <text
+       transform="scale(0.76630213,1.3049683)"
+       id="text3820-2"
+       y="78.514915"
+       x="169.44661"
+       style="font-style:normal;font-weight:normal;font-size:8.0781px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.201953"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.201953"
+         y="78.514915"
+         x="169.44661"
+         id="tspan3818-1"
+         sodipodi:role="line">Ventilateur à pleine vitesse pour la couche</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.875271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4310)"
+       d="M 199.23147,93.478374 186.31073,77.845978"
+       id="path4172" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.1483px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.42871"
+       x="333.62277"
+       y="24.780773"
+       id="text4414"
+       transform="scale(0.61716338,1.6203165)"><tspan
+         sodipodi:role="line"
+         id="tspan4412"
+         x="333.62277"
+         y="24.780773"
+         style="fill:#ffffff;stroke-width:0.42871">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.10045px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.152511"
+       x="253.76909"
+       y="28.711584"
+       id="text4418"
+       transform="scale(0.95132787,1.0511623)"><tspan
+         sodipodi:role="line"
+         id="tspan4416"
+         x="253.76909"
+         y="28.711584"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511">Vitesse pour couches</tspan><tspan
+         sodipodi:role="line"
+         x="253.76909"
+         y="36.337143"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.152511"
+         id="tspan4420"> temps courts</tspan></text>
   </g>
 </svg>
