@@ -9,9 +9,10 @@
 
 ### Description
 
+L'option permet d'émettre une indication à une minute d'intervalle dan le G-code pour permettre au Firmware d'afficher précisément le temps d'impression restant.
 
-Émet M73 P[pourcentage imprimé] R[temps restant en minutes] à 1 minute d'intervalle dans le G-Code afin que le firmware puisse indiquer précisément le temps restant.
+Le réglage du type d'incation se fait via le réglage [remaining_time_type](remainning_times_type.md).
 
-Jusqu'à présent seul le firmware Prusa i3 MK3 reconnaît M73. Par ailleurs le firmware i3 MK3 supporte M73 Qxx Sxx pour le mode silencieux.
+
 
 [Retour Liste variables](variable_list.md)
