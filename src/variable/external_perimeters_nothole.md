@@ -14,4 +14,6 @@ Utile quand l'épaisseur est trop faible.
 
 Vous devez avoir activé l'option [external_perimeters_first](external_perimeters_first.md) pour accéder à ce paramètre.
 
+![Appliquer sur le côté extérieur](./images/external_perimeters_nothole/001.svg)
+
 [Retour Liste variables](variable_list.md)
