@@ -9,11 +9,11 @@
 
 ### Description
 
-Sélectionnez cette option pour ne pas utiliser/appliquer le Décalage en Z sur une surface du dessus.
+Sélectionnez cette option pour  utiliser/appliquer le Décalage en Z sur les surfaces selon les réglages suivants :
+- Toutes surfaces (All surfaces) : Décalage sur toutes les surfaces
+- Pas sur le dessus (Not on top) : Pas sur les surfaces du dessus
+- Seulement sur le dessus (Only on top) : Décalage suelement sur la surface du dessus
 
-- Toutes surfaces
-- Pas sur le dessus
-- Seulement sur le dessus
 
 Actif si la valeur du paramètre [retract_lift](retract_lift.md) est différente de 0.
 
