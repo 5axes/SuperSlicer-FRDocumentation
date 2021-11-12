@@ -13,4 +13,6 @@ Comme la [largeur d'extrusion par défaut](extrusion_width.md), mais l'espacemen
 
 Vous pouvez définir soit ***[Espacement](extrusion_spacing.md)***, soit ***[Largeur](extrusion_width.md)*** ; l'autre sera calculée en utilisant les pourcentages de  [Chevauchement du périmètre](perimeter_overlap.md)  et la [hauteur de couche](layer_height.md) par défaut.
 
+![Largeur & espacement](./images/extrusion_spacing/006.svg)
+
 [Retour Liste variables](variable_list.md)
