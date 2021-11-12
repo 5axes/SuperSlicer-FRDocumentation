@@ -1,4 +1,4 @@
-# remaining_times_types
+# remaining_times_type
 
 * Technologie : FDM
 * Groupe : [Réglages de l'Imprimante](../printer_settings/printer_settings.md)
@@ -6,7 +6,7 @@
 * Mode : Expert
 * Version : 2.3.57.4
 
-## Types Temps restant
+## Méthode *Temps restant*
 
 ### Description
 
