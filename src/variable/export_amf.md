@@ -15,4 +15,7 @@ Même si l'AMF est pris en charge,  aujourd’hui il existe un certain consensus
 
 Format AMF : <https://en.wikipedia.org/wiki/Additive_manufacturing_file_format>
 
+
+Voir [Mode console](../console/mode_console.md#actions)
+
 [Retour Liste variables](variable_list.md)
