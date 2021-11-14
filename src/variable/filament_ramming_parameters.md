@@ -11,4 +11,6 @@
 
 Cette chaine est éditée par RammingDialog et contient les paramètres spécifiques d'expulsion.
 
+![Dialogue personnalisation de l'expulsion](./images/001.jpg)
+
 [Retour Liste variables](variable_list.md)

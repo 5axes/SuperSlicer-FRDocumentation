@@ -21,4 +21,6 @@ Vous pouvez changer l'extension ".3mf" de votre modèle 3D en ".zip" et voir le 
 
 En savoir plus sur le format 3MF [ici](https://3mf.io/).
 
+Voir [Mode console](../console/mode_console.md#actions)
+
 [Retour Liste variables](variable_list.md)
