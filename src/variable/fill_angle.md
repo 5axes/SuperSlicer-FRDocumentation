@@ -14,4 +14,6 @@ Les ponts seront remplis avec la meilleure direction que Slic3r peut détecter, 
 
 * Valeur par défaut : 45°
 
+![Angle Remplissage](./images/fill_angle/001.svg)
+
 [Retour Liste variables](variable_list.md)
