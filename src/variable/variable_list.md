@@ -348,11 +348,15 @@ Il s'agit de la valeur réelle (0-100) qui a été saisie, et non de 0-255 .
 * [gcode_label_objects](gcode_label_objects.md)
 
 * [high_current_on_filament_swap](high_current_on_filament_swap.md)
+
 * [infill_acceleration](infill_acceleration.md)
-* [infill_every_layers](infill_every_layers.md)
 * [infill_dense](infill_dense.md)
-* [infill_connection](infill_connection.md)
 * [infill_dense_algo](infill_dense_algo.md)
+* [infill_connection](infill_connection.md)
+* [infill_connection_bottom](infill_connection_bottom.md)
+* [infill_connection_solid](infill_connection_solid.md)
+* [infill_connection_top](infill_connection_top.md)
+* [infill_every_layers](infill_every_layers.md)
 * [infill_extruder](infill_extruder.md)
 * [infill_extrusion_width](infill_extrusion_width.md)
 * [infill_first](infill_first.md)
@@ -693,10 +697,12 @@ Cela indiquera la valeur réelle (mm/sec) qui a été remplie, et non pas mm/min
 
 #### Evidemment SLA
 
+
+* [hollowing_closing_distance](hollowing_closing_distance.md)
 * [hollowing_enable](hollowing_enable.md)
 * [hollowing_min_thickness](hollowing_min_thickness.md)
 * [hollowing_quality](hollowing_quality.md)
-* [hollowing_closing_distance](hollowing_closing_distance.md)
+
 
 #### Variable non accessible 
 
