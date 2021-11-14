@@ -11,6 +11,8 @@
 
 Ce paramètre fait croître les couches du dessus / dessous / pleines par la valeur renseignée pour les ancrer dans la pièce.
 
+![Ancrage des remplissages pleins](images/external_infill_margin/001.svg)
+
 > Mettez 0 pour le désactiver. 
 
 > Peut être un % de la [largeur du périmètre](perimeter_extrusion_width.md).
