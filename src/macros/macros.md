@@ -8,11 +8,10 @@
 	* [Variables scalaires](#variables-scalaires) 
 	* [Variables sous forme de tableau](#variables-sous-forme-de-tableau)
 	* [Tableaux multidimensionnels](#tableaux-multidimensionnels)
-	* [Tour de température](#tour-de-température)
-	* [SuperSlicer Liste de variables](#superslicer-liste-de-variables) 
-		* [Variables les plus utiles](#variables-les-plus-utiles)
-		* [Variables supplémentaires dans le Format du nom de fichier de sortie](#variables-supplémentaires-dans-le-format-du-nom-de-fichier-de-sortie) 
-		* [Variables moins utiles](#variables-moins-utiles)  
+	* [Exemples](#exemples)
+		* [Tour de température](#tour-de-température)
+		* [Différence d'écriture](#différence-décriture)
+
 
 * [Retour Page principale](../superslicer.md)
 
@@ -142,6 +141,7 @@ Ou on peut utiliser l'opérateur ternaire :
 Résultat du code dans la fenêtre de personnalisation du G-Code avant changement de couche
 
 ![Image : Exemple dans SuperSlicer](./images/001.png)
+
 ### Différence d'écriture
 
 Attention selon l'écriture sélectionnée le résultat sera différent dans l'affichage de la variable. Exemple avec la variable [first_layer_height](../variable/first_layer_height.md).
