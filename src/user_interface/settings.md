@@ -208,10 +208,10 @@ Couleur très sombre, au format hexagonal RGB.
 Couleur foncée, au format hexagonal RGB.
 
 ##### *Couleur de l'interface* 
-Couleur principale, au format hexagonal RVB.
+Couleur principale, au format hexagonal RGB.
 
 ##### *Couleur claire de l'interface* 
-Couleur très claire, au format hexagonal RVB.
+Couleur très claire, au format hexagonal RGB.
 
 ##### *Couleur interface très légère* 
 Couleur très claire, au format hexagonal RGB.
