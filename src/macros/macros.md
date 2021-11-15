@@ -142,6 +142,14 @@ Ou on peut utiliser l'opérateur ternaire :
 Résultat du code dans la fenêtre de personnalisation du G-Code avant changement de couche
 
 ![Image : Exemple dans SuperSlicer](./images/001.png)
+### Différence d'écriture
+
+Attention selon l'écriture sélectionnée le résultat sera différent dans l'affichage de la variable. Exemple avec la variable [first_layer_height](../variable/first_layer_height.md).
+
+`[first_layer_height]`=>`50%`  
+`{first_layer_height}`=>`0.2`  
+`{if first_layer_height==layer_height}Z{layer_height}{endif}`=>`Z0.2`
+
 
 
 Page suivante : [SuperSlicer Liste des variables](../variable/variable_list.md) 
