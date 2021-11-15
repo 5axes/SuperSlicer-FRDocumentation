@@ -17,9 +17,12 @@ Exemple d'un angle de pont fixé à 45°
 
 ![Angle 45°](./images/bridge_angle/001.png)
 
-Dans le cas 
+Dans le cas d'une valeur à Zéro l'angle le plus approprié sera utilisé pour la création des ponts :
 
-> Utilisez 180° pour un angle nul.
+![Angle 0°](./images/bridge_angle/002.png)
+
+
+> Note : Utilisez 180° pour un angle nul.
 
 
 [Retour Liste variables](variable_list.md)
