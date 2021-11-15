@@ -11,7 +11,7 @@
 
 Cette procédure de démarrage est insérée au début, après que le plateau ait atteint la température cible et que l'extrudeuse vient de commencer à chauffer, et avant que l'extrudeuse n'ait fini de chauffer. Si SuperSlicer détecte M104 ou M190 dans vos codes personnalisés, ces commandes ne seront pas ajoutées automatiquement, vous êtes donc libre de personnaliser l'ordre des commandes de chauffage et des autres actions personnalisées. 
 
-Notez que vous pouvez utiliser les  [variables génériques](variable_list.md) pour tous les paramètres SuperSlicer, vous pouvez donc mettre un "M109 S[ [first_layer_temperature](first_layer_temperature.md) ]" commande où vous voulez.
+Notez que vous pouvez utiliser les  [variables génériques](variable_list.md) pour tous les paramètres SuperSlicer, vous pouvez donc mettre un "M109 S{ [first_layer_temperature](first_layer_temperature.md) }" commande où vous voulez.
 
 Autres variables disponibles  : [initial_extruder](initial_extruder.md), [total_layer_count](total_layer_count.md), [has_wipe_tower](has_wipe_tower.md), [has_single_extruder_multi_material_priming](has_single_extruder_multi_material_priming.md), [total_toolchanges](total_toolchanges.md), bounding_box[minx,miny,maxx,maxy]
 
