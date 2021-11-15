@@ -140,6 +140,7 @@ S'il pointe vers une instance valide de freecad (le répertoire bin ou l'exécut
 
 ### Caméra
 
+Réglages relatifs à la visualisation 3D des éléments dans la fenêtre graphique.
 
 ![Image :  Réglages Caméra](./images/009.png)
 
