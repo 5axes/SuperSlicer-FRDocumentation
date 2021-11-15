@@ -10,7 +10,8 @@
 ### Description
 
 Angle de base par défaut pour l'orientation du remplissage. Des croisements seront appliqués à cette valeur.
-Les ponts seront remplis avec la meilleure direction que Slic3r peut détecter, ce réglage ne les affecteront donc pas.
+
+Les ponts seront remplis avec la meilleure direction que SuperSlicer peut détecter, ce réglage ne les affecteront donc pas. d'autre part les ponts bénéficient d'un réglage propre pour le [réglage des angles](bridge_angle.md) de remplissage si besoin.
 
 * Valeur par défaut : 45°
 

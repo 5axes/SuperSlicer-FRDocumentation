@@ -9,11 +9,15 @@
 
 ### Description
 
-Permet d'imposer l'angle du remplissage pour les ponts. Si laissé à zéro, l'angle des ponts sera calculé automatiquement. Sinon, l'angle fourni sera utilisé pour tous les ponts. 
+Permet d'imposer l'angle du remplissage pour les ponts. 
+
+**Si la valeur est laissée à zéro**, l'angle des ponts sera calculé automatiquement. Sinon, l'angle fourni sera utilisé pour tous les ponts. 
 
 Exemple d'un angle de pont fixé à 45°
 
 ![Angle 45°](./images/bridge_angle/001.png)
+
+Dans le cas 
 
 > Utilisez 180° pour un angle nul.
 
