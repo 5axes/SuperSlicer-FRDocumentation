@@ -139,7 +139,11 @@ Si activé, la boite de dialogue pour configurer les dispositifs 3DConnexion dev
 S'il pointe vers une instance valide de freecad (le répertoire bin ou l'exécutable python exécutable), vous pouvez utiliser le script python intégré pour générer rapidement une géométrie.
 
 ### Caméra
-Vous pouvez rapidement basculer entre la caméra perspective et orthographique à l'aide de la touche **K** ou dansle menu du logiciel  en cochant **Configuration - Préférences - Utiliser la caméra en perspective**. Les deux caméras ont leurs avantages et il est avantageux de basculer entre elles en fonction de vos besoins courants.
+
+
+![Image :  Réglages Caméra](./images/009.png)
+
+Vous pouvez rapidement basculer entre la caméra perspective et orthographique à l'aide de la touche **K** ou dans le menu du logiciel  en cochant **Configuration - Préférences - Utiliser la caméra en perspective**. Les deux caméras ont leurs avantages et il est avantageux de basculer entre elles en fonction de vos besoins courants.
 
 ![Image :  Vue Perspective / Orthographique](./images/018.png)
 
