@@ -11,7 +11,7 @@
 
 L'option permet d'émettre une indication à une minute d'intervalle dan le G-code pour permettre au Firmware d'afficher précisément le temps d'impression restant.
 
-Le réglage du type d'incation se fait via le réglage [remaining_times_type](remaining_times_type.md).
+Le réglage du type d'indication se fait via le réglage [remaining_times_type](remaining_times_type.md).
 
 
 
