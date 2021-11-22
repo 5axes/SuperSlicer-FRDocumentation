@@ -379,8 +379,8 @@ Il s'agit de la valeur réelle (0-100) qui a été saisie, et non de 0-255 .
 * [layer_gcode](layer_gcode.md)
 * [feature_gcode](feature_gcode.md)
 
-* [remaining_times](layerremaining_times_height.md)
-
+* [remaining_times](remaining_times.md)
+* [remaining_times_type](remaining_times_type.md)
 
 * [silent_mode](silent_mode.md)
 
