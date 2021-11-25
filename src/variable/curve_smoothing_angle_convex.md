@@ -9,7 +9,7 @@
 
 ### Description
 
-Angle (convexe) minimum à un triangle pour activer le lissage de courbe (essayer de créer une vrai courbe à partir de polygones). 
+Angle (convexe) minimum à un triangle pour activer le lissage de courbe (essaye de créer une vrai courbe à partir de polygones). 
 
 > 180°: aucun lissage, 
 > 0°: tout lisser.
