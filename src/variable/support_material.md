@@ -9,7 +9,7 @@
 
 ### Description
 
-Le principe de l'impression 3D est de générer des pièces en les imprimant couche par couche. La matière déposé doit donc se poser sur les couches précédentes. Selon la géométrie de certaines pièces ceci n'est pas toujours possible . Dans ce cas pour éviter que l'impression ne se fasse dans le vide et que les couches déposées ne s'affaissent, il est nécessaire de créer des structures temporaires qui sont appelée support.
+Le principe de l'impression 3D est de générer des pièces en les imprimant couche par couche. La matière déposé doit donc se poser sur les couches précédentes. Selon la géométrie de certaines pièces ceci n'est pas toujours possible . Dans ce cas pour éviter que l'impression ne se fasse dans le vide et que les couches déposées ne s'affaissent, il est nécessaire de créer des structures temporaires qui sont appelées "support".
 
 Cette option permet de d'activer la création de ces structures de support pour soutenir l'objet pendant l'impression. 
 
