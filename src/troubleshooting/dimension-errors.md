@@ -4,7 +4,7 @@ Si vous n'êtes pas satisfait de la précision dimensionnelle de vos impressions
 
 ### Dimensions verticales
 
-Si vos dimensions verticales sont fausses (c'est-à-dire **le long de l'axe Z**) -et votre objet est généralement plus court que prévu- cela signifie que votre buse est **trop basse**, et donc que la première couche est trop pressée sur le lit d'impression. Pour résoudre ce problème, vous pouvez augmenter votre butée Z ou augmenter l'option *Z offset* dans SuperSlicer.
+Si vos dimensions verticales sont fausses (c'est-à-dire **le long de l'axe Z**) -et votre objet est généralement plus court que prévu- cela signifie que votre buse est **trop basse**, et donc que la première couche est trop *écrasée* sur le plateau d'impression. Pour résoudre ce problème, vous pouvez augmenter votre butée Z ou augmenter l'option *Z offset* dans SuperSlicer.
 
 ### Dimensions horizontales
 
@@ -12,7 +12,7 @@ Le problème habituel concerne les trous trop petits. Ce problème ne concerne g
 
 #### Rétrécissement du plastique
 
-Le plastique **rétrécit lors du refroidissement**. Les différents types de plastique présentent un rétrécissement différent, qui peut également dépendre de la température. En raison de ce rétrécissement, les trous circulaires (ou polygonaux) posés par l'extrudeuse au diamètre nominal seront plus petits après refroidissement.
+Le plastique **rétrécit lors du refroidissement**. Les différents types de plastique présentent un rétrécissement différent, qui peut également dépendre de la température. En raison de ce rétrécissement, les trous circulaires (ou polygonaux) créés par l'extrudeuse au diamètre nominal seront plus petits après refroidissement.
 
 #### Plus de matière est déposée à l'intérieur
 
