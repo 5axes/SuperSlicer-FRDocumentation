@@ -24,7 +24,7 @@ Si vous êtes nouveau sur Discord, cet article peut vous être utile :
 
 ## Issue Tracker
 
-Si un bug a été trouvé dans le logiciel, ou si vous voulez soulever toute autre problème, vous pouvez poster sur le [GitHub issue tracker](https://github.com/supermerill/SuperSlicer/issues).
+Si un bug a été trouvé dans le logiciel, ou si vous voulez soulever tout autre problème, vous pouvez poster sur le [GitHub issue tracker](https://github.com/supermerill/SuperSlicer/issues).
 Avant de soumettre un nouveau numéro, veuillez vous assurer que vous avez lu les directives ci-dessous.
 
 ## Directives pour signaler un problème
