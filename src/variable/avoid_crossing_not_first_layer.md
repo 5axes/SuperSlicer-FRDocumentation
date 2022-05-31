@@ -9,7 +9,7 @@
 
 ### Description
 
-Permet de ne pas activer l'option 'Éviter de traverser les périmètres' sur la première couche.
+Permet de ne pas activer l'option ['Éviter de traverser les périmètres'](avoid_crossing_perimeters.md) sur la première couche.
 
 Paramètre disponible si l'option [avoid_crossing_perimeters](avoid_crossing_perimeters.md) est active.
 
