@@ -13,8 +13,8 @@ L'option permet d'optimiser les déplacements afin de minimiser le franchissemen
 
 **Attention** L'activation de cette fonction ralentit considérablement la génération du G-code et augmente le temps d'impression.
 
-![Éviter de traverser les périmètres option actives à droite*](./images/avoid_crossing_perimeters/001.jpeg)
+![Éviter de traverser les périmètres option active à droite*](./images/avoid_crossing_perimeters/001.jpeg)
 
-Éviter de traverser les périmètres option actives à droite.
+Éviter de traverser les périmètres option active à droite.
 
 [Retour Liste variables](variable_list.md)
