@@ -1,12 +1,12 @@
 # SuperSlicer-Documentation
 Documentation non officielle de SuperSlicer en français.
 
-[Version 2.3.57.6](src/superslicer.md)
+[Version 2.5.59.0](src/superslicer.md)
 
 ## Documentation en ligne
 
 
-[![Version 2.3.57.6](src/images/23573.png)](src/superslicer.md)
+[![Version 2.5.59.0](src/images/25590.png)](src/superslicer.md)
 
 
 [Accès à la version en ligne sur ce repository](src/superslicer.md)
@@ -40,3 +40,6 @@ Version 1.18
 
 Version 1.19
 03/11/2021 : Passage à version 2.3.57.X
+
+Version 1.20
+22/08/2022 : Passage à version 2.5.59.X
