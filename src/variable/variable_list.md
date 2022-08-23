@@ -455,7 +455,7 @@ Cela indiquera la valeur réelle (mm/sec) qui a été remplie, et non pas mm/min
 * [printer_variant](printer_variant.md)
 * [print_settings_id](print_settings_id.md)
 
-#### Paramètre de génération de périmètres Arachne
+#### Paramètre de génération des périmètres Arachne
 
 * [perimeter_generator](perimeter_generator.md)
 * [wall_split_middle_threshold](wall_split_middle_threshold.md)
