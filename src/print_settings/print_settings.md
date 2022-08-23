@@ -441,9 +441,11 @@ Ce paramètre est très expérimental, veuillez faire un rapport sur l'utilité.
 
 ![Image : Options Périmètres externes en premier](./images/031.png)
 
-### [Arachne périmeters generator](../variable/perimeter_generator.md)
+### [Générateur de périmètre Arachne](../variable/perimeter_generator.md)
 
+Le générateur de périmètre classique produit des périmètres avec une extrusion constante et pour les zones très fines, on utilise du remplissage de vide. Le moteur Arachne produit des périmètres avec une largeur d'extrusion variable.
 
+![Image : Options Périmètres Arachne](./images/032.png)
 
 ## Couche
 
