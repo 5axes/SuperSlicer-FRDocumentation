@@ -303,9 +303,9 @@ Il existe plusieurs options pour résoudre ce problème :
 ![Image : Conserver les ponts et les surplombs](./images/018.jpeg)
 
 
-#### *[Remplir les trous entre les parois](../variable/gap_fill.md)*
+#### *[Remplir les vides entre les parois](../variable/gap_fill.md)*
 
-PErmet d'activer l'algorithme de remplissage des trous. Il extrudera de petites lignes entre les périmètres lorsqu'il n'y a pas assez d'espace pour un autre périmètre ou un remplissage complet.
+Permet d'activer l'algorithme de remplissage des trous. Il extrudera de petites lignes entre les périmètres lorsqu'il n'y a pas assez d'espace pour un autre périmètre ou un remplissage complet.
 
 ##### *[Surface minimum](../variable/gap_fill_min_area.md)*
 
@@ -314,6 +314,10 @@ Ce paramètre représente le minimum de mm² pour la création d’une extrusion
 > Peut être définie par un % de (largeur du périmètre)²
 
 ##### *[Après le dernier périmètre](../variable/gap_fill_last.md)*
+
+Tous les espaces entre le dernier périmère et le remplissage qui sont plus minces qu'un périmètre seront remplis par du remplissage.
+
+##### *[Extension](../variable/gap_fill_extension.md)*
 
 Tous les espaces entre le dernier périmère et le remplissage qui sont plus minces qu'un périmètre seront remplis par du remplissage.
 
@@ -334,9 +338,9 @@ Cette couture sera particulièrement visible si la forme de l'objet est cylindri
 
 Afin de masquer le plus possible la couture, plusieurs options de placement de la couture sont disponibles dans : [**Paramètres d'impression - Périmètres et enveloppe- Avancé -Jointures.**](#jointures)
 
-![Image : Position de la couture](./images/020.png) 
+![Image : Avancé](./images/020.png) 
 
-À partir de SuperSlicer 2.3, vous pouvez utiliser **l'outil de peinture des coutures** pour avoir un contrôle détaillé sur le placement des coutures.
+À partir de **SuperSlicer 2.3**, vous pouvez utiliser **l'outil de peinture des coutures** pour avoir un contrôle détaillé sur le placement des coutures.
 
 ##### *Basé sur les coûts*
 
