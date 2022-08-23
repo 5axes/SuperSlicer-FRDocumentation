@@ -166,6 +166,13 @@ Cette fonctionnalité affecte actuellement encore la génération du G-code mêm
 
 ![Image : Suppression des trous entre les périmètres sur une surface inclinée (image Prusa)](./images/008.jpeg)
 
+#### *[Pas de remplissage plein si plus de](../variable/solid_over_perimeters.md)*
+
+Lorsque vous avez un nombre de couches pleines inférieures, et un nombre faible ou moyen de périmètres, alors il faut mettre du remplissage plein à l'intérieur de la pièce pour avoir assez de couches solides.
+
+En fixant cette valeur à un niveau supérieur à 0, vous pouvez supprimer ce 'remplissage intérieur'.
+
+Ce nombre permet d'en garder si le nombre de périmètre au-dessus du vide est faible.
 
 #### *[Éviter de traverser les périmètres](../variable/avoid_crossing_perimeters.md)*
 
