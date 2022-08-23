@@ -443,9 +443,25 @@ Ce paramètre est très expérimental, veuillez faire un rapport sur l'utilité.
 
 ### [Générateur de périmètre Arachne](../variable/perimeter_generator.md)
 
-Le générateur de périmètre classique produit des périmètres avec une extrusion constante et pour les zones très fines, on utilise du remplissage de vide. Le moteur Arachne produit des périmètres avec une largeur d'extrusion variable.
+Le générateur de périmètre classique produit des périmètres avec une extrusion constante et pour les zones très fines, on utilise du remplissage de vide. Le moteur **Arachne** produit des périmètres avec une largeur d'extrusion variable.
 
 ![Image : Options Périmètres Arachne](./images/032.png)
+#### *Seuil de périmètre*
+##### *[Seuil de division périmètre intermédiaire](../variable/wall_split_middle_threshold.md)*
+##### *[Seuil d'ajout d'un périmètre médian](../variable/wall_add_middle_threshold.md)*
+
+#### *Transition de périmètre*
+##### *[Angle](../variable/wall_transition_angle.md)*
+##### *[Marge de distance](../variable/wall_transition_filter_deviation.md)*
+##### *[Longueur](../variable/wall_transition_lang.md)*
+
+#### *[Nombre de répartition des périmètres](../variable/wall_distribution_count.md)*
+
+
+#### *Forme minimale*
+##### *[Largeur minimale du contour](../variable/min_bead_width.md)*
+##### *[Taille minimale de l'élément](../variable/min_feature_size.md)*
+
 
 ## Couche
 
