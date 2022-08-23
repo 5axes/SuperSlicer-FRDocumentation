@@ -223,7 +223,11 @@ Modifiable si l'option [thin_perimeters](thin_perimeters.md) est active.
 ### Surplombs
 
 ![Image : Paramètres de Surplombs](./images/012.png)
+#### *[Seuil](../variable/s_overhangs.md)*
 
+Composant simple pour activer/désactiver la détection des surplombs (en utilisant 55% et 75% pour les deux seuils).
+
+Utilisez le mode expert pour obtenir des contrôles plus détaillés.
 
 #### *[Seuil pour Vitesse du pont et ventilateur](../variable/overhangs_width_speed.md)*
 
