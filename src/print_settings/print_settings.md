@@ -462,6 +462,7 @@ Le générateur de périmètre classique produit des périmètres avec une extru
 
 ![Image : Options Périmètres Arachne](./images/032.png)
 #### *Seuil de périmètre*
+
 ##### *[Seuil de division périmètre intermédiaire](../variable/wall_split_middle_threshold.md)*
 
 La plus petite largeur d'extrusion, en tant que facteur de la largeur d'extrusion normale, au-dessus de laquelle un périmètre moyen (s'il n'y en avait pas déjà un) sera ajouté. 
@@ -547,6 +548,8 @@ Changer la hauteur de la première couche nécessitera très probablement une **
 Résolution minimale pour les détails, utilisée pour simplifier le fichier d'entrée afin d'accélérer le découpage et de réduire l'utilisation de la mémoire. Les modèles haute-résolution possèdent souvent plus de détails que ce que les imprimantes peuvent produire. 
 
 Mettez **à zéro** pour désactiver toute simplification et utiliser la résolution complète de l'entrée.
+
+#### *[Résolution interne](../variable/resolution_internal.md)*
 
 #### *[Précision de la lecture du modèle](../variable/model_precision.md)*
 

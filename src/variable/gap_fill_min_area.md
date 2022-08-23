@@ -9,7 +9,7 @@
 
 ### Description
 
-Ce paramètre représente le minimum de mm² pour la création d’une extrusion de remplissage de lacunes entre les parois.
+Ce paramètre représente le minimum de mm² pour la création d’une extrusion de remplissage de vides entre les parois.
 
 Peut être un % de (largeur du périmètre)².
 
