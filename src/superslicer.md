@@ -2,7 +2,7 @@
 
 ## SuperSlicer
 
-![Version 2.3.57.6](images/25590.png)
+![Version 2.5.59.0](images/25590.png)
 
 [**Version 2.5.59.0**](overview.md)
 
