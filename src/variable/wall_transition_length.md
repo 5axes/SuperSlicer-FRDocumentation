@@ -9,6 +9,7 @@
 
 ### Description
 
+Lors de la transition entre différents nombres de périmètres lorsque la pièce devient plus mince, une certaine quantité d'espace est allouée pour diviser ou joindre les segments de périmètre.
 
 
 [Retour Liste variables](variable_list.md)

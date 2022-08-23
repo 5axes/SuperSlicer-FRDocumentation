@@ -463,20 +463,46 @@ Le générateur de périmètre classique produit des périmètres avec une extru
 ![Image : Options Périmètres Arachne](./images/032.png)
 #### *Seuil de périmètre*
 ##### *[Seuil de division périmètre intermédiaire](../variable/wall_split_middle_threshold.md)*
+
+La plus petite largeur d'extrusion, en tant que facteur de la largeur d'extrusion normale, au-dessus de laquelle un périmètre moyen (s'il n'y en avait pas déjà un) sera ajouté. 
+
 ##### *[Seuil d'ajout d'un périmètre médian](../variable/wall_add_middle_threshold.md)*
+
+La plus petite largeur d'extrusion, en tant que facteur de la largeur d'extrusion normale, au-dessus de laquelle un périmètre moyen (s'il n'y en avait pas déjà un) sera ajouté. 
 
 #### *Transition de périmètre*
 ##### *[Angle](../variable/wall_transition_angle.md)*
+
+Quand créer des transitions entre les nombres pairs et impairs de périmètres. A forme de coin avec un angle supérieur à ce paramètre n'aura pas de transitions et aucun périmètre ne sera imprimé au centre pour remplir l'espace restant. 
+
+Réduire ce paramètre permet de réduire le nombre et la longueur de ces périmètres centraux, mais peut laisser des vides ou des surextrusions.
+
 ##### *[Marge de distance](../variable/wall_transition_filter_deviation.md)*
-##### *[Longueur](../variable/wall_transition_lang.md)*
+Empêcher la transition entre un périmètre supplémentaire et un périmètre standard.
+
+Cette marge étend la plage des largeurs d'extrusion qui suivent à [largeur minimale du périmètre - marge, 2 * largeur minimale du périmètre + marge]. L'augmentation de cette marge réduit le nombre de transitions, ce qui réduit le nombre de démarrages/arrêts d'extrusion et le temps de déplacement. Cependant, une grande variation de la largeur de l'extrusion peut entraîner des problèmes de sous-extrusion ou de surextrusion.
+
+Si elle est définie comme pourcentage (par exemple 25%), elle sera calculée sur le diamètre de la buse.
+
+##### *[Longueur](../variable/wall_transition_length.md)*
+
+Lors de la transition entre différents nombres de périmètres lorsque la pièce devient plus mince, une certaine quantité d'espace est allouée pour diviser ou joindre les segments de périmètre.
 
 #### *[Nombre de répartition des périmètres](../variable/wall_distribution_count.md)*
 
+Le nombre de périmètres, comptés à partir du centre, sur lesquels la variation doit être répartie. Des valeurs plus faibles signifient que les périmètres extérieurs ne changent pas en largeur.
 
 #### *Forme minimale*
+
 ##### *[Largeur minimale du contour](../variable/min_bead_width.md)*
+
+Largeur du périmètre qui remplacera les caractéristiques fines (selon la taille minimale des éléments) du modèle. Si la largeur minimale du périmètre est plus fine que l'épaisseur de l'élément, le périmètre deviendra aussi épais que l'élément lui-même. 
+
+Si elle est exprimée en pourcentage (par exemple 85%), elle sera calculée sur le diamètre de la buse.
+
 ##### *[Taille minimale de l'élément](../variable/min_feature_size.md)*
 
+Épaisseur minimale des éléments minces. Les formes du modèle qui sont plus fines que cette valeur ne seront pas imprimées, tandis que les formes plus épaisses que la taille minimale de l'élément seront élargie à la largeur minimale du contour.
 
 ## Couche
 

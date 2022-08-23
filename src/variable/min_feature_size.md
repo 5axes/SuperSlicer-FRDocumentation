@@ -9,6 +9,6 @@
 
 ### Description
 
-
+Épaisseur minimale des éléments minces. Les formes du modèle qui sont plus fines que cette valeur ne seront pas imprimées, tandis que les formes plus épaisses que la taille minimale de l'élément seront élargie à la largeur minimale du contour.
 
 [Retour Liste variables](variable_list.md)
