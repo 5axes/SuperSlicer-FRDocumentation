@@ -392,7 +392,7 @@ Avec cette option, les périmètres internes contourneront les angles aigus en c
 
  Exemple de périmètres à droite obtenus avec l’option **Coins arrondis**
 
-### [Périmètres externes en premier](../variable/external_perimeters_first.md)
+### [Périmètres extérieur en premier](../variable/external_perimeters_first.md)
 
 Les périmètres seront imprimés de l'extérieur vers l'intérieur au lieu de l'ordre inverse.
 
@@ -402,13 +402,13 @@ Ce paramètre peut aider à la **précision dimensionnelle** car le périmètre 
 
 L’option permet de régler le mode d’application de cette option sur les périmètres de l’impression.
 
-##### *[Seulement le coté extérieure](../variable/external_perimeters_nothole.md)*
+##### *[Le coté extérieure](../variable/external_perimeters_nothole.md)*
 
-Ne faites le périmètre extérieur que sur les côtés extérieurs. Utile quand l’épaisseur est trop faible.
+Ne fais le périmètre extérieur que sur les côtés extérieurs. Utile quand l’épaisseur est trop faible.
 
-##### *[Seulement pour le coté intérieur](../variable/external_perimeters_hole.md)*
+##### *[Le coté intérieur](../variable/external_perimeters_hole.md)*
 
-Ne faites le périmètre extérieur que sur les côtés intérieurs. Utile quand vous voulez seulement retirer la couture des trous de vis.
+Ne fais le périmètre extérieur que sur les côtés intérieurs. Utile quand vous voulez seulement retirer la couture des trous de vis.
 
 #### *[En mode vase (sans couture)](../variable/external_perimeters_vase.md)*
 
@@ -440,6 +440,9 @@ La valeur maxi est de 50%.
 Ce paramètre est très expérimental, veuillez faire un rapport sur l'utilité. Il peut être supprimé s'il n'y a pas d'utilité pour ça.
 
 ![Image : Options Périmètres externes en premier](./images/031.png)
+
+### [Arachne périmeters generator](../variable/perimeter_generator.md)
+
 
 
 ## Couche
