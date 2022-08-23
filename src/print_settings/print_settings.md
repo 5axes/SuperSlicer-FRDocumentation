@@ -551,6 +551,11 @@ Mettez **à zéro** pour désactiver toute simplification et utiliser la résolu
 
 #### *[Résolution interne](../variable/resolution_internal.md)*
 
+Résolution minimum pour les structures interne (remplissage des vides, certains motifs).
+
+Ne pas mettre une valeur trop faible (0.05mm est déjà faible pour certaines imprimantes), car cela créera trop de tout petits segments diffice à afficher et à imprimer.
+
+
 #### *[Précision de la lecture du modèle](../variable/model_precision.md)*
 
 C'est la précision du fichier de l'objet en entrée. Il est utilisé pour aligner des points qui devraient être sur la même ligne.
@@ -575,11 +580,12 @@ Remarque : comme il utilise les arêtes du polygone et ne fonctionne que dans le
 
 Il n'est utile que pour adoucir des modèles fonctionnels ou des angles très plats.
 
-L’algorithme de lissage des courbes peut être modifié en jouant sur 3 paramètres :
+L’algorithme de lissage des courbes peut être modifié en jouant sur 4 paramètres :
 
-- **Angle Concave minimum**
-- **Angle convexe minimum**
-- **La Distance Maxi**
+- **[Précision](../variable/curve_smoothing_precision.md)**
+- **[Angle concave minimum](../variable/curve_smoothing_angle_convex.md)**
+- **[Angle convexe minimum](../variable/curve_smoothing_angle_concave.md)**
+- **[La Distance Maxi](../variable/curve_smoothing_cutoff_dist.md)**
 
 #### *[Compensation en XY](../variable/xy_size_compensation.md)*
 
