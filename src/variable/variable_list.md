@@ -428,7 +428,8 @@ Il s'agit de la valeur réelle (0-100) qui a été remplie, et non de 0-255
 * [only_retract_when_crossing_perimeters](only_retract_when_crossing_perimeters.md)
 * [ooze_prevention](ooze_prevention.md)
 * [output_filename_format](output_filename_format.md)
- 
+
+* [s_overhangs](s_overhangs.md) 
 * [overhangs_speed](overhangs_speed.md)
 * [overhangs_width_speed](overhangs_width_speed.md)
 * [overhangs_width](overhangs_width.md)
@@ -453,6 +454,18 @@ Cela indiquera la valeur réelle (mm/sec) qui a été remplie, et non pas mm/min
 * [printer_vendor](printer_vendor.md)
 * [printer_variant](printer_variant.md)
 * [print_settings_id](print_settings_id.md)
+
+#### Paramètre de génération de périmètres Arachne
+
+* [perimeter_generator](perimeter_generator.md)
+* [wall_split_middle_threshold](wall_split_middle_threshold.md)
+* [wall_add_middle_threshold](wall_add_middle_threshold.md)
+* [wall_transition_angle](wall_transition_angle.md)
+* [wall_transition_filter_deviation](wall_transition_filter_deviation.md)
+* [wall_transition_length](wall_transition_length.md)
+* [wall_distribution_count](wall_distribution_count.md)
+* [min_bead_width](min_bead_width.md)
+* [min_feature_size](min_feature_size.md)
 
 ####  Précision de la découpe
 
