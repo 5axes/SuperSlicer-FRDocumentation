@@ -10,6 +10,6 @@
 ### Description
 
 Avant de commencer l'extrusion d'un périmètre extérieur, cet option permet de placer la buse un peu à l'intérieur de l'objet et un peu en avance de la jointure avant de dérétracter le filament. 
-La buse se déplacera ensuiteà la position de la jointure.
+La buse se déplacera ensuite à la position de la jointure.
 
 [Retour Liste variables](variable_list.md)

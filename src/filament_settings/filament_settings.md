@@ -441,6 +441,18 @@ Zone d’essuyage
 
 Vitesse en mm/s pour l'essuyage. Si vous l'augmenter, l'essuyage se fera sur une distance plus grande. 
 
+#### *[Essuyer au démarrage](../variable/filament_wipe_inside_start.md)*
+
+Avant de commencer l'extrusion d'un périmètre extérieur, cet option permet de placer la buse un peu à l'intérieur de l'objet et un peu en avance de la jointure avant de dérétracter le filament. 
+La buse se déplacera ensuite à la position de la jointure.
+
+#### *[Essuyer à la fin](../variable/filament_wipe_inside_end.md)*
+
+Ce paramètre permet de nettoyer légèrment la buse après la fin de l'extrusion d'un périmètre extérieur en la déplacant vers l'intérieur de la pièce. L'essuyage supplémentaire  est d'abord exécuté (wipe_extra_perimeter), puis celui-ci et enfin l'essuyage dûe à la rétraction du filament.
+
+A noter que si ce paramètre est désactivé, l'essuyage de la rétraction suivra la ligne centrale du périmètre extérieur, et pas la ligne virtuelle qui part de la fin de cet essuyage.
+
+
 #### *[Essuyage Extra pour les périmètres extérieurs](../variable/filament_wipe_extra_perimeter.md)*
 
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long du cordon avant l'essuyage final.
@@ -465,6 +477,23 @@ Cette procédure de fin est insérée à la fin d'un fichier de sortie, avant le
 ## [Remarques](../variable/filament_notes.md)
 
 Vous pouvez renseigner dans cette zone les notes concernant le filament. 
+
+### [Variables personnalisées](../variable/filament_custom_variables.md)
+
+Vous pouvez ajouter des variables personnalisées accessibles dans les G-Code personnalisés.
+
+Chaque ligne peut définir une variable.
+
+Le format est "nom_variable=valeur". Le nom de la variable ne doit comporter que des caractères [a-zA-Z] ou "_".
+
+Une valeur qui peut être analysée comme un entier (int) ou un réel (float) sera disponible comme une valeur numérique.
+
+Une valeur qui est encadrée de guillemets doubles sera disponible sous forme de chaîne de caractères (sans les guillemets)
+
+Une valeur qui ne prend que les valeurs 'true' ou 'false' sera un booléen (boolean).
+
+Toute autre valeur sera analysée comme une chaîne de caractères telle quelle.
+
 
 ## Dépendances
 
