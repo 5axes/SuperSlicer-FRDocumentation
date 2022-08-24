@@ -9,7 +9,8 @@
 
 ### Description
 
-Largeur du périmètre qui remplacera les caractéristiques fines (selon la taille minimale des éléments) du modèle. Si la largeur minimale du périmètre est plus fine que l'épaisseur de l'élément, le périmètre deviendra aussi épais que l'élément lui-même. 
+Largeur du périmètre qui remplacera les caractéristiques fines (selon la [Taille minimale des entités](min_feature_size.md)) du modèle. Si la largeur minimale du périmètre est plus fine que l'épaisseur de l'élément, le périmètre deviendra aussi épais que l'élément lui-même. 
+
 Ce paramètre permet d'imprimer de très petits détails avec une largeur de ligne qui est en fait trop grande pour eux. Au lieu d'imprimer des lignes très fines, il imprime avec une largeur de ligne plus raisonnable.
 
 Si la [Taille minimale des entités](min_feature_size.md) est très faible, des pièces très fines peuvent être imprimées. Cela ne fonctionne pas bien. Il est possible d'imprimer des lignes plus petites que la taille de la buse, mais pas de beaucoup. L'impression de lignes trop fines entraîne une extrusion incohérente.
