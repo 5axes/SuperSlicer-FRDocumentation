@@ -9,11 +9,11 @@
 
 ### Description
 
-Quand créer des transitions entre les nombres pairs et impairs de périmètres. A forme de coin avec un angle supérieur à ce paramètre n'aura pas de transitions et aucun périmètre ne sera imprimé au centre pour remplir l'espace restant. 
-
 Cet angle indique l'angle à partir duquel SuperSlicer commence à créer des transitions pour remplir correctement l'espace. Tous les angles qui sont plus aigus que cet angle seront remplis de lignes de largeur variable.
 
 ![Plus large que 10°, il ne crée plus de transitions](./images/wall_transition_angle/wall_transition_angle.png)
+
+![Exemple à 1°](./images/wall_transition_angle/wall_transition_angle_1.png)
 
 Ce paramètre permet d'activer ou de désactiver la largeur variable des lignes pour certains angles. Si deux parois opposés sont presque parallèles, plus petits que l'angle spécifié dans ce paramètre, l'espace entre eux est rempli de lignes dont la largeur peut varier. S'ils forment un angle plus grand l'un par rapport à l'autre, l'espace entre eux est rempli de cordons de largeur constante.
 
@@ -29,9 +29,7 @@ Cependant, elle présente également certains inconvénients :
 
 Dans la pratique, il est bon de faire en sorte que cet angle soit suffisamment grand pour réduire la taille des espaces dans les angles aigus, comme on peut le voir dans la vue en plan, mais aussi petit que possible par ailleurs. Un angle plus petit donne généralement à la surface un aspect plus lisse.
 
-Il n'est pas possible de réduire l'angle à 0° pour éliminer complètement les largeurs de ligne variables. Les parois parallèles opposées verront toujours leur largeur de ligne ajustée pour s'adapter à l'espace.
+Il n'est pas possible de réduire l'angle à 1°  (0 est impossible ) pour éliminer complètement les largeurs de ligne variables. Les parois parallèles opposées verront toujours leur largeur de ligne ajustée pour s'adapter à l'espace.
 
-
-Réduire ce paramètre permet de réduire le nombre et la longueur de ces périmètres centraux, mais peut laisser des vides ou des surextrusions.
 
 [Retour Liste variables](variable_list.md)
