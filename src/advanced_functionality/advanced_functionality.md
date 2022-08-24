@@ -9,6 +9,11 @@
 	* [Recharger depuis le Disque](#recharger-depuis-le-disque)
 	* [Insérer une pause ou un G-Code personnalisé à une couche](#insérer-une-pause-ou-un-g-code-personnalisé-à-une-couche)
 	* [Exporter les parcours d'outils au format OBJ](#exporter-les-parcours-doutils-au-format-obj)
+	* [Volume négatif](#volume-négatif)
+	* [Scripts de post-traitement](#scripts-de-post-traitement)
+	* [Recharger depuis le Disque](#recharger-depuis-le-disque)
+	* [Galerie de formes](#galerie-de-formes)
+	* [Simplifier le maillage](#simplifier-le-maillage)
 
 * [Retour Page principale](../superslicer.md)
 
@@ -250,6 +255,160 @@ Si vous prévoyez de rendre uniquement l'extérieur du modèle découpé, nous v
 ![Image : Rendu du parcours d'outil exporté créé dans Blender 2.8](./images/017.jpeg)
 
 *Rendu du G-Code exporté créé dans Blender 2.8 (Image Prusa)*
+
+
+# Volume négatif
+
+Le volume négatif permet de soustraire un maillage d'un autre.
+
+De cette façon, vous pouvez, par exemple, créer des trous facilement redimensionnables directement dans PrusaSlicer.
+
+**Faites un clic-droit**sur un modèle et choisissez**Volume négatif**depuis le menu contextuel. Sélectionnez ensuite la forme de volume négatif. Vous pouvez choisir l'une des formes de base (cube, cylindre, sphère), en choisir une dans la galerie de formes ou utiliser**Charger...**pour importer un maillage personnalisé.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/2021/07/negative_volume.jpg)
+
+La soustraction du volume négatif se produit lors du découpage, la géométrie réelle du modèle n'est pas modifiée. Cela signifie qu'il n'est pas possible d'exporter un STL avec les volumes négatifs soustraits.
+
+# Scripts de post-traitement
+
+Il y a certaines choses que PrusaSlicer ne fait tout simplement pas. Cependant, en utilisant des scripts de post-traitement, vous pouvez modifier automatiquement le G-code généré pour faire (presque) tout ce que vous voulez.
+
+Vous pouvez spécifier le chemin d'accès au script dans**Réglages d'impression - Options de sortie - Scripts de post-traitement**.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/2021/12/post_processing_scripts-1.jpg)
+
+### Mise en place des scripts
+
+Les scripts de post-traitement peuvent être écrits en**n'importe quel langage de programmation**(Perl, Python, Ruby, Bash, etc.). Ils doivent simplement être reconnus par votre système en tant qu'exécutable et accepter le chemin d'accès au fichier G-code comme seul argument.
+
+Si vous souhaitez exécuter plusieurs scripts, placez chaque invocation de script sur sa propre ligne.
+
+### Exécution de scripts
+
+Chaque script recevra le chemin absolu d'un fichier G-code**temporaire**généré par SuperSlicer. Ce fichier est stocké dans un dossier temporaire sur votre disque (généralement votre disque système rapide). Le script est ensuite exécuté pour modifier le G-code sur place et le fichier G-code résultant est écrit dans le dossier cible sélectionné ou envoyé à un hôte d'impression, tel que PrusaConnect ou Octoprint.
+
+Veuillez noter que la visionneuse de G-code visualise toujours le G-code avant le post-traitement.
+
+SuperSlicer transmet toute la configuration de découpage aux scripts de post-traitement à l'aide des variables d'environnement. Chaque variable est préfixée par "SLIC3R_" et la première du lettre du nom de variable est en majuscule. Par exemple, la densité de remplissage est transmise au script en tant que variable d'environnement "SLIC3R\_Fill\_density".
+
+Deux variables d'environnement supplémentaires sont transmises aux scripts de post-traitement : la variable d'environnement SLIC3R\_PP\_HOST fournit la spécification de l'hôte, où "File" signifie copier le G-code sur un disque dur local ou un support amovible, tandis que les autres valeurs ("PrusaLink", "Repetier ", "SL1Host", "OctoPrint", "FlashAir", "Duet", "AstroBox" ...) spécifie le type d'hôte d'impression auquel le G-code sera envoyé.
+
+La variable d'environnement SLIC3R\_PP\_OUTPUT\_NAME contient le nom du fichier G-code incluant le chemin (pour SLIC3R\_PP_HOST == "File") ou un nom qui sera donné au fichier après son téléchargement sur l'hôte (PrusaLink, Octoprint ...)
+
+Le script de post-traitement peut suggérer un nouveau nom de fichier de sortie (probablement basé sur SLIC3R\_PP\_OUTPUT\_NAME) en l'enregistrant sur une seule ligne dans un nouveau fichier temporaire "nom de sortie", par exemple pour ajouter des horodatages ou des numéros de séquence aux G-codes finaux. Le nom du fichier "nom de sortie" doit être créé en suffixant le nom de fichier de G-code d'entrée avec ".output\_name". SuperSlicer lira le nouveau nom du fichier et le traitera correctement, par exemple lors de son envoi à Octoprint.
+
+### Paramètres des scripts
+
+Vous pouvez utiliser des paramètres avec votre script de cette façon :
+
+/path/to/executable devient /path/to/executable avec l'argument outputfilename.gcode
+
+/path/to/executable -arg -arg2 devient /path/to/executable avec les arguments -arg, -arg2 et outputfilename.gcode
+
+Si le chemin vers l'exécutable ou les arguments contiennent des espaces, ces arguments doivent être échappés en utilisant le style d'échappement commun à la plate-forme (style d'échappement du shell sous Linux et OSX, échappement de la ligne de commande Windows).
+
+### Exemples
+
+#### Python
+
+[Exemple d'ajout d'un compteur au nom de fichier](https://github.com/foreachthing/Slic3rPostProcessing/blob/a47d64c8b83459cf3bd2906a3e81172c07328f34/SPP-Python/Slic3rPostProcessor.py#L212)
+
+Chemin d'accès du fichier final exporté (ou son nom pour Octoprint)
+
+    env_slicer_pp_output_name = str(getenv('SLIC3R_PP_OUTPUT_NAME'))
+
+Script Python qui modifie le chemin de sortie
+
+    with open(sourcefile + '.output_name', mode='w', encoding='UTF-8') as fopen:
+    fopen.write(counter + '_' + env_slicer_pp_output_name)
+
+### Changements historiques et rupture de compatibilité descendante
+
+Avant la version 2.4, SuperSlicer exécutait le script sur le G-code final exporté vers le support cible souhaité. Qui était très souvent un lecteur amovible, comme une carte SD. Les cartes SD sont lentes et s'usent, donc ce n'était pas idéal. Il y avait aussi des problèmes lors de l'envoi du G-code à Octoprint. La nouvelle approche avec le fichier temporaire sur votre disque système évite ces problèmes et étend la fonctionnalité des scripts de post-traitement. Cependant, cela pourrait casser certains de vos scripts existants.
+
+# Recharger depuis le Disque
+
+Cette fonctionnalité est idéale pour les cas où vous avez créé**une version plus récente de votre modèle**et que vous souhaitez remplacer l'ancienne version dans SuperSlicer sans avoir à configurer des choses comme à nouveau les supports personnalisés ou les mesh de modification.
+
+**Faites un clic-droit**sur un modèle dans la vue 3D et choisissez**Recharger depuis le Disque**dans le menu contextuel.
+
+Vous pouvez également cliquer sur l'icône_édition_dans la liste d'objets (côté droit).
+
+Le rechargement depuis le disque fonctionne même sur les**mesh de modification personnalisés**, que vous pouvez ajouter en mode Expert.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/reload_from_disk_double.png)
+
+_Deux façons d'accéder à la fonction Recharger depuis le disque_
+
+### Recharger depuis le disque pour les fichiers 3MF
+
+Lorsque vous rouvrez un fichier de projet 3MF, vous pouvez aussi choisir de recharger l'un des modèles.
+
+Par défaut, les fichiers de projet 3MF sont configurés pour ne pas enregistrer le chemin d'accès complet aux modèles source, car cela peut poser un risque pour la sécurité lors du partage d'un tel fichier. Si le chemin d'accès complet n'est pas enregistré et si**Recharger depuis le disque**est demandé, PrusaSlicer demandera l'emplacement du fichier source.
+
+**Pourquoi l'enregistrement des chemins complets est-il désactivé par défaut ?**  
+Le format 3MF est essentiellement une archive zip, qui contient des fichiers XML lisibles par l'homme, une image miniature et certains fichiers divers. Le fait que les fichiers XML soient lisibles par l'homme est l'un des avantages du format de fichier 3MF. Cependant, dans certains cas, vous ne souhaiterez peut-être pas révéler l'emplacement de vos fichiers de modèle, par exemple :  
+_C:MyCompanyNameMySecretProjectNamefriend\_name\_gift.stl_
+
+# Galerie de formes
+
+La galerie de formes intégrée offre un moyen rapide et facile d'accéder à vos modèles les plus utilisés, que vous les utilisiez comme modificateurs ou à placer sur le plateau et à imprimer. Les formes par défaut incluent des primitives de base (cube, cylindre, sphère…) ainsi que d'autres objets utiles, comme un disque d'aide ou un symbole de recyclage. Vous pouvez étendre la bibliothèque avec vos propres modèles. Il peut s'agir du logo de votre entreprise, d'une forme de modification que vous utilisez souvent ou simplement d'un modèle que vous imprimez encore et encore. Si vous ajoutez un modèle, il obtiendra une vignette générée automatiquement. Cependant, vous pouvez remplacer la vignette PNG générée par votre propre image.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/2022/01/gallery.jpg)
+
+Nous prévoyons d'étendre la fonctionnalité de galerie de formes dans les prochaines versions. Nous ajouterons probablement un système de dossiers/onglets, afin que vous puissiez organiser les formes. Nous prévoyons également d'ajouter un générateur de texte. Et nous allons étendre la bibliothèque des formes par défaut. 
+
+# Simplifier le maillage
+
+Les numérisations 3D et les modèles sculptés comportent souvent un grand nombre de triangles, ce qui les rend difficiles à utiliser. Ces fichiers peuvent ralentir SuperSlicer, prendre beaucoup de temps à découper et même ralentir les imprimantes 3D FDM, en raison du grand nombre de parcours d'outils courts générés.
+
+Vous pouvez réduire le nombre de triangles dans un maillage à l'aide de la fonction Simplifier le maillage. Cliquez avec le bouton droit sur le modèle et sélectionnez**Simplifier le modèle**dans le menu contextuel.
+
+Vous pouvez limiter la simplification soit par niveau de détail soit par le ratio de triangles à supprimer.
+
+Vous pouvez également activer l'option "Afficher la vue filaire" pour voir le contour blanc de chaque triangle.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/2022/01/simplify.jpg)
+
+Un taux de simplification très élevé (petit nombre de triangles) peut être utilisé pour obtenir un effet "**Low-Poly**".
+
+Un aperçu commence automatiquement à être généré chaque fois que vous ajustez la position de l'un ou l'autre des curseurs. Une fois la simplification terminée, le maillage simplifié sera affiché.
+
+Cliquer sur le bouton**Appliquer**utilise les paramètres actuels pour le processus de simplification et ferme la boîte de dialogue. Vous pouvez annuler cette action avec la fonction Annuler (Ctrl+Z).
+
+La simplification des modèles avec un grand nombre de triangles est gourmande en calculs et**prendra du temps**, en particulier sur les machines plus lentes.
+
+
+
+# Substitutions de G-code
+
+Cette fonctionnalité est disponible dans SuperSlicer depuis la version  2.4.X
+
+SuperSlicer offre un post-traitement simple du G-Code en spécifiant des paires de recherche et de remplacement, avec une correspondance optionnelle de regex, une sensibilité à la casse et une correspondance de mots entiers, similaire à ce que proposent les éditeurs de texte courants. Les expressions régulières sont des outils très puissants et polyvalents qui permettent de mettre en place des substitutions même assez compliquées. Si vous avez besoin d'un post-traitement plus compliqué, il est possible d'utiliser un [script de post-traitement externe](https://help.prusa3d.com/fr/article/scripts-de-post-traitement_283913) à la place.
+
+La fonctionnalité est accessible depuis les**Réglages d'impression -> Options de sortie**.
+
+Le G-Code est traité avant d'être prévisualisé, de sorte que vos modifications seront visibles dans l'aperçu du G-Code. Il peut être utile d'activer 'G-code commenté' pour que SuperSlicer génère des annotations supplémentaires, que vous pouvez ensuite faire correspondre avec une regex.
+
+![](https://cdn.help.prusa3d.com/wp-content/uploads/2022/01/prusaslicer-gcode-substitutions.png)
+
+### Syntaxe des expressions régulières
+
+La syntaxe des expressions régulières de Perl est prise en charge comme décrit dans [booster la syntaxe des expressions régulières Perl](https://www.boost.org/doc/libs/1_78_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html), où un modificateur "sur une seule ligne" imite le modificateur**_s/_**de Perl. Lorsque les expressions régulières sont actives, l'expression "Remplacer par" prend en charge la syntaxe "étendue" comme décrit dans [booster la syntaxe du format étendu](https://www.boost.org/doc/libs/1_78_0/libs/regex/doc/html/boost_regex/format/boost_format_syntax.html). [Les lookahead et lookbehind](https://www.w3docs.com/learn-javascript/lookahead-and-lookbehind.html)sont pris en charge par le moteur d'expressions régulières, mais uniquement pour les expressions de longueur fixe. Avec les expressions régulières désactivées,**_n__, r, t_**, et les variables sont pris en charge dans les expressions "Rechercher" et "Remplacer par" de la même manière que la syntaxe "étendue" de Notepad++.
+
+Le post-processeur de recherche/remplacement de G-code traite le G-code en blocs, où un seul bloc de G-code est généré pour chaque couche en commençant par le Z jusqu'à passer à la couche suivante. Plusieurs expressions de recherche/remplacement sont appliquées une par une à un bloc de G-code avant de traiter le bloc de G-code suivant. La correspondance de motifs multilignes est possible, mais uniquement à l'intérieur d'un bloc de G-code, très probablement à l'intérieur d'une seule couche. Les expressions régulières sont puissantes mais délicates, nous recommandons donc l'[espace de test en ligne regular expressions 101](https://regex101.com/) pour se familiariser avec les expressions régulières et pour tester et affiner les expressions régulières modifiant le G-code avant de les saisir dans SuperSlicer. N'oubliez pas de changer le type de regex en ECMAScript dans l'espace de test en ligne regular expressions 101.
+
+### Exemple
+
+Un exemple d'une modification de G-code assez puissante par une expression régulière raisonnablement complexe : augmenter le taux d'extrusion du remplissage solide supérieur de la valeur par défaut de 95 % à 98 %.  
+Rechercher :
+
+    (;TYPE:Top solid infilln)(.*?)(;TYPE:|$)(?!Top solid infill)
+
+  
+Remplacer par :
+
+    ${1}M221 S98n${2}M221 S95n${3}
 
 
 Page suivante  [Découpage multi-matériaux](../multimaterial/multimaterial.md)
