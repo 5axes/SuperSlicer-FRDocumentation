@@ -519,12 +519,36 @@ Avec les extrudeurs bowden, il est conseillé d'effectuer une rétractation rapi
 
 A la fin de l'extrusion de la boucle du périmètre externe, un essuyage est effectué, allant un peu à l'intérieur de l'impression. Le nombre mis dans ce paramètre augmente l'essuyage en déplaçant la buse à nouveau le long de la boucle avant l'essuyage final.
 
+
+
+### Essuyage générale
+
+![Image : Options liées à l'essuyage générale](./images/031.png) 
+
 #### [*Espace de jointure*](../variable/seam_gap.md)
 
 Pour éviter une couture visible, l'extrusion peut être arrêtée un peu avant la fin de la boucle.
 
 Peut être un mm ou un % du diamètre actuel de la buse.
 
+#### *[Essuyer au démarrage](../variable/wipe_inside_start.md)*
+
+Avant de commencer l'extrusion d'un périmètre extérieur, cet option permet de placer la buse un peu à l'intérieur de l'objet et un peu en avance de la jointure avant de dérétracter le filament. 
+La buse se déplacera ensuite à la position de la jointure.
+
+#### *[Essuyer à la fin](../variable/wipe_inside_end.md)*
+
+Ce paramètre permet de nettoyer légèrment la buse après la fin de l'extrusion d'un périmètre extérieur en la déplacant vers l'intérieur de la pièce. L'essuyage supplémentaire  est d'abord exécuté (wipe_extra_perimeter), puis celui-ci et enfin l'essuyage dûe à la rétraction du filament.
+
+A noter que si ce paramètre est désactivé, l'essuyage de la rétraction suivra la ligne centrale du périmètre extérieur, et pas la ligne virtuelle qui part de la fin de cet essuyage.
+
+#### *[Profondeur](../variable/wipe_depth.md)*
+
+Règle la distance pour les paramètres d’essuyage vers l'intérieur (wipe_inside).
+
+En % de la largeur d'un périmètre.
+
+Note: ne pas mettre de valeur supérieur à 50% is l'on n'a qu'un seul périmètre, pas plus de 150% pour deux, etc... ou alors la buse va suinter au lieu de s'essuyer.
 
 ### Rétraction lorsque le filament est désactivé
 
