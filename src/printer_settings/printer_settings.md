@@ -79,7 +79,19 @@ Notez que le G-Code écrira les valeurs z avec 6 chiffres après le point si z\_
 
 > Mettez 0 pour désactiver.
 
+#### *[Hauteur min pour les déplacements](../variable/lift_min.md)*
+
+Quand un extrudeur se déplace vers un objet (de la position de départ ou d'un autre), la buse est garantie d'être au moins à cette hauteur.
+
+
+Ceci permet de s'assurer que si le lit d'impression possède des clips ou d'autres objets fixés dessus, la buse ne les percutera pas. 
+
+Faites tout de même attention qu'il n'y ai rien dans l'enveloppe convexe des objets.
+
+
 ![Image : Taille et coordonnées](./images/004.png)
+
+
 
 ### Fonctionnalités
 
@@ -184,6 +196,12 @@ Appliquer une couleur spécifique aux vignettes. Si ce n'est pas le cas, leur co
 #### *Plateau sur la vignette*
 
 Montrez la texture du plateau sur la vignette.
+
+#### *Vignette à la fin*
+
+Mettre le code des vignettes à la fin du fichier au lieu du début.
+
+Soyez prudent! La plupart des Firmwares l'attendent au début, soyez sûr que votre imprimante le supporte bien.
 
 ### Avancé
 
