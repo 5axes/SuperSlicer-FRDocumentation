@@ -261,9 +261,9 @@ Si vous prévoyez de rendre uniquement l'extérieur du modèle découpé, nous v
 
 Le volume négatif permet de soustraire un maillage d'un autre.
 
-De cette façon, vous pouvez, par exemple, créer des trous facilement redimensionnables directement dans PrusaSlicer.
+De cette façon, vous pouvez, par exemple, créer des trous facilement redimensionnables directement dans SuperSlicer.
 
-**Faites un clic-droit**sur un modèle et choisissez**Volume négatif**depuis le menu contextuel. Sélectionnez ensuite la forme de volume négatif. Vous pouvez choisir l'une des formes de base (cube, cylindre, sphère), en choisir une dans la galerie de formes ou utiliser**Charger...**pour importer un maillage personnalisé.
+**Faites un clic-droit** sur un modèle et choisissez **Volume négatif**depuis le menu contextuel.  Sélectionnez ensuite la forme de volume négatif.  Vous pouvez choisir l'une des formes de base (cube, cylindre, sphère), en choisir une dans la galerie de formes ou utiliser **Charger...** pour importer un maillage personnalisé.
 
 ![](https://cdn.help.prusa3d.com/wp-content/uploads/2021/07/negative_volume.jpg)
 
@@ -271,21 +271,21 @@ La soustraction du volume négatif se produit lors du découpage, la géométrie
 
 # Scripts de post-traitement
 
-Il y a certaines choses que PrusaSlicer ne fait tout simplement pas. Cependant, en utilisant des scripts de post-traitement, vous pouvez modifier automatiquement le G-code généré pour faire (presque) tout ce que vous voulez.
+Il y a certaines choses que SuperSlicer ne fait tout simplement pas. Cependant, en utilisant des scripts de post-traitement, vous pouvez modifier automatiquement le G-code généré pour faire (presque) tout ce que vous voulez.
 
-Vous pouvez spécifier le chemin d'accès au script dans**Réglages d'impression - Options de sortie - Scripts de post-traitement**.
+Vous pouvez spécifier le chemin d'accès au script dans **Réglages d'impression - Options de sortie - Scripts de post-traitement**.
 
 ![](https://cdn.help.prusa3d.com/wp-content/uploads/2021/12/post_processing_scripts-1.jpg)
 
 ### Mise en place des scripts
 
-Les scripts de post-traitement peuvent être écrits en**n'importe quel langage de programmation**(Perl, Python, Ruby, Bash, etc.). Ils doivent simplement être reconnus par votre système en tant qu'exécutable et accepter le chemin d'accès au fichier G-code comme seul argument.
+Les scripts de post-traitement peuvent être écrits en **n'importe quel langage de programmation** (Perl, Python, Ruby, Bash, etc.). Ils doivent simplement être reconnus par votre système en tant qu'exécutable et accepter le chemin d'accès au fichier G-code comme seul argument.
 
 Si vous souhaitez exécuter plusieurs scripts, placez chaque invocation de script sur sa propre ligne.
 
 ### Exécution de scripts
 
-Chaque script recevra le chemin absolu d'un fichier G-code**temporaire**généré par SuperSlicer. Ce fichier est stocké dans un dossier temporaire sur votre disque (généralement votre disque système rapide). Le script est ensuite exécuté pour modifier le G-code sur place et le fichier G-code résultant est écrit dans le dossier cible sélectionné ou envoyé à un hôte d'impression, tel que PrusaConnect ou Octoprint.
+Chaque script recevra le chemin absolu d'un fichier G-code **temporaire** généré par SuperSlicer. Ce fichier est stocké dans un dossier temporaire sur votre disque (généralement votre disque système rapide). Le script est ensuite exécuté pour modifier le G-code sur place et le fichier G-code résultant est écrit dans le dossier cible sélectionné ou envoyé à un hôte d'impression, tel que PrusaConnect ou Octoprint.
 
 Veuillez noter que la visionneuse de G-code visualise toujours le G-code avant le post-traitement.
 
