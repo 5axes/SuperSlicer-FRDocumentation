@@ -18,7 +18,7 @@ Celui-ci ne s'applique qu'aux parties **internes** de l'objet.
 ![trou dans le modèle la compensation ne s'applique plus](./images/xy_inner_size_compensation/001.png)
 
 
-![Section ouverte](images/hole_size_compensation/002.png)
+![Section ouverte](Images/hole_size_compensation/002.png)
 
 
 

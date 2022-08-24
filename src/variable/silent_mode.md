@@ -13,7 +13,7 @@ Indique que le firmware est compatible avec le mode silencieux.
 
 Ce mode permet normalement aux imprimantes d'être un peu plus silencieuses en fonctionnement. Le mode silencieux ne se déplace pas nécessairement plus lentement.  Lorsque l'imprimante est mise en mode silencieux, elle utilise les paramètres d'accélération et de vitesse de la section silencieux du firmware (qui correspondent à ceux de la section ***Mode silencieux*** de la configuration de l'imprimante). Ainsi, elle n'atteindra pas les mêmes vitesses puisque l'accélération est plus faible et que le firmware limite les vitesses maximums.  
 
-![Paramètres du mode silencieux](images/silent_mode/001.png)
+![Paramètres du mode silencieux](Images/silent_mode/001.png)
 
 Le mode silencieux fait aussi des choses avec les courants d'entraînement ce qui, je pense, explique pourquoi la détection de collision ne fonctionne pas dans ce mode sur les imprimantes Prusa.
 

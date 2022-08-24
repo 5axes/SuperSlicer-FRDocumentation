@@ -13,6 +13,6 @@ Fichier SVG permettant de dessiner une texture du plateau.
 
 Exemple de texture sur modèle machine Prusa i3 MK3
 
-![Texture rajouté sur machine Prusa](images/bed_texture/001.png)
+![Texture rajouté sur machine Prusa](Images/bed_texture/001.png)
 
 [Retour Liste variables](variable_list.md)

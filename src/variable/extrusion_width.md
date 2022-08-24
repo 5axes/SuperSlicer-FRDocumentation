@@ -19,14 +19,14 @@ Vous pouvez penser que lorsque la largeur d'extrusion d'un périmètre est de 0,
 
 Afin de comprendre comment ce nombre est calculé, nous devons examiner la section transversale d'un cordon. SuperSlicer suppose que la section transversale d'une extrusion est un rectangle avec des extrémités semi-circulaires. Notez que la largeur d'extrusion comprend les deux extrémités semi-circulaires.
 
-![Image : Section d’un cordon](images/extrusion_width/001.svg)
+![Image : Section d’un cordon](Images/extrusion_width/001.svg)
 
 *(Cette image est une reprise de la source originale : <https://manual.slic3r.org/advanced/flow-math> )*
 
 Ajoutons maintenant une seconde extrusion/périmètre. Si nous supposons qu'il n'y a pas de chevauchement (chemins tangents), il y aurait un espace vide (en jaune). Afin de remplir l'espace vide et de relier les périmètres ensemble, SuperSlicer chevauche légèrement les périmètres. C'est essentiellement pourquoi vous ne pouvez pas simplement multiplier le nombre de périmètres par la largeur d'un seul périmètre pour obtenir l'épaisseur de paroi idéale.
 
-![Image : tangence des périmètres](images/extrusion_width/004.svg)
-![Image : Chevauchement des périmètres](images/extrusion_width/005.svg)
+![Image : tangence des périmètres](Images/extrusion_width/004.svg)
+![Image : Chevauchement des périmètres](Images/extrusion_width/005.svg)
 
 *(Cette image a été fortement inspirée par la source originale : <https://manual.slic3r.org/advanced/flow-math>)*
 

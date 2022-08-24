@@ -11,7 +11,6 @@
 
 Résolution minimum pour les structures interne (remplissage des vides, certains motifs).
 
-
 Ne pas mettre une valeur trop faible (0.05mm est déjà faible pour certaines imprimantes), car cela créera trop de tout petits segments diffice à afficher et à imprimer.
  
 [Retour Liste variables](variable_list.md)
