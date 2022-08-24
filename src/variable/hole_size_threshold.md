@@ -15,15 +15,15 @@ Après cela, la compensation  se  réduira progressivement à 0 jusqu'au trous a
 
 Exemple pour un seuil à 50mm² et une compensation extrême de +6 mm (les trous devrais tous disparaître.)
 
-![Diamètre des trous convexes](Images/hole_size_threshold/001.svg)
+![Diamètre des trous convexes](./images/hole_size_threshold/001.svg)
 
 Les trous de 6 et 8 vont disparaitre à la découpe. Les trous de 10 et 12 vont être compensé progressivement.
 
-![Compensation seuil 50mm²](Images/hole_size_threshold/002.svg)
+![Compensation seuil 50mm²](./images/hole_size_threshold/002.svg)
 
 Si l'on fixe cette valeur de seuil à 113mm² cette fois tous les **trous convexes** disparaissent bien.
 
-![Compensation seuil 113mm²](Images/hole_size_threshold/003.svg)
+![Compensation seuil 113mm²](./images/hole_size_threshold/003.svg)
 
 <!-- > Réglez à 0 pour laisser la compensation de la taille du trou s'appliquer entièrement à tous les trous détectés. -->
 

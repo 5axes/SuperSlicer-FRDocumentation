@@ -28,10 +28,10 @@ Exemple d'utilisation :
 
 Déclaration des variables :
 
-![Déclaration des variables](Images/print_custom_variables/001.png)
+![Déclaration des variables](./images/print_custom_variables/001.png)
 Utilisation de la variable dans les G-Code personnalisés :
 
-![Utilisation de la variable](Images/print_custom_variables/002.png)
+![Utilisation de la variable](./images/print_custom_variables/002.png)
 
 
 [Retour Liste variables](variable_list.md)

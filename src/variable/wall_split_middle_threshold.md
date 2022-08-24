@@ -15,8 +15,8 @@ Lors de l'impression de pièces fines, SuperSlicer ajuste la largeur des lignes 
 
 Ce paramètre est identique au paramètre [Largeur minimale de la ligne de paroi paire](min_even_wall_line_width.md), mais utilise une unité différente. L'unité de ce paramètre est exprimée en fractions de largeur de ligne que la largeur d'une pièce doit augmenter pour diviser la ligne centrale en deux. Comme la différence de largeur est répartie sur les deux lignes du milieu après la division, une largeur minimale de ligne de parois paire plus petite équivaut à un seuil de ligne du milieu divisé beaucoup plus petit que dans le cas de la suppression d'un cordon impair.
 
-![La ligne centrale est élargie pour s'adapter](Images/min_wall_line_width_0_34.png)
-![En réduisant ce paramètre, il utilise plutôt deux lignes](Images/min_wall_line_width_even_0_1.png)
+![La ligne centrale est élargie pour s'adapter](./images/min_wall_line_width_0_34.png)
+![En réduisant ce paramètre, il utilise plutôt deux lignes](./images/min_wall_line_width_even_0_1.png)
 
 Nombre de lignes paires ou impaires
 ----

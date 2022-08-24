@@ -13,7 +13,7 @@ Quand créer des transitions entre les nombres pairs et impairs de périmètres.
 
 Cet angle indique l'angle à partir duquel SuperSlicer commence à créer des transitions pour remplir correctement l'espace. Tous les angles qui sont plus aigus que cet angle seront remplis de lignes de largeur variable.
 
-![Plus large que 10°, il ne crée plus de transitions](Images/wall_transition_angle/wall_transition_angle.png)
+![Plus large que 10°, il ne crée plus de transitions](./images/wall_transition_angle/wall_transition_angle.png)
 
 Ce paramètre permet d'activer ou de désactiver la largeur variable des lignes pour certains angles. Si deux parois opposés sont presque parallèles, plus petits que l'angle spécifié dans ce paramètre, l'espace entre eux est rempli de lignes dont la largeur peut varier. S'ils forment un angle plus grand l'un par rapport à l'autre, l'espace entre eux est rempli de cordons de largeur constante.
 

@@ -12,8 +12,8 @@
 Le nombre de périmètres, comptés à partir du centre, sur lesquels la variation doit être répartie. Des valeurs plus faibles signifient que les périmètres extérieurs ne changent pas en largeur.
 SuperSlicer peut ajuster la largeur des lignes des parois pour mieux s'adapter à la forme que vous imprimez, mais il n'est pas obligé d'ajuster chaque cordon de la même manière. Il préfère modifier la largeur des cordons plus vers l'intérieur du modèle. Ce paramètre détermine le nombre de cordons, en comptant de l'intérieur vers l'extérieur, qui sont ajustés pour s'adapter à l'espace disponible.
 
-![Concentré au milieu, avec de grandes variations dans les largeurs de ligne à cet endroit.](Images/wall_distribution_count/wall_distribution_count_1.png)
-![Répartis sur plusieurs cordons](Images/wall_distribution_count/wall_distribution_count_5.png)
+![Concentré au milieu, avec de grandes variations dans les largeurs de ligne à cet endroit.](./images/wall_distribution_count/wall_distribution_count_1.png)
+![Répartis sur plusieurs cordons](./images/wall_distribution_count/wall_distribution_count_5.png)
 
 Les cordons à largeur variable sont plus difficiles à imprimer que les simples cordons à largeur constante. Il faut un certain temps pour ajuster le débit de la buse, et pour faire la transition, il faut aussi faire quelques angles aigus qui peuvent provoquer des vibrations parasites. Il est préférable de faire tout cela le plus loin possible de l'extérieur, là où cela serait visible sur la surface de l'impression. SuperSlicer concentrera donc les ajustements de largeur de ligne sur les cordons les plus internes.
 

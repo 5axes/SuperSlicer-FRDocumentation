@@ -11,6 +11,6 @@
 
 La distance est calculé à partir de la bordure. Sinon la distance sera calculé à partir de l'objet.
 
-![A partir de la bordure](Images/skirt_distance_from_brim/001.svg)
+![A partir de la bordure](./images/skirt_distance_from_brim/001.svg)
 
 [Retour Liste variables](variable_list.md)

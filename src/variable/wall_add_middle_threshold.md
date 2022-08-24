@@ -15,8 +15,8 @@ Lors de l'impression de pièces fines, SuperSlicer ajuste la largeur des lignes 
 
 Ce paramètre est identique au paramètre de [largeur minimale de la ligne de paroi impaire](min_odd_wall_line_width.md), mais utilise une unité différente. L'unité de ce paramètre est exprimée en fractions de largeur de ligne que la largeur d'une pièce doit augmenter pour ajouter une nouvelle ligne centrale.
 
-![Lorsque la ligne centrale est trop petite, les deux lignes qui l'entourent sont élargies.](Images/min_wall_line_width/min_wall_line_width_0_34.png)
-![En réduisant ce réglage, la ligne centrale commence et finit beaucoup plus petit](Images/min_wall_line_width/min_wall_line_width_odd_0_1.png)
+![Lorsque la ligne centrale est trop petite, les deux lignes qui l'entourent sont élargies.](./images/min_wall_line_width/min_wall_line_width_0_34.png)
+![En réduisant ce réglage, la ligne centrale commence et finit beaucoup plus petit](./images/min_wall_line_width/min_wall_line_width_odd_0_1.png)
 
 Nombre de lignes paires ou impaires
 ----

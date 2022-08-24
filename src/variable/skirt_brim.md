@@ -11,6 +11,6 @@
 
 Lignes de bordure supplémentaire qui sera rajouté à la jupe. Utile par exemple si la jupe est utilisé en bouclier contre les flux d'air afin d'assurer l'adhérence du bouclier sur le plateau d'impression.
 
-![bordure supplémentaire sur bouclier](Images/skirt_brim/001.png)
+![bordure supplémentaire sur bouclier](./images/skirt_brim/001.png)
 
 [Retour Liste variables](variable_list.md)

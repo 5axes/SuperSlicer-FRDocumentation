@@ -13,8 +13,8 @@ Lors de la transition entre différents nombres de périmètres lorsque la pièc
 
 Dans les pièces minces, toutes les parois ne rentrent pas à l'intérieur de la forme. Si la pièce est plus fine à certains endroits qu'à d'autres, SuperSlicer doit utiliser un nombre différent de cordons à certains endroits. Ce paramètre contrôle la largeur de la zone de transition où l'on ajoute ou supprime l'un des cordons.
 
-![Une transition très courte](Images/wall_transition_length/wall_transition_length_0_2.png)
-![Une transition plus longue](Images/wall_transition_length/wall_transition_length_1_5.png)
+![Une transition très courte](./images/wall_transition_length/wall_transition_length_0_2.png)
+![Une transition plus longue](./images/wall_transition_length/wall_transition_length_1_5.png)
 
 La zone de transition entre différents nombres de cordons présente toujours de légers problèmes. C'est le plus visible lorsqu'une seule ligne au centre se termine et que les deux cordons environnants doivent combler le vide. Ils ne remplissent pas immédiatement l'espace, et un vide est laissé. Cela se traduit par de petits trous en haut et en bas des impressions. Le contraire se produit lorsque deux cordons se combinent en un seul, ce qui les fait se chevaucher pendant un moment jusqu'à ce qu'ils se rejoignent. La surextrusion peut entraîner une imprécision dimensionnelle, surtout lorsqu'elle se produit dans la paroi extérieure. Tout cela peut être évité en rendant la transition aussi courte que possible.
 

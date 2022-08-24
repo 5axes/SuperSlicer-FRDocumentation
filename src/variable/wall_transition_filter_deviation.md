@@ -13,8 +13,8 @@ Certains modèles ont des pièces fines qui oscillent autour du seuil où diffé
 
 Lorsqu'une transition est supprimée, certaines lignes peuvent temporairement devenir trop larges ou trop fines. Ce paramètre permet de limiter les transitions qui sont filtrées en limitant la largeur ou la finesse de la ligne.
 
-![Avec une faible marge, il alterne entre 2 et 3 cordons](Images/wall_transition_filter_off.png)
-![Avec une marge plus importante, il n'alterne plus](Images/wall_transition_filter_on.png)
+![Avec une faible marge, il alterne entre 2 et 3 cordons](./images/wall_transition_filter_off.png)
+![Avec une marge plus importante, il n'alterne plus](./images/wall_transition_filter_on.png)
 
 Pour être précis, les lignes sont autorisées à devenir plus fines que la [largeur minimale de la ligne de paroi](min_wall_line_width.md) de cette marge si cela permet d'aller et venir entre différents nombres de murs. De même, les lignes sont autorisées à devenir légèrement plus larges de cette marge, même si un mur supplémentaire de la largeur minimale de ligne de mur aurait pu être intégré.
 

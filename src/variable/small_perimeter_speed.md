@@ -16,7 +16,7 @@ Si cette valeur est exprimée en pourcentage (par exemple: 80%) elle sera calcul
 
 * Valeur par défaut : 15 mm/s
 
-![Réglage avec longueur mini = 20mm](Images/small_perimeter_speed/001.png)
+![Réglage avec longueur mini = 20mm](./images/small_perimeter_speed/001.png)
 
 Réglage avec [longueur mini](small_perimeter_min_length.md) = 21 mm  et [longueur maxi](small_perimeter_max_length.md) =24 mm.  Pour avoir une réduction de vitesse sur un diamètre 6 comme sur l'image la valeur à renseigner pour la longueur mini est de (6 + largeur extrusion) x pi  => 6.45 x pi = 20.26 . On utilisera donc 21 pour arrondir à la valeur supérieure.
 

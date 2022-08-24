@@ -11,8 +11,8 @@
 
 Certains modèles comportent des pièces minces qui se trouvent sur le seuil où différents nombres de cordons sont utilisés. Cela peut faire alterner le nombre de cordons d'avant en arrière, même si la largeur réelle de la pièce ne varie pas beaucoup. Cette altération nuit à la qualité de l'impression, nécessitant de nombreux changements de flux et ajoutant plus de déplacements. Grâce à cette fonctionnalité, si des transitions en avant et en arrière sont effectuées sur une certaine distance, ces transitions sont supprimées.
 
-![Sans filtre, il alterne entre 2 et 3 cordons.](Images/wall_transition_filter_off.png)
-![Avec le filtre, il n'alterne plus](Images/wall_transition_filter_on.png)
+![Sans filtre, il alterne entre 2 et 3 cordons.](./images/wall_transition_filter_off.png)
+![Avec le filtre, il n'alterne plus](./images/wall_transition_filter_on.png)
 
 Lorsqu'une transition est supprimée, certaines lignes peuvent devenir temporairement trop larges ou trop fines, dépassant ainsi la [Largeur minimale de la ligne de paroi](min_wall_line_width.md). Après tout, il y avait une transition à cet endroit pour mieux s'adapter à la largeur de la pièce. Sans cette transition, le nombre de cordons utilisés sera inférieur ou supérieur à ce qui serait idéal, et la largeur de ces parois sera ajustée en conséquence. Ceci est autorisé jusqu'à la [marge du filtre de transition des parois](wall_transition_filter_deviation.md). Si la largeur des murs varie trop, la transition n'est pas supprimée.
 

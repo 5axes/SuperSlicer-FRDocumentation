@@ -17,6 +17,6 @@ La valeur par défaut est la moitié de la largeur du [périmètre externe](exte
 
 * Valeur par défaut : 50 %
 
-![Distance XY entre un objet et son support  : Expression en pourcentage](Images/support_material_xy_spacing/001.jpeg)
+![Distance XY entre un objet et son support  : Expression en pourcentage](./images/support_material_xy_spacing/001.jpeg)
 
 [Retour Liste variables](variable_list.md)

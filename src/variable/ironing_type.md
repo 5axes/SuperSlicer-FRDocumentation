@@ -18,7 +18,7 @@ La buse lissera la couche supérieure de chaque surface (la dernière couche de 
 
 Seule la toute dernière couche de l'objet sera lissée. Cela signifie que dans le cas d'un texte en relief (orienté parallèlement au lit d'impression), seule la partie supérieure des lettres sera repassée, mais pas l'espace entre les lettres.
 
-![Toutes les surfaces supérieures (à gauche), Surface supérieure seulement (à droite)](Images/ironing_type/085.jpeg)
+![Toutes les surfaces supérieures (à gauche), Surface supérieure seulement (à droite)](./images/ironing_type/085.jpeg)
 
 
 ### ***Toutes les surfaces pleines***

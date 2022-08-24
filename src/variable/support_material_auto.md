@@ -15,7 +15,7 @@ Les imprimantes 3D avec fabrication de filaments fondus fonctionnent en plaçant
 
 Ce réglage permet de créer des structures de support pour soutenir les couches qui sont créés pendant l'impression. 
 
-![Structure de support pour soutenir le modèle pendant l'impression](Images/support_material_auto/support_enable.png)
+![Structure de support pour soutenir le modèle pendant l'impression](./images/support_material_auto/support_enable.png)
 
 L'impression d'un support prend beaucoup de temps et de matière. Lorsque le support touche le modèle, il doit être enlevé plus tard, une fois l'impression terminée. Cela a tendance à laisser des marques sur la surface.
 

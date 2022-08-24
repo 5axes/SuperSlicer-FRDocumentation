@@ -10,7 +10,7 @@
 ### Description
 L'imprimante 3D dépose le plastique par couches. La hauteur des couches est l'épaisseur de ces couches en millimètres. C'est le facteur le plus important tant pour la qualité visuelle de votre impression finale que pour le temps d'impression.
 
-![0,1mm hauteur de couche](Images/layer_height/layer_height_0.1.png) ![0,3mm hauteur de couche](Images/layer_height/layer_height_0.3.png)
+![0,1mm hauteur de couche](./images/layer_height/layer_height_0.1.png) ![0,3mm hauteur de couche](./images/layer_height/layer_height_0.3.png)
 
 La hauteur de la couche est le paramètre le plus important pour affecter la qualité globale et, inversement, le temps d'impression  :
 * Le fait d'avoir des couches plus fines augmente la qualité visuelle de l'impression. Comme les couches sont plus fines, l'effet de marche d'escalier  sera réduit. De plus, les couches seront plus proches les unes des autres et les espaces entre les couches seront donc plus petits, ce qui donnera une finition plus lisse dans l'ensemble.
