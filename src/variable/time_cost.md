@@ -1,18 +1,14 @@
-# time_estimation_compensation
+# time_cost
 
 * Technologie : FDM 
 * Groupe : firmware
 * Sous groupe : -
 * Mode : Avancé
 
-## Compensation de l'estimation du temps normal
+## *Compensation de l'estimation du temps* Coût par heure
 
 ### Description
 
-Ce paramètre vous permet de modifier l'estimation du temps par un pourcentage. Augmenté ou diminué la valeur pour corriger le temps estimé (valeur à faire varier autour de 100%).
-
-Comme SuperSlicer n'utilise que l'algorithme Marlin, il n'est pas assez précis si un autre firmware est utilisé.
-
-* Valeur par défaut : 100 %
+Ce paramètre permet de renseigner de combien coûte une heure d'impression, en maintenance, prêt, salaire, etc.
 
 [Retour Liste variables](variable_list.md)

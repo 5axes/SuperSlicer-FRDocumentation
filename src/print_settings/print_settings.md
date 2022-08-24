@@ -638,13 +638,20 @@ Idée et mathématiques de ***polygones*** [http://hydraraptor.blogspot.com/2011
 
 ![Image : Modifications des couches](./images/036.png)
 
-##### *[torsion](../variable/hole_to_polyhole_twisted.md)*
+##### *[Torsion](../variable/hole_to_polyhole_twisted.md)*
 
 Cette option permet de pivoter les polygones créés à chaque section [#1396](https://github.com/supermerill/SuperSlicer/issues/1396).
 
 ### Autre
 
 ![Image : Autre](./images/037.png)
+#### *[Mode de découpage](../variable/slicing_mode.md)*
+
+Utiliser 
+- "Pair-impair" pour les modèles d'avions 3DLabPrint. 
+- "Fermer les trous" pour fermer tous les trous du modèle.
+
+
 
 #### *[Dissocier les objets multi-pièces](../variable/clip_multipart_objects.md)*
 
