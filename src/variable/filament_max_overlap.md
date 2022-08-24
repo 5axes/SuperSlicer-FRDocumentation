@@ -9,7 +9,7 @@
 
 ### Chevauvement maximal des lignes
 
-Ce paramètre garantit que tous les chevauchementsne sont pas supérieurs à cette valeur.
+Ce paramètre garantit que tous les chevauchements ne sont pas supérieurs à cette valeur.
 
 Ceci est utile pour les filaments trop visqueux, car la ligne ne peut pas passer sous la précédente.
 

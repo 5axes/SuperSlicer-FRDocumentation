@@ -90,6 +90,13 @@ Entrez le pourcentage de retrait que le filament aura après refroidissement (94
 
 Veillez à laisser suffisamment d'espace entre les objets, car cette compensation se fait après les vérifications.
 
+#### *[Chevauchement maximal des lignes](../variable/filament_max_overlap.md)*
+
+Ce paramètre garantit que tous les chevauchements ne sont pas supérieurs à cette valeur.
+
+Ceci est utile pour les filaments trop visqueux, car la ligne ne peut pas passer sous la précédente.
+
+
 ### Contournement de la vitesse d’impression
 
 #### *[Vitesse maximale](../variable/filament_max_speed.md)*
@@ -376,6 +383,10 @@ Paramètres de gestion personnalisés de la **Rétraction**.
 
 ![Image : Paramètres pour la rétraction](./images/018.png)
 
+#### *[Quantité de rétraction avant essuyage](../variable/filament_retract_before_wipe.md)*
+
+Avec les extrudeuses de type bowden, il est conseillé d'effectuer une rétractation rapide avant de réaliser le mouvement de purge.
+
 #### *[Longueur](../variable/filament_retract_length.md)*
 
 Lorsque la rétraction est déclenchée avant un changement d'outil, le filament est retiré de la longueur indiquée (la longueur est mesurée sur le filament brut, avant qu'il entre dans l'extrudeur).
@@ -411,6 +422,10 @@ La rétraction n'est pas déclenchée lorsque les déplacements sont plus courts
 #### *[Rétracter lors des changements de couche](../variable/filament_retract_layer_change.md)*
 
 Cette option active la rétraction lors d'un déplacement sur l'axe Z.
+
+#### *[Espace de jointure](../variable/filament_seam_gap.md)*
+
+Pour éviter une couture visible , l'extrusion peut être arrêtée un peu avant la fin de la boucle.
 
 #### *[Essuyer lors des rétractions](../variable/filament_retract_before_wipe.md)*
 
