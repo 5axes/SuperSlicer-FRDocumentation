@@ -63,6 +63,10 @@ En plus de cela, après le démarrage de l'application, une texture de plateau d
 
 Réglez cette valeur sur la hauteur maximum que peut atteindre votre extrudeur au cours de l'impression.
 
+#### *[Orientation préférée](../variable/init_z_rotate.md)*
+
+Permet de tourner la pièce autour de Z lors de son importation.
+
 #### *[Décalage en Z](../variable/z_offset.md)*
 
 Cette valeur sera ajoutée (ou soustraite) de toutes les coordonnées Z dans le G-Code de sortie. Elle est utilisée pour compenser une mauvaise position de fin de course Z: par exemple si votre fin de course place votre buse à 0.3mm au-dessus du plateau, réglez cette valeur sur -0.3 (ou corrigez votre fin de course).
