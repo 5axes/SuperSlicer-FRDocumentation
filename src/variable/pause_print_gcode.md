@@ -9,6 +9,8 @@
 
 ### Description
 
-Ce G-Code sera utilisé comme code pour la pause de l'impression
+Ce G-Code sera utilisé comme code pour la pause de l'impression.
+
+Valeur par défaut : `M601`
 
 [Retour Liste variables](variable_list.md)

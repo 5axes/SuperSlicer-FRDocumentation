@@ -300,8 +300,32 @@ Notez que vous pouvez utiliser des variables de substitution pour tous les param
 
 Mixed n'est utilisé que lorsque le type de l'extrusion n'est pas unique, pas uniquement dans une catégorie ou n'est pas connu.
 
+#### *[G-Code changement de couleur](../variable/color_change_gcode.md)* 
+
+Ce G-Code sera utilisé comme code pour le changement de couleur.
+
+Valeur par défaut : `M600`
+
+#### *[G-Code de pause d'impression](../variable/pause_print_gcode.md)* 
+
+Ce G-Code sera utilisé comme code pour la pause de l'impression.
+
+Valeur par défaut : `M601`
+
+#### *[Patron de G-Code personnalisé](../variable/template_custom_gcode.md)* 
+
+Ce code G sera utilisé comme un code personnalisé.
 
 ## Limites de la machine
+
+### Compensation de l'estimation du temps
+Ces paramètres permettent une meilleur prise en compte du calcul du temps d'impression en rajoutant les secondes apportées par certaines actions comme par exemple [La durée de temps de démarrage de la machine](../variable/time_start_gcode.md) ou la [Durée d'un changement d'extrudeur](../variable/time_toolchange.md) 
+
+![Image : Options Compensation de l'estimation du temps](./images/030.png)
+
+#### [Côut par heure](../variable/time_cost.md)
+
+Ce paramètre permet de renseigner de combien coûte une heure d'impression, en maintenance, prêt, salaire, etc.
 
 ![Image : Options Limites de la machine](./images/012.png)
 
