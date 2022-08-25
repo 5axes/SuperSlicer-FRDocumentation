@@ -1354,8 +1354,15 @@ Options pour le réglage des supports
 
 #### *[Style](../variable/support_material_style.md)*
 
+Style et forme des support. 
 
+La création des supports dans une grille régulière créera des supports plus stables, 
 
+Tandis que des supports bien ajustées économiseront du matériau et réduiront les marques sur les objets.
+
+#### *[Hauteur de la couche de support](../variable/support_material_layer_height.md)*
+
+Hauteur maximale de la couche pour le support, après la première couche qui utilise la première hauteur de couche, et avant les couches d'interface.
 
 #### *Distance de contact Z*
 
@@ -1394,9 +1401,9 @@ Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couc
 
 #### *[Motif](../variable/support_material_pattern.md)*
 
-- ***Rectiligne*** - par défaut, généralement le plus facile à supprimer
-- ***Grille rectiligne*** - plus solide et moins sujette à la rupture pendant l'impression par rapport au remplissage rectiligne, plus difficile à retirer
-- ***Nid d'abeille*** - robuste, un peu difficile à enlever
+- ***Rectiligne***  :  par défaut, généralement le plus facile à supprimer.
+- ***Grille rectiligne*** :  plus solide et moins sujette à la rupture pendant l'impression par rapport au remplissage rectiligne, plus difficile à retirer.
+- ***Nid d'abeille***  :  robuste, un peu difficile à enlever.
 
 #### *[Avec une enveloppe autour du support](../variable/support_material_with_sheath.md)*
 
