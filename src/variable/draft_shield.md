@@ -11,6 +11,15 @@
 
 Si elle est activée, la jupe sera aussi haute que l'objet imprimé le plus haut. Cela sert à protéger les impressions ABS ou ASA des phénomènes de déformation ou de décollement du plateau d'impression liés au flux d'air.
 
+Avec le bouclier contre les flux d'air actif, la jupe sera imprimée à [skirt_distance](skirt_distance.md) de l'objet, éventuellement en intersection avec la bordure.
+
+Le Bouclier peut être réglé sur 2 formes :
+- Activé = la jupe est aussi haute que l'objet imprimé le plus haut.
+- Limité = la jupe est aussi haute que spécifié par [skirt_height](skirt_height.md).
+
+Ceci est utile pour protéger une impression ABS ou ASA contre la déformation et le détachement du plateau d'impression à cause d'un courant d'air.
+
+
 ![Bouclier en mode Tour de purge](./images/draft_shield/001.png)
 
 Le bouclier a plusieurs effets majeurs sur l'impression :

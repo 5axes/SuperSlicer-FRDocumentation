@@ -777,7 +777,7 @@ Pour plus d'infos sur les remplissage [consultez la page](../pattern/pattern.md)
 
 Le fait d’éditer un remplissage ne consiste pas seulement à choisir un type de remplissage pour les parties internes de l’objet. Vous pouvez aussi modifier les types de remplissage pour les couches du haut et du bas afin d’obtenir des résultats intéressants. Cela peut être ajusté dans l’onglet **Réglages d’impression/Remplissage/Motif de remplissage du dessus (du dessous)**. Néanmoins, le fait de changer le remplissage du dessus ou du dessous provoque des **changements esthétiques** et n’améliore en rien les propriétés mécaniques du modèle.
 
-![Remplissage des couches du dessus/dessous (image Prusa)](./images/069.jpeg)
+![Remplissage des couches du dessus/dessous ](./images/069.jpeg)
 
 *Remplissage des couches du dessus/dessous.*
 
@@ -785,12 +785,14 @@ Voici chacun des sept types de remplissage du dessus (et du dessous) imprimés a
 
 **Rectiligne**
 
-Une nouvelle fois, il s’agit du type de remplissage du dessus le plus commun (et basique). Les trajets d’impression sont orientés en zig-zag pour toute la couche. Néanmoins, c’est le type de remplissage le plus simple et il **ne procure aucun avantage** d’aucune sorte (voir le remplissage monotone). **Monotone** Le motif de remplissage monotone remplit la couche du dessus (ou du bas) avec des lignes parallèles, identiques à celles du remplissage de type rectiligne. Néanmoins, ce remplissage utilise **une planification de trajet avancée.** Contrairement au remplissage rectiligne, celui-ci est toujours imprimé de gauche à droite, jamais dans la direction opposée. Ce système simple permet d’obtenir **un remplissage homogène sans vilaines aspérités.** Celles-ci apparaissent en général avec d’autres remplissages lorsque les trajets gauche-droite rencontrent les trajets droite-gauche. Cette méthode en apparence simple est étonnamment difficile à intégrer. Nous avons utilisé la variante **du Système de Colonie de Fourmis** décrite par Raad Salman.
+Une nouvelle fois, il s’agit du type de remplissage du dessus le plus commun (et basique). Les trajets d’impression sont orientés en zig-zag pour toute la couche. Néanmoins, c’est le type de remplissage le plus simple et il **ne procure aucun avantage** d’aucune sorte (voir le remplissage monotone).
 
+**Monotone** 
+
+Le motif de remplissage monotone remplit la couche du dessus (ou du bas) avec des lignes parallèles, identiques à celles du remplissage de type rectiligne. Néanmoins, ce remplissage utilise **une planification de trajet avancée.** Contrairement au remplissage rectiligne, celui-ci est toujours imprimé de gauche à droite, jamais dans la direction opposée. Ce système simple permet d’obtenir **un remplissage homogène sans vilaines aspérités.** Celles-ci apparaissent en général avec d’autres remplissages lorsque les trajets gauche-droite rencontrent les trajets droite-gauche. Cette méthode en apparence simple est étonnamment difficile à intégrer. 
 ![Image : Remplissage rectiligne (image Prusa)](./images/070.jpeg)
 
 différence entre remplissage Rectilinéaire et monotone ( Image Prusa)
-
 
 ##### *Rectiligne aligné*
 
@@ -799,6 +801,12 @@ Ce motif de remplissage fonctionne de la même façon que le remplissage rectili
 ##### *Concentrique* 
 
 Le motif de remplissage concentrique copie la forme du périmètre. Si vous imprimez un cylindre, il dessinera des cercles concentriques sur le dessus du modèle. 
+
+##### *Monotone (remplit) & Concentrique (remplit)*
+
+Les motifs dit remplit sont identiques au motif de base mais dans leur cas les petits interstices laissés par le remplissage seront remplis de manière à ne laisser aucun vide.
+
+![Sans remplissage des vides ](./images/sans_remplissage_vide.png) ![Avec Remplissage vide ](./images/avec_remplissage_vide.png)
 
 ##### *Courbe de Hilbert*
 
@@ -811,6 +819,15 @@ Avec les Spirales d'Archimède, la surface qui se trouve le plus au-dessus est i
 ##### *Spirale octagramme*
 
 Là aussi, ce remplissage a été décrit précédemment. Il est surtout intéressant pour des raisons esthétiques, mais sa forme complexe allonge le temps d’impression.
+
+##### *Lissage*
+
+Remplissage de type rectiligne mais avec un deuxième passage de la buse à 90° avec une faible extrusion destinée à lisser la surface en remplissant les micro-cavités générées  par le remplissage rectiligne.
+
+##### *Dent de scie*
+
+Remplissage uniquement valable pour la couche supérieure. Produit un remplissage en 3D avec des picots comme des "dents de scie"
+![Remplissage en "Dent de Scie" ](./images/dent_de_scie.png)
 
 #### *[Longueur de la connexion](../variable/infill_anchor_max.md)*
 
@@ -947,7 +964,7 @@ Cette option inverse l'ordre d'impression des périmètres et du remplissage, ce
 
 Ces options sont actives à condition que le type **Lissage** soit sélectionné pour les remplissages des couches pleines ou du dessus.
 
-#### *[Réglage du remplissage pour le lissage](../variable/fill_smooth_distribution.md)*
+#### *[Réglage du remplissage pour le lissage (Distribution) ](../variable/fill_smooth_distribution.md)*
 
 C'est le pourcentage du débit qui est utilisé pour la deuxième passe de lissage. Typiquement 10-20%. Ne devrait pas être supérieur à 20%, à moins que votre largeur d'extrusion soit largement supérieure à celle de votre buse. Une valeur trop faible et votre extrudeuse va manger le filament. Une valeur trop élevée et la première passe ne sera pas bien imprimée.
 
@@ -1201,7 +1218,7 @@ Motif pour le coin. Le concentrique est celui par défaut. Le rectiligne a un p�
 ![Image : Bordure sur coin](./images/092.png)
 
 
-#### *[Décalage de la bordure](../variable/brim_offset.md)*
+#### *[Espacement de la bordure](../variable/brim_offset.md)*
 
 Distance entre la bordure et la pièce. Doit être maintenue à 0, sauf si vous rencontrez de grandes difficultés pour les séparer. Elle est soustraite à [brim_width](../variable/brim_width.md) et [brim_width_interior](../variable/brim_width_interior.md), elle doit donc être inférieure à celles-ci.
 
@@ -1440,6 +1457,8 @@ Motifs pour couches d'interface
 Les couches d'interface forment une surface plus uniforme entre l'objet et les supports. Celles-ci sont de préférence définies sur un motif beaucoup plus dense que les couches normales de support afin que vous puissiez à la fois maximiser la surface du support en contact avec le modèle pour éviter l'affaissement tout en minimisant le temps d'impression et le matériau utilisé avec un espacement de motif de support plus grand.
 
 Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports.
+
+#### *[Couches d'interface du dessous](../variable/support_material_bottom_interface_layers.md)*
 
 #### *[Espacement du motif d’interface](../variable/support_material_interface_spacing.md)*
 
