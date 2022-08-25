@@ -13,4 +13,4 @@ Les couches d'interface forment une surface plus uniforme entre l'objet et les s
 
 Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports.
 
-[Retour Liste variables](variable_list.md)
+[Retour Liste variables](variable_list.md)m

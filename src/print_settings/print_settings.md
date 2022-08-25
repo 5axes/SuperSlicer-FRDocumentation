@@ -1346,11 +1346,15 @@ L'objet sera surélevé de ce nombre de couches et des supports seront généré
 
 ![Image : Option pour les radeaux](./images/101.png)* 
 
-### Options pour le matériau de support et le radeau
+### Options pour le réglage des supports
 
 ![Image : Options pour le matériau de support et le radeau](./images/102.png)
 
-Options pour le matériau de support et le radeau.
+Options pour le réglage des supports
+
+#### *[Style](../variable/support_material_style.md)*
+
+
 
 
 #### *Distance de contact Z*
@@ -1451,6 +1455,10 @@ Motifs pour couches d'interface
 - ***[Courbe de Hilbert](../pattern/pattern_hilbertcurve.md)*** : Courbe de Hilbert
 - ***[Dent de scie](../pattern/pattern_sawtooth.md)*** : Motif en dent de scie
 - ***[Lissage](../pattern/pattern_smooth.md)*** : Permet de réaliser un lissage de la dernière couche.
+
+#### *[Espacement des interfaces](../variable/support_material_interface_spacing.md)*
+
+Espacement entre les lignes d'interface.
 
 #### *[Angle du motif](../variable/support_material_interface_angle.md)*
 
