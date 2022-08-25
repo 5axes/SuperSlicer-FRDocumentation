@@ -10,7 +10,7 @@
 
 ### Description
 
-Utiliser "Pair-impair" pour les modèles d'avions 3DLabPrint. Voir la page [3DLabPrint](https://3dlabprint.com/faq/prusaslicer/).
+Utiliser "Pair-impair" pour les modèles d'avions 3DLabPrint. Voir la page [3DLabPrint](https://3dlabprint.com/faq/prusaslicer/). 
 
 On peut voir avec le mode ordinaire que les structures internes ne sont pas correctement créées.
 
@@ -24,5 +24,7 @@ Utiliser "Fermer les trous" pour fermer tous les trous du modèle. Cette option 
 
 
 
+![Mode de découpe de mode normale](./images/slicing_mode/slicing_mode_normal.png)
+![Mode de découpe de mode surface](./images/slicing_mode/slicing_mode_fill_hole.png)
 
 [Retour Liste variables](variable_list.md)
