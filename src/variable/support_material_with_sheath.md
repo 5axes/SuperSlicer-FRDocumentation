@@ -12,4 +12,8 @@
 Ajouter une enveloppe (une ligne unique de périmètre) autour de la base du support.
 Ceci rend le support plus fiable, mais aussi plus difficile à retirer.
 
+![Sans enveloppe autour du support](./images/support_material_with_sheath/support_material_without_sheath.png)
+
+![Avec enveloppe autour du support](./images/support_material_with_sheath/support_material_with_sheath.png)
+
 [Retour Liste variables](variable_list.md)
