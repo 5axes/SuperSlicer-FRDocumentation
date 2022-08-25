@@ -1332,17 +1332,26 @@ L’option **[Générer des supports](../variable/support_material.md)** doit ê
 
 ### Radeau
 
-#### *[Première couche pleine](../variable/support_material_solid_first_layer.md)*
-
-Dépose une couche pleine sur le plateau à la place d'un radeau.
-
-![Image : Première Couche pleine à droite / Radeau classique à gauche](./images/099.png) ![](./images/100.png)
-
-Première Couche pleine à droite / Radeau classique à gauche.
-
 #### *[Couches du radeau](../variable/raft_layers.md)*
 
 L'objet sera surélevé de ce nombre de couches et des supports seront générés en-dessous. Une fois l'impression terminée, vous pouvez saisir le radeau et le décoller de la pièce.
+
+
+#### *[Hauteur de couche](../variable/raft_layer_height.md)*
+
+Hauteur maximale de la couche pour le radeau, après la première couche qui utilise la première hauteur de couche, et avant les couches  d'interface.
+
+
+#### *[Hauteur de la couche d'interface](../variable/raft_interface_layer_height.md)*
+
+Hauteur maximale de la couche pour l'interface du radeau.
+
+#### *[Densité de la première couche](../variable/raft_first_layer_density.md)*
+#### *[Expansion de la première couche](../variable/raft_first_layer_expansion.md)*
+#### *[Distance Z de contact du raft](../variable/raft_contact_distance.md)*
+#### *[Agrandissement du raft](../variable/raft_expansion.md)*
+
+
 
 ![Image : Option pour les radeaux](./images/101.png)* 
 
