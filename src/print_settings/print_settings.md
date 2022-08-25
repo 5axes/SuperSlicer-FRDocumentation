@@ -1452,13 +1452,36 @@ Motifs pour couches d'interface
 - ***[Dent de scie](../pattern/pattern_sawtooth.md)*** : Motif en dent de scie
 - ***[Lissage](../pattern/pattern_smooth.md)*** : Permet de réaliser un lissage de la dernière couche.
 
-#### *[Couches d'interface](../variable/support_material_interface_layers.md)*
+#### *[Angle du motif](../variable/support_material_interface_angle.md)*
+
+Utilisez ce paramètre pour faire pivoter le motif du matériau de support sur le plan horizontal.
+
+#### *[Increment](../variable/support_material_interface_angle_increment.md)*
+
+Chaque couche, ajoutez cet angle à l'angle du motif de l'interface. 0 pour garder le même angle, 90 pour croiser.
+
+#### *[Couches d'interface supérieures](../variable/support_material_interface_layers.md)*
 
 Les couches d'interface forment une surface plus uniforme entre l'objet et les supports. Celles-ci sont de préférence définies sur un motif beaucoup plus dense que les couches normales de support afin que vous puissiez à la fois maximiser la surface du support en contact avec le modèle pour éviter l'affaissement tout en minimisant le temps d'impression et le matériau utilisé avec un espacement de motif de support plus grand.
 
 Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports.
 
+Peut être réglé :
+- 0 (Aucune)
+- 1 (faible)
+- 2 (moyen)
+- 3 (fort)
+
 #### *[Couches d'interface du dessous](../variable/support_material_bottom_interface_layers.md)*
+
+Cette option permet de définir le nombre de couches d'interface à insérer entre le(s) objet(s) et les supports pour la partie inférieure du support.
+
+Peut être réglé :
+- Comme le dessus même nombre de couches.
+- 0 (Aucune)
+- 1 (faible)
+- 2 (moyen)
+- 3 (fort)
 
 #### *[Espacement du motif d’interface](../variable/support_material_interface_spacing.md)*
 
