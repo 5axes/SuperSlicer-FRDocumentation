@@ -6,10 +6,15 @@
 * Mode : Avancé
 * * Version : 2.4.X
 
-## Couches du radeau
+## Distance Z de contact du radeau
 
 ### Description
 
-L'objet sera surélevé de ce nombre de couches, et du support sera généré en dessous.
+La distance verticale entre l'objet et le radeau. Ignoré pour l'interface soluble. 
+
+Il utilise le même type que celui du support z-offset.
+
+Valeur par défaut : 0.1 mm
+
 
 [Retour Liste variables](variable_list.md)

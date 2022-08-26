@@ -10,6 +10,8 @@
 
 ### Description
 
-Densité de la première couche du radeau.
+Densité de la première couche du radeau et des supports.
+
+Valeur par défaut : 90 %
 
 [Retour Liste variables](variable_list.md)

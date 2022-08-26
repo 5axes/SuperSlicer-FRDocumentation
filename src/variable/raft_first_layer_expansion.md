@@ -6,10 +6,13 @@
 * Mode : Avancé
 * Version : 2.4.X
 
-## Couches du radeau
+## Expansion de la première couche
 
 ### Description
 
-L'objet sera surélevé de ce nombre de couches, et du support sera généré en dessous.
+Expansion de la première couche du radeau ou des supports  pour avoir une meilleur adhérence au plateau d'impression.
+
+Valeur par défaut  : 3 mm
+
 
 [Retour Liste variables](variable_list.md)

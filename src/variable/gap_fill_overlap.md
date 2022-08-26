@@ -5,7 +5,7 @@
 * Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Chevauchement
 * Mode : Expert
 
-## *Chevauchement du périmètre*  Remplir les trous entre les parois
+## *Chevauchement du périmètre*  Remplir les vides entre les parois
 
 ### Description
 

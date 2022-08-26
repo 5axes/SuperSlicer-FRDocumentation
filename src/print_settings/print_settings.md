@@ -1347,10 +1347,20 @@ Hauteur maximale de la couche pour le radeau, après la première couche qui uti
 Hauteur maximale de la couche pour l'interface du radeau.
 
 #### *[Densité de la première couche](../variable/raft_first_layer_density.md)*
+
+Densité de la première couche du radeau et des supports.
+
 #### *[Expansion de la première couche](../variable/raft_first_layer_expansion.md)*
+
+Expansion de la première couche du radeau ou des supports  pour avoir une meilleur adhérence au plateau d'impression.
+
 #### *[Distance Z de contact du raft](../variable/raft_contact_distance.md)*
+
+La distance verticale entre l'objet et le radeau. Ignoré pour l'interface soluble. 
+
 #### *[Agrandissement du raft](../variable/raft_expansion.md)*
 
+Expansion du radeau dans le plan XY pour une meilleure stabilité.
 
 
 ![Image : Option pour les radeaux](./images/101.png)* 
@@ -1414,9 +1424,6 @@ Peut être spécifié par un % de la largeur d'extrusion utilisée pour les couc
 - ***Grille rectiligne*** :  plus solide et moins sujette à la rupture pendant l'impression par rapport au remplissage rectiligne, plus difficile à retirer.
 - ***Nid d'abeille***  :  robuste, un peu difficile à enlever.
 
-#### *[Avec une enveloppe autour du support](../variable/support_material_with_sheath.md)*
-
-Crée un périmètre unique autour des supports, ce qui les rend plus robustes, mais plus difficiles à retirer.
 
 #### *[Espacement du motif](../variable/support_material_spacing.md)*
 
@@ -1432,6 +1439,14 @@ Attention non seulement ce paramètre va jouer sur la distance entre les lignes 
 #### *[Angle du motif](../variable/support_material_angle.md)*
 
 Angle des lignes du motif d'interface.
+
+#### *[Avec une enveloppe autour du support](../variable/support_material_with_sheath.md)*
+
+Crée un périmètre unique autour des supports, ce qui les rend plus robustes, mais plus difficiles à retirer.
+
+#### *[Rayon de fermeture](../variable/support_material_closing_radius.md)*
+
+Crée un périmètre unique autour des supports, ce qui les rend plus robustes, mais plus difficiles à retirer.
 
 #### *[Supports sur le plateau uniquement](../variable/support_material_buildplate_only.md)*
 
@@ -1577,15 +1592,19 @@ Vitesse d'impression des ponts internes.
 
 Vitesse d'impression des surplombs.
 
-#### *[Bouchage des trous](../variable/gap_fill_speed.md)*
+#### *[Vitesse de remplissage des vides](../variable/gap_fill_speed.md)*
 
 Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
 
+#### *Autre vitesse*
 
-#### *[Murs minces](../variable/thin_walls_speed.md)*
+##### *[Murs minces](../variable/thin_walls_speed.md)*
 
 Vitesse pour l'impression des parois minces. Les parois minces sont les extrusions externes qui ne sont pas imprimable sous forme de boucle car trop mince pour etre imprimé en 2 passages.
 
+##### *[Lissage](../variable/ironing_speed.md)*
+
+Vitesse utilisée pour effectuer le lissage.
 
 
 ![Image : Vitesse pour les déplacements d’impression](./images/110.png) 
@@ -1628,9 +1647,20 @@ Définissez-la à 100% pour supprimer toute modification de la vitesse de la pre
 
 Si elle est exprimée en valeur absolue en mm/s, cette vitesse sera appliquée aux déplacements du remplissage déplacements de la première couche, elle peut être écrasée par la vitesse 'par défaut' (remplissage pleine ou remplissage si pas de fond) si elle est inférieure à cette vitesse. Si elle est exprimée en pourcentage (par exemple : 40%), elle mettra à l'échelle la vitesse de remplissage actuelle.
 
+##### *[Sur radeau](../variable/first_layer_speed_over_raft.md)*
+
+Si exprimée avec une valeur absolue en mm/s, cette vitesse sera appliquée comme maximum pour les mouvements d'impression de la première couche des objets au-dessus de l'interface du raft, quel que soit leur type.
+
 #### *Petite vitesse périphérique*
 
 Ces paramètres permettent de définir la notion de petit périmètre.
+
+##### *[Vitesse](../variable/small_perimeter_speed.md)*
+
+**Ce réglage distinct affectera la vitesse des périmètre ayant un rayon <= 6.5mm (les trous habituellement). Si cette valeur est exprimée en pourcentage (par exemple: 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée.**
+
+Réglez sur zéro pour un ajustement automatique.
+
 
 ##### *[Longueur minimale](../variable/small_perimeter_min_length.md)*
 
@@ -1644,11 +1674,7 @@ Cela fixe la fin du seuil de la petite longueur périmétrique. Chaque boucle de
 
 Peut être exprimé en mm ou un % du diamètre de la buse.
 
-##### *[Vitesse](../variable/small_perimeter_speed.md)*
 
-**Ce réglage distinct affectera la vitesse des périmètre ayant un rayon <= 6.5mm (les trous habituellement). Si cette valeur est exprimée en pourcentage (par exemple: 80%) elle sera calculée d'après le réglage de la vitesse de périmètre susmentionnée.**
-
-Réglez sur zéro pour un ajustement automatique.
 
 ![Image : Modificateurs](./images/113.png)
 
@@ -1848,11 +1874,11 @@ Ce paramètre par **Défaut** vous permet de réduire le chevauchement entre les
 
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le contour externe, afin de réduire l'impact des artefacts des périmètres. 100% signifie qu'aucun vide n'est laissé, et 0% signifie que le périmètre externe ne contribue pas au chevauchement avec le périmètre interne.
 
-#### *[Remplir les trous entre les parois](../variable/gap_fill_overlap.md)*
+#### *[Remplir les vides entre les parois](../variable/gap_fill_overlap.md)*
 
 Ce paramètre vous permet de réduire le chevauchement entre les périmètres et le remplissage de l'espace. 100% signifie qu'aucun espace n'est laissé, et 0% signifie que le remplissage des espaces ne touchera pas les périmètres.
 
-#### *[Chevauchement remplissage/périmètres](../variable/infill_overlap.md)*
+#### *[Empiètement remplissage/périmètres](../variable/infill_overlap.md)*
 
 Cette option applique un chevauchement supplémentaire entre les périmètres et le remplissage pour une meilleur fusion. En théorie, cela ne devrait pas être nécessaire, mais le jeu mécanique peut générer des espacements. Si exprimé en pourcentage (par exemple 15%), la valeur sera calculée en fonction de la largeur d'extrusion du périmètre.
 
@@ -1863,9 +1889,21 @@ Cette option applique un chevauchement supplémentaire entre les périmètres et
 
 Chevauchement à 25% à gauche, 50% à droite.
 
-#### *[Recouvrement des ponts](../variable/bridge_overlap.md)*
+
+#### *[Densité des lignes de pont minimum](../variable/bridge_overlap_min.md)*
+
+Densité minimum pour les lignes des ponts. Si plus petite que 'Densité maximum des ponts' ('[bridge_overlap](bridge_overlap.md)'), alors la valeur d'overlap peut être diminuée automatiquement jusqu’à cette valeur, afin de permettre une meilleure répartition des lignes sur la largeur disponible. Si la valuer est supérieure, ce paramètre n'a pas d'effets.
+
+#### *[Densité des lignes de pont maximum](../variable/bridge_overlap.md)*
 
 Quantité de chevauchement entre les lignes du pont. Si vous voulez plus d'espace entre les lignes (ou moins), vous pouvez le modifier. La valeur par défaut est de 100%. Une valeur de 50% créer deux fois moins de lignes.
+
+
+#### *[Chevauchement de remplissage plein](../variable/solid_infill_overlap.md)*
+
+Ce paramètre vous permet de réduire le chevauchement entre les lignes du remplissage solide , afin de réduire le % rempli si vous voyez des signes de surextrusion sur les zones solides.
+
+
 
 ### Débit
 

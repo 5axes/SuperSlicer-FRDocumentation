@@ -5,7 +5,7 @@
 * Sous groupe : [Largeur et Débit](../print_settings/print_settings.md#largeur-et-débit) - Chevauchement
 * Mode : Expert
 
-## Chevauchement remplissage / périmètres
+## Empiètement remplissage / périmètres
 
 ### Description
 
