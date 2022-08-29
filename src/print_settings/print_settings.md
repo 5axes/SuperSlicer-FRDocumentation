@@ -1547,6 +1547,15 @@ Section de réglage des vitesses dans le logiciel.
 
 ### Vitesse pour les déplacements d’impression
 
+#### *[Vitesse par défaut](../variable/default_speed.md)*
+
+Il s'agit de la vitesse de référence à laquelle les autres vitesses 'principales' peuvent se référer par un %.
+Ce paramètre ne fait rien en lui-même, il est donc désactivé à moins qu'une vitesse en dépende (un % de la colonne de gauche).
+Cela peut être exprimé en pourcentage (par exemple : 80 %) par rapport à la Vitesse d'avance maximale pour l'axe X.
+
+Mettre zéro pour utiliser la vitesse automatique pour les champs de vitesse utilisant un % de ce réglage.
+
+
 #### *[Vitesse pour les parois paramètre par défaut](../variable/perimeter_speed.md)*
 
 Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
