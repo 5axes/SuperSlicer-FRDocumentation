@@ -1556,7 +1556,7 @@ Cela peut être exprimé en pourcentage (par exemple : 80 %) par rapport à la V
 Mettre zéro pour utiliser la vitesse automatique pour les champs de vitesse utilisant un % de ce réglage.
 
 
-#### *[Vitesse pour les parois paramètre par défaut](../variable/perimeter_speed.md)*
+#### *[Vitesse pour les parois internes](../variable/perimeter_speed.md)*
 
 Vitesse pour les périmètres (contours, parois verticales). Réglez sur zéro pour un ajustement automatique.
 
@@ -1577,9 +1577,6 @@ Vitesse pour imprimer des zones pleines (supérieures/inférieures/parois horizo
 
 Vitesse pour imprimer les couches pleines supérieures (ne s'applique qu'aux couches externes les plus hautes et pas aux couches internes pleines). Vous voudrez peut-être abaisser cette vitesse afin d'avoir une finition de surface plus nette. Peut être exprimé en pourcentage (par exemple: 80%) de la vitesse de remplissage plein susmentionnée. Réglez sur zéro pour un ajustement automatique.
 
-#### *[Vitesse de Lissage](../variable/ironing_speed.md)*
-
-Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
 
 #### *[Supports](../variable/support_material_speed.md)*
 
@@ -1601,9 +1598,15 @@ Vitesse d'impression des ponts internes.
 
 Vitesse d'impression des surplombs.
 
-#### *[Vitesse de remplissage des vides](../variable/gap_fill_speed.md)*
+#### *Vitesse de remplissage des vides*
+
+##### *[Vitessemaximale](../variable/gap_fill_speed.md)*
 
 Vitesse pour combler de petits interstices avec de courts mouvements en zigzag. Gardez un réglage relativement lent afin d'éviter les problèmes de vibration et de résonance. Réglez sur zéro pour désactiver le remplissage d'interstices.
+
+##### *[Bouchon avec](../variable/gap_fill_flow_match_perimeter.md)*
+
+Un pourcentage du débit du périmètre (mm3/s) est utilisé comme limite pour le débit de remplissage des vides remplissage de l'espace, de sorte que le remplissage de l'espace peut réduire sa vitesse lorsque les extrusions pour le remplissage des vides deviennent trop épaisses. Cela vous permet d'utiliser une vitesse de remplissage élevée, pour imprimer rapidement le remplissage des vides fin et réduire la différence de débit pour le remplissage des vides.
 
 #### *Autre vitesse*
 
@@ -1613,7 +1616,8 @@ Vitesse pour l'impression des parois minces. Les parois minces sont les extrusio
 
 ##### *[Lissage](../variable/ironing_speed.md)*
 
-Vitesse utilisée pour effectuer le lissage.
+Vitesse du lissage, pour être active l’option de lissage des couches supérieures doit être active.
+
 
 
 ![Image : Vitesse pour les déplacements d’impression](./images/110.png) 
