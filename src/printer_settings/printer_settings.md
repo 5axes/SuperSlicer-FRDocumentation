@@ -735,10 +735,11 @@ En définissant la largeur d'extrusion **à une valeur inférieure au diamètre 
 
 ## Dépendances
 
-![Image : Dépendances](./images/030.png)
+![Image : Dépendances](./images/040.png)
+
+
 
 Page suivante  [Fonctionnalités avancées](../advanced_functionality/advanced_functionality.md)
-
 
 
 [Retour Page principale](../superslicer.md)
