@@ -2,7 +2,7 @@
 
 * Technologie : FDM
 * Groupe : [Réglages du filament](../print_settings/filament_settings.md)
-* Sous groupe : Remarques - Variables personnalisées
+* Sous groupe : [Remarques](../filament_settings/filament_settings.md#remarques) - Variables personnalisées
 * Mode : Avancé
 * Version : 2.3.57.5
 

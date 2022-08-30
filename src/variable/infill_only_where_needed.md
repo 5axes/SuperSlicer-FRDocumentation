@@ -9,8 +9,8 @@
 
 ### Description
 
-Cette option limitera le remplissage aux zones nécessaires pour soutenir les couches du dessus (cela agira comme un support interne).
+Si elle est activée, cette option limitera le remplissage aux zones nécessaires pour soutenir les couches du dessus (cela agira comme un support interne).
 
-Si activé, la génération du G-Code prendra plus de temps à cause des calculs supplémentaires requis.
+Dans ce cas  la génération du G-Code prendra plus de temps à cause des calculs supplémentaires requis.
 
 [Retour Liste variables](variable_list.md)
