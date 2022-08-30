@@ -26,7 +26,7 @@ Une enveloppe de matériau imprimé autour de l'objet qui maintient la températ
 Pièce généralement en Laiton ou Acier d'où la matière d'impression sort de la ligne d'extrusion. Permet de calibrer l'extrusion de matière.
 
 ## CAO
-a Conception Assistée par Ordinateur désigne l’ensemble des techniques et logiciels de modélisation graphique permettant de tester virtuellement et de réaliser des produits manufacturés.
+La Conception Assistée par Ordinateur désigne l’ensemble des techniques et logiciels de modélisation graphique permettant de concevoir, tester virtuellement et de réaliser des produits manufacturés.
 
 ## Carte SD
 les cartes SD sont des cartes mémoire servant à stocker et transférer toutes sortes de fichiers informatiques.
