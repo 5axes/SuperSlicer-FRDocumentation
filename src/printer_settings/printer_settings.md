@@ -11,6 +11,7 @@
 	* [Milling](#milling)
 	* [Réglage multi-matériaux pour extrudeuse unique](#réglage-multi-matériaux-pour-extrudeuse-unique)
 	* [Création de profils pour différentes buses](#création-de-profils-pour-différentes-buses)
+	* [Dépendances](#dépendances)
 
 * [Retour Page principale](../superslicer.md)
 
@@ -732,8 +733,12 @@ Vous pouvez augmenter la largeur d'extrusion de la première couche pour qu'elle
 
 En définissant la largeur d'extrusion **à une valeur inférieure au diamètre de la buse** vous pouvez affaiblir les supports et les retirer plus facilement.
 
+## Dépendances
 
+![Image : Dépendances](./images/030.png)
 
 Page suivante  [Fonctionnalités avancées](../advanced_functionality/advanced_functionality.md)
+
+
 
 [Retour Page principale](../superslicer.md)
