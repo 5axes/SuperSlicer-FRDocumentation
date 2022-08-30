@@ -4,7 +4,7 @@
 * Groupe : [Réglages du Filament](../filament_settings/filament_settings.md)
 * Sous groupe : [Refroidissement](../filament_settings/filament_settings.md#refroidissement) - Vitesse du ventilateur par défaut
 * Mode : Avancé
-* Version 2.3.57.5
+* Version : 2.3.57.5
 
 ## Remplissage des ponts
 

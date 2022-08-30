@@ -145,9 +145,6 @@ Il faut être prudent car l'effet escompté pourrait être atténué par le fait
 
  SuperSlicer vous permet de régler les paramètres de refroidissement pour chaque filament.
 
-#### *[Garder le ventilateur toujours actif](../variable/fan_always_on.md)*
-
-Le ventilateur d'impression maintiendra toujours au moins une vitesse minimale. **Ce paramètre est généralement activé** pour la plupart des matériaux à l'exception de l'ABS, du PC et de certains flexibles.
 
 ![Image : Réglages du refroidissement](./images/007.png)
 
@@ -181,6 +178,10 @@ L’option ne ralentira pas le ventilateur s'il fonctionne déjà à une vitesse
 > Réglez sur 1 pour désactiver le ventilateur
 
 > Mettez la valeur -1 pour utiliser la vitesse normale du ventilateur sur les ponts et les surplombs.
+
+#### *[Remplissage des ponts](../variable/bridge_internal_fan_speed.md)*
+
+Cette vitesse de ventilation est appliquée pendant tous les ponts de remplissage. Cela ne ralentira pas le le ventilateur s'il fonctionne déjà à une vitesse plus élevée.
 
 #### *[Vitesse du ventilateur pour le dessus](../variable/top_fan_speed.md)*
 
