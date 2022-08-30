@@ -2076,6 +2076,15 @@ Avec l'impression séquentielle, il existe un **risque de collisions** entre la 
 
 SuperSlicer essaiera de vous avertir de tels cas, mais même si vous ne recevez aucun avertissement, vous devriez essayer d'éviter autant que possible les collisions éventuelles.
 
+- 
+#### *[N’autoriser qu’une seule boucle de jupe](../variable/complete_objects_one_skirt.md)*
+
+Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la jupe autour de chaque objet. Si vous préférez n'avoir qu'une seule jupe pour l’impression entière, utilisez cette option.
+
+#### *[Imprimer toutes les bordures au démarrage](../variable/complete_objects_one_brim.md)*
+
+Lorsque vous utilisez ***'Compléter les objets individuels'***,   le comportement par défaut est de dessiner la bordure au début de chaque objet. Si vous préférez avoir plus de place pour vos objets, vous pouvez imprimer toutes les bordures au début, ainsi il y a moins de problème de collision.
+
 #### *[Tri des objets](../variable/complete_objects_sort.md)*
 
 Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela vous aidera à choisir l'ordre dans lequel ils seront imprimés.
@@ -2083,10 +2092,6 @@ Lorsque vous imprimez plusieurs objets ou copies les uns après les autres, cela
 - **Panneau de droite** les triera selon l'ordre des objets indiqué dans le panneau à droite de l'écran.
 - **Le plus bas Y** les triera en fonction de leur point Y le plus bas. Utile pour les imprimantes avec une barre X.
 - **Le plus bas Z** les triera par leur hauteur, utile pour les imprimantes delta.
-- 
-#### *[N’autoriser qu’une seule boucle de jupe](../variable/complete_objects_one_skirt.md)*
-
-Lorsque vous utilisez ***'Compléter les objets individuels'***, le comportement par défaut est de dessiner la jupe autour de chaque objet. Si vous préférez n'avoir qu'une seule jupe pour l’impression entière, utilisez cette option.
 
 Pour aider SuperSlicer à détecter les collisions, spécifiez les paramètres **Dégagement de l'extrudeuse :**
 
@@ -2138,6 +2143,35 @@ Cela peut être exprimé en mm ou un % de la hauteur de la première couche (cel
 #### *[Vitesse de fraisage](../variable/milling_speed.md)*
 
 Vitesse de l’outil de fraisage.
+
+
+### *Substitution de G-Code*
+
+Ensemble de fonctions permettant de rechercher dans le Gcode une chaine de caratère et de la remplacer par une autre.
+
+![Image : Substitution de G-Code](./images/150.png)
+
+Il est possible avec le bouton **Ajouter** de rajouter autant de substitutions que désirés.
+
+Le G-Code est traité avant d'être prévisualisé, de sorte que vos modifications seront visibles dans l'aperçu du G-Code. Il peut être utile d'activer 'G-code commenté' pour que SuperSlicer génère des annotations supplémentaires, que vous pouvez ensuite faire correspondre avec une autre recherche
+
+#### Syntaxe des expressions régulières
+
+La syntaxe des expressions régulières de Perl est prise en charge comme décrit dans[booster la syntaxe des expressions régulières Perl](https://www.boost.org/doc/libs/1_78_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html), où un modificateur "sur une seule ligne" imite le modificateur **s/** de Perl. Lorsque les expressions régulières sont actives, l'expression "Remplacer par" prend en charge la syntaxe "étendue" comme décrit dans[booster la syntaxe du format étendu](https://www.boost.org/doc/libs/1_78_0/libs/regex/doc/html/boost_regex/format/boost_format_syntax.html). [Les lookahead et lookbehind](https://www.w3docs.com/learn-javascript/lookahead-and-lookbehind.html)sont pris en charge par le moteur d'expressions régulières, mais uniquement pour les expressions de longueur fixe. Avec les expressions régulières désactivées, **n, r, t**, et les variables sont pris en charge dans les expressions "Rechercher" et "Remplacer par" de la même manière que la syntaxe "étendue" de Notepad++.
+
+Le post-processeur de recherche/remplacement de G-code traite le G-code en blocs, où un seul bloc de G-code est généré pour chaque couche en commençant par le Z jusqu'à passer à la couche suivante. Plusieurs expressions de recherche/remplacement sont appliquées une par une à un bloc de G-code avant de traiter le bloc de G-code suivant. La correspondance de motifs multilignes est possible, mais uniquement à l'intérieur d'un bloc de G-code, très probablement à l'intérieur d'une seule couche. Les expressions régulières sont puissantes mais délicates, nous recommandons donc l'[espace de test en ligne regular expressions 101](https://regex101.com/)pour se familiariser avec les expressions régulières et pour tester et affiner les expressions régulières modifiant le G-code avant de les saisir dans SuperSlicer.
+
+#### Exemple
+
+Un exemple d'une modification de G-code assez puissante par une expression régulière raisonnablement complexe : augmenter le taux d'extrusion du remplissage solide supérieur de la valeur par défaut de 95 % à 98 %.  
+Rechercher :
+
+    (;TYPE:Top solid infilln)(.*?)(;TYPE:|$)(?!Top solid infill)
+
+  
+Remplacer par :
+
+        ${1}M221 S98n${2}M221 S95n${3}
 
 
 ### *[Scripts de post-traitement](../variable/post_process.md)*
