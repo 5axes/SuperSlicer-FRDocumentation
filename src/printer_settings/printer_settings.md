@@ -410,7 +410,7 @@ Il s'agit du diamètre de la buse de votre extrudeur (par exemple: 0.5, 0.35, et
 
 Cette valeur est la hauteur de couche imprimable minimum pour cet extrudeur et elle limite la résolution pour la hauteur de couche variable. Les valeurs type se situent entre 0.05 mm et 0.1 mm.
 
-#### [*Maximum*](../variable/max_layer_heigh.md)
+#### [*Maximum*](../variable/max_layer_height.md)
 
 Ceci est la hauteur de couche imprimable maximum pour cet extrudeur, utilisée pour plafonner la hauteur de couche variable et la hauteur de couche des supports. La hauteur de couche maximum recommandée est 75% de la largeur d'extrusion afin d'obtenir une adhésion inter-couches correcte. 
 
