@@ -87,6 +87,7 @@ Version 1.20 du 20/08/2022
   * [Extrudeurs multiples](print\_settings/print\_settings.md#extrudeurs-multiples)
   * [Options de sortie](print\_settings/print\_settings.md#options-de-sortie)
   * [Remarques](print\_settings/print\_settings.md#remarques)
+  * [Dépendances](print\_settings/print\_settings.md#dépendances)
 * [Réglages du filament](filament\_settings/filament\_settings.md#filament-configuration)
   * [Filament](filament\_settings/filament\_settings.md#filament)
   * [Refroidissement](filament\_settings/filament\_settings.md#refroidissement)
