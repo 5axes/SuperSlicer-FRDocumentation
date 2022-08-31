@@ -407,6 +407,18 @@ Avec cette option, les périmètres internes contourneront les angles aigus en c
 
  Exemple de périmètres à droite obtenus avec l’option **Coins arrondis**
 
+#### [Surfaces irrégulières](../variable/fuzzy_skin.md)
+
+Création sur la peau des impressions d'une surface irrégulière. Lors de l'impression avec une peau floue, la surface des côtés de l'impression est rendue rugueuse. Cela donne à l'impression une sorte de texture.
+
+Ce mode ajoute des ondulation aléatoires à la paroi extérieure pendant l'impression. La surface est ainsi rendue rugueuse au toucher. La surface n'est rendue irrégulière que sur les côtés de l'impression. Aucune irrégularité n'est ajouté sur le dessus.
+
+![Image : Exemple de surface irrégulière](./images/fuzzy_skin.png) 
+
+Le réglages de ces irrégularités est réalisé à l'aide de deux paramètres  **[Epaisseur de la surface irrégulière](../variable/fuzzy_skin_thickness.md)** et **[Distance des points de la surface irrégulière](../variable/fuzzy_skin_point_dist.md)**. 
+
+
+
 ### [Périmètres extérieur en premier](../variable/external_perimeters_first.md)
 
 Les périmètres seront imprimés de l'extérieur vers l'intérieur au lieu de l'ordre inverse.

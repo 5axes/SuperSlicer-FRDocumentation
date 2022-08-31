@@ -17,7 +17,7 @@ Possibilité de créer ces surfaces irrégulières soit :
 	- Tous les périmètres : Appliquer la peau floue sur tous les périmètres (extérieur, intérieur et remplissage des trous).
 
 
-Ce mode ajoute des ondulement aléatoires à la paroi extérieure. La tête d'impression vibre de façon aléatoire pendant l'impression de la paroi extérieure. La surface est ainsi rendue rugueuse au toucher. La surface n'est rendue irrégulière que sur les côtés de l'impression. Aucune irrégularité n'est ajouté sur le dessus.
+Ce mode ajoute des ondulation aléatoires à la paroi extérieure pendant l'impression. La surface est ainsi rendue rugueuse au toucher. La surface n'est rendue irrégulière que sur les côtés de l'impression. Aucune irrégularité n'est ajouté sur le dessus.
 
 Ces irrégularités génèrent une perte de la précision dimensionnelle du modèle. La pièce sera certainement plus grande que le modèle original. La ***Surface irrégulière*** rendra également l'impression plus longue, car la tête d'impression est soumise à une forte accélération lors de l'impression de la paroi extérieure.
 
