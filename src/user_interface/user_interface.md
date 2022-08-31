@@ -327,6 +327,16 @@ Avec un accès via le raccourci clavier (**Ctrl** + **F**) ou en utilisant l’
 
 ![Image : Recherche dans les réglages](./images/039.png)
 
+### Comparer les réglages
+
+Depuis la version 2.4 il est possible de comparer des réglages facilement avec la fonction accessible dans **Onglet** -> **Comparer deux Préréglages**
+
+
+![Comparer les Préréglage](./images/043.png)
+
+Vous pouvez également activer cette vue en cliquant sur un bouton dans le panneau supérieur.
+
+![Raccourci Comparer 2 Préréglage](./images/044.png)
 
 
 ### Mode Daltonien
