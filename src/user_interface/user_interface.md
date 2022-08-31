@@ -329,7 +329,7 @@ Avec un accès via le raccourci clavier (**Ctrl** + **F**) ou en utilisant l’
 
 ### Comparer les réglages
 
-Depuis la version 2.4 il est possible de comparer des réglages facilement avec la fonction accessible dans **Onglet** -> **Comparer deux Préréglages**
+Depuis la version 2.4 il est possible de comparer des réglages facilement avec la fonction accessible dans **Onglet** -> **Comparer deux Préréglages**.
 
 
 ![Comparer les Préréglage](./images/043.png)
