@@ -18,7 +18,7 @@ Le plastique **rétrécit lors du refroidissement**. Les différents types de pl
 
 Lorsque vous extrudez le long d'une courbe, une plus grande quantité de matière par unité de distance est déposée dans la partie concave. Cet excès de matière rend le rayon interne plus court.
 
-Un [algorithme de compensation] (http://reprap.org/wiki/ArcCompensation) a été proposé par Adrian Bowyer et a été implémenté dans SuperSlicer il y a quelque temps, mais de nombreux utilisateurs se sont plaints que les trous étaient trop grands - il a été supprimé par la suite, car les petits trous sont préférables aux grands, car ils peuvent être percés.
+Un [algorithme de compensation](http://reprap.org/wiki/ArcCompensation) a été proposé par Adrian Bowyer et a été implémenté dans SuperSlicer il y a quelque temps, mais de nombreux utilisateurs se sont plaints que les trous étaient trop grands - il a été supprimé par la suite, car les petits trous sont préférables aux grands, car ils peuvent être percés.
 
 #### Les courbes sont approximées par des polygones
 
