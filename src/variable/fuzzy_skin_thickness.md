@@ -9,14 +9,10 @@
 
 ### Description
 
-Type de peau floue.
-	- Aucun : paramètre désactivé.
-	- Murs extérieurs : Appliquer le fuzzy skin uniquement sur les périmètres extérieurs (pas les trous).
-	- Tous les périmètres : Appliquer la peau floue sur tous les périmètres (extérieur, intérieur et remplissage des trous).
+La distance maximale à laquelle chaque point de la surface peut être décalé (dans les deux sens), mesurée perpendiculairement à la paroi de périmètre.
 
+Peut être un % du diamètre de la buse.
 
-![Image : Exemple de peau floue](./images/fuzzy_skin/01.png) 
-
- Exemple de peau flou.
+Valeur par défaut : 150 %
 
 [Retour Liste variables](variable_list.md)
