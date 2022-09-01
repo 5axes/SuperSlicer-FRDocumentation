@@ -275,8 +275,14 @@ Il y a certaines choses que SuperSlicer ne fait tout simplement pas. Cependant, 
 
 Vous pouvez spécifier le chemin d'accès au script dans **Réglages d'impression - Options de sortie - Scripts de post-traitement**.
 
-![](https://cdn.help.prusa3d.com/wp-content/uploads/2021/12/post_processing_scripts-1.jpg)
+![Scripts de post-traitement](./images/post_processing_scripts.png)
 
+
+* Exécution de scripts de post-traitement : ajoute depuis la version 2.5  python/perl avant un fichier .py ou .pl.
+    * Si le fichier est introuvable, il réessaye en ajoutant le chemin du répertoire SuperSlicer avant.
+    * Si le fichier ne peut pas être trouvé, il essaie à nouveau en ajoutant le chemin du répertoire de configuration de SuperSlicer avant.
+    * Si le fichier est introuvable, il est réessayé en ajoutant le chemin du répertoire de l'utilisateur.
+    
 ### Mise en place des scripts
 
 Les scripts de post-traitement peuvent être écrits en **n'importe quel langage de programmation** (Perl, Python, Ruby, Bash, etc.). Ils doivent simplement être reconnus par votre système en tant qu'exécutable et accepter le chemin d'accès au fichier G-code comme seul argument.
@@ -289,13 +295,13 @@ Chaque script recevra le chemin absolu d'un fichier G-code **temporaire** géné
 
 Veuillez noter que la visionneuse de G-code visualise toujours le G-code avant le post-traitement.
 
-SuperSlicer transmet toute la configuration de découpage aux scripts de post-traitement à l'aide des variables d'environnement. Chaque variable est préfixée par "SLIC3R_" et la première du lettre du nom de variable est en majuscule. Par exemple, la densité de remplissage est transmise au script en tant que variable d'environnement "SLIC3R\_Fill\_density".
+SuperSlicer transmet toute la configuration de découpage aux scripts de post-traitement à l'aide des variables d'environnement. Chaque variable est préfixée par "SLIC3R_" et la première du lettre du nom de variable est en majuscule. Par exemple, la densité de remplissage est transmise au script en tant que variable d'environnement **"SLIC3R_Fill_density"**.
 
-Deux variables d'environnement supplémentaires sont transmises aux scripts de post-traitement : la variable d'environnement SLIC3R\_PP\_HOST fournit la spécification de l'hôte, où "File" signifie copier le G-code sur un disque dur local ou un support amovible, tandis que les autres valeurs ("PrusaLink", "Repetier ", "SL1Host", "OctoPrint", "FlashAir", "Duet", "AstroBox" ...) spécifie le type d'hôte d'impression auquel le G-code sera envoyé.
+Deux variables d'environnement supplémentaires sont transmises aux scripts de post-traitement : la variable d'environnement **SLIC3R_PP_HOST** fournit la spécification de l'hôte, où "File" signifie copier le G-code sur un disque dur local ou un support amovible, tandis que les autres valeurs ("PrusaLink", "Repetier ", "SL1Host", "OctoPrint", "FlashAir", "Duet", "AstroBox" ...) spécifie le type d'hôte d'impression auquel le G-code sera envoyé.
 
-La variable d'environnement SLIC3R\_PP\_OUTPUT\_NAME contient le nom du fichier G-code incluant le chemin (pour SLIC3R\_PP_HOST == "File") ou un nom qui sera donné au fichier après son téléchargement sur l'hôte (PrusaLink, Octoprint ...)
+La variable d'environnement **SLIC3R_PP_OUTPUT_NAME** contient le nom du fichier G-code incluant le chemin (pour **SLIC3R_PP_HOST == "File"**) ou un nom qui sera donné au fichier après son téléchargement sur l'hôte (PrusaLink, Octoprint ...)
 
-Le script de post-traitement peut suggérer un nouveau nom de fichier de sortie (probablement basé sur SLIC3R\_PP\_OUTPUT\_NAME) en l'enregistrant sur une seule ligne dans un nouveau fichier temporaire "nom de sortie", par exemple pour ajouter des horodatages ou des numéros de séquence aux G-codes finaux. Le nom du fichier "nom de sortie" doit être créé en suffixant le nom de fichier de G-code d'entrée avec ".output\_name". SuperSlicer lira le nouveau nom du fichier et le traitera correctement, par exemple lors de son envoi à Octoprint.
+Le script de post-traitement peut suggérer un nouveau nom de fichier de sortie (probablement basé sur SLIC3R_PP_OUTPUT_NAME) en l'enregistrant sur une seule ligne dans un nouveau fichier temporaire "nom de sortie", par exemple pour ajouter des horodatages ou des numéros de séquence aux G-codes finaux. Le nom du fichier "nom de sortie" doit être créé en suffixant le nom de fichier de G-code d'entrée avec ".output_name".  SuperSlicer lira le nouveau nom du fichier et le traitera correctement, par exemple lors de son envoi à Octoprint.
 
 ### Paramètres des scripts
 
