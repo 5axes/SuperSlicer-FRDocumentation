@@ -1379,11 +1379,14 @@ Expansion du radeau dans le plan XY pour une meilleure stabilité.
 
 
 
+
 ### Options pour le réglage des supports
+
 
 ![Image : Options pour le matériau de support et le radeau](./images/102.png)
 
 Options pour le réglage des supports
+
 
 #### *[Style](../variable/support_material_style.md)*
 
