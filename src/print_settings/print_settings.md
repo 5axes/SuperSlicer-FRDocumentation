@@ -1375,7 +1375,9 @@ La distance verticale entre l'objet et le radeau. Ignoré pour l'interface solub
 Expansion du radeau dans le plan XY pour une meilleure stabilité.
 
 
-![Image : Option pour les radeaux](./images/101.png)* 
+![Image : Option pour les radeaux](./images/101.png)
+
+
 
 ### Options pour le réglage des supports
 
