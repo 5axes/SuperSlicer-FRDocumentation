@@ -1852,7 +1852,7 @@ Si vous choisissez d’exprimer les valeurs en pourcentage alors le pourcentage 
 
 #### *[Largeur d’extrusion par défaut](../variable/extrusion_width.md)*
 
-Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 230%), elle sera calculée par rapport à la hauteur de couche.
+Réglez ce paramètre sur une valeur non-nulle pour définir manuellement la largeur d’extrusion. Si la valeur reste sur zéro, SuperSlicer calcule la largeur d’extrusion en se basant sur le diamètre de la buse (voir l’info-bulle concernant la largeur d’extrusion du périmètre, la largeur d’extrusion du remplissage, etc…). Si la valeur est exprimée en pourcentage (par exemple : 130%), elle sera calculée par rapport à la hauteur de couche. Ce paramètre n'est accessible que si une des valeurs de largeur d'extrusion est fixée à Zéro. Dans ce cas c'est la **Largeur par défaut** qui fixera la largeur d'extrusion du paramètre.
 
 #### *[Première couche](../variable/first_layer_extrusion_width.md)*
 
